@@ -127,3 +127,8 @@ footer.brandfoot{margin-top:18px;text-align:center;color:var(--muted)}
 .coffee.cfs{margin:8px 0 20px}
 .coffee .ctext p.cfsnote{margin-top:6px;font-size:13px;color:var(--muted)}
 .coffeeline.cfsline{margin-top:10px}
+
+/* tag pills: never squash */
+.tag{white-space:nowrap;flex-shrink:0;display:inline-block}
+.tags{display:flex;flex-wrap:wrap;gap:4px;flex-shrink:0;align-items:baseline}.tags .tag{margin-left:0}
+@media(max-width:900px){ul.list li{flex-wrap:wrap}ul.list li>.tags{flex-basis:100%;order:9}}
