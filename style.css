@@ -95,3 +95,18 @@ header.site .nav{margin-bottom:0}
 .mrow{margin-bottom:10px;display:grid;grid-template-columns:repeat(4,1fr);gap:8px}.mrow img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8px;border:1px solid var(--line);display:block}
 .teaser{padding:16px 20px;display:flex;flex-wrap:wrap;gap:8px 24px;align-items:baseline}.teaser b{font-size:26px}
 @media(max-width:480px){.nav{gap:8px 14px;font-size:13.5px}.mrow{grid-template-columns:repeat(2,1fr)}}
+
+/* personal branding: cobalt tiles */
+:root{--clay:#1F3F8F;--cobalt:#1F3F8F;--terra:#D2693C;--terra-ink:#A84E26;--teal:#2F7F73;--sky:#A8CFEA;--muted:#5f5e58}
+.tileband{height:14px;background:url("favicon.svg") repeat-x 0 0/14px 14px;opacity:.85;border-bottom:3px solid var(--sky)}
+.tilediv{height:12px;margin:56px auto 0;max-width:240px;background:url("favicon.svg") repeat-x center/12px 12px;opacity:.7}
+.brand{display:inline-flex;align-items:center;gap:8px}.brand .mark{flex:none;width:20px;height:20px}
+.nav a.on{border-color:var(--terra)}
+.hero{position:relative;padding-right:150px}.hero .arch{position:absolute;right:0;top:0;width:118px;height:auto;opacity:.9}
+@media(max-width:640px){.hero{padding-right:0}.hero .arch{position:static;display:block;width:64px;margin:0 0 14px}}
+.places{color:var(--muted);font-size:14px;margin:-32px 0 40px}.places span{white-space:nowrap}.ci{color:var(--cobalt);vertical-align:-2px;margin-left:2px}
+footer.brandfoot{margin-top:18px;text-align:center;color:var(--muted)}
+.brandfoot .motto{font-family:"Source Serif 4",Georgia,serif;font-style:italic;font-size:16px;color:var(--ink);margin:0 0 6px}
+.brandfoot .handle{display:inline-flex;align-items:center;gap:6px;font:500 13px ui-monospace,monospace;color:var(--cobalt);margin:0}
+.sq.books{background:var(--terra)}
+::selection{background:var(--sky)}
