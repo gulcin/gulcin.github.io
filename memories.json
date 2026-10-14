@@ -1,305 +1,333 @@
 {
- "items": [
-  {
-   "file": "memories/munich-2026-01.jpg",
-   "thumb": "memories/munich-2026-01-thumb.jpg",
-   "caption": "ClickHouse Open House Munich 2026",
-   "event": "ClickHouse Open House Munich 2026",
-   "date": "2026-10-06",
-   "link": "https://clickhouse.com/openhouse/munich-2026",
-   "album": "munich-2026"
-  },
-  {
-   "file": "memories/munich-2026-02.jpg",
-   "thumb": "memories/munich-2026-02-thumb.jpg",
-   "caption": "ClickHouse Open House Munich 2026",
-   "event": "ClickHouse Open House Munich 2026",
-   "date": "2026-10-06",
-   "link": "https://clickhouse.com/openhouse/munich-2026",
-   "album": "munich-2026"
-  },
-  {
-   "file": "memories/munich-2026-03.jpg",
-   "thumb": "memories/munich-2026-03-thumb.jpg",
-   "caption": "ClickHouse Open House Munich 2026",
-   "event": "ClickHouse Open House Munich 2026",
-   "date": "2026-10-06",
-   "link": "https://clickhouse.com/openhouse/munich-2026",
-   "album": "munich-2026"
-  },
-  {
-   "file": "memories/munich-2026-04.jpg",
-   "thumb": "memories/munich-2026-04-thumb.jpg",
-   "caption": "ClickHouse Open House Munich 2026",
-   "event": "ClickHouse Open House Munich 2026",
-   "date": "2026-10-06",
-   "link": "https://clickhouse.com/openhouse/munich-2026",
-   "album": "munich-2026"
-  },
-  {
-   "file": "memories/munich-2026-05.jpg",
-   "thumb": "memories/munich-2026-05-thumb.jpg",
-   "caption": "ClickHouse Open House Munich 2026",
-   "event": "ClickHouse Open House Munich 2026",
-   "date": "2026-10-06",
-   "link": "https://clickhouse.com/openhouse/munich-2026",
-   "album": "munich-2026"
-  },
-  {
-   "file": "memories/munich-2026-06.jpg",
-   "thumb": "memories/munich-2026-06-thumb.jpg",
-   "caption": "ClickHouse Open House Munich 2026",
-   "event": "ClickHouse Open House Munich 2026",
-   "date": "2026-10-06",
-   "link": "https://clickhouse.com/openhouse/munich-2026",
-   "album": "munich-2026"
-  },
-  {
-   "file": "memories/munich-2026-07.jpg",
-   "thumb": "memories/munich-2026-07-thumb.jpg",
-   "caption": "ClickHouse Open House Munich 2026",
-   "event": "ClickHouse Open House Munich 2026",
-   "date": "2026-10-06",
-   "link": "https://clickhouse.com/openhouse/munich-2026",
-   "album": "munich-2026"
-  },
-  {
-   "file": "memories/munich-2026-08.jpg",
-   "thumb": "memories/munich-2026-08-thumb.jpg",
-   "caption": "ClickHouse Open House Munich 2026",
-   "event": "ClickHouse Open House Munich 2026",
-   "date": "2026-10-06",
-   "link": "https://clickhouse.com/openhouse/munich-2026",
-   "album": "munich-2026"
-  },
-  {
-   "file": "memories/munich-2026-09.jpg",
-   "thumb": "memories/munich-2026-09-thumb.jpg",
-   "caption": "ClickHouse Open House Munich 2026",
-   "event": "ClickHouse Open House Munich 2026",
-   "date": "2026-10-06",
-   "link": "https://clickhouse.com/openhouse/munich-2026",
-   "album": "munich-2026"
-  },
-  {
-   "file": "memories/openhouse-munich-2026.jpg",
-   "thumb": "memories/openhouse-munich-2026-thumb.jpg",
-   "caption": "ClickHouse Open House Munich 2026",
-   "event": "ClickHouse Open House Munich 2026",
-   "date": "2026-10-06",
-   "link": "https://clickhouse.com/openhouse/munich-2026",
-   "album": "munich-2026"
-  },
-  {
-   "file": "memories/munich-2026-10.jpg",
-   "thumb": "memories/munich-2026-10-thumb.jpg",
-   "caption": "ClickHouse Open House Munich 2026",
-   "event": "ClickHouse Open House Munich 2026",
-   "date": "2026-10-06",
-   "link": "https://clickhouse.com/openhouse/munich-2026",
-   "album": "munich-2026"
-  },
-  {
-   "file": "memories/munich-2026-11.jpg",
-   "thumb": "memories/munich-2026-11-thumb.jpg",
-   "caption": "ClickHouse Open House Munich 2026",
-   "event": "ClickHouse Open House Munich 2026",
-   "date": "2026-10-06",
-   "link": "https://clickhouse.com/openhouse/munich-2026",
-   "album": "munich-2026"
-  },
-  {
-   "file": "memories/munich-2026-12.jpg",
-   "thumb": "memories/munich-2026-12-thumb.jpg",
-   "caption": "ClickHouse Open House Munich 2026",
-   "event": "ClickHouse Open House Munich 2026",
-   "date": "2026-10-06",
-   "link": "https://clickhouse.com/openhouse/munich-2026",
-   "album": "munich-2026"
-  },
-  {
-   "file": "memories/munich-2026-13.jpg",
-   "thumb": "memories/munich-2026-13-thumb.jpg",
-   "caption": "ClickHouse Open House Munich 2026",
-   "event": "ClickHouse Open House Munich 2026",
-   "date": "2026-10-06",
-   "link": "https://clickhouse.com/openhouse/munich-2026",
-   "album": "munich-2026"
-  },
-  {
-   "file": "memories/munich-2026-14.jpg",
-   "thumb": "memories/munich-2026-14-thumb.jpg",
-   "caption": "ClickHouse Open House Munich 2026",
-   "event": "ClickHouse Open House Munich 2026",
-   "date": "2026-10-06",
-   "link": "https://clickhouse.com/openhouse/munich-2026",
-   "album": "munich-2026"
-  },
-  {
-   "file": "memories/munich-2026-15.jpg",
-   "thumb": "memories/munich-2026-15-thumb.jpg",
-   "caption": "ClickHouse Open House Munich 2026",
-   "event": "ClickHouse Open House Munich 2026",
-   "date": "2026-10-06",
-   "link": "https://clickhouse.com/openhouse/munich-2026",
-   "album": "munich-2026"
-  },
-  {
-   "file": "memories/munich-2026-16.jpg",
-   "thumb": "memories/munich-2026-16-thumb.jpg",
-   "caption": "ClickHouse Open House Munich 2026",
-   "event": "ClickHouse Open House Munich 2026",
-   "date": "2026-10-06",
-   "link": "https://clickhouse.com/openhouse/munich-2026",
-   "album": "munich-2026"
-  },
-  {
-   "file": "memories/munich-2026-17.jpg",
-   "thumb": "memories/munich-2026-17-thumb.jpg",
-   "caption": "ClickHouse Open House Munich 2026",
-   "event": "ClickHouse Open House Munich 2026",
-   "date": "2026-10-06",
-   "link": "https://clickhouse.com/openhouse/munich-2026",
-   "album": "munich-2026"
-  },
-  {
-   "file": "memories/munich-2026-18.jpg",
-   "thumb": "memories/munich-2026-18-thumb.jpg",
-   "caption": "ClickHouse Open House Munich 2026",
-   "event": "ClickHouse Open House Munich 2026",
-   "date": "2026-10-06",
-   "link": "https://clickhouse.com/openhouse/munich-2026",
-   "album": "munich-2026"
-  },
-  {
-   "file": "memories/munich-2026-19.jpg",
-   "thumb": "memories/munich-2026-19-thumb.jpg",
-   "caption": "ClickHouse Open House Munich 2026",
-   "event": "ClickHouse Open House Munich 2026",
-   "date": "2026-10-06",
-   "link": "https://clickhouse.com/openhouse/munich-2026",
-   "album": "munich-2026"
-  },
-  {
-   "file": "memories/munich-2026-20.jpg",
-   "thumb": "memories/munich-2026-20-thumb.jpg",
-   "caption": "ClickHouse Open House Munich 2026",
-   "event": "ClickHouse Open House Munich 2026",
-   "date": "2026-10-06",
-   "link": "https://clickhouse.com/openhouse/munich-2026",
-   "album": "munich-2026"
-  },
-  {
-   "file": "memories/munich-2026-21.jpg",
-   "thumb": "memories/munich-2026-21-thumb.jpg",
-   "caption": "ClickHouse Open House Munich 2026",
-   "event": "ClickHouse Open House Munich 2026",
-   "date": "2026-10-06",
-   "link": "https://clickhouse.com/openhouse/munich-2026",
-   "album": "munich-2026"
-  },
-  {
-   "file": "memories/munich-2026-22.jpg",
-   "thumb": "memories/munich-2026-22-thumb.jpg",
-   "caption": "ClickHouse Open House Munich 2026",
-   "event": "ClickHouse Open House Munich 2026",
-   "date": "2026-10-06",
-   "link": "https://clickhouse.com/openhouse/munich-2026",
-   "album": "munich-2026"
-  },
-  {
-   "file": "memories/munich-2026-23.jpg",
-   "thumb": "memories/munich-2026-23-thumb.jpg",
-   "caption": "ClickHouse Open House Munich 2026",
-   "event": "ClickHouse Open House Munich 2026",
-   "date": "2026-10-06",
-   "link": "https://clickhouse.com/openhouse/munich-2026",
-   "album": "munich-2026"
-  },
-  {
-   "file": "memories/munich-2026-24.jpg",
-   "thumb": "memories/munich-2026-24-thumb.jpg",
-   "caption": "ClickHouse Open House Munich 2026",
-   "event": "ClickHouse Open House Munich 2026",
-   "date": "2026-10-06",
-   "link": "https://clickhouse.com/openhouse/munich-2026",
-   "album": "munich-2026"
-  },
-  {
-   "file": "memories/munich-2026-25.jpg",
-   "thumb": "memories/munich-2026-25-thumb.jpg",
-   "caption": "ClickHouse Open House Munich 2026",
-   "event": "ClickHouse Open House Munich 2026",
-   "date": "2026-10-06",
-   "link": "https://clickhouse.com/openhouse/munich-2026",
-   "album": "munich-2026"
-  },
-  {
-   "file": "memories/munich-2026-26.jpg",
-   "thumb": "memories/munich-2026-26-thumb.jpg",
-   "caption": "ClickHouse Open House Munich 2026",
-   "event": "ClickHouse Open House Munich 2026",
-   "date": "2026-10-06",
-   "link": "https://clickhouse.com/openhouse/munich-2026",
-   "album": "munich-2026"
-  },
-  {
-   "file": "memories/munich-2026-27.jpg",
-   "thumb": "memories/munich-2026-27-thumb.jpg",
-   "caption": "ClickHouse Open House Munich 2026",
-   "event": "ClickHouse Open House Munich 2026",
-   "date": "2026-10-06",
-   "link": "https://clickhouse.com/openhouse/munich-2026",
-   "album": "munich-2026"
-  },
-  {
-   "file": "memories/munich-2026-28.jpg",
-   "thumb": "memories/munich-2026-28-thumb.jpg",
-   "caption": "ClickHouse Open House Munich 2026",
-   "event": "ClickHouse Open House Munich 2026",
-   "date": "2026-10-06",
-   "link": "https://clickhouse.com/openhouse/munich-2026",
-   "album": "munich-2026"
-  },
-  {
-   "file": "memories/prague-postgresql-meetup.jpg",
-   "thumb": "memories/prague-postgresql-meetup-thumb.jpg",
-   "caption": "Prague PostgreSQL Meetup, September 2026",
-   "event": "Prague PostgreSQL Meetup: September Edition",
-   "date": "2026-09-30",
-   "link": "https://meetu.ps/e/QfgcK/h2qFM/i"
-  },
-  {
-   "file": "memories/postgres-week-nl-blog.jpg",
-   "thumb": "memories/postgres-week-nl-blog-thumb.jpg",
-   "caption": "Postgres week in the Netherlands: PGDay Lowlands & Percona Live 2026 (blog post)",
-   "event": "Postgres week in the Netherlands",
-   "date": "2026-09-18",
-   "link": "https://clickhouse.com/blog/postgres-week-in-the-netherlands-pgday-lowlands-percona-live-2026"
-  },
-  {
-   "file": "memories/pgday-lowlands-2026-stage.jpg",
-   "thumb": "memories/pgday-lowlands-2026-stage-thumb.jpg",
-   "caption": "On stage at PGDay Lowlands 2026",
-   "event": "PGDay Lowlands 2026",
-   "date": "2026-09-10",
-   "link": "https://clickhouse.com/blog/postgres-week-in-the-netherlands-pgday-lowlands-percona-live-2026"
-  },
-  {
-   "file": "memories/pgday-lowlands-2026-slide.jpg",
-   "thumb": "memories/pgday-lowlands-2026-slide-thumb.jpg",
-   "caption": "“Postgres for transactions, ClickHouse for analytics”",
-   "event": "PGDay Lowlands 2026",
-   "date": "2026-09-10",
-   "link": "https://clickhouse.com/blog/postgres-week-in-the-netherlands-pgday-lowlands-percona-live-2026"
-  },
-  {
-   "file": "memories/pgday-lowlands-2026-talk.jpg",
-   "thumb": "memories/pgday-lowlands-2026-talk-thumb.jpg",
-   "caption": "Speaking at PGDay Lowlands 2026",
-   "event": "PGDay Lowlands 2026",
-   "date": "2026-09-10",
-   "link": "https://clickhouse.com/blog/postgres-week-in-the-netherlands-pgday-lowlands-percona-live-2026"
-  }
- ]
+  "items": [
+    {
+      "file": "memories/munich-2026-01.jpg",
+      "thumb": "memories/munich-2026-01-thumb.jpg",
+      "caption": "ClickHouse Open House Munich 2026",
+      "event": "ClickHouse Open House Munich 2026",
+      "date": "2026-10-06",
+      "link": "https://clickhouse.com/openhouse/munich-2026",
+      "album": "munich-2026"
+    },
+    {
+      "file": "memories/munich-2026-02.jpg",
+      "thumb": "memories/munich-2026-02-thumb.jpg",
+      "caption": "ClickHouse Open House Munich 2026",
+      "event": "ClickHouse Open House Munich 2026",
+      "date": "2026-10-06",
+      "link": "https://clickhouse.com/openhouse/munich-2026",
+      "album": "munich-2026"
+    },
+    {
+      "file": "memories/munich-2026-03.jpg",
+      "thumb": "memories/munich-2026-03-thumb.jpg",
+      "caption": "ClickHouse Open House Munich 2026",
+      "event": "ClickHouse Open House Munich 2026",
+      "date": "2026-10-06",
+      "link": "https://clickhouse.com/openhouse/munich-2026",
+      "album": "munich-2026"
+    },
+    {
+      "file": "memories/munich-2026-04.jpg",
+      "thumb": "memories/munich-2026-04-thumb.jpg",
+      "caption": "ClickHouse Open House Munich 2026",
+      "event": "ClickHouse Open House Munich 2026",
+      "date": "2026-10-06",
+      "link": "https://clickhouse.com/openhouse/munich-2026",
+      "album": "munich-2026"
+    },
+    {
+      "file": "memories/munich-2026-05.jpg",
+      "thumb": "memories/munich-2026-05-thumb.jpg",
+      "caption": "ClickHouse Open House Munich 2026",
+      "event": "ClickHouse Open House Munich 2026",
+      "date": "2026-10-06",
+      "link": "https://clickhouse.com/openhouse/munich-2026",
+      "album": "munich-2026"
+    },
+    {
+      "file": "memories/munich-2026-06.jpg",
+      "thumb": "memories/munich-2026-06-thumb.jpg",
+      "caption": "ClickHouse Open House Munich 2026",
+      "event": "ClickHouse Open House Munich 2026",
+      "date": "2026-10-06",
+      "link": "https://clickhouse.com/openhouse/munich-2026",
+      "album": "munich-2026"
+    },
+    {
+      "file": "memories/munich-2026-07.jpg",
+      "thumb": "memories/munich-2026-07-thumb.jpg",
+      "caption": "ClickHouse Open House Munich 2026",
+      "event": "ClickHouse Open House Munich 2026",
+      "date": "2026-10-06",
+      "link": "https://clickhouse.com/openhouse/munich-2026",
+      "album": "munich-2026"
+    },
+    {
+      "file": "memories/munich-2026-08.jpg",
+      "thumb": "memories/munich-2026-08-thumb.jpg",
+      "caption": "ClickHouse Open House Munich 2026",
+      "event": "ClickHouse Open House Munich 2026",
+      "date": "2026-10-06",
+      "link": "https://clickhouse.com/openhouse/munich-2026",
+      "album": "munich-2026"
+    },
+    {
+      "file": "memories/munich-2026-09.jpg",
+      "thumb": "memories/munich-2026-09-thumb.jpg",
+      "caption": "ClickHouse Open House Munich 2026",
+      "event": "ClickHouse Open House Munich 2026",
+      "date": "2026-10-06",
+      "link": "https://clickhouse.com/openhouse/munich-2026",
+      "album": "munich-2026"
+    },
+    {
+      "file": "memories/openhouse-munich-2026.jpg",
+      "thumb": "memories/openhouse-munich-2026-thumb.jpg",
+      "caption": "ClickHouse Open House Munich 2026",
+      "event": "ClickHouse Open House Munich 2026",
+      "date": "2026-10-06",
+      "link": "https://clickhouse.com/openhouse/munich-2026",
+      "album": "munich-2026"
+    },
+    {
+      "file": "memories/munich-2026-10.jpg",
+      "thumb": "memories/munich-2026-10-thumb.jpg",
+      "caption": "ClickHouse Open House Munich 2026",
+      "event": "ClickHouse Open House Munich 2026",
+      "date": "2026-10-06",
+      "link": "https://clickhouse.com/openhouse/munich-2026",
+      "album": "munich-2026"
+    },
+    {
+      "file": "memories/munich-2026-11.jpg",
+      "thumb": "memories/munich-2026-11-thumb.jpg",
+      "caption": "ClickHouse Open House Munich 2026",
+      "event": "ClickHouse Open House Munich 2026",
+      "date": "2026-10-06",
+      "link": "https://clickhouse.com/openhouse/munich-2026",
+      "album": "munich-2026"
+    },
+    {
+      "file": "memories/munich-2026-12.jpg",
+      "thumb": "memories/munich-2026-12-thumb.jpg",
+      "caption": "ClickHouse Open House Munich 2026",
+      "event": "ClickHouse Open House Munich 2026",
+      "date": "2026-10-06",
+      "link": "https://clickhouse.com/openhouse/munich-2026",
+      "album": "munich-2026"
+    },
+    {
+      "file": "memories/munich-2026-13.jpg",
+      "thumb": "memories/munich-2026-13-thumb.jpg",
+      "caption": "ClickHouse Open House Munich 2026",
+      "event": "ClickHouse Open House Munich 2026",
+      "date": "2026-10-06",
+      "link": "https://clickhouse.com/openhouse/munich-2026",
+      "album": "munich-2026"
+    },
+    {
+      "file": "memories/munich-2026-14.jpg",
+      "thumb": "memories/munich-2026-14-thumb.jpg",
+      "caption": "ClickHouse Open House Munich 2026",
+      "event": "ClickHouse Open House Munich 2026",
+      "date": "2026-10-06",
+      "link": "https://clickhouse.com/openhouse/munich-2026",
+      "album": "munich-2026"
+    },
+    {
+      "file": "memories/munich-2026-15.jpg",
+      "thumb": "memories/munich-2026-15-thumb.jpg",
+      "caption": "ClickHouse Open House Munich 2026",
+      "event": "ClickHouse Open House Munich 2026",
+      "date": "2026-10-06",
+      "link": "https://clickhouse.com/openhouse/munich-2026",
+      "album": "munich-2026"
+    },
+    {
+      "file": "memories/munich-2026-16.jpg",
+      "thumb": "memories/munich-2026-16-thumb.jpg",
+      "caption": "ClickHouse Open House Munich 2026",
+      "event": "ClickHouse Open House Munich 2026",
+      "date": "2026-10-06",
+      "link": "https://clickhouse.com/openhouse/munich-2026",
+      "album": "munich-2026"
+    },
+    {
+      "file": "memories/munich-2026-17.jpg",
+      "thumb": "memories/munich-2026-17-thumb.jpg",
+      "caption": "ClickHouse Open House Munich 2026",
+      "event": "ClickHouse Open House Munich 2026",
+      "date": "2026-10-06",
+      "link": "https://clickhouse.com/openhouse/munich-2026",
+      "album": "munich-2026"
+    },
+    {
+      "file": "memories/munich-2026-18.jpg",
+      "thumb": "memories/munich-2026-18-thumb.jpg",
+      "caption": "ClickHouse Open House Munich 2026",
+      "event": "ClickHouse Open House Munich 2026",
+      "date": "2026-10-06",
+      "link": "https://clickhouse.com/openhouse/munich-2026",
+      "album": "munich-2026"
+    },
+    {
+      "file": "memories/munich-2026-19.jpg",
+      "thumb": "memories/munich-2026-19-thumb.jpg",
+      "caption": "ClickHouse Open House Munich 2026",
+      "event": "ClickHouse Open House Munich 2026",
+      "date": "2026-10-06",
+      "link": "https://clickhouse.com/openhouse/munich-2026",
+      "album": "munich-2026"
+    },
+    {
+      "file": "memories/munich-2026-20.jpg",
+      "thumb": "memories/munich-2026-20-thumb.jpg",
+      "caption": "ClickHouse Open House Munich 2026",
+      "event": "ClickHouse Open House Munich 2026",
+      "date": "2026-10-06",
+      "link": "https://clickhouse.com/openhouse/munich-2026",
+      "album": "munich-2026"
+    },
+    {
+      "file": "memories/munich-2026-21.jpg",
+      "thumb": "memories/munich-2026-21-thumb.jpg",
+      "caption": "ClickHouse Open House Munich 2026",
+      "event": "ClickHouse Open House Munich 2026",
+      "date": "2026-10-06",
+      "link": "https://clickhouse.com/openhouse/munich-2026",
+      "album": "munich-2026"
+    },
+    {
+      "file": "memories/munich-2026-22.jpg",
+      "thumb": "memories/munich-2026-22-thumb.jpg",
+      "caption": "ClickHouse Open House Munich 2026",
+      "event": "ClickHouse Open House Munich 2026",
+      "date": "2026-10-06",
+      "link": "https://clickhouse.com/openhouse/munich-2026",
+      "album": "munich-2026"
+    },
+    {
+      "file": "memories/munich-2026-23.jpg",
+      "thumb": "memories/munich-2026-23-thumb.jpg",
+      "caption": "ClickHouse Open House Munich 2026",
+      "event": "ClickHouse Open House Munich 2026",
+      "date": "2026-10-06",
+      "link": "https://clickhouse.com/openhouse/munich-2026",
+      "album": "munich-2026"
+    },
+    {
+      "file": "memories/munich-2026-24.jpg",
+      "thumb": "memories/munich-2026-24-thumb.jpg",
+      "caption": "ClickHouse Open House Munich 2026",
+      "event": "ClickHouse Open House Munich 2026",
+      "date": "2026-10-06",
+      "link": "https://clickhouse.com/openhouse/munich-2026",
+      "album": "munich-2026"
+    },
+    {
+      "file": "memories/munich-2026-25.jpg",
+      "thumb": "memories/munich-2026-25-thumb.jpg",
+      "caption": "ClickHouse Open House Munich 2026",
+      "event": "ClickHouse Open House Munich 2026",
+      "date": "2026-10-06",
+      "link": "https://clickhouse.com/openhouse/munich-2026",
+      "album": "munich-2026"
+    },
+    {
+      "file": "memories/munich-2026-26.jpg",
+      "thumb": "memories/munich-2026-26-thumb.jpg",
+      "caption": "ClickHouse Open House Munich 2026",
+      "event": "ClickHouse Open House Munich 2026",
+      "date": "2026-10-06",
+      "link": "https://clickhouse.com/openhouse/munich-2026",
+      "album": "munich-2026"
+    },
+    {
+      "file": "memories/munich-2026-27.jpg",
+      "thumb": "memories/munich-2026-27-thumb.jpg",
+      "caption": "ClickHouse Open House Munich 2026",
+      "event": "ClickHouse Open House Munich 2026",
+      "date": "2026-10-06",
+      "link": "https://clickhouse.com/openhouse/munich-2026",
+      "album": "munich-2026"
+    },
+    {
+      "file": "memories/munich-2026-28.jpg",
+      "thumb": "memories/munich-2026-28-thumb.jpg",
+      "caption": "ClickHouse Open House Munich 2026",
+      "event": "ClickHouse Open House Munich 2026",
+      "date": "2026-10-06",
+      "link": "https://clickhouse.com/openhouse/munich-2026",
+      "album": "munich-2026"
+    },
+    {
+      "file": "memories/prague-postgresql-meetup.jpg",
+      "thumb": "memories/prague-postgresql-meetup-thumb.jpg",
+      "caption": "Prague PostgreSQL Meetup, September 2026",
+      "event": "Prague PostgreSQL Meetup: September Edition",
+      "date": "2026-09-30",
+      "link": "https://meetu.ps/e/QfgcK/h2qFM/i",
+      "album": "prague-meetup-2026-09"
+    },
+    {
+      "file": "memories/prague-meetup-2026-09-01.jpg",
+      "thumb": "memories/prague-meetup-2026-09-01-thumb.jpg",
+      "caption": "Prague PostgreSQL Meetup, September 2026",
+      "event": "Prague PostgreSQL Meetup: September Edition",
+      "date": "2026-09-30",
+      "link": "https://meetu.ps/e/QfgcK/h2qFM/i",
+      "album": "prague-meetup-2026-09"
+    },
+    {
+      "file": "memories/prague-meetup-2026-09-02.jpg",
+      "thumb": "memories/prague-meetup-2026-09-02-thumb.jpg",
+      "caption": "Prague PostgreSQL Meetup, September 2026",
+      "event": "Prague PostgreSQL Meetup: September Edition",
+      "date": "2026-09-30",
+      "link": "https://meetu.ps/e/QfgcK/h2qFM/i",
+      "album": "prague-meetup-2026-09"
+    },
+    {
+      "file": "memories/prague-meetup-2026-09-03.jpg",
+      "thumb": "memories/prague-meetup-2026-09-03-thumb.jpg",
+      "caption": "Prague PostgreSQL Meetup, September 2026",
+      "event": "Prague PostgreSQL Meetup: September Edition",
+      "date": "2026-09-30",
+      "link": "https://meetu.ps/e/QfgcK/h2qFM/i",
+      "album": "prague-meetup-2026-09"
+    },
+    {
+      "file": "memories/postgres-week-nl-blog.jpg",
+      "thumb": "memories/postgres-week-nl-blog-thumb.jpg",
+      "caption": "Postgres week in the Netherlands: PGDay Lowlands & Percona Live 2026 (blog post)",
+      "event": "Postgres week in the Netherlands",
+      "date": "2026-09-18",
+      "link": "https://clickhouse.com/blog/postgres-week-in-the-netherlands-pgday-lowlands-percona-live-2026"
+    },
+    {
+      "file": "memories/pgday-lowlands-2026-stage.jpg",
+      "thumb": "memories/pgday-lowlands-2026-stage-thumb.jpg",
+      "caption": "On stage at PGDay Lowlands 2026",
+      "event": "PGDay Lowlands 2026",
+      "date": "2026-09-10",
+      "link": "https://clickhouse.com/blog/postgres-week-in-the-netherlands-pgday-lowlands-percona-live-2026"
+    },
+    {
+      "file": "memories/pgday-lowlands-2026-slide.jpg",
+      "thumb": "memories/pgday-lowlands-2026-slide-thumb.jpg",
+      "caption": "“Postgres for transactions, ClickHouse for analytics”",
+      "event": "PGDay Lowlands 2026",
+      "date": "2026-09-10",
+      "link": "https://clickhouse.com/blog/postgres-week-in-the-netherlands-pgday-lowlands-percona-live-2026"
+    },
+    {
+      "file": "memories/pgday-lowlands-2026-talk.jpg",
+      "thumb": "memories/pgday-lowlands-2026-talk-thumb.jpg",
+      "caption": "Speaking at PGDay Lowlands 2026",
+      "event": "PGDay Lowlands 2026",
+      "date": "2026-09-10",
+      "link": "https://clickhouse.com/blog/postgres-week-in-the-netherlands-pgday-lowlands-percona-live-2026"
+    }
+  ]
 }
