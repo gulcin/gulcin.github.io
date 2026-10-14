@@ -150,6 +150,18 @@
    "slides": "https://github.com/gulcin/presentations/blob/main/pgconfeu-2025/Constraints%20in%20PG18%20Gulcin%20Yildirim%20Jelinek.pdf"
   },
   {
+   "date": "2025-10-21",
+   "end": "2025-10-21",
+   "event": "PGConf.EU 2025 – PostgreSQL & AI Summit",
+   "city": "Riga",
+   "country": "Latvia",
+   "title": "From DBA to DB Agents",
+   "role": "speaker",
+   "url": "https://www.postgresql.eu/events/pgconfeu2025/schedule/session/7149-postgresql-ai-summit/",
+   "slides": "https://github.com/gulcin/presentations/blob/main/pgconfeu-2025/From%20DBA%20to%20DB%20Agents%20-%20Gulcin%20Yildirim%20Jelinek%20-%20AI%20Summit.pdf",
+   "year": "2025"
+  },
+  {
    "date": "2025-09-12",
    "end": "2025-09-12",
    "event": "PGDay Lowlands 2025",

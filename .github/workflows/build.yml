@@ -29,7 +29,7 @@ jobs:
         run: |
           mkdir _site
           cp index.html list.html stats.html books.html writing.html events.html about.html memories.html style.css data.json books.json writing.json videos.json mentions.json events.json memories.json _site/
-          cp -a memories _site/
+          cp -a memories audio _site/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
