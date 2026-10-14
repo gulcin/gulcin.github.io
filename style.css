@@ -121,3 +121,5 @@ footer.brandfoot{margin-top:18px;text-align:center;color:var(--muted)}
 .xtl>a.twitter-timeline{display:block;padding:14px 18px;border:1px dashed var(--line);border-radius:12px;color:var(--cobalt);font-size:14px}
 .socrow{display:flex;justify-content:center;gap:14px;margin:8px 0 0}.socrow a{color:var(--cobalt);opacity:.85}.socrow a:hover{opacity:1;color:var(--teal)}
 @media(max-width:600px){.coffee{flex-wrap:wrap}.coffee .ctext{flex:1 1 200px}}
+
+@media (max-width:600px){#rt .dom,span.dom{white-space:normal;overflow-wrap:anywhere}}
