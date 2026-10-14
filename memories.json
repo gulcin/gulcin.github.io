@@ -1,0 +1,52 @@
+{
+ "items": [
+  {
+   "file": "memories/openhouse-munich-2026.jpg",
+   "thumb": "memories/openhouse-munich-2026-thumb.jpg",
+   "caption": "ClickHouse Open House Munich 2026",
+   "event": "ClickHouse Open House Munich 2026",
+   "date": "2026-10-06",
+   "link": "https://clickhouse.com/openhouse/munich-2026"
+  },
+  {
+   "file": "memories/prague-postgresql-meetup.jpg",
+   "thumb": "memories/prague-postgresql-meetup-thumb.jpg",
+   "caption": "Prague PostgreSQL Meetup, September 2026",
+   "event": "Prague PostgreSQL Meetup: September Edition",
+   "date": "2026-09-30",
+   "link": "https://meetu.ps/e/QfgcK/h2qFM/i"
+  },
+  {
+   "file": "memories/postgres-week-nl-blog.jpg",
+   "thumb": "memories/postgres-week-nl-blog-thumb.jpg",
+   "caption": "Postgres week in the Netherlands: PGDay Lowlands & Percona Live 2026 (blog post)",
+   "event": "Postgres week in the Netherlands",
+   "date": "2026-09-18",
+   "link": "https://clickhouse.com/blog/postgres-week-in-the-netherlands-pgday-lowlands-percona-live-2026"
+  },
+  {
+   "file": "memories/pgday-lowlands-2026-stage.jpg",
+   "thumb": "memories/pgday-lowlands-2026-stage-thumb.jpg",
+   "caption": "On stage at PGDay Lowlands 2026",
+   "event": "PGDay Lowlands 2026",
+   "date": "2026-09-10",
+   "link": "https://clickhouse.com/blog/postgres-week-in-the-netherlands-pgday-lowlands-percona-live-2026"
+  },
+  {
+   "file": "memories/pgday-lowlands-2026-slide.jpg",
+   "thumb": "memories/pgday-lowlands-2026-slide-thumb.jpg",
+   "caption": "“Postgres for transactions, ClickHouse for analytics”",
+   "event": "PGDay Lowlands 2026",
+   "date": "2026-09-10",
+   "link": "https://clickhouse.com/blog/postgres-week-in-the-netherlands-pgday-lowlands-percona-live-2026"
+  },
+  {
+   "file": "memories/pgday-lowlands-2026-talk.jpg",
+   "thumb": "memories/pgday-lowlands-2026-talk-thumb.jpg",
+   "caption": "Speaking at PGDay Lowlands 2026",
+   "event": "PGDay Lowlands 2026",
+   "date": "2026-09-10",
+   "link": "https://clickhouse.com/blog/postgres-week-in-the-netherlands-pgday-lowlands-percona-live-2026"
+  }
+ ]
+}
