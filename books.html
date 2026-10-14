@@ -1,0 +1,26 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Books · Gülçin's Reading List</title><link rel="stylesheet" href="style.css"></head><body><div class="wrap"><nav class="nav"><a href="index.html">Reading list</a><a href="stats.html">Stats</a><a href="books.html" class="on">Books</a></nav>
+<h1>Books</h1><p class="lede">What I'm reading and have read, from Goodreads.</p>
+<div class="box tiles two"><div class="tile"><div class="lab">Total read</div><div class="n" id="tot"></div><div class="sub" id="yr"></div></div>
+<div class="tile"><div class="lab" style="margin-bottom:10px">Books per year</div><div class="bars" id="bars"></div><div class="blab" id="blab"></div></div></div>
+<h2>Currently reading</h2><div class="reading" id="cur"></div>
+<div id="years"></div>
+<footer>Built from Goodreads</footer></div>
+<script>
+const esc=s=>(s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmt=d=>new Date(d).toLocaleDateString("en-GB",{day:"numeric",month:"short"});
+fetch("books.json").then(r=>r.json()).then(({books})=>{
+ const read=books.filter(b=>b.status=="read"),cur=books.filter(b=>b.status=="reading"),Y=String(new Date().getFullYear());
+ const dated=read.filter(b=>!b.read_at_missing).sort((a,b)=>b.read_at.localeCompare(a.read_at)),und=read.filter(b=>b.read_at_missing);
+ document.getElementById("tot").textContent=read.length;
+ document.getElementById("yr").textContent=`${dated.filter(b=>b.read_at.startsWith(Y)).length} read in ${Y} · ${und.length} undated`;
+ const by={};dated.forEach(b=>{const y=b.read_at.slice(0,4);(by[y]=by[y]||[]).push(b)});
+ const ys=Object.keys(by).sort(),y0=+ys[0]||+Y,all=[];for(let y=y0;y<=+Y;y++)all.push(String(y));const mx=Math.max(1,...all.map(y=>(by[y]||[]).length));
+ document.getElementById("bars").innerHTML=all.map(y=>{const n=(by[y]||[]).length;return`<div><span>${n||""}</span><i style="height:${n/mx*100}%"></i></div>`}).join("");
+ document.getElementById("blab").innerHTML=all.map(y=>`<span>'${y.slice(2)}</span>`).join("");
+ document.getElementById("cur").innerHTML=cur.map(b=>`<a href="${esc(b.url)}" target="_blank" rel="noopener">${b.cover?`<img src="${esc(b.cover)}" alt="" loading="lazy">`:'<div class="ph"></div>'}<div class="t">${esc(b.title)}</div><div class="dom">${esc(b.domain)}</div></a>`).join("")||'<p class="dom">Nothing right now.</p>';
+ const li=(b,d)=>`<li><a href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.title)}</a><span class="dom">${esc(b.domain)}${d?" · "+fmt(b.read_at):""}</span></li>`;
+ const grp=(t,xs,d)=>`<div class="yr"><h2>${t}</h2><span class="lab">${xs.length} books</span></div><div class="box"><ul class="list">${xs.map(b=>li(b,d)).join("")}</ul></div>`;
+ document.getElementById("years").innerHTML=ys.slice().reverse().map(y=>grp(y,by[y],1)).join("")+(und.length?grp("Undated",und,0):"");
+});
+</script></body></html>

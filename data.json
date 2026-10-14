@@ -1,0 +1,189 @@
+{
+ "items": [
+  {
+   "title": "Dimitri Fontaine: Zero-downtime Postgres upgrades with logical replication (part 3)",
+   "url": "https://tapoueh.org/blog/2026/10/zero-downtime-postgres-upgrades-with-logical-replication/",
+   "domain": "tapoueh.org",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres"
+   ],
+   "added": "2026-10-14T06:11:08Z"
+  },
+  {
+   "title": "ParadeDB: Making COUNTs and the Rest of Search Really Fast, Part II (vs PlanetScale TIN)",
+   "url": "https://www.paradedb.com/blog/opening-a-closed-tin-part-2",
+   "domain": "paradedb.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Databases",
+    "Industry"
+   ],
+   "added": "2026-10-14T06:11:08Z"
+  },
+  {
+   "title": "HN thread: Postgres isn't slow, your storage is (ClickHouse POSETTE recap, 186 comments)",
+   "url": "https://news.ycombinator.com/item?id=50052163",
+   "domain": "news.ycombinator.com",
+   "category": "articles",
+   "type": "Post",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "ClickHouse",
+    "Industry"
+   ],
+   "added": "2026-10-14T06:11:08Z"
+  },
+  {
+   "title": "HarnessSQL: Harness-Native Training for SQL Agents in Realistic Database Environments (arXiv 2610.12274)",
+   "url": "https://arxiv.org/html/2610.12274",
+   "domain": "arxiv.org",
+   "category": "papers",
+   "type": "Paper",
+   "status": "backlog",
+   "topics": [
+    "AI/LLMs",
+    "Databases"
+   ],
+   "added": "2026-10-14T06:11:08Z"
+  },
+  {
+   "title": "DuckDB: Agent Mode in the DuckDB CLI",
+   "url": "https://duckdb.org/2026/10/09/agent-mode",
+   "domain": "duckdb.org",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "DuckDB",
+    "AI/LLMs",
+    "Databases"
+   ],
+   "added": "2026-10-13T06:04:51Z"
+  },
+  {
+   "title": "Peter Eisentraut: The reverts will continue until morale improves (PG19 reverts)",
+   "url": "http://peter.eisentraut.org/blog/2026/10/09/the-reverts-will-continue-until-morale-improves",
+   "domain": "peter.eisentraut.org",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "AI/LLMs"
+   ],
+   "added": "2026-10-13T06:04:51Z"
+  },
+  {
+   "title": "David Wheeler: PGConf.EU Community Day, A Postgres Ecosystem Foundation?",
+   "url": "https://justatheory.com/2026/10/pgconf-eu-pgef/",
+   "domain": "justatheory.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Industry"
+   ],
+   "added": "2026-10-13T06:04:51Z"
+  },
+  {
+   "title": "Andrei Lepikhov: Why is PostgreSQL's Numeric Type so Slow? (vs DuckDB DECIMAL)",
+   "url": "https://www.pgedge.com/blog/why-is-postgresql-s-numeric-type-so-slow",
+   "domain": "pgedge.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "DuckDB"
+   ],
+   "added": "2026-10-13T06:04:51Z"
+  },
+  {
+   "title": "Christophe Pettus: The Patch Is Coming From Inside the House (Claude on v19 patches)",
+   "url": "https://thebuild.com/blog/the-patch-is-coming-from-inside-the-house/",
+   "domain": "thebuild.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "AI/LLMs"
+   ],
+   "added": "2026-10-13T06:04:51Z"
+  },
+  {
+   "title": "Igor Suhorukov: Vectorized Query Execution in PostgreSQL 19 (pg_vexec: Arrow, ORCA, Flight SQL)",
+   "url": "https://igor-suhorukov.github.io/blog/2026/10/07/vectorized-postgresql-extension/",
+   "domain": "igor-suhorukov.github.io",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Databases"
+   ],
+   "added": "2026-10-13T06:04:51Z"
+  },
+  {
+   "title": "Christophe Pettus: The International Ice Patrol (four ways \"Postgres reads Iceberg\")",
+   "url": "https://thebuild.com/blog/the-international-ice-patrol/",
+   "domain": "thebuild.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "ClickHouse",
+    "DuckDB",
+    "Industry"
+   ],
+   "added": "2026-10-13T06:04:51Z"
+  },
+  {
+   "title": "Alexander Ioffe: Why is my Whale Query 1000x Slower in Prod? (skew on Neon vs Azure SQL)",
+   "url": "https://exobench.ai/blog/why-is-my-whale-query-1000x-slower-in-prod",
+   "domain": "exobench.ai",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Industry"
+   ],
+   "added": "2026-10-13T06:04:51Z"
+  },
+  {
+   "title": "Pedro Domingos: \"the model swallows the harness\" (on Harness Learning paper, arXiv 2609.35738)",
+   "url": "https://x.com/pmddomingos/status/2109420932955804040",
+   "domain": "x.com",
+   "category": "articles",
+   "type": "Post",
+   "status": "backlog",
+   "topics": [
+    "AI/LLMs"
+   ],
+   "added": "2026-10-12T12:02:57Z"
+  },
+  {
+   "title": "DuckDB: A DuckDB Database with No Data in It (view-only catalogs)",
+   "url": "https://duckdb.org/2026/10/07/view-only-mode",
+   "domain": "duckdb.org",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "DuckDB",
+    "Databases"
+   ],
+   "added": "2026-10-12T12:02:57Z"
+  }
+ ]
+}
