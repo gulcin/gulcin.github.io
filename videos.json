@@ -55,10 +55,20 @@
    "url": "https://www.youtube.com/watch?v=uY5tFCzNWSs",
    "video_id": "uY5tFCzNWSs",
    "channel": "PostgreSQL Europe",
-   "event": "PGConf.EU 2025",
+   "event": "PGDay Lowlands 2025",
    "kind": "talk",
    "date": "2026-02-20",
    "thumbnail": "https://i.ytimg.com/vi/uY5tFCzNWSs/hqdefault.jpg"
+  },
+  {
+   "title": "Gülçin Yıldırım Jelínek: What You Should Know About Constraints in PostgreSQL (and What’s New in 18)",
+   "url": "https://www.youtube.com/watch?v=CwsXLdQkAeg",
+   "video_id": "CwsXLdQkAeg",
+   "channel": "PostgreSQL Europe",
+   "event": "PGConf.EU 2025",
+   "kind": "talk",
+   "date": "2025-12-18",
+   "thumbnail": "https://i.ytimg.com/vi/CwsXLdQkAeg/hqdefault.jpg"
   },
   {
    "title": "Anatomy of Table-Level Locks in PostgreSQL - Gülçin Yıldırım Jelinek",
@@ -109,6 +119,16 @@
    "kind": "talk",
    "date": "2025-04-07",
    "thumbnail": "https://i.ytimg.com/vi/kKNZsGezZ4g/hqdefault.jpg"
+  },
+  {
+   "title": "Ballroom G Friday Mar. 07 - SCaLE 22x",
+   "url": "https://www.youtube.com/watch?v=FnUTuQ0075Q",
+   "video_id": "FnUTuQ0075Q",
+   "channel": "Southern California Linux Expo",
+   "event": "SCALE 22x",
+   "kind": "talk",
+   "date": "2025-03-07",
+   "thumbnail": "https://i.ytimg.com/vi/FnUTuQ0075Q/hqdefault.jpg"
   },
   {
    "title": "Gulcin Yildirim Jelinek: Maintaining Postgres for Modern Workloads",

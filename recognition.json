@@ -1,0 +1,303 @@
+[
+ {
+  "date": "2024-07-24",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for the week of 2024-07-15 (Week 29 overview): Organizing DivaConf (Turkey)",
+  "url": "https://postgres-contrib.org/post/5/",
+  "kind": "organizing"
+ },
+ {
+  "date": "2024-08-02",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for the week of 2024-07-29 (Week 31 overview): PGConf.EU 2024 Program Committee member (schedule published)",
+  "url": "https://postgres-contrib.org/post/7/",
+  "kind": "committee"
+ },
+ {
+  "date": "2024-09-09",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for the week of 2024-09-02 (Week 36 overview): Community partner promoting State of PostgreSQL 2024 survey",
+  "url": "https://postgres-contrib.org/post/12/",
+  "kind": "advocacy"
+ },
+ {
+  "date": "2024-10-07",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for the week of 2024-09-30 (Week 40 overview): Organized Prague PostgreSQL Meetup, Sept 2024",
+  "url": "https://postgres-contrib.org/post/16/",
+  "kind": "organizing"
+ },
+ {
+  "date": "2024-10-30",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for the week of 2024-10-21 (Week 43 overview): Extension talk/showcase: pgzx (Xata)",
+  "url": "https://postgres-contrib.org/post/18/",
+  "kind": "talk"
+ },
+ {
+  "date": "2024-11-04",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for the week of 2024-10-28 (Week 44 overview): PGConf.EU 2024 CfP Committee + volunteer; organized Prague Meetup Oct 2024 and blog post about it",
+  "url": "https://postgres-contrib.org/post/21/",
+  "kind": "committee/volunteer/organizing/blog"
+ },
+ {
+  "date": "2024-11-26",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for the week of 2024-11-18 (Week 47 overview): Organized Prague Meetup Nov 2024; blog post about it",
+  "url": "https://postgres-contrib.org/post/25/",
+  "kind": "organizing/blog"
+ },
+ {
+  "date": "2025-01-22",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for the week of 2025-01-13 (Week 3 overview): Speaker, PGDay CERN 2025",
+  "url": "https://postgres-contrib.org/post/29/",
+  "kind": "talk"
+ },
+ {
+  "date": "2025-02-10",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for the week of 2025-02-03 (Week 5 overview): FOSDEM PGDay 2025 talk selection committee; P2D2 2025 organizer & CfP committee; P2D2 speaker",
+  "url": "https://postgres-contrib.org/post/30/",
+  "kind": "committee/organizing/talk"
+ },
+ {
+  "date": "2025-02-28",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for the week of 2025-02-24 (Weeks 6/7/8 overview): Organized Prague Meetup Feb 2025",
+  "url": "https://postgres-contrib.org/post/31/",
+  "kind": "organizing"
+ },
+ {
+  "date": "2025-03-14",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for the week of 2025-03-03 (Week 9): Speaker (with Andrew Farries), PostgreSQL@SCaLE22x",
+  "url": "https://postgres-contrib.org/post/32/",
+  "kind": "talk"
+ },
+ {
+  "date": "2025-03-27",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for the week of 2025-03-10 (Week 10): Talked about pgroll",
+  "url": "https://postgres-contrib.org/post/33/",
+  "kind": "talk"
+ },
+ {
+  "date": "2025-04-20",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for the week of 2025-03-31 (Week 13): Organized Prague Meetup Mar 2025",
+  "url": "https://postgres-contrib.org/post/36/",
+  "kind": "organizing"
+ },
+ {
+  "date": "2025-05-10",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for the week of 2025-04-28 (Week 18): Speaker, PGDay Chicago 2025",
+  "url": "https://postgres-contrib.org/post/40/",
+  "kind": "talk"
+ },
+ {
+  "date": "2025-05-15",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for the week of 2025-05-05 (Week 19): PGConf.DE 2025 roles (listed twice) and co-organised Women in PostgreSQL Breakfast",
+  "url": "https://postgres-contrib.org/post/41/",
+  "kind": "organizing/committee"
+ },
+ {
+  "date": "2025-06-12",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for the week of 2025-06-02 (Week 23): Speaker, PG Day France 2025",
+  "url": "https://postgres-contrib.org/post/44/",
+  "kind": "talk"
+ },
+ {
+  "date": "2025-07-13",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for the week of 2025-06-23 (Week 26): Organized Prague Meetup June 2025; speaker \"Anatomy of Table-Level Locks\" (Swiss PGDay)",
+  "url": "https://postgres-contrib.org/post/46/",
+  "kind": "organizing/talk"
+ },
+ {
+  "date": "2025-08-03",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for the weeks 30 & 31 (2025-07-21 to 2025-08-03): PGDay UK 2025 program committee; DIVA 2025 organiser and speaker",
+  "url": "https://postgres-contrib.org/post/48/",
+  "kind": "committee/organizing/talk"
+ },
+ {
+  "date": "2025-09-06",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for the week 36: PGDay Austria 2025 CfP committee",
+  "url": "https://postgres-contrib.org/post/50/",
+  "kind": "committee"
+ },
+ {
+  "date": "2025-09-17",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for the week 37: Talk selection committee + speaker \"Anatomy of Table-Level Locks\"",
+  "url": "https://postgres-contrib.org/post/51/",
+  "kind": "committee/talk"
+ },
+ {
+  "date": "2025-09-25",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for the week 38: Prague Meetup organizer; PGConf.EU 2025 speaker x2 (Table-Level Locks; Scale to Zero)",
+  "url": "https://postgres-contrib.org/post/52/",
+  "kind": "organizing/talk"
+ },
+ {
+  "date": "2025-10-26",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for week 43, 2025: PGConf.EU 2025: K8s Summit & PG+AI Summit organizer, panelist, speaker, CoC/volunteer training",
+  "url": "https://postgres-contrib.org/post/57/",
+  "kind": "organizing/talk"
+ },
+ {
+  "date": "2025-12-02",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for week 49, 2025: Organized Prague Meetup Nov 2025",
+  "url": "https://postgres-contrib.org/post/63/",
+  "kind": "organizing"
+ },
+ {
+  "date": "2025-12-14",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for week 51, 2025: PGDay CERN 2026 CfP committee",
+  "url": "https://postgres-contrib.org/post/65/",
+  "kind": "committee"
+ },
+ {
+  "date": "2026-02-02",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for week 1-4, 2026: PGDay Paris 2026 talk selection; Prague Meetup Jan 2026 organizer; P2D2 2026 speaker",
+  "url": "https://postgres-contrib.org/post/68/",
+  "kind": "committee/organizing/talk"
+ },
+ {
+  "date": "2026-02-08",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for week 5, 2026: PG DATA 2026 CfP committee",
+  "url": "https://postgres-contrib.org/post/69/",
+  "kind": "committee"
+ },
+ {
+  "date": "2026-03-02",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for week 8, 2026: Organized Prague Meetup Feb 2026",
+  "url": "https://postgres-contrib.org/post/72/",
+  "kind": "organizing"
+ },
+ {
+  "date": "2026-03-23",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for week 11, 2026: PGDay Armenia 2026 program committee",
+  "url": "https://postgres-contrib.org/post/75/",
+  "kind": "committee"
+ },
+ {
+  "date": "2026-04-07",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for week 13, 2026: Organized Prague Meetup Mar 2026",
+  "url": "https://postgres-contrib.org/post/77/",
+  "kind": "organizing"
+ },
+ {
+  "date": "2026-05-05",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for week 17, 2026: Organized Prague Meetup Apr 2026; PGDay Armenia CfP committee",
+  "url": "https://postgres-contrib.org/post/81/",
+  "kind": "organizing/committee"
+ },
+ {
+  "date": "2026-06-09",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for week 22, 2026: Organized Prague Meetup June 2026; PGDay France 2026 talk selection team",
+  "url": "https://postgres-contrib.org/post/86/",
+  "kind": "organizing/committee"
+ },
+ {
+  "date": "2026-06-22",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for week 23 & 24, 2026: POSETTE 2026 speaker",
+  "url": "https://postgres-contrib.org/post/87/",
+  "kind": "talk"
+ },
+ {
+  "date": "2026-07-13",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for week 26 & 27: Co-organized first PostgreSQL Istanbul Meetup",
+  "url": "https://postgres-contrib.org/post/89/",
+  "kind": "organizing"
+ },
+ {
+  "date": "2026-08-07",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for week 29 & 30: PGConf.EU 2026 talk selection committee",
+  "url": "https://postgres-contrib.org/post/91/",
+  "kind": "committee"
+ },
+ {
+  "date": "2026-09-07",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for week 34 & 35: Co-organized PostgreSQL Istanbul Meetup Sept 2026",
+  "url": "https://postgres-contrib.org/post/94/",
+  "kind": "organizing"
+ },
+ {
+  "date": "2026-09-14",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for week 36: PGDay Lowlands 2026 speaker",
+  "url": "https://postgres-contrib.org/post/95/",
+  "kind": "talk"
+ },
+ {
+  "date": "2026-09-21",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for week 37: Blog: Postgres week in the Netherlands (PGDay Lowlands & Percona Live 2026)",
+  "url": "https://postgres-contrib.org/post/97/",
+  "kind": "blog"
+ },
+ {
+  "date": "2026-10-05",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for week 39: Organized Prague Meetup 30 Sept 2026",
+  "url": "https://postgres-contrib.org/post/99/",
+  "kind": "organizing"
+ },
+ {
+  "date": "2024",
+  "source": "postgresql.org",
+  "title": "Listed on PostgreSQL Community Contributors page",
+  "url": "https://www.postgresql.org/community/contributors/",
+  "kind": "contributor-listing"
+ },
+ {
+  "date": "2018",
+  "source": "FOSDEM PGDay 2018",
+  "title": "Speaker interview",
+  "url": "https://2018.fosdempgday.org/speaker-interview-Guelcin_Yildirim/",
+  "kind": "interview"
+ },
+ {
+  "date": "2025",
+  "source": "Postgres Women India",
+  "title": "Postgres Women profile/interview",
+  "url": "https://postgreswomen.in/gulcin-yildirim-jelinek/",
+  "kind": "feature"
+ },
+ {
+  "date": "2026",
+  "source": "PGConf.EU 2026",
+  "title": "Speaker profile",
+  "url": "https://www.postgresql.eu/events/pgconfeu2026/sessions/speaker/281-gulcin-yldrm-jelinek/",
+  "kind": "speaker-profile"
+ },
+ {
+  "date": "2025-01-24",
+  "source": "LinkedIn (Aimee Nolan, Xata)",
+  "title": "Xata celebration post on contributor recognition",
+  "url": "https://www.linkedin.com/posts/aimee-nolan-8364ba117_contributor-profiles-activity-7288529014305026049-Hxfj",
+  "kind": "feature"
+ }
+]

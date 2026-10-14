@@ -126,52 +126,6 @@
    "year": "2026"
   },
   {
-   "date": "2025-09-12",
-   "end": "2025-09-12",
-   "event": "PGDay Lowlands 2025",
-   "city": "Rotterdam",
-   "country": "Netherlands",
-   "title": "Anatomy of Table-Level Locks in PostgreSQL",
-   "role": "speaker",
-   "url": "https://www.postgresql.eu/events/pgdaynl2025/schedule/speaker/281-gulcin-yldrm-jelinek/",
-   "video": "https://www.youtube.com/watch?v=2Zsjn47a7b8",
-   "year": "2025"
-  },
-  {
-   "date": "2025-06-16",
-   "end": "2025-06-16",
-   "event": "Berlin Buzzwords 2025",
-   "city": "Berlin",
-   "country": "Germany",
-   "title": "Anatomy of Table-Level Locks in PostgreSQL",
-   "role": "speaker",
-   "url": "https://2025.berlinbuzzwords.de/speaker/gulcin-yildirim-jelinek/",
-   "video": "https://www.youtube.com/watch?v=iiaLohVOjfo",
-   "year": "2025"
-  },
-  {
-   "date": "2025-02-02",
-   "end": "2025-02-02",
-   "event": "FOSDEM 2025",
-   "city": "Brussels",
-   "country": "Belgium",
-   "title": "Anatomy of Table-Level Locks in PostgreSQL",
-   "role": "speaker",
-   "url": "https://archive.fosdem.org/2025/schedule/speaker/gulcin_yildirim_jelinek/",
-   "year": "2025"
-  },
-  {
-   "date": "2024-03-12",
-   "end": "2024-03-12",
-   "event": "Nordic PGDay 2024",
-   "city": "Oslo",
-   "country": "Norway",
-   "title": "EDB Postgres Distributed - The Flexible Database",
-   "role": "speaker",
-   "url": "https://www.postgresql.eu/events/nordicpgday2024/schedule/speaker/1061-gulcin-yildirim-jelinek/",
-   "year": "2024"
-  },
-  {
    "year": "2026",
    "event": "POSETTE: An Event for Postgres 2026",
    "city": "Online",
@@ -187,11 +141,125 @@
    "event": "PGConf.EU 2025",
    "city": "Riga",
    "country": "Latvia",
+   "title": "What You Should Know About Constraints in PostgreSQL (and What’s New in 18)",
+   "role": "speaker",
+   "url": "https://www.postgresql.eu/events/pgconfeu2025/schedule/session/7133-what-you-should-know-about-constraints-in-postgresql-and-whats-new-in-18/",
+   "video": "https://www.youtube.com/watch?v=CwsXLdQkAeg",
+   "date": "2025-10-22",
+   "end": "2025-10-22"
+  },
+  {
+   "date": "2025-09-12",
+   "end": "2025-09-12",
+   "event": "PGDay Lowlands 2025",
+   "city": "Rotterdam",
+   "country": "Netherlands",
    "title": "Anatomy of Table-Level Locks in PostgreSQL",
    "role": "speaker",
-   "url": "https://www.postgresql.eu/events/pgconfeu2025/",
-   "video": "https://www.youtube.com/watch?v=uY5tFCzNWSs",
-   "date": "2025"
+   "url": "https://www.postgresql.eu/events/pgdaynl2025/schedule/speaker/281-gulcin-yldrm-jelinek/",
+   "video": "https://www.youtube.com/watch?v=2Zsjn47a7b8",
+   "year": "2025"
+  },
+  {
+   "date": "2025-09-04",
+   "end": "2025-09-04",
+   "event": "PGDay Austria 2025",
+   "city": "Vienna",
+   "country": "Austria",
+   "title": "Anatomy of Table-Level Locks in PostgreSQL",
+   "role": "speaker",
+   "url": "https://pgday.at/schedule/",
+   "year": "2025"
+  },
+  {
+   "date": "2025-06-26",
+   "end": "2025-06-26",
+   "event": "Swiss PGDay 2025",
+   "city": "Rapperswil",
+   "country": "Switzerland",
+   "title": "Anatomy of Table-Level Locks in PostgreSQL",
+   "role": "speaker",
+   "url": "https://www.pgday.ch/2025/",
+   "year": "2025"
+  },
+  {
+   "date": "2025-06-16",
+   "end": "2025-06-16",
+   "event": "Berlin Buzzwords 2025",
+   "city": "Berlin",
+   "country": "Germany",
+   "title": "Anatomy of Table-Level Locks in PostgreSQL",
+   "role": "speaker",
+   "url": "https://2025.berlinbuzzwords.de/speaker/gulcin-yildirim-jelinek/",
+   "video": "https://www.youtube.com/watch?v=iiaLohVOjfo",
+   "year": "2025"
+  },
+  {
+   "date": "2025-05-09",
+   "end": "2025-05-09",
+   "event": "PGConf.DE 2025",
+   "city": "Berlin",
+   "country": "Germany",
+   "title": "Anatomy of Table-Level Locks in PostgreSQL",
+   "role": "speaker",
+   "url": "https://www.postgresql.eu/events/pgconfde2025/schedule/session/6291-anatomy-of-table-level-locks-in-postgresql/",
+   "year": "2025"
+  },
+  {
+   "date": "2025-05-06",
+   "end": "2025-05-06",
+   "event": "PGConf.BE 2025",
+   "city": "Leuven",
+   "country": "Belgium",
+   "title": "Anatomy of Table-Level Locks in PostgreSQL",
+   "role": "speaker",
+   "url": "https://pgconf.be/2025/index.html",
+   "year": "2025"
+  },
+  {
+   "date": "2025-04-25",
+   "end": "2025-04-25",
+   "event": "PGDay Chicago 2025",
+   "city": "Chicago",
+   "country": "USA",
+   "title": "Anatomy of Table-Level Locks in PostgreSQL",
+   "role": "speaker",
+   "url": "https://postgresql.us/events/pgdaychicago2025/schedule/session/1903-anatomy-of-table-level-locks-in-postgresql/",
+   "year": "2025"
+  },
+  {
+   "date": "2025-03-07",
+   "end": "2025-03-07",
+   "event": "SCALE 22x (Southern California Linux Expo)",
+   "city": "Pasadena",
+   "country": "USA",
+   "title": "Anatomy of Table-Level Locks in PostgreSQL (with Andrew Farries)",
+   "role": "speaker",
+   "url": "https://www.socallinuxexpo.org/scale/22x/presentations/anatomy-table-level-locks-postgresql/",
+   "video": "https://www.youtube.com/watch?v=FnUTuQ0075Q",
+   "year": "2025"
+  },
+  {
+   "date": "2025-02-02",
+   "end": "2025-02-02",
+   "event": "FOSDEM 2025",
+   "city": "Brussels",
+   "country": "Belgium",
+   "title": "Anatomy of Table-Level Locks in PostgreSQL",
+   "role": "speaker",
+   "url": "https://archive.fosdem.org/2025/schedule/speaker/gulcin_yildirim_jelinek/",
+   "year": "2025"
+  },
+  {
+   "date": "2025-01-17",
+   "end": "2025-01-17",
+   "event": "CERN PGDay 2025",
+   "city": "Geneva",
+   "country": "Switzerland",
+   "title": "Anatomy of Table-Level Locks in PostgreSQL",
+   "role": "speaker",
+   "url": "https://indico.cern.ch/event/1471762/contributions/6280214/",
+   "year": "2025"
   },
   {
    "year": "2025",
@@ -215,7 +283,7 @@
    "year": "2025",
    "event": "Diva: Dive Into AI 2025",
    "title": "RAG Anatomi: Postgres ve pgvector kullanarak sıfırdan bir RAG",
-   "role": "speaker",
+   "role": "organizer",
    "video": "https://www.youtube.com/watch?v=NQkHOw4mvgU",
    "date": "2025"
   },
@@ -229,6 +297,17 @@
    "title": "Closing keynote (RAG)",
    "role": "keynote",
    "url": "https://2024.divaconf.com/speaker/gulcin-yildirim-jelinek"
+  },
+  {
+   "date": "2024-03-12",
+   "end": "2024-03-12",
+   "event": "Nordic PGDay 2024",
+   "city": "Oslo",
+   "country": "Norway",
+   "title": "EDB Postgres Distributed - The Flexible Database",
+   "role": "speaker",
+   "url": "https://www.postgresql.eu/events/nordicpgday2024/schedule/speaker/1061-gulcin-yildirim-jelinek/",
+   "year": "2024"
   },
   {
    "year": "2024",
