@@ -1,5 +1,5 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Gülçin's Reading List</title><link rel="stylesheet" href="style.css"></head><body><div class="wrap"><nav class="nav"><a href="index.html" class="on">Stats</a><a href="list.html">Reading list</a><a href="books.html">Books</a><a href="writing.html">Writing</a><a href="about.html">About</a></nav><p class="back"><a href="list.html">← Back to list</a></p>
+<title>Gülçin's Reading List</title><link rel="stylesheet" href="style.css"></head><body><div class="wrap"><nav class="nav"><a href="index.html" class="on">Stats</a><a href="list.html">Reading list</a><a href="books.html">Books</a><a href="writing.html">Writing</a><a href="events.html">Speaking</a><a href="about.html">About</a></nav><p class="back"><a href="list.html">← Back to list</a></p>
 <h1>Gülçin's Reading List</h1>
 <p class="lede">Articles, papers, talks and books I've been reading.</p>
 <div class="bar"><span></span><div class="tog" id="tog"><button data-r="6">6M</button><button data-r="12">12M</button><button data-r="0" class="on">All</button></div></div>
@@ -8,6 +8,7 @@
 <div class="scroll" id="scroll"><div class="grid" id="grid"></div><div class="months" id="months"></div></div>
 <details><summary>Show table</summary><table id="tbl"></table></details></div>
 <div class="box tiles two" id="extra"></div>
+<p class="lede" id="nextup" style="font-size:15px;margin:0 0 8px"></p>
 <h2>My writing</h2>
 <div class="box"><ul class="list" id="mw"></ul></div>
 <a class="more" href="writing.html">All writing →</a>
@@ -44,4 +45,4 @@ Promise.all([fetch("data.json").then(r=>r.json()),fetch("books.json").then(r=>r.
  const fd=d=>d?new Date(d+"T00:00:00").toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"}):"";
  fetch("writing.json").then(r=>r.json()).then(d=>{document.getElementById("mw").innerHTML=(d.items||[]).slice().sort(byDate).slice(0,5).map(i=>`<li><span><time class="dt">${fd(i.date)}</time><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a></span><span class="dom">${esc(i.publisher)}</span></li>`).join("")}).catch(()=>{});
  fetch("videos.json").then(r=>r.json()).then(d=>{document.getElementById("mv").innerHTML=(d.items||[]).slice().sort(byDate).slice(0,3).map(i=>`<a href="${esc(i.url)}" target="_blank" rel="noopener">${i.thumbnail?`<img src="${esc(i.thumbnail)}" alt="" loading="lazy">`:""}<div class="vb"><div class="t">${esc(i.title)}</div><div class="dom">${esc(i.event||i.channel)}${i.date?" · "+i.date.slice(0,4):""}</div></div></a>`).join("")}).catch(()=>{});})();
-</script></body></html>
+</script><script>fetch("events.json").then(r=>r.json()).then(d=>{const t=new Date().toLocaleDateString("sv"),e=document.getElementById("nextup");const u=(d.items||[]).filter(i=>i.date>=t).sort((a,b)=>a.date.localeCompare(b.date)).filter((i,k,a)=>a.findIndex(j=>j.event==i.event)==k).slice(0,2);if(!u.length)return;const f=x=>new Date(x+"T00:00:00").toLocaleDateString("en-GB",{day:"numeric",month:"short"});e.innerHTML="<b>Next up:</b> "+u.map(i=>f(i.date)+" · "+i.event+" ("+i.city+")").join(" &nbsp;·&nbsp; ")+' <a href="events.html">All speaking →</a>'}).catch(()=>{})</script></body></html>

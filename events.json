@@ -1,0 +1,278 @@
+{
+ "items": [
+  {
+   "date": "2026-11-24",
+   "end": "2026-11-24",
+   "event": "PGConf.PL 2026",
+   "city": "Gdańsk",
+   "country": "Poland",
+   "title": "PostgreSQL in the Age of Agents",
+   "role": "speaker",
+   "url": "https://www.postgresql.eu/events/pgconfpl2026/schedule/session/8362-postgresql-in-the-age-of-agents/",
+   "year": "2026"
+  },
+  {
+   "date": "2026-11-19",
+   "end": "2026-11-19",
+   "event": "code::dive 2026",
+   "city": "Wrocław",
+   "country": "Poland",
+   "title": "Databases in the Age of Agents",
+   "role": "speaker",
+   "url": "https://codedive.pl/",
+   "year": "2026"
+  },
+  {
+   "date": "2026-10-23",
+   "end": "2026-10-23",
+   "event": "PGConf.EU 2026",
+   "city": "Valencia",
+   "country": "Spain",
+   "title": "PostgreSQL on Kubernetes Summit (with Floor Drees)",
+   "role": "host",
+   "url": "https://www.postgresql.eu/events/pgconfeu2026/schedule/session/8553-postgresql-on-kubernetes-summit/",
+   "year": "2026"
+  },
+  {
+   "date": "2026-10-23",
+   "end": "2026-10-23",
+   "event": "PGConf.EU 2026",
+   "city": "Valencia",
+   "country": "Spain",
+   "title": "PostgreSQL Observability Summit (co-organizer, Community Events Day)",
+   "role": "organizer",
+   "url": "https://www.postgresql.eu/events/pgconfeu2026/schedule/session/8552-postgresql-observability-summit/",
+   "year": "2026"
+  },
+  {
+   "date": "2026-10-21",
+   "end": "2026-10-21",
+   "event": "PGConf.EU 2026",
+   "city": "Valencia",
+   "country": "Spain",
+   "title": "What’s New with Monitoring in PostgreSQL 19",
+   "role": "speaker",
+   "url": "https://www.postgresql.eu/events/pgconfeu2026/schedule/session/8182-whats-new-with-monitoring-in-postgresql-19/",
+   "year": "2026"
+  },
+  {
+   "date": "2026-10-20",
+   "end": "2026-10-20",
+   "event": "PGConf.EU 2026",
+   "city": "Valencia",
+   "country": "Spain",
+   "title": "Postgres for Everything, Until It Isn't (with Petr Jelínek)",
+   "role": "speaker",
+   "url": "https://www.postgresql.eu/events/pgconfeu2026/schedule/session/8326-postgres-for-everything-until-it-isnt/",
+   "year": "2026"
+  },
+  {
+   "date": "2026-10-06",
+   "end": "2026-10-06",
+   "event": "ClickHouse Open House Munich 2026",
+   "city": "Munich",
+   "country": "Germany",
+   "title": "Postgres keynote segment (live trading demo)",
+   "role": "keynote",
+   "url": "https://clickhouse.com/openhouse/munich-2026",
+   "year": "2026"
+  },
+  {
+   "date": "2026-09-11",
+   "end": "2026-09-11",
+   "event": "Percona Live Amsterdam 2026",
+   "city": "Amsterdam",
+   "country": "Netherlands",
+   "title": "What’s New with Monitoring in PostgreSQL 19",
+   "role": "speaker",
+   "url": "https://perconalive.com/2026-amsterdam/talks/whats-new-with-monitoring-in-postgresql-19/",
+   "video": "https://www.youtube.com/watch?v=Xt9P07k0R-0",
+   "year": "2026"
+  },
+  {
+   "date": "2026-09-10",
+   "end": "2026-09-10",
+   "event": "PGDay Lowlands 2026",
+   "city": "Utrecht",
+   "country": "Netherlands",
+   "title": "Analytics Without Leaving Postgres (lightning talk)",
+   "role": "speaker",
+   "url": "https://www.postgresql.eu/events/pgdaynl2026/schedule/session/8378-analytics-without-leaving-postgres/",
+   "video": "https://www.youtube.com/watch?v=QgENM59SY6A",
+   "year": "2026"
+  },
+  {
+   "date": "2026-06-09",
+   "end": "2026-06-09",
+   "event": "Berlin Buzzwords 2026",
+   "city": "Berlin",
+   "country": "Germany",
+   "title": "What you should know about constraints in PostgreSQL 18",
+   "role": "speaker",
+   "url": "https://2026.berlinbuzzwords.de/speaker/gulcin-yildirim-jelinek/",
+   "video": "https://www.youtube.com/watch?v=ff6aUt6W14E",
+   "year": "2026"
+  },
+  {
+   "date": "2026-01-28",
+   "end": "2026-01-28",
+   "event": "Prague PostgreSQL Developer Day (P2D2) 2026",
+   "city": "Prague",
+   "country": "Czechia",
+   "title": "What you should know about constraints in PostgreSQL (and what's new in 18)",
+   "role": "speaker",
+   "url": "https://p2d2.cz/en/talks/what_you_should_know_about_constraints_in_postgresql_and_whats_new_in_18/",
+   "video": "https://www.youtube.com/watch?v=rkDsw6DgdCo",
+   "year": "2026"
+  },
+  {
+   "date": "2025-09-12",
+   "end": "2025-09-12",
+   "event": "PGDay Lowlands 2025",
+   "city": "Rotterdam",
+   "country": "Netherlands",
+   "title": "Anatomy of Table-Level Locks in PostgreSQL",
+   "role": "speaker",
+   "url": "https://www.postgresql.eu/events/pgdaynl2025/schedule/speaker/281-gulcin-yldrm-jelinek/",
+   "video": "https://www.youtube.com/watch?v=2Zsjn47a7b8",
+   "year": "2025"
+  },
+  {
+   "date": "2025-06-16",
+   "end": "2025-06-16",
+   "event": "Berlin Buzzwords 2025",
+   "city": "Berlin",
+   "country": "Germany",
+   "title": "Anatomy of Table-Level Locks in PostgreSQL",
+   "role": "speaker",
+   "url": "https://2025.berlinbuzzwords.de/speaker/gulcin-yildirim-jelinek/",
+   "video": "https://www.youtube.com/watch?v=iiaLohVOjfo",
+   "year": "2025"
+  },
+  {
+   "date": "2025-02-02",
+   "end": "2025-02-02",
+   "event": "FOSDEM 2025",
+   "city": "Brussels",
+   "country": "Belgium",
+   "title": "Anatomy of Table-Level Locks in PostgreSQL",
+   "role": "speaker",
+   "url": "https://archive.fosdem.org/2025/schedule/speaker/gulcin_yildirim_jelinek/",
+   "year": "2025"
+  },
+  {
+   "date": "2024-03-12",
+   "end": "2024-03-12",
+   "event": "Nordic PGDay 2024",
+   "city": "Oslo",
+   "country": "Norway",
+   "title": "EDB Postgres Distributed - The Flexible Database",
+   "role": "speaker",
+   "url": "https://www.postgresql.eu/events/nordicpgday2024/schedule/speaker/1061-gulcin-yildirim-jelinek/",
+   "year": "2024"
+  },
+  {
+   "year": "2026",
+   "event": "POSETTE: An Event for Postgres 2026",
+   "city": "Online",
+   "country": "Online",
+   "title": "What's new with constraints in Postgres 18",
+   "role": "speaker",
+   "url": "https://posetteconf.com/speakers/gulcin-yildirim-jelinek/",
+   "video": "https://www.youtube.com/watch?v=9e-_FaWmJn4",
+   "date": "2026"
+  },
+  {
+   "year": "2025",
+   "event": "PGConf.EU 2025",
+   "city": "Riga",
+   "country": "Latvia",
+   "title": "Anatomy of Table-Level Locks in PostgreSQL",
+   "role": "speaker",
+   "url": "https://www.postgresql.eu/events/pgconfeu2025/",
+   "video": "https://www.youtube.com/watch?v=uY5tFCzNWSs",
+   "date": "2025"
+  },
+  {
+   "year": "2025",
+   "event": "PG Day France 2025",
+   "title": "Anatomy of table level locks in PostgreSQL",
+   "role": "speaker",
+   "video": "https://www.youtube.com/watch?v=DLwGuv1QVQU",
+   "date": "2025"
+  },
+  {
+   "year": "2025",
+   "event": "Prague PostgreSQL Developer Day (P2D2) 2025",
+   "city": "Prague",
+   "country": "Czechia",
+   "title": "Anatomy of Table-Level Locks in PostgreSQL",
+   "role": "speaker",
+   "video": "https://www.youtube.com/watch?v=kKNZsGezZ4g",
+   "date": "2025"
+  },
+  {
+   "year": "2025",
+   "event": "Diva: Dive Into AI 2025",
+   "title": "RAG Anatomi: Postgres ve pgvector kullanarak sıfırdan bir RAG",
+   "role": "speaker",
+   "video": "https://www.youtube.com/watch?v=NQkHOw4mvgU",
+   "date": "2025"
+  },
+  {
+   "date": "2024-07-13",
+   "end": "2024-07-13",
+   "year": "2024",
+   "event": "Diva: Dive Into AI 2024",
+   "city": "Istanbul",
+   "country": "Türkiye",
+   "title": "Closing keynote (RAG)",
+   "role": "keynote",
+   "url": "https://2024.divaconf.com/speaker/gulcin-yildirim-jelinek"
+  },
+  {
+   "year": "2024",
+   "event": "GoKonf 2024",
+   "title": "Pgvector ile PostgreSQL’e Vektör Yetenekleri Getirmek",
+   "role": "speaker",
+   "video": "https://www.youtube.com/watch?v=2Tex_kkWk8c",
+   "date": "2024"
+  },
+  {
+   "year": "2021",
+   "event": "GDG Elazığ",
+   "title": "Kadın Geliştiriciler",
+   "role": "speaker",
+   "video": "https://www.youtube.com/watch?v=UUHnzdCYfNA",
+   "date": "2021"
+  },
+  {
+   "year": "2018",
+   "event": "PGDay.IT 2018",
+   "country": "Italy",
+   "title": "Keynote",
+   "role": "keynote",
+   "video": "https://www.youtube.com/watch?v=uV5MtA_CBls",
+   "date": "2018"
+  },
+  {
+   "year": "2017",
+   "event": "PGDay Russia 2017",
+   "title": "Automated upgrades of PostgreSQL clusters in cloud",
+   "role": "speaker",
+   "video": "https://www.youtube.com/watch?v=5axIxH7JRbA",
+   "date": "2017",
+   "country": "Russia"
+  },
+  {
+   "year": "2015",
+   "event": "WTM Sivas 2015",
+   "city": "Sivas",
+   "country": "Türkiye",
+   "title": "Kadın Yazılımcı Oluşumu",
+   "role": "speaker",
+   "video": "https://www.youtube.com/watch?v=KYQndgaLgQk",
+   "date": "2015"
+  }
+ ]
+}
