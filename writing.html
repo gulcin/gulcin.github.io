@@ -1,10 +1,10 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Writing · Gülçin's Reading List</title><link rel="stylesheet" href="style.css"></head><body><div class="wrap"><nav class="nav"><a href="index.html">Stats</a><a href="list.html">Reading list</a><a href="books.html">Books</a><a href="writing.html" class="on">Writing</a></nav>
+<title>Writing · Gülçin's Reading List</title><link rel="stylesheet" href="style.css"></head><body><div class="wrap"><nav class="nav"><a href="index.html">Stats</a><a href="list.html">Reading list</a><a href="books.html">Books</a><a href="writing.html" class="on">Writing</a><a href="about.html">About</a></nav>
 <h1>Writing</h1>
 <p class="lede">Articles I've written, talks and podcasts I've done, and places I've been mentioned.</p>
 <h2>Articles</h2>
-<input id="q" class="search" type="search" placeholder="Search articles…" autocomplete="off">
-<div class="pills" id="pubs"></div>
+<input id="q" class="search" type="search" placeholder="Search titles, publishers, tags…" autocomplete="off">
+<div class="pills" id="tags"></div>
 <div class="box"><ul class="list" id="arts"></ul></div>
 <h2>Talks &amp; podcasts</h2>
 <div class="pills" id="kinds"></div>
@@ -19,16 +19,18 @@ const yr=d=>d?d.slice(0,4):"Undated",byDate=(a,b)=>(b.date||"").localeCompare(a.
 const get=f=>fetch(f).then(r=>r.json()).then(d=>(d.items||[]).slice().sort(byDate)).catch(()=>[]);
 const KL={talk:"Talks",podcast:"Podcasts",interview:"Interviews"};
 Promise.all([get("writing.json"),get("videos.json"),get("mentions.json")]).then(([ws,vs,ms])=>{
- let pub="",kind="";const $=id=>document.getElementById(id);
+ let tag="",kind="";const $=id=>document.getElementById(id);
  const pills=(el,xs,key,cur,lab=k=>k)=>{const c={};xs.forEach(i=>{const k=i[key]||"Other";c[k]=(c[k]||0)+1});
   el.innerHTML=`<button class="${cur?"":"on"}" data-k="">All (${xs.length})</button>`+Object.entries(c).sort((a,b)=>b[1]-a[1]).map(([k,n])=>`<button class="${k==cur?"on":""}" data-k="${esc(k)}">${esc(lab(k))} (${n})</button>`).join("")};
- function arts(){pills($("pubs"),ws,"publisher",pub);const q=$("q").value.trim().toLowerCase();
-  const xs=ws.filter(i=>(!pub||(i.publisher||"Other")==pub)&&(!q||[i.title,i.publisher].join(" ").toLowerCase().includes(q)));let last=null;
+ function arts(){const c={};ws.forEach(i=>(i.tags||[]).forEach(t=>c[t]=(c[t]||0)+1));
+  $("tags").innerHTML=`<button class="${tag?"":"on"}" data-k="">All (${ws.length})</button>`+Object.entries(c).sort((a,b)=>b[1]-a[1]).map(([k,n])=>`<button class="${k==tag?"on":""}" data-k="${esc(k)}">${esc(k)} (${n})</button>`).join("");
+  const q=$("q").value.trim().toLowerCase();
+  const xs=ws.filter(i=>(!tag||(i.tags||[]).includes(tag))&&(!q||[i.title,i.publisher,(i.tags||[]).join(" ")].join(" ").toLowerCase().includes(q)));let last=null;
   $("arts").innerHTML=xs.length?xs.map(i=>{const y=yr(i.date),h=y!=last?`<li class="yh">${y}</li>`:"";last=y;
-   return h+`<li><span><time class="dt">${fd(i.date)}</time><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a></span><span class="dom">${esc(i.publisher)}</span></li>`}).join(""):'<li class="dom">Nothing here yet.</li>';}
+   return h+`<li><span><time class="dt">${fd(i.date)}</time><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a>${(i.tags||[]).map(t=>`<button class="tag" data-t="${esc(t)}">${esc(t)}</button>`).join("")}</span><span class="dom">${esc(i.publisher)}</span></li>`}).join(""):'<li class="dom">Nothing here yet.</li>';}
  function vids(){pills($("kinds"),vs,"kind",kind,k=>KL[k]||k);const xs=vs.filter(i=>!kind||(i.kind||"Other")==kind);
   $("vids").innerHTML=xs.length?xs.map(i=>`<a href="${esc(i.url)}" target="_blank" rel="noopener">${i.thumbnail?`<img src="${esc(i.thumbnail)}" alt="" loading="lazy">`:""}<div class="vb"><div class="t">${esc(i.title)}</div><div class="dom">${esc(i.event||i.channel)}${i.date?" · "+i.date.slice(0,4):""}</div></div></a>`).join(""):'<p class="dom">Nothing here yet.</p>';}
  $("ments").innerHTML=ms.length?ms.map(i=>`<li><span><time class="dt">${fd(i.date)}</time><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a>${i.context?`<br><span class="sub">${esc(i.context)}</span>`:""}</span><span class="dom">${esc(i.publisher)}</span></li>`).join(""):'<li class="dom">Nothing here yet.</li>';
  $("upd").textContent=`${ws.length} articles · ${vs.length} talks & podcasts · ${ms.length} mentions`;
- $("pubs").onclick=e=>{const k=e.target.dataset.k;if(k!=null){pub=k;arts()}};$("kinds").onclick=e=>{const k=e.target.dataset.k;if(k!=null){kind=k;vids()}};$("q").oninput=arts;arts();vids();});
+ $("tags").onclick=e=>{const k=e.target.dataset.k;if(k!=null){tag=k;arts()}};$("arts").onclick=e=>{const t=e.target.dataset.t;if(t){tag=tag==t?"":t;arts();$("q").scrollIntoView({block:"start"})}};$("kinds").onclick=e=>{const k=e.target.dataset.k;if(k!=null){kind=k;vids()}};$("q").oninput=arts;arts();vids();});
 </script></body></html>
