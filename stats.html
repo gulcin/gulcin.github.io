@@ -1,1 +1,48 @@
-<!doctype html><meta http-equiv="refresh" content="0; url=index.html"><link rel="canonical" href="index.html">
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Reading stats · Gülçin Yıldırım Jelínek</title><link rel="stylesheet" href="style.css"></head><body><div class="wrap"><header class="site"><a class="brand" href="index.html">Gülçin Yıldırım Jelínek</a><nav class="nav"><a href="writing.html">Writing</a><a href="events.html">Speaking</a><a href="stats.html" class="on">Reading</a><a href="memories.html">Memories</a><a href="about.html">About</a></nav></header><nav class="subnav"><a href="stats.html" class="on">Stats</a><a href="list.html">Reading list</a><a href="books.html">Books</a></nav>
+<h1>Reading</h1>
+<p class="lede">Articles, papers, talks and books I've been reading.</p>
+<div class="bar"><span></span><div class="tog" id="tog"><button data-r="6">6M</button><button data-r="12">12M</button><button data-r="0" class="on">All</button></div></div>
+<div class="box tiles" id="tiles"></div>
+<div class="box chart"><div class="ch"><b>Added per month</b><span class="lab" id="legend"></span></div>
+<div class="scroll" id="scroll"><div class="grid" id="grid"></div><div class="months" id="months"></div></div>
+<details><summary>Show table</summary><table id="tbl"></table></details></div>
+<div class="box tiles two" id="extra"></div>
+<p class="lede" id="nextup" style="font-size:15px;margin:0 0 8px"></p>
+<h2>My writing</h2>
+<div class="box"><ul class="list" id="mw"></ul></div>
+<a class="more" href="writing.html">All writing →</a>
+<div class="vids three" id="mv"></div>
+<footer>Built from Notion &amp; Goodreads · <span id="upd"></span></footer></div>
+<script>
+const K=["articles","papers","podcasts","books"],L={articles:"Articles",papers:"Papers",podcasts:"Podcasts / Talks",books:"Books"},M="JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC".split(" ");
+const ym=d=>d.slice(0,7);
+Promise.all([fetch("data.json").then(r=>r.json()),fetch("books.json").then(r=>r.json()).catch(()=>({books:[]}))]).then(([d,b])=>{const items=d.items.concat(b.books);
+ document.getElementById("legend").innerHTML=K.map(k=>`<span class="sq ${k}"></span>${L[k]}`).join(" &nbsp; ");
+ document.getElementById("upd").textContent=items.length+" items";
+ const now=new Date(),thisM=now.toISOString().slice(0,7);
+ function draw(range){
+  let months=[...new Set(items.map(i=>ym(i.added)))].sort();
+  const first=months[0]||thisM;months=[];let d=new Date(first+"-01T00:00:00Z");
+  while(d.toISOString().slice(0,7)<=thisM){months.push(d.toISOString().slice(0,7));d.setUTCMonth(d.getUTCMonth()+1)}
+  if(range)months=months.slice(-range);
+  const xs=items.filter(i=>months.includes(ym(i.added))&&!(i.category=="books"&&(i.status!="read"||i.read_at_missing)));const und=items.filter(i=>i.category=="books"&&i.read_at_missing).length,cr=items.filter(i=>i.category=="books"&&i.status=="reading").length;
+  document.getElementById("tiles").innerHTML=K.map(k=>`<div class="tile"><div class="lab"><span class="sq ${k}"></span>${L[k]}</div><div class="n">${xs.filter(i=>i.category==k).length}</div><div class="sub">${xs.filter(i=>i.category==k&&ym(i.added)==thisM).length} ${k=="books"?"read this month":"this month"}${k=="books"&&cr?` · ${cr} reading`:""}${k=="books"&&und&&!range?`<br>+${und} read, no date`:""}</div></div>`).join("");
+  const cnt=(m,k)=>xs.filter(i=>ym(i.added)==m&&i.category==k).length;
+  document.getElementById("grid").innerHTML=months.map(m=>{const sq=K.flatMap(k=>Array(cnt(m,k)).fill(k)),t=sq.length;
+   return `<div class="col">${t?`<div class="tot">${t}</div>`:""}<div class="stack">${sq.map(k=>`<span class="sq ${k}"></span>`).join("")}</div></div>`}).join("");
+  document.getElementById("months").innerHTML=months.map((m,i)=>`<div>${M[+m.slice(5)-1]}${i==0||m.endsWith("-01")?"<br>"+m.slice(0,4):""}</div>`).join("");
+  const sc=document.getElementById("scroll");sc.scrollLeft=sc.scrollWidth;
+  document.getElementById("tbl").innerHTML=`<tr><th>Month</th>${K.map(k=>`<th>${L[k]}</th>`).join("")}<th>Total</th></tr>`+months.slice().reverse().map(m=>`<tr><td>${m}</td>${K.map(k=>`<td>${cnt(m,k)}</td>`).join("")}<td>${K.reduce((a,k)=>a+cnt(m,k),0)}</td></tr>`).join("");
+  const ns=xs.filter(i=>i.category!="books"),rd=ns.filter(i=>i.status=="read").length,bl=ns.filter(i=>i.status=="backlog").length,tot=rd+bl,p=tot?Math.round(rd/tot*100):0,tc={};
+  xs.forEach(i=>i.topics.forEach(t=>tc[t]=(tc[t]||0)+1));const tp=Object.entries(tc).sort((a,b)=>b[1]-a[1]),mx=tp[0]?.[1]||1;
+  document.getElementById("extra").innerHTML=`<div class="tile"><div class="lab">Read vs backlog</div><div class="n">${rd} <span class="sub">/ ${tot}</span></div><div class="sub">${p}% read · ${bl} in backlog</div><div class="prog"><i style="width:${p}%"></i></div></div>
+  <div class="tile"><div class="lab" style="margin-bottom:8px">Topics</div>${tp.map(([t,n])=>`<div class="topic"><span>${t}</span><div class="b" style="width:${n/mx*60}%"></div><em>${n}</em></div>`).join("")}</div>`;}
+ const tog=document.getElementById("tog");tog.onclick=e=>{const r=e.target.dataset.r;if(r==null)return;[...tog.children].forEach(b=>b.classList.toggle("on",b==e.target));draw(+r)};draw(0);});
+</script>
+<script>
+(()=>{const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])),byDate=(a,b)=>(b.date||"").localeCompare(a.date||"");
+ const fd=d=>d?new Date(d+"T00:00:00").toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"}):"";
+ fetch("writing.json").then(r=>r.json()).then(d=>{document.getElementById("mw").innerHTML=(d.items||[]).slice().sort(byDate).slice(0,5).map(i=>`<li><span><time class="dt">${fd(i.date)}</time><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a></span><span class="dom">${esc(i.publisher)}</span></li>`).join("")}).catch(()=>{});
+ fetch("videos.json").then(r=>r.json()).then(d=>{document.getElementById("mv").innerHTML=(d.items||[]).slice().sort(byDate).slice(0,3).map(i=>`<a href="${esc(i.url)}" target="_blank" rel="noopener">${i.thumbnail?`<img src="${esc(i.thumbnail)}" alt="" loading="lazy">`:""}<div class="vb"><div class="t">${esc(i.title)}</div><div class="dom">${esc(i.event||i.channel)}${i.date?" · "+i.date.slice(0,4):""}</div></div></a>`).join("")}).catch(()=>{});})();
+</script><script>fetch("events.json").then(r=>r.json()).then(d=>{const t=new Date().toLocaleDateString("sv"),e=document.getElementById("nextup");const u=(d.items||[]).filter(i=>i.date>=t).sort((a,b)=>a.date.localeCompare(b.date)).filter((i,k,a)=>a.findIndex(j=>j.event==i.event)==k).slice(0,2);if(!u.length)return;const f=x=>new Date(x+"T00:00:00").toLocaleDateString("en-GB",{day:"numeric",month:"short"});e.innerHTML="<b>Next up:</b> "+u.map(i=>f(i.date)+" · "+i.event+" ("+i.city+")").join(" &nbsp;·&nbsp; ")+' <a href="events.html">All speaking →</a>'}).catch(()=>{})</script></body></html>
