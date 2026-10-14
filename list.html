@@ -11,6 +11,6 @@ Promise.all([fetch("data.json").then(r=>r.json()),fetch("books.json").then(r=>r.
  const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
  function draw(){tabs.innerHTML=Object.entries(T).map(([k,v])=>`<button class="${k==cur?"on":""}" data-k="${k}">${v} (${items.filter(i=>i.category==k).length})</button>`).join("");
   const xs=items.filter(i=>i.category==cur);
-  list.innerHTML=xs.length?xs.map(i=>`<li><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a><span class="dom">${esc(i.domain)}${i.status=="reading"?" · reading":""}</span></li>`).join(""):'<li class="dom">Nothing here yet.</li>';}
+  list.innerHTML=xs.length?xs.map(i=>`<li><time class="dt">${i.added?new Date(i.added).toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"}):""}</time><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a><span class="dom">${esc(i.domain)}${i.status=="reading"?" · reading":""}</span></li>`).join(""):'<li class="dom">Nothing here yet.</li>';}
  tabs.onclick=e=>{const k=e.target.dataset.k;if(k){cur=k;location.hash=k;draw()}};draw();});
 </script></body></html>
