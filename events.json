@@ -146,7 +146,8 @@
    "url": "https://www.postgresql.eu/events/pgconfeu2025/schedule/session/7133-what-you-should-know-about-constraints-in-postgresql-and-whats-new-in-18/",
    "video": "https://www.youtube.com/watch?v=CwsXLdQkAeg",
    "date": "2025-10-22",
-   "end": "2025-10-22"
+   "end": "2025-10-22",
+   "slides": "https://github.com/gulcin/presentations/blob/main/pgconfeu-2025/Constraints%20in%20PG18%20Gulcin%20Yildirim%20Jelinek.pdf"
   },
   {
    "date": "2025-09-12",
@@ -180,7 +181,8 @@
    "title": "Anatomy of Table-Level Locks in PostgreSQL",
    "role": "speaker",
    "url": "https://www.pgday.ch/2025/",
-   "year": "2025"
+   "year": "2025",
+   "slides": "https://www.pgday.ch/common/slides/2025_Swiss_PGDay_2025_Anatomy_of_Table-Level_Locks_in_PostgreSQL.pdf"
   },
   {
    "date": "2025-06-16",
@@ -203,7 +205,8 @@
    "title": "Anatomy of Table-Level Locks in PostgreSQL",
    "role": "speaker",
    "url": "https://www.postgresql.eu/events/pgconfde2025/schedule/session/6291-anatomy-of-table-level-locks-in-postgresql/",
-   "year": "2025"
+   "year": "2025",
+   "slides": "https://www.postgresql.eu/events/pgconfde2025/sessions/session/6291/slides/696/PGConf.DE%20Anatomy%20of%20Table-Level%20Locks%20in%20Postgres%20(1).pdf"
   },
   {
    "date": "2025-05-06",
@@ -225,7 +228,8 @@
    "title": "Anatomy of Table-Level Locks in PostgreSQL",
    "role": "speaker",
    "url": "https://postgresql.us/events/pgdaychicago2025/schedule/session/1903-anatomy-of-table-level-locks-in-postgresql/",
-   "year": "2025"
+   "year": "2025",
+   "slides": "https://postgresql.us/events/pgdaychicago2025/sessions/session/1903/slides/186/PGDay%20Chicago%20Anatomy%20of%20Table-Level%20Locks%20in%20Postgres.pdf"
   },
   {
    "date": "2025-03-07",
@@ -369,7 +373,8 @@
    "title": "PostgreSQL is NOT your traditional SQL database",
    "role": "speaker",
    "url": "https://www.postgresql.eu/events/pgconfeu2018/schedule/session/2160-postgresql-is-not-your-traditional-sql-database/",
-   "year": "2018"
+   "year": "2018",
+   "slides": "https://slides.com/apatheticmagpie/postgres-modern-pgconfeu"
   },
   {
    "date": "2018-02-02",
@@ -380,7 +385,8 @@
    "title": "Near-Zero Downtime Automated Upgrades of PostgreSQL Clusters in Cloud",
    "role": "speaker",
    "url": "https://www.postgresql.eu/events/fosdem2018/schedule/session/1706-near-zero-downtime-automated-upgrades-of-postgresql-clusters-in-cloud/",
-   "year": "2018"
+   "year": "2018",
+   "slides": "https://slides.com/apatheticmagpie/near-zero-downtime-postgres"
   },
   {
    "year": "2018",
@@ -400,7 +406,8 @@
    "title": "Near-Zero Downtime Automated Upgrades of PostgreSQL Clusters in Cloud",
    "role": "speaker",
    "url": "https://www.postgresql.eu/events/pgconfeu2017/schedule/session/1538-near-zero-downtime-automated-upgrades-of-postgresql-clusters-in-cloud/",
-   "year": "2017"
+   "year": "2017",
+   "slides": "https://slides.com/apatheticmagpie/near-zero-downtime-postgres"
   },
   {
    "date": "2017-02-05",
@@ -411,7 +418,8 @@
    "title": "Evolution of Fault Tolerance in PostgreSQL",
    "role": "speaker",
    "url": "https://www.postgresql.eu/events/fosdem2017/schedule/session/1429-evolution-of-fault-tolerance-in-postgresql/",
-   "year": "2017"
+   "year": "2017",
+   "slides": "https://slides.com/apatheticmagpie/evolution-of-fault-tolerance-in-postgresql"
   },
   {
    "year": "2017",
@@ -431,7 +439,8 @@
    "title": "Evolution of Fault Tolerance in PostgreSQL",
    "role": "speaker",
    "url": "https://www.postgresql.eu/events/pgconfeu2016/schedule/session/1283-evolution-of-fault-tolerance-in-postgresql/",
-   "year": "2016"
+   "year": "2016",
+   "slides": "https://slides.com/apatheticmagpie/evolution-of-fault-tolerance-in-postgresql"
   },
   {
    "date": "2016-01-29",
