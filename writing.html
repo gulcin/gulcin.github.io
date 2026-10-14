@@ -1,7 +1,8 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Writing · Gülçin's Reading List</title><link rel="stylesheet" href="style.css"></head><body><div class="wrap"><nav class="nav"><a href="index.html">Stats</a><a href="list.html">Reading list</a><a href="books.html">Books</a><a href="writing.html" class="on">Writing</a><a href="events.html">Speaking</a><a href="about.html">About</a></nav>
+<title>Writing · Gülçin's Reading List</title><link rel="stylesheet" href="style.css"><style>ul.list li a.feat{display:inline-block;margin-left:8px;font:500 11px ui-monospace,monospace;color:var(--clay);border:1px solid var(--clay);border-radius:999px;padding:1px 8px;vertical-align:middle}</style></head><body><div class="wrap"><nav class="nav"><a href="index.html">Stats</a><a href="list.html">Reading list</a><a href="books.html">Books</a><a href="writing.html" class="on">Writing</a><a href="events.html">Speaking</a><a href="about.html">About</a></nav>
 <h1>Writing</h1>
 <p class="lede">Articles I've written, talks and podcasts I've done, and places I've been mentioned.</p>
+<p class="dom" id="pwk"></p>
 <h2>Articles</h2>
 <input id="q" class="search" type="search" placeholder="Search titles, publishers, tags…" autocomplete="off">
 <div class="pills" id="tags"></div>
@@ -19,7 +20,7 @@ const yr=d=>d?d.slice(0,4):"Undated",byDate=(a,b)=>(b.date||"").localeCompare(a.
 const get=f=>fetch(f).then(r=>r.json()).then(d=>(d.items||[]).slice().sort(byDate)).catch(()=>[]);
 const KL={talk:"Talks",podcast:"Podcasts",interview:"Interviews"};
 Promise.all([get("writing.json"),get("videos.json"),get("mentions.json")]).then(([ws,vs,ms])=>{
- let tag="",kind="";const $=id=>document.getElementById(id);
+ let tag="",kind="";{const n=ws.filter(i=>(i.featured||[]).some(f=>f.name=="Postgres Weekly")).length;if(n)document.getElementById("pwk").innerHTML=`<a href="https://postgresweekly.com/" target="_blank" rel="noopener" style="color:var(--clay)">${n} posts featured in Postgres Weekly</a>`;}const $=id=>document.getElementById(id);
  const pills=(el,xs,key,cur,lab=k=>k)=>{const c={};xs.forEach(i=>{const k=i[key]||"Other";c[k]=(c[k]||0)+1});
   el.innerHTML=`<button class="${cur?"":"on"}" data-k="">All (${xs.length})</button>`+Object.entries(c).sort((a,b)=>b[1]-a[1]).map(([k,n])=>`<button class="${k==cur?"on":""}" data-k="${esc(k)}">${esc(lab(k))} (${n})</button>`).join("")};
  function arts(){const c={};ws.forEach(i=>(i.tags||[]).forEach(t=>c[t]=(c[t]||0)+1));
@@ -27,7 +28,7 @@ Promise.all([get("writing.json"),get("videos.json"),get("mentions.json")]).then(
   const q=$("q").value.trim().toLowerCase();
   const xs=ws.filter(i=>(!tag||(i.tags||[]).includes(tag))&&(!q||[i.title,i.publisher,(i.tags||[]).join(" ")].join(" ").toLowerCase().includes(q)));let last=null;
   $("arts").innerHTML=xs.length?xs.map(i=>{const y=yr(i.date),h=y!=last?`<li class="yh">${y}</li>`:"";last=y;
-   return h+`<li><span><time class="dt">${fd(i.date)}</time><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a>${(i.tags||[]).map(t=>`<button class="tag" data-t="${esc(t)}">${esc(t)}</button>`).join("")}</span><span class="dom">${esc(i.publisher)}</span></li>`}).join(""):'<li class="dom">Nothing here yet.</li>';}
+   return h+`<li><span><time class="dt">${fd(i.date)}</time><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a>${(i.tags||[]).map(t=>`<button class="tag" data-t="${esc(t)}">${esc(t)}</button>`).join("")}${(i.featured||[]).map(f=>`<a class="feat" href="${esc(f.url)}" target="_blank" rel="noopener">Featured in ${esc(f.name)} #${esc(f.issue)}</a>`).join("")}</span><span class="dom">${esc(i.publisher)}</span></li>`}).join(""):'<li class="dom">Nothing here yet.</li>';}
  function vids(){pills($("kinds"),vs,"kind",kind,k=>KL[k]||k);const xs=vs.filter(i=>!kind||(i.kind||"Other")==kind);
   $("vids").innerHTML=xs.length?xs.map(i=>`<a href="${esc(i.url)}" target="_blank" rel="noopener">${i.thumbnail?`<img src="${esc(i.thumbnail)}" alt="" loading="lazy">`:""}<div class="vb"><div class="t">${esc(i.title)}</div><div class="dom">${esc(i.event||i.channel)}${i.date?" · "+i.date.slice(0,4):""}</div></div></a>`).join(""):'<p class="dom">Nothing here yet.</p>';}
  $("ments").innerHTML=ms.length?ms.map(i=>`<li><span><time class="dt">${fd(i.date)}</time><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a>${i.context?`<br><span class="sub">${esc(i.context)}</span>`:""}</span><span class="dom">${esc(i.publisher)}</span></li>`).join(""):'<li class="dom">Nothing here yet.</li>';

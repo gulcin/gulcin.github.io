@@ -19,6 +19,13 @@
       "coauthors": [],
       "tags": [
         "Postgres"
+      ],
+      "featured": [
+        {
+          "name": "Postgres Weekly",
+          "issue": 663,
+          "url": "https://postgresweekly.com/issues/663"
+        }
       ]
     },
     {
@@ -29,6 +36,13 @@
       "coauthors": [],
       "tags": [
         "Postgres"
+      ],
+      "featured": [
+        {
+          "name": "Postgres Weekly",
+          "issue": 662,
+          "url": "https://postgresweekly.com/issues/662"
+        }
       ]
     },
     {
@@ -59,6 +73,13 @@
       "coauthors": [],
       "tags": [
         "Postgres"
+      ],
+      "featured": [
+        {
+          "name": "Postgres Weekly",
+          "issue": 656,
+          "url": "https://postgresweekly.com/issues/656"
+        }
       ]
     },
     {
@@ -69,6 +90,13 @@
       "coauthors": [],
       "tags": [
         "Postgres"
+      ],
+      "featured": [
+        {
+          "name": "Postgres Weekly",
+          "issue": 628,
+          "url": "https://postgresweekly.com/issues/628"
+        }
       ]
     },
     {
@@ -178,6 +206,13 @@
       "coauthors": [],
       "tags": [
         "Postgres"
+      ],
+      "featured": [
+        {
+          "name": "Postgres Weekly",
+          "issue": 585,
+          "url": "https://postgresweekly.com/issues/585"
+        }
       ]
     },
     {
@@ -198,6 +233,13 @@
       "coauthors": [],
       "tags": [
         "Postgres"
+      ],
+      "featured": [
+        {
+          "name": "Postgres Weekly",
+          "issue": 584,
+          "url": "https://postgresweekly.com/issues/584"
+        }
       ]
     },
     {
@@ -283,6 +325,13 @@
       "tags": [
         "AI",
         "Postgres"
+      ],
+      "featured": [
+        {
+          "name": "Postgres Weekly",
+          "issue": 557,
+          "url": "https://postgresweekly.com/issues/557"
+        }
       ]
     },
     {
@@ -326,6 +375,13 @@
       "tags": [
         "Community",
         "Postgres"
+      ],
+      "featured": [
+        {
+          "name": "Postgres Weekly",
+          "issue": 568,
+          "url": "https://postgresweekly.com/issues/568"
+        }
       ]
     },
     {
@@ -585,6 +641,13 @@
       "coauthors": [],
       "tags": [
         "Postgres"
+      ],
+      "featured": [
+        {
+          "name": "Postgres Weekly",
+          "issue": 165,
+          "url": "https://postgresweekly.com/issues/165"
+        }
       ]
     },
     {
@@ -595,6 +658,13 @@
       "coauthors": [],
       "tags": [
         "Postgres"
+      ],
+      "featured": [
+        {
+          "name": "Postgres Weekly",
+          "issue": 164,
+          "url": "https://postgresweekly.com/issues/164"
+        }
       ]
     },
     {
@@ -677,6 +747,13 @@
       "coauthors": [],
       "tags": [
         "Postgres"
+      ],
+      "featured": [
+        {
+          "name": "Postgres Weekly",
+          "issue": 120,
+          "url": "https://postgresweekly.com/issues/120"
+        }
       ]
     },
     {
