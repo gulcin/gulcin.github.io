@@ -361,6 +361,28 @@
    "date": "2021"
   },
   {
+   "date": "2018-10-24",
+   "end": "2018-10-24",
+   "event": "PGConf.EU 2018",
+   "city": "Lisbon",
+   "country": "Portugal",
+   "title": "PostgreSQL is NOT your traditional SQL database",
+   "role": "speaker",
+   "url": "https://www.postgresql.eu/events/pgconfeu2018/schedule/session/2160-postgresql-is-not-your-traditional-sql-database/",
+   "year": "2018"
+  },
+  {
+   "date": "2018-02-02",
+   "end": "2018-02-02",
+   "event": "FOSDEM PGDay 2018",
+   "city": "Brussels",
+   "country": "Belgium",
+   "title": "Near-Zero Downtime Automated Upgrades of PostgreSQL Clusters in Cloud",
+   "role": "speaker",
+   "url": "https://www.postgresql.eu/events/fosdem2018/schedule/session/1706-near-zero-downtime-automated-upgrades-of-postgresql-clusters-in-cloud/",
+   "year": "2018"
+  },
+  {
    "year": "2018",
    "event": "PGDay.IT 2018",
    "country": "Italy",
@@ -370,6 +392,28 @@
    "date": "2018"
   },
   {
+   "date": "2017-10-26",
+   "end": "2017-10-26",
+   "event": "PGConf.EU 2017",
+   "city": "Warsaw",
+   "country": "Poland",
+   "title": "Near-Zero Downtime Automated Upgrades of PostgreSQL Clusters in Cloud",
+   "role": "speaker",
+   "url": "https://www.postgresql.eu/events/pgconfeu2017/schedule/session/1538-near-zero-downtime-automated-upgrades-of-postgresql-clusters-in-cloud/",
+   "year": "2017"
+  },
+  {
+   "date": "2017-02-05",
+   "end": "2017-02-05",
+   "event": "FOSDEM 2017 (PostgreSQL devroom)",
+   "city": "Brussels",
+   "country": "Belgium",
+   "title": "Evolution of Fault Tolerance in PostgreSQL",
+   "role": "speaker",
+   "url": "https://www.postgresql.eu/events/fosdem2017/schedule/session/1429-evolution-of-fault-tolerance-in-postgresql/",
+   "year": "2017"
+  },
+  {
    "year": "2017",
    "event": "PGDay Russia 2017",
    "title": "Automated upgrades of PostgreSQL clusters in cloud",
@@ -377,6 +421,39 @@
    "video": "https://www.youtube.com/watch?v=5axIxH7JRbA",
    "date": "2017",
    "country": "Russia"
+  },
+  {
+   "date": "2016-11-04",
+   "end": "2016-11-04",
+   "event": "PGConf.EU 2016",
+   "city": "Tallinn",
+   "country": "Estonia",
+   "title": "Evolution of Fault Tolerance in PostgreSQL",
+   "role": "speaker",
+   "url": "https://www.postgresql.eu/events/pgconfeu2016/schedule/session/1283-evolution-of-fault-tolerance-in-postgresql/",
+   "year": "2016"
+  },
+  {
+   "date": "2016-01-29",
+   "end": "2016-01-29",
+   "event": "FOSDEM PGDay 2016",
+   "city": "Brussels",
+   "country": "Belgium",
+   "title": "Managing PostgreSQL with Ansible",
+   "role": "speaker",
+   "url": "https://www.postgresql.eu/events/fosdem2016/schedule/session/1164-managing-postgresql-with-ansible/",
+   "year": "2016"
+  },
+  {
+   "date": "2015-10-28",
+   "end": "2015-10-28",
+   "event": "PGConf.EU 2015",
+   "city": "Vienna",
+   "country": "Austria",
+   "title": "Managing PostgreSQL with Ansible",
+   "role": "speaker",
+   "url": "https://www.postgresql.eu/events/pgconfeu2015/schedule/session/1014-managing-postgresql-with-ansible/",
+   "year": "2015"
   },
   {
    "year": "2015",
