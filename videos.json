@@ -131,6 +131,16 @@
    "thumbnail": "https://i.ytimg.com/vi/FnUTuQ0075Q/hqdefault.jpg"
   },
   {
+   "title": "Is pg_dump a backup tool? | Postgres.FM 124",
+   "url": "https://www.youtube.com/watch?v=-DO5ad-KtFY",
+   "video_id": "-DO5ad-KtFY",
+   "channel": "PostgresTV",
+   "event": "Postgres FM",
+   "kind": "podcast",
+   "date": "2024-11-22",
+   "thumbnail": "https://i.ytimg.com/vi/-DO5ad-KtFY/hqdefault.jpg"
+  },
+  {
    "title": "Gulcin Yildirim Jelinek: Maintaining Postgres for Modern Workloads",
    "url": "https://www.youtube.com/watch?v=4dqkC5oS_go",
    "video_id": "4dqkC5oS_go",

@@ -288,6 +288,30 @@
    "date": "2025"
   },
   {
+   "date": "2024-11-22",
+   "end": "2024-11-22",
+   "event": "Postgres FM (podcast, ep. 124)",
+   "city": "Online",
+   "country": "Online",
+   "title": "Is pg_dump a backup tool? (with Robert Haas)",
+   "role": "guest",
+   "url": "https://postgres.fm/episodes/is-pg_dump-a-backup-tool",
+   "year": "2024",
+   "video": "https://www.youtube.com/watch?v=-DO5ad-KtFY"
+  },
+  {
+   "date": "2024-11-19",
+   "end": "2024-11-19",
+   "event": "Maintainable Software Podcast (ep. 191)",
+   "city": "Online",
+   "country": "Online",
+   "title": "Maintaining Postgres for Modern Workloads",
+   "role": "guest",
+   "url": "https://maintainable.fm/episodes/gulcin-yildirim-jelinek-maintaining-postgres-for-modern-workloads",
+   "year": "2024",
+   "video": "https://www.youtube.com/watch?v=4dqkC5oS_go"
+  },
+  {
    "date": "2024-07-13",
    "end": "2024-07-13",
    "year": "2024",
@@ -297,6 +321,17 @@
    "title": "Closing keynote (RAG)",
    "role": "keynote",
    "url": "https://2024.divaconf.com/speaker/gulcin-yildirim-jelinek"
+  },
+  {
+   "date": "2024-05-09",
+   "end": "2024-05-09",
+   "event": "Hacking Postgres (podcast, S2E6)",
+   "city": "Online",
+   "country": "Online",
+   "title": "S2E6: Gülçin Yıldırım Jelínek, EDB",
+   "role": "guest",
+   "url": "https://pocketcasts.com/podcast/hacking-postgres/823f2550-63c2-013c-9f24-0acc26574db2/s2e6-g%C3%BCl%C3%A7in-y%C4%B1ld%C4%B1r%C4%B1m-jel%C3%ADnek-edb/27c7af82-708d-45ea-8f08-6c79d1a60f92",
+   "year": "2024"
   },
   {
    "date": "2024-03-12",

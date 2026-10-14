@@ -22,8 +22,8 @@ const fd=d=>!d||d.length<10?(d||""):new Date(d+"T00:00:00").toLocaleDateString("
 const yy=i=>i.year||(i.date||"").slice(0,4),full=i=>(i.date||"").length==10,today=new Date().toLocaleDateString("sv");
 fetch("events.json").then(r=>r.json()).then(d=>{const xs=d.items||[],$=id=>document.getElementById(id);
  const up=xs.filter(i=>full(i)&&i.date>=today).sort((a,b)=>a.date.localeCompare(b.date)),past=xs.filter(i=>!(full(i)&&i.date>=today)).sort((a,b)=>yy(b).localeCompare(yy(a))||(full(b)-full(a))||(b.date||"").localeCompare(a.date||""));
- const cs=new Set(xs.map(i=>i.country).filter(c=>c&&c!="Online")),y0=xs.map(yy).sort()[0];
- $("cnt").textContent=`${xs.length} talks &amp; sessions in ${cs.size} countries since ${y0}`.replace("&amp;","&");
+ const tk=xs.filter(i=>i.role!="guest"),np=xs.length-tk.length;const cs=new Set(tk.map(i=>i.country).filter(c=>c&&c!="Online")),y0=tk.map(yy).sort()[0];
+ $("cnt").textContent=`${tk.length} talks &amp; sessions in ${cs.size} countries since ${y0}`.replace("&amp;","&")+(np?` · plus ${np} podcast appearances`:"");
  $("up").innerHTML=up.length?up.map(i=>`<div class="up"><div class="d">${fd(i.date)}</div><div class="e">${i.url?`<a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.event)}</a>`:esc(i.event)}</div><div class="c">${esc([i.city,i.country].filter(Boolean).join(", "))}</div>${i.title?`<div class="t">${esc(i.title)}</div>`:""}<span class="role">${esc(i.role||"")}</span></div>`).join(""):'<p class="dom">Nothing scheduled right now.</p>';
  let last=null;$("past").innerHTML=past.map(i=>{const y=yy(i),h=y!=last?`<li class="yh">${y}</li>`:"";last=y;
   return h+`<li><span><time class="dt">${fd(i.date)}</time>${i.url?`<a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.event)}</a>`:esc(i.event)} <span class="ptitle">· ${esc(i.title||"")}</span>${i.video?`<a class="vl" href="${esc(i.video)}" target="_blank" rel="noopener" title="Watch video">▶</a>`:""}</span><span class="dom">${esc([i.city||i.country,i.role].filter(Boolean).join(" · "))}</span></li>`}).join("");
