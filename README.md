@@ -1,6 +1,6 @@
 # Gülçin Yıldırım Jelínek
 
-My personal site: Postgres, product & community. Talks, writing, memories and what I'm reading. Live at https://gulcin.github.io/reading-list/
+My personal site: Postgres, product & community. Talks, writing, memories and what I'm reading. Live at https://gulcin.github.io/
 
 Pages: `index.html` (home), `writing.html`, `events.html` (Speaking), `memories.html`, `about.html`, and Reading: `stats.html`, `list.html`, `books.html`.
 
