@@ -49,3 +49,4 @@ h2{font-family:"Source Serif 4",Georgia,serif;font-weight:500;font-size:26px;mar
 
 .dt{display:inline-block;min-width:7.5em;color:#87867f;font-size:.85em;font-variant-numeric:tabular-nums;margin-right:.6em}
 .back{margin:.2em 0 1.2em;font-size:.9em}.back a{color:#d97757;text-decoration:none}.back a:hover{text-decoration:underline}
+.search{width:100%;box-sizing:border-box;padding:.6em .9em;margin:0 0 1em;border:1px solid #e3dfd3;border-radius:8px;background:#fff;font:inherit;color:inherit}.search:focus{outline:none;border-color:#d97757}

@@ -2,7 +2,7 @@
 <title>Reading list · Gülçin's Reading List</title><link rel="stylesheet" href="style.css"></head><body><div class="wrap"><nav class="nav"><a href="index.html">Stats</a><a href="list.html" class="on">Reading list</a><a href="books.html">Books</a></nav>
 <h1>Gülçin's Reading List</h1>
 <p class="lede">Articles, papers, talks and books I've been reading.</p>
-<div class="bar"><div class="tabs" id="tabs"></div></div>
+<div class="bar"><input id="q" class="search" type="search" placeholder="Search titles, sites, topics…" autocomplete="off"><div class="tabs" id="tabs"></div></div>
 <div class="box"><ul class="list" id="list"></ul></div></div>
 <script>
 const T={articles:"Articles",papers:"Papers",podcasts:"Podcasts / Talks",books:"Books"};
@@ -10,7 +10,7 @@ Promise.all([fetch("data.json").then(r=>r.json()),fetch("books.json").then(r=>r.
  let cur=location.hash.slice(1)||"articles";const tabs=document.getElementById("tabs"),list=document.getElementById("list");
  const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
  function draw(){tabs.innerHTML=Object.entries(T).map(([k,v])=>`<button class="${k==cur?"on":""}" data-k="${k}">${v} (${items.filter(i=>i.category==k).length})</button>`).join("");
-  const xs=items.filter(i=>i.category==cur);
+  const q=document.getElementById("q").value.trim().toLowerCase();const xs=items.filter(i=>i.category==cur&&(!q||[i.title,i.domain,i.author,(i.topics||[]).join(" ")].join(" ").toLowerCase().includes(q)));
   list.innerHTML=xs.length?xs.map(i=>`<li><time class="dt">${i.added?new Date(i.added).toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"}):""}</time><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a><span class="dom">${esc(i.domain)}${i.status=="reading"?" · reading":""}</span></li>`).join(""):'<li class="dom">Nothing here yet.</li>';}
- tabs.onclick=e=>{const k=e.target.dataset.k;if(k){cur=k;location.hash=k;draw()}};draw();});
+ tabs.onclick=e=>{const k=e.target.dataset.k;if(k){cur=k;location.hash=k;draw()}};document.getElementById("q").oninput=draw;draw();});
 </script></body></html>
