@@ -1,6 +1,16 @@
 {
  "items": [
   {
+   "title": "ClickHouse Managed Postgres",
+   "url": "https://www.youtube.com/watch?v=nrwtBRGa3wY",
+   "video_id": "nrwtBRGa3wY",
+   "channel": "ClickHouse",
+   "event": "ClickHouse",
+   "kind": "talk",
+   "date": "2026-10-14",
+   "thumbnail": "https://i.ytimg.com/vi/nrwtBRGa3wY/hqdefault.jpg"
+  },
+  {
    "title": "What’s New with Monitoring in PostgreSQL 19 - Gülcin Yildirim Jelínek, Clickhouse",
    "url": "https://www.youtube.com/watch?v=Xt9P07k0R-0",
    "video_id": "Xt9P07k0R-0",
