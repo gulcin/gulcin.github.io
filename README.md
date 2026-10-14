@@ -1,6 +1,6 @@
 # Gülçin's Reading List
 
-Static site (no build step): `index.html`, `stats.html`, `books.html`, `style.css`, `data.json` (Notion), `books.json` (Goodreads).
+Static site (no build step): `index.html` (stats, homepage), `list.html` (reading list), `stats.html` (redirect), `books.html`, `style.css`, `data.json` (Notion), `books.json` (Goodreads).
 `export.py` produces `data.json` from the Notion Reading List and (optionally) Goodreads.
 
 ## Local

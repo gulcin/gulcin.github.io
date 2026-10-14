@@ -1,0 +1,16 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Reading list · Gülçin's Reading List</title><link rel="stylesheet" href="style.css"></head><body><div class="wrap"><nav class="nav"><a href="index.html">Stats</a><a href="list.html" class="on">Reading list</a><a href="books.html">Books</a></nav>
+<h1>Gülçin's Reading List</h1>
+<p class="lede">Articles, papers, talks and books I've been reading.</p>
+<div class="bar"><div class="tabs" id="tabs"></div></div>
+<div class="box"><ul class="list" id="list"></ul></div></div>
+<script>
+const T={articles:"Articles",papers:"Papers",podcasts:"Podcasts / Talks",books:"Books"};
+Promise.all([fetch("data.json").then(r=>r.json()),fetch("books.json").then(r=>r.json()).catch(()=>({books:[]}))]).then(([d,b])=>{const items=d.items.concat(b.books).sort((x,y)=>(x.status=="reading")-(y.status=="reading")||0).reverse().sort((x,y)=>(y.status=="reading")-(x.status=="reading"));
+ let cur=location.hash.slice(1)||"articles";const tabs=document.getElementById("tabs"),list=document.getElementById("list");
+ const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+ function draw(){tabs.innerHTML=Object.entries(T).map(([k,v])=>`<button class="${k==cur?"on":""}" data-k="${k}">${v} (${items.filter(i=>i.category==k).length})</button>`).join("");
+  const xs=items.filter(i=>i.category==cur);
+  list.innerHTML=xs.length?xs.map(i=>`<li><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a><span class="dom">${esc(i.domain)}${i.status=="reading"?" · reading":""}</span></li>`).join(""):'<li class="dom">Nothing here yet.</li>';}
+ tabs.onclick=e=>{const k=e.target.dataset.k;if(k){cur=k;location.hash=k;draw()}};draw();});
+</script></body></html>
