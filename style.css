@@ -110,3 +110,14 @@ footer.brandfoot{margin-top:18px;text-align:center;color:var(--muted)}
 .brandfoot .handle{display:inline-flex;align-items:center;gap:6px;font:500 13px ui-monospace,monospace;color:var(--cobalt);margin:0}
 .sq.books{background:var(--terra)}
 ::selection{background:var(--sky)}
+/* coffee + socials */
+.coffee{display:flex;align-items:center;gap:16px;margin:24px 0 8px;padding:16px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.coffee .cup,.coffeeline .cup{color:var(--teal);flex:none}.coffee .ctext p{margin:0;font-size:14.5px;color:var(--ink)}
+.cbtn{flex:none;display:inline-block;font:500 13px Inter,sans-serif;padding:7px 14px;border-radius:999px;border:1px solid var(--cobalt);color:var(--cobalt)!important;white-space:nowrap}
+.cbtn:hover{background:var(--cobalt);color:#fff!important}
+.coffeeline{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:40px 0 0;color:var(--muted);font-size:14px}
+.socials{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:16px}.sbtn{display:inline-flex;align-items:center;gap:8px;color:var(--cobalt);border:1px solid var(--line);border-radius:999px;padding:7px 14px;font-size:13.5px;background:var(--card)}.sbtn:hover{border-color:var(--cobalt)}
+.xtl{max-width:100%;width:100%;max-width:550px;overflow:hidden;margin-bottom:24px}.xtl iframe{max-width:100%!important}
+.xtl>a.twitter-timeline{display:block;padding:14px 18px;border:1px dashed var(--line);border-radius:12px;color:var(--cobalt);font-size:14px}
+.socrow{display:flex;justify-content:center;gap:14px;margin:8px 0 0}.socrow a{color:var(--cobalt);opacity:.85}.socrow a:hover{opacity:1;color:var(--teal)}
+@media(max-width:600px){.coffee{flex-wrap:wrap}.coffee .ctext{flex:1 1 200px}}
