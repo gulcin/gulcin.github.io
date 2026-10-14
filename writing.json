@@ -1,0 +1,515 @@
+{
+  "items": [
+    {
+      "title": "Postgres week in the Netherlands: PGDay Lowlands & Percona Live 2026",
+      "url": "https://clickhouse.com/blog/postgres-week-in-the-netherlands-pgday-lowlands-percona-live-2026",
+      "publisher": "ClickHouse",
+      "date": "2026-09-18",
+      "coauthors": []
+    },
+    {
+      "title": "New system views in PostgreSQL 19",
+      "url": "https://clickhouse.com/blog/postgres-19-new-system-views",
+      "publisher": "ClickHouse",
+      "date": "2026-09-01",
+      "coauthors": []
+    },
+    {
+      "title": "Read your writes: WAIT FOR in PostgreSQL 19",
+      "url": "https://clickhouse.com/blog/postgresql-19-wait-for-read-your-writes",
+      "publisher": "ClickHouse",
+      "date": "2026-08-25",
+      "coauthors": []
+    },
+    {
+      "title": "What's New with Monitoring in PostgreSQL 19",
+      "url": "https://clickhouse.com/blog/postgres-19-monitoring-whats-new",
+      "publisher": "ClickHouse",
+      "date": "2026-08-18",
+      "coauthors": []
+    },
+    {
+      "title": "The Database of Intentions: Responsible AI, Hidden Costs and the Black Box We’re Building",
+      "url": "https://medium.com/@gulcinyildirim/the-database-of-intentions-responsible-ai-hidden-costs-and-the-black-box-were-building-946115d68209",
+      "publisher": "Medium",
+      "date": "2026-07-01",
+      "coauthors": []
+    },
+    {
+      "title": "PostgreSQL as a temporal database",
+      "url": "https://xata.io/blog/postgres-as-a-temporal-db",
+      "publisher": "Xata",
+      "date": "2026-06-30",
+      "coauthors": []
+    },
+    {
+      "title": "What you should know about constraints in PostgreSQL",
+      "url": "https://xata.io/blog/constraints-in-postgres",
+      "publisher": "Xata",
+      "date": "2025-12-10",
+      "coauthors": []
+    },
+    {
+      "title": "Movie Advent Calendar for Kids",
+      "url": "https://medium.com/@gulcinyildirim/movie-advent-calendar-for-kids-6a71292646a6",
+      "publisher": "Medium",
+      "date": "2025-12-04",
+      "coauthors": []
+    },
+    {
+      "title": "From DBA to DB Agents",
+      "url": "https://xata.io/blog/dba-to-db-agent",
+      "publisher": "Xata",
+      "date": "2025-09-03",
+      "coauthors": []
+    },
+    {
+      "title": "PGConf.EU Community Events Day: CfPs closing soon",
+      "url": "https://xata.io/blog/pgconfeu-community-events-day-cfps-closing-soon",
+      "publisher": "Xata",
+      "date": "2025-08-29",
+      "coauthors": []
+    },
+    {
+      "title": "Postgres in Malmö: Powered by Elly Phneah",
+      "url": "https://xata.io/blog/postgres-in-malmo",
+      "publisher": "Xata",
+      "date": "2025-08-08",
+      "coauthors": []
+    },
+    {
+      "title": "pgroll is on a roll! We hit 5k stars on Github",
+      "url": "https://xata.io/blog/pgroll-5k-stars-on-github",
+      "publisher": "Xata",
+      "date": "2025-07-18",
+      "coauthors": []
+    },
+    {
+      "title": "Xata Agent v0.3.1: Custom tools via MCP, Ollama integration, support for reasoning models & more",
+      "url": "https://xata.io/blog/xata-agent-v031",
+      "publisher": "Xata",
+      "date": "2025-05-21",
+      "coauthors": []
+    },
+    {
+      "title": "Highlights from PGConf.DE 2025",
+      "url": "https://xata.io/blog/highlights-from-pgconfde-2025",
+      "publisher": "Xata",
+      "date": "2025-05-20",
+      "coauthors": []
+    },
+    {
+      "title": "Xata Agent v0.2.0: Powered-up chat, custom playbooks, GCP support & more",
+      "url": "https://xata.io/blog/postgres-agent-0-2-0-update",
+      "publisher": "Xata",
+      "date": "2025-04-16",
+      "coauthors": []
+    },
+    {
+      "title": "Postgres Cafe: Building PostgreSQL extensions in Zig using pgzx",
+      "url": "https://xata.io/blog/postgres-cafe-pgzx",
+      "publisher": "Xata",
+      "date": "2025-02-12",
+      "coauthors": []
+    },
+    {
+      "title": "Anatomy of table-level locks: Reducing locking impact",
+      "url": "https://xata.io/blog/anatomy-of-locks-reduce",
+      "publisher": "Xata",
+      "date": "2025-01-20",
+      "coauthors": []
+    },
+    {
+      "title": "Postgres Cafe: Solving schema replication gaps with pgstream",
+      "url": "https://xata.io/blog/postgres-cafe-pgstream",
+      "publisher": "Xata",
+      "date": "2025-01-15",
+      "coauthors": []
+    },
+    {
+      "title": "Anatomy of Table-Level Locks in PostgreSQL",
+      "url": "https://xata.io/blog/anatomy-of-locks",
+      "publisher": "Xata",
+      "date": "2025-01-13",
+      "coauthors": []
+    },
+    {
+      "title": "Postgres Cafe: Exploring pgroll for zero-downtime schema changes",
+      "url": "https://xata.io/blog/postgres-cafe-pgroll",
+      "publisher": "Xata",
+      "date": "2024-12-18",
+      "coauthors": []
+    },
+    {
+      "title": "Is pg_dump a backup tool?",
+      "url": "https://xata.io/blog/postgresfm",
+      "publisher": "Xata",
+      "date": "2024-12-05",
+      "coauthors": []
+    },
+    {
+      "title": "Maintaining Postgres for Modern Workloads",
+      "url": "https://xata.io/blog/maintainable-postgres-podcast",
+      "publisher": "Xata",
+      "date": "2024-11-27",
+      "coauthors": []
+    },
+    {
+      "title": "Prague PostgreSQL Meetup on November 18th",
+      "url": "https://xata.io/blog/prague-postgres-meetup-november-2024",
+      "publisher": "Xata",
+      "date": "2024-11-17",
+      "coauthors": []
+    },
+    {
+      "title": "Recap of PGConf.EU 2024 in Athens",
+      "url": "https://xata.io/blog/pgconfeu-recap-2024",
+      "publisher": "Xata",
+      "date": "2024-11-15",
+      "coauthors": []
+    },
+    {
+      "title": "Prague PostgreSQL Meetup on October 29th",
+      "url": "https://xata.io/blog/prague-postgres-meetup-october-2024",
+      "publisher": "Xata",
+      "date": "2024-10-28",
+      "coauthors": []
+    },
+    {
+      "title": "What I look forward to at PGConf.EU in Athens",
+      "url": "https://xata.io/blog/pgconfeu-2024",
+      "publisher": "Xata",
+      "date": "2024-10-21",
+      "coauthors": []
+    },
+    {
+      "title": "What Is Retrieval-Augmented Generation (RAG)? (Build a RAG app with Postgres and pgvector)",
+      "url": "https://www.enterprisedb.com/blog/rag-app-postgres-and-pgvector",
+      "publisher": "EDB",
+      "date": "2024-10-08",
+      "coauthors": []
+    },
+    {
+      "title": "Recap of OSS Vienna: What is Happening in the Open Source World",
+      "url": "https://xata.io/blog/oss-vienna-recap",
+      "publisher": "Xata",
+      "date": "2024-10-04",
+      "coauthors": []
+    },
+    {
+      "title": "Prague PostgreSQL Meetup on September 30th",
+      "url": "https://xata.io/blog/prague-postgres-meetup-september-2024",
+      "publisher": "Xata",
+      "date": "2024-09-25",
+      "coauthors": []
+    },
+    {
+      "title": "Meet Xata at PGConf NYC 2024",
+      "url": "https://xata.io/blog/pgconf-nyc2024",
+      "publisher": "Xata",
+      "date": "2024-09-17",
+      "coauthors": []
+    },
+    {
+      "title": "Postgres Happy Hour with Xata at Open Source Summit Europe",
+      "url": "https://xata.io/blog/oss-vienna-happy-hour",
+      "publisher": "Xata",
+      "date": "2024-09-03",
+      "coauthors": []
+    },
+    {
+      "title": "If pg_dump is not a backup tool, what is?",
+      "url": "https://xata.io/blog/pgdump-is-not-a-backup-tool",
+      "publisher": "Xata",
+      "date": "2024-08-23",
+      "coauthors": []
+    },
+    {
+      "title": "Why you should upgrade PostgreSQL today",
+      "url": "https://xata.io/blog/cve-2024-7348-postgres-upgrade",
+      "publisher": "Xata",
+      "date": "2024-08-09",
+      "coauthors": []
+    },
+    {
+      "title": "Prague art diaries: CAMP and Planeta Praha exhibition",
+      "url": "https://medium.com/@gulcinyildirim/prague-art-diaries-camp-and-planeta-praha-exhibition-cf403d78781e",
+      "publisher": "Medium",
+      "date": "2024-06-10",
+      "coauthors": []
+    },
+    {
+      "title": "Prague art diaries: Galerie Rudolfinum and the UNEXPECTED exhibition",
+      "url": "https://medium.com/@gulcinyildirim/prague-art-diaries-galerie-rudolfinum-and-the-unexpected-exhibition-f43dbd1560b6",
+      "publisher": "Medium",
+      "date": "2024-06-09",
+      "coauthors": []
+    },
+    {
+      "title": "Transform Postgres into a Vector Database and Transform Your Business",
+      "url": "https://www.enterprisedb.com/blog/transform-postgres-vector-database-and-transform-your-business",
+      "publisher": "EDB",
+      "date": "2024-04-10",
+      "coauthors": []
+    },
+    {
+      "title": "The Builders Podcast Recap: Unlocking Postgres Power: A Deep Dive on Simplifying High Availability with Gianni Ciolli",
+      "url": "https://www.enterprisedb.com/blog/Builders-Podcast-Recap-Unlocking-Postgres-Power-Simplifying-High-Availability-Gianni-Ciolli",
+      "publisher": "EDB",
+      "date": "2024-02-20",
+      "coauthors": []
+    },
+    {
+      "title": "The Builders Podcast Recap: Transcending Tech Challenges and Driving Postgres Progress with Tomas Vondra",
+      "url": "https://www.enterprisedb.com/blog/Builders-Podcast-Recap-Transcending-Tech-Challenges-Driving-Postgres-Progress-Tomas-Vondra",
+      "publisher": "EDB",
+      "date": "2024-02-12",
+      "coauthors": []
+    },
+    {
+      "title": "How to perform Postgres schema changes in production with zero downtime",
+      "url": "https://xata.io/blog/zero-downtime-schema-migrations-postgresql",
+      "publisher": "Xata",
+      "date": "2024-02-02",
+      "coauthors": []
+    },
+    {
+      "title": "The Builders Podcast Recap: The Power of Postgres Today and Tomorrow with Peter Eisentraut",
+      "url": "https://www.enterprisedb.com/blog/Builders-Podcast-Power-Postgres-Today-Tomorrow-Peter-Eisentraut",
+      "publisher": "EDB",
+      "date": "2024-01-22",
+      "coauthors": []
+    },
+    {
+      "title": "Designing your database schema",
+      "url": "https://xata.io/blog/database-schema-design",
+      "publisher": "Xata",
+      "date": "2023-08-04",
+      "coauthors": []
+    },
+    {
+      "title": "Yazılımcı Kadınlar ve Kariyer Yolculukları – V",
+      "url": "https://www.kadinyazilimci.com/yazilimci-kadinlar-ve-kariyer-yolculuklari-v/",
+      "publisher": "Kadın Yazılımcı",
+      "date": "2020-08-11",
+      "coauthors": []
+    },
+    {
+      "title": "Yazılımcı Kadınlar ve Kariyer Yolculukları – IV",
+      "url": "https://www.kadinyazilimci.com/yazilimci-kadinlar-ve-kariyer-yolculuklari-iv/",
+      "publisher": "Kadın Yazılımcı",
+      "date": "2020-08-11",
+      "coauthors": []
+    },
+    {
+      "title": "Yazılımcı Kadınlar ve Kariyer Yolculukları – II",
+      "url": "https://www.kadinyazilimci.com/yazilimci-kadinlar-ve-kariyer-yolculuklari-ii/",
+      "publisher": "Kadın Yazılımcı",
+      "date": "2020-08-09",
+      "coauthors": []
+    },
+    {
+      "title": "Yazılımcı Kadınlar ve Kariyer Yolculukları",
+      "url": "https://www.kadinyazilimci.com/yazilimci-kadinlar-ve-kariyer-yolculuklari/",
+      "publisher": "Kadın Yazılımcı",
+      "date": "2020-08-08",
+      "coauthors": []
+    },
+    {
+      "title": "Baby-friendly Groups in Prague",
+      "url": "https://medium.com/@gulcinyildirim/baby-friendly-groups-in-prague-438a84de883b",
+      "publisher": "Medium",
+      "date": "2019-10-08",
+      "coauthors": []
+    },
+    {
+      "title": "Film Diary: Uncle Yanco (1967)",
+      "url": "https://medium.com/@gulcinyildirim/film-diary-uncle-yanco-1967-6aa4a25037d1",
+      "publisher": "Medium",
+      "date": "2019-04-08",
+      "coauthors": []
+    },
+    {
+      "title": "Russian Red (2016)",
+      "url": "https://medium.com/@gulcinyildirim/russian-red-2016-36ff6d2d2035",
+      "publisher": "Medium",
+      "date": "2019-02-06",
+      "coauthors": []
+    },
+    {
+      "title": "Near-Zero Downtime Automated Upgrades of PostgreSQL Clusters in Cloud (Part II)",
+      "url": "https://www.enterprisedb.com/blog/near-zero-downtime-automated-upgrades-postgresql-clusters-cloud-part-ii",
+      "publisher": "2ndQuadrant",
+      "date": "2018-04-30",
+      "coauthors": []
+    },
+    {
+      "title": "Discover Prague: Coffee House (or Coffee Source)",
+      "url": "https://medium.com/@gulcinyildirim/discover-prague-coffee-house-or-coffee-source-c19c45b25f0f",
+      "publisher": "Medium",
+      "date": "2018-04-20",
+      "coauthors": []
+    },
+    {
+      "title": "Visit Prague: What to do, where to go?",
+      "url": "https://medium.com/@gulcinyildirim/visit-prague-what-to-do-where-to-go-b198ef9c088c",
+      "publisher": "Medium",
+      "date": "2018-04-13",
+      "coauthors": []
+    },
+    {
+      "title": "Near-Zero Downtime Automated Upgrades of PostgreSQL Clusters in Cloud (Part I)",
+      "url": "https://www.enterprisedb.com/blog/near-zero-downtime-automated-upgrades-postgresql-clusters-cloud-part-i",
+      "publisher": "2ndQuadrant",
+      "date": "2018-03-23",
+      "coauthors": []
+    },
+    {
+      "title": "Prague PostgreSQL Meetup",
+      "url": "https://www.enterprisedb.com/blog/prague-postgresql-meetup",
+      "publisher": "2ndQuadrant",
+      "date": "2018-03-22",
+      "coauthors": []
+    },
+    {
+      "title": "Evolution of Fault Tolerance in PostgreSQL: Synchronous Commit",
+      "url": "https://www.enterprisedb.com/blog/evolution-fault-tolerance-postgresql-synchronous-commit",
+      "publisher": "2ndQuadrant",
+      "date": "2016-08-17",
+      "coauthors": []
+    },
+    {
+      "title": "Evolution of Fault Tolerance in PostgreSQL: Time Travel",
+      "url": "https://www.enterprisedb.com/blog/evolution-fault-tolerance-postgresql-time-travel",
+      "publisher": "2ndQuadrant",
+      "date": "2016-07-21",
+      "coauthors": []
+    },
+    {
+      "title": "Evolution of Fault Tolerance in PostgreSQL: Replication Phase",
+      "url": "https://www.enterprisedb.com/blog/evolution-fault-tolerance-postgresql-replication-phase",
+      "publisher": "2ndQuadrant",
+      "date": "2016-07-11",
+      "coauthors": []
+    },
+    {
+      "title": "Evolution of Fault Tolerance in PostgreSQL",
+      "url": "https://www.enterprisedb.com/blog/evolution-fault-tolerance-postgresql",
+      "publisher": "2ndQuadrant",
+      "date": "2016-07-04",
+      "coauthors": []
+    },
+    {
+      "title": "Are we ready for Nordic PGDay?",
+      "url": "https://www.enterprisedb.com/blog/are-we-ready-nordic-pgday",
+      "publisher": "2ndQuadrant",
+      "date": "2016-02-25",
+      "coauthors": []
+    },
+    {
+      "title": "FLOSS UK Spring Conference",
+      "url": "https://www.enterprisedb.com/blog/floss-uk-spring-conference",
+      "publisher": "2ndQuadrant",
+      "date": "2016-02-22",
+      "coauthors": []
+    },
+    {
+      "title": "Prague PostgreSQL Developer Day 2016",
+      "url": "https://www.enterprisedb.com/blog/prague-postgresql-developer-day-2016",
+      "publisher": "2ndQuadrant",
+      "date": "2016-02-08",
+      "coauthors": []
+    },
+    {
+      "title": "PgBouncer 1.7 – “Colors Vary After Resurrection”",
+      "url": "https://www.enterprisedb.com/blog/pgbouncer-17-colors-vary-after-resurrection",
+      "publisher": "2ndQuadrant",
+      "date": "2016-02-03",
+      "coauthors": []
+    },
+    {
+      "title": "PostgreSQL Planet in Ansible Galaxy",
+      "url": "https://www.enterprisedb.com/blog/postgresql-planet-ansible-galaxy",
+      "publisher": "2ndQuadrant",
+      "date": "2016-01-27",
+      "coauthors": []
+    },
+    {
+      "title": "Ansible Loves PostgreSQL",
+      "url": "https://www.enterprisedb.com/blog/ansible-loves-postgresql",
+      "publisher": "2ndQuadrant",
+      "date": "2015-10-19",
+      "coauthors": []
+    },
+    {
+      "title": "Tablesample and Other Methods for Getting Random Tuples",
+      "url": "https://www.enterprisedb.com/blog/tablesample-and-other-methods-getting-random-tuples",
+      "publisher": "2ndQuadrant",
+      "date": "2015-09-20",
+      "coauthors": []
+    },
+    {
+      "title": "What's new in PgBouncer 1.6",
+      "url": "https://www.enterprisedb.com/blog/whats-new-pgbouncer-16",
+      "publisher": "2ndQuadrant",
+      "date": "2015-08-23",
+      "coauthors": []
+    },
+    {
+      "title": "Tablesample In PostgreSQL 9.5",
+      "url": "https://www.enterprisedb.com/blog/tablesample-postgresql-95",
+      "publisher": "2ndQuadrant",
+      "date": "2015-08-07",
+      "coauthors": []
+    },
+    {
+      "title": "Sezonu Android Atölyesi ile açıyoruz!",
+      "url": "https://www.kadinyazilimci.com/sezonu-android-atolyesi-ile-aciyoruz/",
+      "publisher": "Kadın Yazılımcı",
+      "date": "2014-09-12",
+      "coauthors": []
+    },
+    {
+      "title": "PostgreSQL’de Replika Sunucunun Ana Sunucuya Terfi Ettirilmesi",
+      "url": "https://www.kadinyazilimci.com/postgresqlde-replika-sunucunun-ana-sunucuya-terfi-ettirilmesi/",
+      "publisher": "Kadın Yazılımcı",
+      "date": "2014-08-18",
+      "coauthors": []
+    },
+    {
+      "title": "Özgür Yazılım ve Linux Günleri 2014 için geri sayım başladı!",
+      "url": "https://www.kadinyazilimci.com/ozgur-yazilim-ve-linux-gunleri-2014-icin-geri-sayim-basladi/",
+      "publisher": "Kadın Yazılımcı",
+      "date": "2014-03-27",
+      "coauthors": []
+    },
+    {
+      "title": "Bir DevFest Women Hatırası",
+      "url": "https://www.kadinyazilimci.com/bir-devfest-women-hatirasi/",
+      "publisher": "Kadın Yazılımcı",
+      "date": "2014-03-16",
+      "coauthors": []
+    },
+    {
+      "title": "PostgreSQL sorgularını explain analyze ile incelemek",
+      "url": "https://www.kadinyazilimci.com/postgresql-sorgularini-explain-analyze-ile-incelemek/",
+      "publisher": "Kadın Yazılımcı",
+      "date": "2014-02-24",
+      "coauthors": []
+    },
+    {
+      "title": "Linux Bellek Kullanımı Kontrolü",
+      "url": "https://www.kadinyazilimci.com/linux-bellek-kullanimi-kontrolu/",
+      "publisher": "Kadın Yazılımcı",
+      "date": "2014-02-24",
+      "coauthors": []
+    },
+    {
+      "title": "DevFest Women’da konuşmacı olmak ister misiniz?",
+      "url": "https://www.kadinyazilimci.com/devfest-womenda-konusmaci-olmak-ister-misiniz/",
+      "publisher": "Kadın Yazılımcı",
+      "date": "2014-02-08",
+      "coauthors": []
+    }
+  ]
+}

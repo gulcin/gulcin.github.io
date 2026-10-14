@@ -1,0 +1,164 @@
+{
+ "items": [
+  {
+   "title": "PostgreSQL on Kubernetes Summit — PGConf.EU 2026",
+   "url": "https://www.postgresql.eu/events/pgconfeu2026/schedule/session/8553-postgresql-on-kubernetes-summit/",
+   "publisher": "PostgreSQL Europe (PGConf.EU)",
+   "date": "2026-10-23",
+   "kind": "speaker-page",
+   "context": "Co-hosts the community-day summit with Floor Drees"
+  },
+  {
+   "title": "Schedule - Gülçin Yıldırım Jelinek — PostgreSQL Conference Europe 2026",
+   "url": "https://www.postgresql.eu/events/pgconfeu2026/schedule/speaker/281-gulcin-yldrm-jelinek/",
+   "publisher": "PostgreSQL Europe (PGConf.EU)",
+   "date": "2026-10-20",
+   "kind": "speaker-page",
+   "context": "PGConf.EU 2026 Valencia speaker profile (ClickHouse)"
+  },
+  {
+   "title": "What’s New with Monitoring in PostgreSQL 19 — PGConf.EU 2026",
+   "url": "https://www.postgresql.eu/events/pgconfeu2026/schedule/session/8182-whats-new-with-monitoring-in-postgresql-19/",
+   "publisher": "PostgreSQL Europe (PGConf.EU)",
+   "date": "2026-10-20",
+   "kind": "speaker-page",
+   "context": "Her PGConf.EU 2026 session on PG19 monitoring"
+  },
+  {
+   "title": "What’s New with Monitoring in PostgreSQL 19 | Percona Live 2026",
+   "url": "https://perconalive.com/2026-amsterdam/talks/whats-new-with-monitoring-in-postgresql-19/",
+   "publisher": "Percona Live",
+   "date": "2026-09-11",
+   "kind": "speaker-page",
+   "context": "Percona Live Amsterdam 2026 talk page"
+  },
+  {
+   "title": "Schedule - Gülçin Yıldırım Jelinek — PGDay Lowlands 2026",
+   "url": "https://www.postgresql.eu/events/pgdaynl2026/schedule/speaker/281-gulcin-yldrm-jelinek/",
+   "publisher": "PostgreSQL Europe (PGDay Lowlands)",
+   "date": "2026-09-10",
+   "kind": "speaker-page",
+   "context": "PGDay Lowlands 2026 speaker (lightning talk, Utrecht)"
+  },
+  {
+   "title": "Gülçin Yıldırım Jelinek – Berlin Buzzwords",
+   "url": "https://2026.berlinbuzzwords.de/speaker/gulcin-yildirim-jelinek/",
+   "publisher": "Berlin Buzzwords",
+   "date": "2026-06-09",
+   "kind": "speaker-page",
+   "context": "Talk on Postgres constraints and what's new in PG18"
+  },
+  {
+   "title": "Speaker: Gülçin Yıldırım Jelínek | POSETTE 2026",
+   "url": "https://posetteconf.com/speakers/gulcin-yildirim-jelinek/",
+   "publisher": "POSETTE (Microsoft)",
+   "date": "2026",
+   "kind": "speaker-page",
+   "context": "POSETTE 2026 speaker: constraints in Postgres 18"
+  },
+  {
+   "title": "POSETTE: An Event for Postgres 2026 – Livestream 2",
+   "url": "https://developer.microsoft.com/zh-tw/reactor/events/26854/",
+   "publisher": "Microsoft Reactor",
+   "date": "2026",
+   "kind": "speaker-page",
+   "context": "Livestream agenda lists her PG18 constraints talk"
+  },
+  {
+   "title": "What you should know about constraints in PostgreSQL (and what's new in 18) - P2D2 2026",
+   "url": "https://p2d2.cz/en/talks/what_you_should_know_about_constraints_in_postgresql_and_whats_new_in_18/",
+   "publisher": "Prague PostgreSQL Developer Day",
+   "date": "2026",
+   "kind": "speaker-page",
+   "context": "P2D2 2026 talk page"
+  },
+  {
+   "title": "Gulcin Yildirim Jelinek - Postgres Women India",
+   "url": "https://postgreswomen.in/gulcin-yildirim-jelinek/",
+   "publisher": "Postgres Women India",
+   "date": "2025-09-11",
+   "kind": "other",
+   "context": "Profile/feature page on her"
+  },
+  {
+   "title": "FOSDEM 2025 - Gulcin Yildirim Jelinek",
+   "url": "https://archive.fosdem.org/2025/schedule/speaker/gulcin_yildirim_jelinek/",
+   "publisher": "FOSDEM",
+   "date": "2025-02-02",
+   "kind": "speaker-page",
+   "context": "Talk: Anatomy of Table-Level Locks in PostgreSQL"
+  },
+  {
+   "title": "Schedule - Gülçin Yıldırım Jelinek — PGDay Lowlands 2025",
+   "url": "https://www.postgresql.eu/events/pgdaynl2025/schedule/speaker/281-gulcin-yldrm-jelinek/",
+   "publisher": "PostgreSQL Europe (PGDay Lowlands)",
+   "date": "2025",
+   "kind": "speaker-page",
+   "context": "PGDay Lowlands 2025 speaker profile"
+  },
+  {
+   "title": "Postgres FM | Is pg_dump a backup tool?",
+   "url": "https://postgres.fm/episodes/is-pg_dump-a-backup-tool",
+   "publisher": "Postgres FM",
+   "date": "2024-11-22",
+   "kind": "interview",
+   "context": "Podcast guest with Robert Haas"
+  },
+  {
+   "title": "Postgres FM | Gülçin Yıldırım Jelínek",
+   "url": "https://postgres.fm/people/gulcin-yildirim-jelinek",
+   "publisher": "Postgres FM",
+   "date": "2024-11-22",
+   "kind": "other",
+   "context": "Guest profile page"
+  },
+  {
+   "title": "Gulcin Yildirim Jelinek: Maintaining Postgres for Modern Workloads",
+   "url": "https://maintainable.fm/episodes/gulcin-yildirim-jelinek-maintaining-postgres-for-modern-workloads",
+   "publisher": "Maintainable Software Podcast",
+   "date": "2024-11-19",
+   "kind": "interview",
+   "context": "EP-191 podcast interview by Robby Russell"
+  },
+  {
+   "title": "Diva Konferansı konuşmacısı: Gülçin Yıldırım Jelinek",
+   "url": "https://2024.divaconf.com/speaker/gulcin-yildirim-jelinek",
+   "publisher": "Diva Conference",
+   "date": "2024",
+   "kind": "speaker-page",
+   "context": "Closing keynote on RAG (Turkish)"
+  },
+  {
+   "title": "Schedule - Nordic PGDay 2024 - Gülçin Yildirim Jelinek",
+   "url": "https://www.postgresql.eu/events/nordicpgday2024/schedule/speaker/1061-gulcin-yildirim-jelinek/",
+   "publisher": "PostgreSQL Europe (Nordic PGDay)",
+   "date": "2024",
+   "kind": "speaker-page",
+   "context": "Nordic PGDay 2024 speaker profile (EDB)"
+  },
+  {
+   "title": "EDB is ready for Valencia: meet the team at PGConf.EU 2026",
+   "url": "https://www.enterprisedb.com/blog/edb-ready-valencia-meet-team-pgconf-eu-2026-0",
+   "publisher": "EDB",
+   "date": "",
+   "kind": "blog",
+   "context": "EDB's PGConf.EU 2026 team post that names her"
+  },
+  {
+   "title": "Transform Postgres into a Vector Database and Transform Your Business",
+   "url": "https://www.enterprisedb.com/blog/transform-postgres-vector-database-and-transform-your-business",
+   "publisher": "EDB",
+   "date": "",
+   "kind": "interview",
+   "context": "EDB Q&A with her on pgvector"
+  },
+  {
+   "title": "PostgreSQL: Contributor Profiles",
+   "url": "https://www.postgresql.org/community/contributors/",
+   "publisher": "PostgreSQL.org",
+   "date": "",
+   "kind": "other",
+   "context": "Listed as a recognized PostgreSQL contributor"
+  }
+ ]
+}

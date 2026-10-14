@@ -28,7 +28,7 @@ jobs:
       - name: Assemble site
         run: |
           mkdir _site
-          cp index.html list.html stats.html books.html style.css data.json books.json _site/
+          cp index.html list.html stats.html books.html writing.html style.css data.json books.json writing.json videos.json mentions.json _site/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

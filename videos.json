@@ -1,0 +1,264 @@
+{
+ "items": [
+  {
+   "title": "What’s New with Monitoring in PostgreSQL 19 - Gülcin Yildirim Jelínek, Clickhouse",
+   "url": "https://www.youtube.com/watch?v=Xt9P07k0R-0",
+   "video_id": "Xt9P07k0R-0",
+   "channel": "Percona",
+   "event": "Percona Live 2026",
+   "kind": "talk",
+   "date": "2026-09-30",
+   "thumbnail": "https://i.ytimg.com/vi/Xt9P07k0R-0/hqdefault.jpg"
+  },
+  {
+   "title": "Lightning Talks PGDay Lowlands 2026",
+   "url": "https://www.youtube.com/watch?v=QgENM59SY6A",
+   "video_id": "QgENM59SY6A",
+   "channel": "PGDay Lowlands",
+   "event": "PGDay Lowlands 2026",
+   "kind": "talk",
+   "date": "2026-09-28",
+   "thumbnail": "https://i.ytimg.com/vi/QgENM59SY6A/hqdefault.jpg"
+  },
+  {
+   "title": "What you should know about constraints in PostgreSQL / Gulcin Yildirim Jelinek",
+   "url": "https://www.youtube.com/watch?v=rkDsw6DgdCo",
+   "video_id": "rkDsw6DgdCo",
+   "channel": "CSPUG",
+   "event": "P2D2 2026",
+   "kind": "talk",
+   "date": "2026-06-29",
+   "thumbnail": "https://i.ytimg.com/vi/rkDsw6DgdCo/hqdefault.jpg"
+  },
+  {
+   "title": "What's new with constraints in Postgres 18 | POSETTE: An Event for Postgres 2026",
+   "url": "https://www.youtube.com/watch?v=9e-_FaWmJn4",
+   "video_id": "9e-_FaWmJn4",
+   "channel": "Microsoft Developer",
+   "event": "POSETTE 2026",
+   "kind": "talk",
+   "date": "2026-06-17",
+   "thumbnail": "https://i.ytimg.com/vi/9e-_FaWmJn4/hqdefault.jpg"
+  },
+  {
+   "title": "Gülçin Yıldırım Jelinek – What you should know about constraints in PostgreSQL 18 #bbuzz",
+   "url": "https://www.youtube.com/watch?v=ff6aUt6W14E",
+   "video_id": "ff6aUt6W14E",
+   "channel": "Plain Schwarz",
+   "event": "Berlin Buzzwords 2026",
+   "kind": "talk",
+   "date": "2026-06-10",
+   "thumbnail": "https://i.ytimg.com/vi/ff6aUt6W14E/hqdefault.jpg"
+  },
+  {
+   "title": "Anatomy of Table-Level Locks in PostgreSQL - Gülçin Yıldırım Jelinek",
+   "url": "https://www.youtube.com/watch?v=uY5tFCzNWSs",
+   "video_id": "uY5tFCzNWSs",
+   "channel": "PostgreSQL Europe",
+   "event": "PGConf.EU 2025",
+   "kind": "talk",
+   "date": "2026-02-20",
+   "thumbnail": "https://i.ytimg.com/vi/uY5tFCzNWSs/hqdefault.jpg"
+  },
+  {
+   "title": "Anatomy of Table-Level Locks in PostgreSQL - Gülçin Yıldırım Jelinek",
+   "url": "https://www.youtube.com/watch?v=2Zsjn47a7b8",
+   "video_id": "2Zsjn47a7b8",
+   "channel": "PGDay Lowlands",
+   "event": "PGDay Lowlands 2025",
+   "kind": "talk",
+   "date": "2025-12-14",
+   "thumbnail": "https://i.ytimg.com/vi/2Zsjn47a7b8/hqdefault.jpg"
+  },
+  {
+   "title": "PG Day France 2025 - 6 - Gulcin Yildirim JELINEK (Xata) - Anatomy of table level locks in Postgresql",
+   "url": "https://www.youtube.com/watch?v=DLwGuv1QVQU",
+   "video_id": "DLwGuv1QVQU",
+   "channel": "Communauté Francophone de PostgreSQL",
+   "event": "PG Day France 2025",
+   "kind": "talk",
+   "date": "2025-06-25",
+   "thumbnail": "https://i.ytimg.com/vi/DLwGuv1QVQU/hqdefault.jpg"
+  },
+  {
+   "title": "Gülçin Yıldırım Jelinek – Anatomy of Table-Level Locks in PostgreSQL #bbuzz",
+   "url": "https://www.youtube.com/watch?v=iiaLohVOjfo",
+   "video_id": "iiaLohVOjfo",
+   "channel": "Plain Schwarz",
+   "event": "Berlin Buzzwords 2025",
+   "kind": "talk",
+   "date": "2025-06-17",
+   "thumbnail": "https://i.ytimg.com/vi/iiaLohVOjfo/hqdefault.jpg"
+  },
+  {
+   "title": "Gülçin Yıldırım Jelinek - RAG Anatomi: Postgres ve pgvector kullanarak sıfırdan bir RAG  #diveintoai",
+   "url": "https://www.youtube.com/watch?v=NQkHOw4mvgU",
+   "video_id": "NQkHOw4mvgU",
+   "channel": "Diva: Dive Into AI",
+   "event": "Dive Into AI",
+   "kind": "talk",
+   "date": "2025-06-10",
+   "thumbnail": "https://i.ytimg.com/vi/NQkHOw4mvgU/hqdefault.jpg"
+  },
+  {
+   "title": "Anatomy of Table-Level Locks in PostgreSQL / Gulcin Yildirim Jelinek (xata.io)",
+   "url": "https://www.youtube.com/watch?v=kKNZsGezZ4g",
+   "video_id": "kKNZsGezZ4g",
+   "channel": "CSPUG",
+   "event": "P2D2 2025",
+   "kind": "talk",
+   "date": "2025-04-07",
+   "thumbnail": "https://i.ytimg.com/vi/kKNZsGezZ4g/hqdefault.jpg"
+  },
+  {
+   "title": "Gulcin Yildirim Jelinek: Maintaining Postgres for Modern Workloads",
+   "url": "https://www.youtube.com/watch?v=4dqkC5oS_go",
+   "video_id": "4dqkC5oS_go",
+   "channel": "Planet Argon",
+   "event": "Planet Argon (Maintainable podcast)",
+   "kind": "podcast",
+   "date": "2024-11-19",
+   "thumbnail": "https://i.ytimg.com/vi/4dqkC5oS_go/hqdefault.jpg"
+  },
+  {
+   "title": "S1E8 - Gülçin Yıldırım Jelinek - DevOps Mühendisi - EDB - Prag",
+   "url": "https://www.youtube.com/watch?v=XcLwW--Atuk",
+   "video_id": "XcLwW--Atuk",
+   "channel": "Bilge Ince",
+   "event": null,
+   "kind": "interview",
+   "date": "2024-08-06",
+   "thumbnail": "https://i.ytimg.com/vi/XcLwW--Atuk/hqdefault.jpg"
+  },
+  {
+   "title": "RAG app with Postgres and pgvector",
+   "url": "https://www.youtube.com/watch?v=rit8PLgR-30",
+   "video_id": "rit8PLgR-30",
+   "channel": "Gülçin Yıldırım Jelinek",
+   "event": null,
+   "kind": "talk",
+   "date": "2024-05-27",
+   "thumbnail": "https://i.ytimg.com/vi/rit8PLgR-30/hqdefault.jpg"
+  },
+  {
+   "title": "GoKonf 2024 | Pgvector ile PostgreSQL’e Vektör Yetenekleri Getirmek - Gülçin Yıldırım Jelinek",
+   "url": "https://www.youtube.com/watch?v=2Tex_kkWk8c",
+   "video_id": "2Tex_kkWk8c",
+   "channel": "İstanbul Gophers Topluluğu",
+   "event": "GoKonf 2024",
+   "kind": "talk",
+   "date": "2024-02-23",
+   "thumbnail": "https://i.ytimg.com/vi/2Tex_kkWk8c/hqdefault.jpg"
+  },
+  {
+   "title": "Ep. 3: Unlocking Postgres Power: A Deep Dive on Simplifying High Availability, with Gianni Ciolli",
+   "url": "https://www.youtube.com/watch?v=7vAfKjqjFfI",
+   "video_id": "7vAfKjqjFfI",
+   "channel": "EDB",
+   "event": "The Builders: A Postgres Podcast (EDB)",
+   "kind": "podcast",
+   "date": "2024-02-02",
+   "thumbnail": "https://i.ytimg.com/vi/7vAfKjqjFfI/hqdefault.jpg"
+  },
+  {
+   "title": "Ep. 2: Transcending Tech Challenges and Driving Postgres Progress, with Tomas Vondra",
+   "url": "https://www.youtube.com/watch?v=Tbae875xATA",
+   "video_id": "Tbae875xATA",
+   "channel": "EDB",
+   "event": "The Builders: A Postgres Podcast (EDB)",
+   "kind": "podcast",
+   "date": "2024-01-31",
+   "thumbnail": "https://i.ytimg.com/vi/Tbae875xATA/hqdefault.jpg"
+  },
+  {
+   "title": "Ep. 1: The Power of Postgres Today and Tomorrow, with Peter Eisentraut",
+   "url": "https://www.youtube.com/watch?v=LTbIpAQ-fWs",
+   "video_id": "LTbIpAQ-fWs",
+   "channel": "EDB",
+   "event": "The Builders: A Postgres Podcast (EDB)",
+   "kind": "podcast",
+   "date": "2024-01-31",
+   "thumbnail": "https://i.ytimg.com/vi/LTbIpAQ-fWs/hqdefault.jpg"
+  },
+  {
+   "title": "Teknik: Gülçin Yıldırım Jelinek ile Veri Tabanı Yöneticiliği ve DevOps",
+   "url": "https://www.youtube.com/watch?v=zba-OrzZIdI",
+   "video_id": "zba-OrzZIdI",
+   "channel": "Üretim Bandı",
+   "event": "Üretim Bandı",
+   "kind": "interview",
+   "date": "2023-12-21",
+   "thumbnail": "https://i.ytimg.com/vi/zba-OrzZIdI/hqdefault.jpg"
+  },
+  {
+   "title": "Teknik: Gülçin Yıldırım Jelinek ile Veri Tabanı Yöneticiliği ve DevOps",
+   "url": "https://www.youtube.com/watch?v=txf6_m7Xu6w",
+   "video_id": "txf6_m7Xu6w",
+   "channel": "Girisimci Muhabbeti",
+   "event": "Girişimci Muhabbeti",
+   "kind": "interview",
+   "date": "2021-07-26",
+   "thumbnail": "https://i.ytimg.com/vi/txf6_m7Xu6w/hqdefault.jpg"
+  },
+  {
+   "title": "İlham Veren Kadınlar Canlı Yayın Serisi #6 | Gülçin Yıldırım Jelinek - DevOps ve Otomasyon Mühendisi",
+   "url": "https://www.youtube.com/watch?v=CYLn9zmAih4",
+   "video_id": "CYLn9zmAih4",
+   "channel": "SistersLab | Bilim ve Teknolojide Kadın Derneği",
+   "event": "SistersLab İlham Veren Kadınlar",
+   "kind": "interview",
+   "date": "2021-07-25",
+   "thumbnail": "https://i.ytimg.com/vi/CYLn9zmAih4/hqdefault.jpg"
+  },
+  {
+   "title": "Kadın Geliştiriciler | Gülçin Yıldırım Jelinek",
+   "url": "https://www.youtube.com/watch?v=UUHnzdCYfNA",
+   "video_id": "UUHnzdCYfNA",
+   "channel": "Google Developer Groups Elazığ",
+   "event": "GDG Elazığ",
+   "kind": "talk",
+   "date": "2021-02-27",
+   "thumbnail": "https://i.ytimg.com/vi/UUHnzdCYfNA/hqdefault.jpg"
+  },
+  {
+   "title": "Mezunlarla Sohbetler 5 - Gülçin Yıldırım Jelínek - Matematik Mühendisliği, DevOps ve daha fazlası",
+   "url": "https://www.youtube.com/watch?v=J0OylRW4Q8U",
+   "video_id": "J0OylRW4Q8U",
+   "channel": "Maki's Diary",
+   "event": "Mezunlarla Sohbetler",
+   "kind": "interview",
+   "date": "2020-08-11",
+   "thumbnail": "https://i.ytimg.com/vi/J0OylRW4Q8U/hqdefault.jpg"
+  },
+  {
+   "title": "PG Day'17 Russia. Automated upgrades of PostgreSQL clusters in cloud. Gulcin Yildirim (2ndQuadrant)",
+   "url": "https://www.youtube.com/watch?v=5axIxH7JRbA",
+   "video_id": "5axIxH7JRbA",
+   "channel": "PG Day Russia",
+   "event": "PGDay Russia 2017",
+   "kind": "talk",
+   "date": "2020-06-25",
+   "thumbnail": "https://i.ytimg.com/vi/5axIxH7JRbA/hqdefault.jpg"
+  },
+  {
+   "title": "PGDay.IT 2018 -  Keynote - Gülçin Yıldırım Jelínek",
+   "url": "https://www.youtube.com/watch?v=uV5MtA_CBls",
+   "video_id": "uV5MtA_CBls",
+   "channel": "ITPUG Italian PostgreSQL Users Group",
+   "event": "PGDay.IT 2018",
+   "kind": "talk",
+   "date": "2018-07-20",
+   "thumbnail": "https://i.ytimg.com/vi/uV5MtA_CBls/hqdefault.jpg"
+  },
+  {
+   "title": "WTM Sivas 2015 - Kadın Yazılımcı Oluşumu - Gülçin Yıldırım",
+   "url": "https://www.youtube.com/watch?v=KYQndgaLgQk",
+   "video_id": "KYQndgaLgQk",
+   "channel": "Gülçin Yıldırım Jelinek",
+   "event": "WTM Sivas 2015",
+   "kind": "talk",
+   "date": "2015-03-24",
+   "thumbnail": "https://i.ytimg.com/vi/KYQndgaLgQk/hqdefault.jpg"
+  }
+ ]
+}
