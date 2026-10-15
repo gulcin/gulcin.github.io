@@ -18,7 +18,7 @@ fetch("books.json").then(r=>r.json()).then(({books})=>{
  const ys=Object.keys(by).sort(),y0=+ys[0]||+Y,all=[];for(let y=y0;y<=+Y;y++)all.push(String(y));const mx=Math.max(1,...all.map(y=>(by[y]||[]).length));
  document.getElementById("bars").innerHTML=all.map(y=>{const n=(by[y]||[]).length;return`<div><span>${n||""}</span><i style="height:${n/mx*100}%"></i></div>`}).join("");
  document.getElementById("blab").innerHTML=all.map(y=>`<span>'${y.slice(2)}</span>`).join("");
- document.getElementById("cur").innerHTML=cur.map(b=>`<a href="${esc(b.url)}" target="_blank" rel="noopener">${b.cover?`<img src="${esc(b.cover)}" alt="" loading="lazy">`:'<div class="ph"></div>'}<div class="t">${esc(b.title)}</div><div class="dom">${esc(b.domain)}</div></a>`).join("")||'<p class="dom">Nothing right now.</p>';
+ document.getElementById("cur").innerHTML=cur.map(b=>`<a href="${esc(b.url)}" target="_blank" rel="noopener">${b.cover?`<img src="${esc(b.cover)}" alt="${esc('Cover of '+b.title+(b.domain?' by '+b.domain:''))}" loading="lazy">`:'<div class="ph"></div>'}<div class="t">${esc(b.title)}</div><div class="dom">${esc(b.domain)}</div></a>`).join("")||'<p class="dom">Nothing right now.</p>';
  const li=(b,d)=>`<li><a href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.title)}</a><span class="dom">${esc(b.domain)}${d?" · "+fmt(b.read_at):""}</span></li>`;
  const grp=(t,xs,d)=>`<div class="yr"><h2>${t}</h2><span class="lab">${xs.length} books</span></div><div class="box"><ul class="list">${xs.map(b=>li(b,d)).join("")}</ul></div>`;
  document.getElementById("years").innerHTML=ys.slice().reverse().map(y=>grp(y,by[y],1)).join("")+(und.length?grp("Undated",und,0):"");
