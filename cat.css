@@ -1,32 +1,46 @@
-/* Dusty, the Books-page cat. Kept in sync with <style id="dusty-css"> in books.html. */
-.dusty-shelf{display:flex;align-items:flex-start;gap:8px 18px}
-.dusty-shelf .reading{flex:1 1 auto;min-width:0}
-#petcat{flex:0 0 132px;width:132px;margin:4px 0 0;padding:0;border:0;background:transparent;cursor:pointer;line-height:0;position:relative}
-#petcat svg{display:block;width:100%;height:auto;overflow:visible}
-#petcat:focus-visible{outline:2px solid #1F3F8F;outline-offset:4px;border-radius:18px}
-#petcat .costume,#petcat .eye-happy{display:none}
-#petcat.is-pet .eye-open{display:none}
-#petcat.is-pet .eye-happy{display:inline}
-#petcat[data-season="halloween"] .costume-halloween,#petcat[data-season="winter"] .costume-winter{display:inline}
-#petcat .purr-mark{opacity:0}
-#petcat.is-pet .purr-mark{opacity:1}
-.dusty-sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
-@media (prefers-reduced-motion:no-preference){
-  #petcat svg{transform-origin:50% 90%;transition:transform .35s ease}
-  #petcat:hover svg{transform:translateY(-2px)}
-  #petcat.is-pet svg{transform:translateY(3px) scale(1.03,.96)}
-  #petcat.is-pet .purr-mark{animation:dusty-purr .85s ease}
+/* Dusty — sleeping tabby on the Currently reading shelf */
+.curshelf{position:relative}
+.curshelf .curhd h2{margin:40px 0 0}
+.shelf{position:relative}
+.shelf .reading{position:relative;z-index:1}
+
+button.petcat{
+  position:relative;z-index:2;
+  display:block;width:min(500px,74%);
+  margin:0 0 -9% auto;
+  padding:0;border:0;background:transparent;cursor:pointer;
+  touch-action:manipulation;appearance:none;-webkit-appearance:none;
+  user-select:none;line-height:0;border-radius:12px;overflow:visible;
 }
-@keyframes dusty-purr{
-  0%{opacity:0;transform:translateY(6px)}
-  30%{opacity:1;transform:translateY(0)}
-  100%{opacity:0;transform:translateY(-12px)}
+button.petcat:focus{outline:none}
+button.petcat:focus-visible{outline:2px solid #2F7F73;outline-offset:4px}
+.petcat .dusty-svg{width:100%;height:auto;display:block;overflow:visible;max-width:none}
+.petcat .costume-part{opacity:0}
+.petcat[data-season="halloween"] .costume-halloween{opacity:1}
+.petcat[data-season="winter"] .costume-winter{opacity:1}
+.sr-dusty{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+.petcat .dusty-torso{transform-box:view-box;transform-origin:380px 200px}
+.petcat .dusty-head{transform-box:view-box;transform-origin:530px 230px}
+.petcat .ear-l,.petcat .ear-r{transform-box:fill-box;transform-origin:50% 92%}
+.petcat .dusty-paw-stretch{transform-box:view-box;transform-origin:490px 250px}
+.petcat .dusty-tail{transform-box:view-box;transform-origin:168px 196px}
+.petcat .toes .toe{transform-box:fill-box;transform-origin:50% 70%}
+.petcat .hearts .heart{transform-box:fill-box;transform-origin:50% 50%}
+
+.petcat.idle .dusty-torso{animation:dusty-breathe 3.6s ease-in-out infinite}
+.petcat.idle .dusty-tail{animation:dusty-tail-sway 5.8s ease-in-out infinite}
+.petcat.idle .ear-r{animation:dusty-ear-flick 7.5s ease-in-out infinite}
+@keyframes dusty-breathe{0%,100%{transform:scale(1,1)}50%{transform:scale(1.012,.975)}}
+@keyframes dusty-tail-sway{0%,100%{transform:rotate(0)}40%{transform:rotate(3.5deg)}70%{transform:rotate(-2.2deg)}}
+@keyframes dusty-ear-flick{0%,84%,100%{transform:rotate(0)}87%{transform:rotate(-11deg)}90%{transform:rotate(6deg)}93%{transform:rotate(-2deg)}}
+
+@media (max-width:700px){
+  button.petcat{width:min(420px,88%);margin-bottom:-12%}
+}
+@media (max-width:420px){
+  button.petcat{width:min(340px,94%);margin-bottom:-14%}
 }
 @media (prefers-reduced-motion:reduce){
-  #petcat,#petcat *{animation:none !important;transition:none !important}
-  #petcat.is-pet .purr-mark{opacity:1}
-}
-@media (max-width:640px){
-  .dusty-shelf{flex-wrap:wrap}
-  #petcat{flex-basis:112px;width:112px;margin:0}
+  .petcat.idle .dusty-torso,.petcat.idle .dusty-tail,.petcat.idle .ear-r{animation:none!important}
 }
