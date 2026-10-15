@@ -31,6 +31,12 @@ To add a new article, talk/podcast or mention, add one entry to the `items` arra
 
 Dates are `YYYY-MM-DD` (may be omitted; undated items sort last). Order in the file doesn't matter.
 
+## Accessibility: every image needs alt text
+- Content images get short, meaningful alt text. Book covers: `Cover of <Title> by <Author>` (built automatically in `books.html`). Video/talk thumbnails: `Video thumbnail: <title> (<event>)` (built in `writing.html` / `stats.html`).
+- Memory photos: add an `alt` field to each `memories.json` item describing the scene, event and date (the templates fall back to `caption`). Don't name other people; describe them generically ("with a fellow organiser"). Naming me is fine.
+- Decorative SVG icons/ornaments: `aria-hidden="true"` (or `alt=""` on a decorative `<img>`). Meaningful SVGs: `role="img"` + `aria-label`.
+- Check: `python3 scripts/check_alt.py` fails if any `<img>` lacks `alt`, an `<svg>` is unlabelled and not hidden, or a memory has no `alt`. It runs in CI (`alt-text.yml` and before deploy).
+
 ## Data rules
 - Notion Type → tab: Blog/Article/Post/Newsletter → Articles, Paper → Papers, Podcast/Talk/Video → Podcasts / Talks. Rows without a URL are skipped.
 - Read vs backlog: Status `Read` = read; `To read`/`Picked`/`Reading` = backlog; `Skip` excluded.
