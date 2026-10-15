@@ -67,4 +67,4 @@ function route(){const id=decodeURIComponent(location.hash.slice(1)),g=gs.find(g
 fetch("memories.json").then(r=>r.json()).then(d=>{const xs=(d.items||[]).map((i,o)=>({...i,o})).sort((a,b)=>b.date.localeCompare(a.date)||a.o-b.o);
  xs.forEach(i=>{let g=gs.find(g=>g.e==i.event);if(!g)gs.push(g={e:i.event,d:i.date,id:i.album||slug(i.event),xs:[]});g.xs.push(i)});
  addEventListener("hashchange",route);route()});
-</script></body></html>
+</script><link rel="stylesheet" href="alt.css"><script src="alt.js" defer></script></body></html>

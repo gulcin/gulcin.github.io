@@ -23,4 +23,4 @@ fetch("books.json").then(r=>r.json()).then(({books})=>{
  const grp=(t,xs,d)=>`<div class="yr"><h2>${t}</h2><span class="lab">${xs.length} books</span></div><div class="box"><ul class="list">${xs.map(b=>li(b,d)).join("")}</ul></div>`;
  document.getElementById("years").innerHTML=ys.slice().reverse().map(y=>grp(y,by[y],1)).join("")+(und.length?grp("Undated",und,0):"");
 });
-</script></body></html>
+</script><link rel="stylesheet" href="alt.css"><script src="alt.js" defer></script></body></html>
