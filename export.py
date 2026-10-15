@@ -28,7 +28,8 @@ def from_api():
                 "link":g("URL","url"),"Status":(g("Status","select") or {}).get("name"),
                 "Type":(g("Type","select") or {}).get("name"),
                 "Topics":json.dumps([t["name"] for t in g("Topics","multi_select") or []]),
-                "Added":p["created_time"],"digest":(g("Digest date","date") or {}).get("start")})
+                "Added":p["created_time"],"digest":(g("Digest date","date") or {}).get("start"),
+                "read":(g("Date read","date") or {}).get("start")})
         if not r.get("has_more"): return rows
         cur=r["next_cursor"]
 
@@ -88,7 +89,8 @@ def main():
             topics = r["Topics"] if isinstance(r["Topics"],list) else json.loads(r["Topics"] or "[]")
             items.append({"title":r["Title"],"url":r["link"],"domain":urlparse(r["link"]).netloc.removeprefix("www."),
                 "category":cat,"type":r.get("Type"),"status":"read" if r.get("Status") in READ else "backlog" if r.get("Status") in BACKLOG else "excluded",
-                "topics":topics,"added":r["Added"].replace(" ","T")[:19]+"Z"})
+                "topics":topics,"added":r["Added"].replace(" ","T")[:19]+"Z",
+                "read_at":(r.get("read") or r.get("date:Date read:start") or None)})
         items.sort(key=lambda i:i["added"], reverse=True)
         json.dump({"items":items},open("data.json","w"),indent=1,ensure_ascii=False)
         print(f"{len(items)} items, skipped {len(skipped)}:", file=sys.stderr)

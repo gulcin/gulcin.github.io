@@ -16,19 +16,19 @@
 <div class="tilediv" aria-hidden="true"></div><footer class="brandfoot"><p class="handle"><svg class="magpie" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9.5l2.6-.6A4 4 0 0 1 13 9.6l1.8 3.4 6.7 4.6-7.3-1.5A5.5 5.5 0 0 1 7.5 14 4 4 0 0 1 5.6 9"/><path d="M9.4 11.6c1.2 1.3 2.7 1.8 4.4 1.6"/><circle cx="7.7" cy="9.2" r=".6" fill="currentColor"/><path d="M9.5 15.6l-.6 3.4M11.4 16l.2 3"/></svg><a href="https://x.com/apatheticmagpie" rel="me noopener" target="_blank" style="color:inherit">apatheticmagpie</a></p><p class="socrow"><a href="https://x.com/apatheticmagpie" target="_blank" rel="noopener" aria-label="X (@apatheticmagpie)"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4.5 4h4l11 16h-4z"/><path d="M19 4l-6 7M5 20l6-7"/></svg></a><a href="https://www.linkedin.com/in/gulcinyildirim" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3.5"/><path d="M8 10.5V17M8 7.2v.1M12 17v-6.5M12 13.5c0-1.8 1.2-3 2.6-3S17 11.4 17 13v4"/></svg></a></p><p class="copy">© <span class="cy">2026</span> Gülçin Yıldırım Jelínek. All rights reserved.</p><script>document.querySelectorAll(".cy").forEach(e=>e.textContent=new Date().getFullYear())</script></footer></div>
 <script>
 const K=["articles","papers","podcasts","books"],L={articles:"Articles",papers:"Papers",podcasts:"Podcasts / Talks",books:"Books"},M="JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC".split(" ");
-const ym=d=>d.slice(0,7);
+const ym=d=>d.slice(0,7),rd=i=>(i.status=="read"&&i.read_at)||i.added;
 Promise.all([fetch("data.json").then(r=>r.json()),fetch("books.json").then(r=>r.json()).catch(()=>({books:[]}))]).then(([d,b])=>{const items=d.items.concat(b.books);
  document.getElementById("legend").innerHTML=K.map(k=>`<span class="sq ${k}"></span>${L[k]}`).join(" &nbsp; ");
 
  const now=new Date(),thisM=now.toISOString().slice(0,7);
  function draw(range){
-  let months=[...new Set(items.map(i=>ym(i.added)))].sort();
+  let months=[...new Set(items.map(i=>ym(rd(i))))].sort();
   const first=months[0]||thisM;months=[];let d=new Date(first+"-01T00:00:00Z");
   while(d.toISOString().slice(0,7)<=thisM){months.push(d.toISOString().slice(0,7));d.setUTCMonth(d.getUTCMonth()+1)}
   if(range)months=months.slice(-range);
-  const xs=items.filter(i=>months.includes(ym(i.added))&&!(i.category=="books"&&(i.status!="read"||i.read_at_missing)));const und=items.filter(i=>i.category=="books"&&i.read_at_missing).length,cr=items.filter(i=>i.category=="books"&&i.status=="reading").length;
-  document.getElementById("tiles").innerHTML=K.map(k=>`<div class="tile"><div class="lab"><span class="sq ${k}"></span>${L[k]}</div><div class="n">${xs.filter(i=>i.category==k).length}</div><div class="sub">${xs.filter(i=>i.category==k&&ym(i.added)==thisM).length} ${k=="books"?"read this month":"this month"}${k=="books"&&cr?` · ${cr} reading`:""}${k=="books"&&und&&!range?`<br>+${und} read, no date`:""}</div></div>`).join("");
-  const cnt=(m,k)=>xs.filter(i=>ym(i.added)==m&&i.category==k).length;
+  const xs=items.filter(i=>months.includes(ym(rd(i)))&&!(i.category=="books"&&(i.status!="read"||i.read_at_missing)));const und=items.filter(i=>i.category=="books"&&i.read_at_missing).length,cr=items.filter(i=>i.category=="books"&&i.status=="reading").length;
+  document.getElementById("tiles").innerHTML=K.map(k=>`<div class="tile"><div class="lab"><span class="sq ${k}"></span>${L[k]}</div><div class="n">${xs.filter(i=>i.category==k).length}</div><div class="sub">${xs.filter(i=>i.category==k&&ym(rd(i))==thisM).length} ${k=="books"?"read this month":"this month"}${k=="books"&&cr?` · ${cr} reading`:""}${k=="books"&&und&&!range?`<br>+${und} read, no date`:""}</div></div>`).join("");
+  const cnt=(m,k)=>xs.filter(i=>ym(rd(i))==m&&i.category==k).length;
   document.getElementById("grid").innerHTML=months.map(m=>{const sq=K.flatMap(k=>Array(cnt(m,k)).fill(k)),t=sq.length;
    return `<div class="col">${t?`<div class="tot">${t}</div>`:""}<div class="stack">${sq.map(k=>`<span class="sq ${k}"></span>`).join("")}</div></div>`}).join("");
   document.getElementById("months").innerHTML=months.map((m,i)=>`<div>${M[+m.slice(5)-1]}${i==0||m.endsWith("-01")?"<br>"+m.slice(0,4):""}</div>`).join("");
