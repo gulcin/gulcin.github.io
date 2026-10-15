@@ -1,0 +1,137 @@
+/* ALT badge: bottom-left of content images that have a description.
+   Decorative images (alt="") are not wrapped. */
+.altframe{
+  position:relative;
+  display:inline-block;
+  max-width:100%;
+  line-height:0;
+  vertical-align:top;
+}
+.mrow>.altframe,
+.reading .altframe,
+.vids .altframe,
+.ph>.altframe,
+.tg .altframe{
+  display:block;
+  width:100%;
+  max-width:100%;
+  min-width:0;
+}
+.tg .altframe{height:100%}
+.mrow>.altframe,
+.reading>a,
+.vids>a{min-width:0}
+.mstrip>.altframe,
+#lb>.altframe{
+  display:inline-block;
+  width:auto;
+  height:auto;
+  flex:none;
+  line-height:0;
+  max-width:100%;
+}
+
+button.altbadge{
+  position:absolute;
+  left:4px;
+  bottom:4px;
+  z-index:2;
+  display:inline-block;
+  width:auto;
+  height:auto;
+  min-width:0;
+  min-height:0;
+  max-width:calc(100% - 8px);
+  margin:0;
+  padding:3px 6px;
+  aspect-ratio:auto;
+  overflow:visible;
+  border:1px solid rgba(31,63,143,.45);
+  border-radius:5px;
+  background:#F7F3EA;
+  color:#1F3F8F;
+  box-shadow:0 1px 2px rgba(20,20,19,.28);
+  font:600 11px/1.2 ui-monospace,SFMono-Regular,monospace;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  text-align:center;
+  white-space:nowrap;
+  cursor:pointer;
+  appearance:none;
+  -webkit-appearance:none;
+  touch-action:manipulation;
+  user-select:none;
+}
+.mstrip button.altbadge{left:3px;bottom:3px;padding:1px 4px;font-size:9px}
+button.altbadge:hover{background:#fff}
+button.altbadge:focus{outline:none}
+button.altbadge:focus-visible{
+  outline:2px solid #2F7F73;
+  outline-offset:2px;
+  background:#fff;
+}
+#lb button.altbadge,
+#lb button.altbadge:hover,
+#lb button.altbadge:focus,
+#lb button.altbadge:focus-visible{
+  position:absolute;
+  top:auto;
+  right:auto;
+  left:8px;
+  bottom:8px;
+  transform:none;
+  width:auto;
+  height:auto;
+  background:#F7F3EA;
+  color:#1F3F8F;
+  border-radius:5px;
+  font:600 11px/1.2 ui-monospace,SFMono-Regular,monospace;
+  letter-spacing:.08em;
+}
+#lb button.altbadge:hover{background:#fff}
+#lb button.altbadge:focus-visible{
+  outline:2px solid #2F7F73;
+  outline-offset:2px;
+  background:#fff;
+}
+
+.altpop{
+  position:fixed;
+  z-index:50;
+  max-width:min(320px,calc(100vw - 16px));
+  margin:0;
+  padding:10px 32px 10px 12px;
+  border:1px solid rgba(31,63,143,.35);
+  border-radius:10px;
+  background:#F7F3EA;
+  color:#1F3F8F;
+  box-shadow:0 8px 24px rgba(20,20,19,.18);
+  box-sizing:border-box;
+}
+.altpop p{
+  margin:0;
+  font:400 13px/1.45 Inter,system-ui,sans-serif;
+  letter-spacing:0;
+  text-transform:none;
+  color:#1F3F8F;
+  overflow-wrap:anywhere;
+}
+button.altx{
+  position:absolute;
+  top:4px;
+  right:4px;
+  width:22px;
+  height:22px;
+  margin:0;
+  padding:0;
+  border:0;
+  border-radius:999px;
+  background:transparent;
+  color:#1F3F8F;
+  font:600 16px/1 Inter,system-ui,sans-serif;
+  cursor:pointer;
+  touch-action:manipulation;
+}
+button.altx:hover{background:rgba(31,63,143,.08)}
+button.altx:focus{outline:none}
+button.altx:focus-visible{outline:2px solid #2F7F73;outline-offset:2px}

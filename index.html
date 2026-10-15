@@ -23,4 +23,4 @@ fetch("memories.json").then(r=>r.json()).then(d=>{$("mem").innerHTML=(d.items||[
 Promise.all([fetch("data.json").then(r=>r.json()),fetch("books.json").then(r=>r.json()).catch(()=>({books:[]}))]).then(([d,b])=>{const it=d.items||[],bk=b.books||[],m=new Date().toISOString().slice(0,7);
  const n=c=>it.filter(i=>i.category==c).length,rd=bk.filter(x=>x.status=="read").length,cur=bk.filter(x=>x.status=="reading");
  $("rt").innerHTML=`<span><b>${n("articles")}</b> articles</span><span><b>${n("papers")}</b> paper${n("papers")==1?"":"s"}</span><span><b>${n("podcasts")}</b> talks/podcasts</span><span><b>${rd}</b> books read</span><span class="dom">${it.filter(i=>(i.added||"").startsWith(m)).length} added this month${cur.length?" · currently reading "+esc(cur[0].title):""}</span>`}).catch(()=>{$("rt").innerHTML='<span class="dom">Stats unavailable.</span>'});})();
-</script></body></html>
+</script><link rel="stylesheet" href="alt.css"><script src="alt.js" defer></script></body></html>
