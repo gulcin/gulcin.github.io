@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 230" role="img" aria-label="Dusty, a cool grey-brown mackerel tabby">
+  <defs>
+    <linearGradient id="dusty-body" x1="18%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#d4c7b8"/>
+      <stop offset="42%" stop-color="#9b8d80"/>
+      <stop offset="100%" stop-color="#7d8488"/>
+    </linearGradient>
+    <linearGradient id="dusty-head" x1="10%" y1="0%" x2="90%" y2="100%">
+      <stop offset="0%" stop-color="#e4d8c9"/>
+      <stop offset="48%" stop-color="#b3a394"/>
+      <stop offset="100%" stop-color="#7e776f"/>
+    </linearGradient>
+    <radialGradient id="dusty-iris" cx="36%" cy="30%" r="72%">
+      <stop offset="0%" stop-color="#f3e4ae"/>
+      <stop offset="40%" stop-color="#7f9556"/>
+      <stop offset="100%" stop-color="#31462d"/>
+    </radialGradient>
+    <linearGradient id="dusty-chest" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7f3ec"/>
+      <stop offset="100%" stop-color="#ddd4c8"/>
+    </linearGradient>
+  </defs>
+
+  <ellipse cx="132" cy="214" rx="70" ry="6.5" fill="#141413" opacity=".08"/>
+
+  <!-- tail leaves the left haunch and curls forward -->
+  <path fill="#7c746c" stroke="#4a453f" stroke-width="1.25" stroke-linejoin="round" d="
+    M86 158
+    C52 150 22 168 20 196
+    C18 220 46 234 78 226
+    C102 220 112 202 100 192
+    C90 184 74 190 70 202
+    C66 214 80 220 90 212
+    C98 206 92 196 84 198
+    C70 202 58 190 66 176
+    C72 166 80 162 86 158
+    Z"/>
+  <g fill="none" stroke="#3e4650" stroke-width="3.2" stroke-linecap="round" opacity=".7">
+    <path d="M48 176c6 8 6 10 0 16"/>
+    <path d="M36 196c8 6 10 8 4 16"/>
+    <path d="M48 216c10 2 14 2 16-6"/>
+    <path d="M74 222c8-4 12-6 10-12"/>
+    <path d="M92 208c4-8 6-10 0-14"/>
+  </g>
+
+  <!-- seated body, neck rising into the chin -->
+  <path fill="url(#dusty-body)" stroke="#4a453f" stroke-width="1.35" stroke-linejoin="round" d="
+    M118 108
+    C104 112 92 124 90 140
+    C86 158 78 168 70 176
+    C64 184 66 198 78 206
+    C88 212 96 206 102 198
+    C96 208 98 220 114 224
+    C132 228 156 226 166 214
+    C176 228 206 226 220 206
+    C234 186 230 158 210 144
+    C196 134 176 128 160 124
+    C156 112 142 104 128 106
+    C124 104 120 106 118 108
+    Z"/>
+
+  <path fill="url(#dusty-chest)" d="M112 128c-10 18-8 46 2 68 12 6 30 6 40-2 8-20 6-48-4-66-12-8-28-8-38 0z"/>
+
+  <!-- mackerel bars falling off the spine -->
+  <g fill="#3c4550" opacity=".62">
+    <path d="M168 132c2 14-2 26-10 30 2-12 4-22 8-30 1 0 2 0 2 0z"/>
+    <path d="M184 138c4 14 0 26-8 32 4-12 6-22 6-32 1 0 2 0 2 0z"/>
+    <path d="M198 148c4 12 0 22-8 28 4-10 6-18 6-26 1 0 1 0 2-2z"/>
+    <path d="M150 156c-2 16 4 26 12 24-2-10-2-18-4-26-3 0-6 1-8 2z"/>
+    <path d="M158 176c2 12 10 16 16 10-4-8-6-14-8-18-3 2-6 5-8 8z"/>
+  </g>
+  <!-- front legs -->
+  <path fill="#8c8176" stroke="#4a453f" stroke-width="1.15" d="M108 162c-8 18-6 40 0 52 7 3 16 1 18-8 2-16 0-32-4-44-4-3-10-3-14 0z"/>
+  <path fill="#978b7e" stroke="#4a453f" stroke-width="1.15" d="M134 166c0 18 4 38 12 48 8 2 15-2 15-10 0-16-2-32-6-44-5-5-16-3-21 6z"/>
+  <g fill="#3c4550" opacity=".4">
+    <path d="M112 178h12c-1 6-2 10-3 14h-8z"/>
+    <path d="M114 198h10c0 5 0 8-1 12h-8z"/>
+    <path d="M144 184h12c0 6-1 10-2 14h-9z"/>
+    <path d="M146 204h10c0 5 0 8-1 11h-8z"/>
+  </g>
+  <ellipse cx="116" cy="214" rx="13" ry="6.5" fill="#d9d0c4" stroke="#4a453f" stroke-width="1.05"/>
+  <ellipse cx="152" cy="216" rx="14" ry="7" fill="#e0d7cb" stroke="#4a453f" stroke-width="1.05"/>
+  <g fill="#c48980">
+    <ellipse cx="110" cy="214" rx="1.8" ry="1.3"/>
+    <ellipse cx="116" cy="212.6" rx="1.8" ry="1.3"/>
+    <ellipse cx="122" cy="214" rx="1.8" ry="1.3"/>
+    <ellipse cx="146" cy="216" rx="1.9" ry="1.3"/>
+    <ellipse cx="152" cy="214.6" rx="1.9" ry="1.3"/>
+    <ellipse cx="158" cy="216" rx="1.9" ry="1.3"/>
+  </g>
+
+  <!-- head overlapping the neck -->
+  <path fill="url(#dusty-head)" stroke="#4a453f" stroke-width="1.35" stroke-linejoin="round" d="
+    M128 112
+    C100 108 74 92 72 68
+    C70 44 92 24 122 26
+    C146 18 174 24 186 42
+    C206 34 230 48 228 72
+    C226 98 198 116 164 118
+    C150 120 138 116 128 112
+    Z"/>
+  <path fill="#8a7e72" stroke="#4a453f" stroke-width="1.25" stroke-linejoin="round" d="M84 60C74 34 66 20 90 16c18 12 24 30 16 48-8-2-16-2-22-4z"/>
+  <path fill="#c9a598" d="M88 52c0-14 6-24 16-28 4 12 6 22 0 32-6-1-12-2-16-4z"/>
+  <path fill="#7a7068" stroke="#4a453f" stroke-width="1.25" stroke-linejoin="round" d="M186 50c8-22 22-34 40-24 2 20-8 36-22 44-6-8-12-14-18-20z"/>
+  <path fill="#c9a598" d="M200 44c10-8 20-10 28-6-4 12-12 20-20 22-3-6-6-12-8-16z"/>
+
+  <g fill="#3c4550" opacity=".75">
+    <path d="M112 34c8-6 18-6 24 0-8 3-16 6-22 12-2-4-2-8-2-12z"/>
+    <path d="M136 30c10-2 18 4 18 12-8 1-16 4-22 10 0-8 1-16 4-22z"/>
+    <path d="M100 36c-4 8-2 16 4 20 2-8 6-12 12-14-4-4-10-4-16-6z"/>
+    <path d="M98 74c10 1 16 6 16 12-8-1-14-6-16-12z"/>
+    <path d="M96 86c12 3 18 4 16 0-6-1-12-2-16 0z"/>
+    <path d="M188 78c-8 3-12 8-8 14 6-4 12-8 14-12-2-1-4-2-6-2z"/>
+    <path d="M196 90c-10 2-14 4-10 7 6 0 12-2 14-6-1-1-2-1-4-1z"/>
+  </g>
+
+  <g class="eye-open">
+    <path fill="#f6f3ec" d="M100 70c2-12 20-14 24-2 2 10-6 16-14 16s-12-6-10-14z"/>
+    <path fill="url(#dusty-iris)" d="M104 72c2-8 14-10 16 0 1 8-4 12-9 12s-8-4-7-12z"/>
+    <ellipse cx="112" cy="76" rx="2.6" ry="7" fill="#1a1e16"/>
+    <circle cx="108" cy="70" r="2.1" fill="#fff"/>
+    <path fill="#f6f3ec" d="M156 68c2-12 20-14 24-2 2 10-6 16-14 16s-12-6-10-14z"/>
+    <path fill="url(#dusty-iris)" d="M160 70c2-8 14-10 16 0 1 8-4 12-9 12s-8-4-7-12z"/>
+    <ellipse cx="168" cy="74" rx="2.7" ry="7" fill="#1a1e16"/>
+    <circle cx="164" cy="68" r="2.2" fill="#fff"/>
+  </g>
+  <g class="eye-happy" display="none" fill="none" stroke="#2c3128" stroke-width="2.2" stroke-linecap="round">
+    <path d="M102 76c4-7 14-7 18 0"/>
+    <path d="M158 74c4-7 14-7 19 0"/>
+  </g>
+
+  <ellipse cx="124" cy="96" rx="14" ry="10" fill="#f3ece3"/>
+  <ellipse cx="150" cy="94" rx="13" ry="9" fill="#f3ece3"/>
+  <path fill="#c17d78" d="M136 92l5 6-11 1z"/>
+  <path d="M136 98c-3 4-8 5-12 3M136 98c3 4 8 5 12 3" fill="none" stroke="#5c514c" stroke-width="1.05" stroke-linecap="round"/>
+  <g fill="none" stroke="#f7f4ee" stroke-width=".9" stroke-linecap="round">
+    <path d="M108 94H82M110 100H86M112 106H92"/>
+    <path d="M166 92h26M164 98h24M162 104h20"/>
+  </g>
+
+  <g class="costume costume-halloween" display="none">
+    <ellipse cx="142" cy="28" rx="44" ry="8" fill="#2a3038"/>
+    <path d="M116 28L142 0l28 28z" fill="#2c333c"/>
+    <path d="M122 24h42" stroke="#2F7F73" stroke-width="4.5" stroke-linecap="round"/>
+    <rect x="136" y="19.5" width="11" height="8" rx="1.4" fill="#e0b15a" stroke="#8a6230" stroke-width=".6"/>
+  </g>
+  <g class="costume costume-winter" display="none">
+    <path d="M96 108c16 14 58 16 84 2 2 14-12 24-28 26-16 2-34-2-46-12-8-6-14-10-10-16z" fill="#A8CFEA"/>
+    <path d="M118 126l-8 26 12-2 6-24z" fill="#1F3F8F"/>
+    <path d="M130 126l5 28 12-3-5-25z" fill="#7eb6da"/>
+    <g stroke="#1F3F8F" stroke-width="1.15" stroke-linecap="round">
+      <path d="M112 148v7M118 150v7M126 152v6"/>
+      <path d="M136 152v7M144 150v7"/>
+    </g>
+  </g>
+
+  <g class="purr-mark" opacity="0" fill="#1F3F8F" font-family="Georgia, 'Source Serif 4', serif" font-size="14">
+    <text x="198" y="46">purr</text>
+  </g>
+</svg>
