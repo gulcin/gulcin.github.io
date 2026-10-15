@@ -1,0 +1,32 @@
+/* Dusty, the Books-page cat. Kept in sync with <style id="dusty-css"> in books.html. */
+.dusty-shelf{display:flex;align-items:flex-start;gap:8px 18px}
+.dusty-shelf .reading{flex:1 1 auto;min-width:0}
+#petcat{flex:0 0 132px;width:132px;margin:4px 0 0;padding:0;border:0;background:transparent;cursor:pointer;line-height:0;position:relative}
+#petcat svg{display:block;width:100%;height:auto;overflow:visible}
+#petcat:focus-visible{outline:2px solid #1F3F8F;outline-offset:4px;border-radius:18px}
+#petcat .costume,#petcat .eye-happy{display:none}
+#petcat.is-pet .eye-open{display:none}
+#petcat.is-pet .eye-happy{display:inline}
+#petcat[data-season="halloween"] .costume-halloween,#petcat[data-season="winter"] .costume-winter{display:inline}
+#petcat .purr-mark{opacity:0}
+#petcat.is-pet .purr-mark{opacity:1}
+.dusty-sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media (prefers-reduced-motion:no-preference){
+  #petcat svg{transform-origin:50% 90%;transition:transform .35s ease}
+  #petcat:hover svg{transform:translateY(-2px)}
+  #petcat.is-pet svg{transform:translateY(3px) scale(1.03,.96)}
+  #petcat.is-pet .purr-mark{animation:dusty-purr .85s ease}
+}
+@keyframes dusty-purr{
+  0%{opacity:0;transform:translateY(6px)}
+  30%{opacity:1;transform:translateY(0)}
+  100%{opacity:0;transform:translateY(-12px)}
+}
+@media (prefers-reduced-motion:reduce){
+  #petcat,#petcat *{animation:none !important;transition:none !important}
+  #petcat.is-pet .purr-mark{opacity:1}
+}
+@media (max-width:640px){
+  .dusty-shelf{flex-wrap:wrap}
+  #petcat{flex-basis:112px;width:112px;margin:0}
+}
