@@ -17,10 +17,15 @@
    "event": "code::dive 2026",
    "city": "Wrocław",
    "country": "Poland",
+   "venue": "Wrocławskie Centrum Kongresowe",
+   "stage": "dive stage",
    "title": "Databases in the Age of Agents",
    "role": "speaker",
-   "url": "https://codedive.pl/",
-   "year": "2026"
+   "url": "https://codedive.pl/?session=238-databases-in-the-age-of-agents#agenda",
+   "year": "2026",
+   "time": "10:55–11:15",
+   "tz": "CET",
+   "abstract": "Databases were built for humans; AI agents bring bursty, unpredictable workloads. Covers tool-using agents, evaluation environments needing fast cloning and isolation, development agents treating databases as disposable, and databases as hybrid agent memory, and what PostgreSQL needs to stay the default."
   },
   {
    "date": "2026-10-23",
