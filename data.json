@@ -1,6 +1,110 @@
 {
  "items": [
   {
+   "title": "DuckDB: What's Inside an Iceberg Table?",
+   "url": "https://x.com/duckdb/status/2110837648298541271",
+   "domain": "x.com",
+   "category": "articles",
+   "type": "Post",
+   "status": "backlog",
+   "topics": [
+    "DuckDB",
+    "Databases"
+   ],
+   "added": "2026-10-15T21:30:45Z"
+  },
+  {
+   "title": "Lenny's Podcast: How to scale intent, quality, and artistry with AI | Katie Dill (Stripe)",
+   "url": "https://www.youtube.com/watch?v=GLvFTMtw4Jk",
+   "domain": "youtube.com",
+   "category": "podcasts",
+   "type": "Talk/Video",
+   "status": "backlog",
+   "topics": [
+    "AI/LLMs"
+   ],
+   "added": "2026-10-15T20:56:20Z"
+  },
+  {
+   "title": "Lee Robinson: How always-on, proactive agents work (Stanford CS146S lecture)",
+   "url": "https://x.com/leerob/status/2109344389667721633",
+   "domain": "x.com",
+   "category": "podcasts",
+   "type": "Talk/Video",
+   "status": "backlog",
+   "topics": [
+    "AI/LLMs"
+   ],
+   "added": "2026-10-15T20:46:52Z"
+  },
+  {
+   "title": "Postgres FM: ClickHouse Managed Postgres",
+   "url": "https://postgres.fm/episodes/clickhouse-managed-postgres",
+   "domain": "postgres.fm",
+   "category": "podcasts",
+   "type": "Talk/Video",
+   "status": "read",
+   "topics": [
+    "Postgres",
+    "ClickHouse",
+    "Databases"
+   ],
+   "added": "2026-10-15T07:02:08Z"
+  },
+  {
+   "title": "Felix Rieseberg: How to be more ambitious: A tutorial for humans with models",
+   "url": "https://felixrieseberg.com/how-to-be-more-ambitious-a-tutorial-for-humans-with-models/",
+   "domain": "felixrieseberg.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "read",
+   "topics": [
+    "AI/LLMs"
+   ],
+   "added": "2026-10-15T06:30:48Z"
+  },
+  {
+   "title": "Postgres at Open House NYC (WalShadow, GCP Managed Postgres, chdb)",
+   "url": "https://clickhouse.com/blog/postgres-at-open-house-nyc",
+   "domain": "clickhouse.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "ClickHouse",
+    "Databases"
+   ],
+   "added": "2026-10-15T06:04:49Z"
+  },
+  {
+   "title": "PlanetScale: What gets TOASTed in Postgres (PG19 LZ4 default)",
+   "url": "https://planetscale.com/blog/what-gets-toasted-in-postgres",
+   "domain": "planetscale.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Industry"
+   ],
+   "added": "2026-10-15T06:04:49Z"
+  },
+  {
+   "title": "DBA-Bench: A Production-Fidelity Benchmark for LLM-Based Database Operations Agents (arXiv 2607.22165)",
+   "url": "https://arxiv.org/abs/2607.22165",
+   "domain": "arxiv.org",
+   "category": "papers",
+   "type": "Paper",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "AI/LLMs",
+    "Databases"
+   ],
+   "added": "2026-10-15T06:04:49Z"
+  },
+  {
    "title": "Dimitri Fontaine: Zero-downtime Postgres upgrades with logical replication (part 3)",
    "url": "https://tapoueh.org/blog/2026/10/zero-downtime-postgres-upgrades-with-logical-replication/",
    "domain": "tapoueh.org",
