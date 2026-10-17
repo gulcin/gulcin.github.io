@@ -1,6 +1,74 @@
 {
  "items": [
   {
+   "title": "Gungnir: Agentic Evolution of SQL Test Generators (arXiv 2610.14161, Zhong & Rigger)",
+   "url": "https://arxiv.org/abs/2610.14161",
+   "domain": "arxiv.org",
+   "category": "papers",
+   "type": "Paper",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "DuckDB",
+    "AI/LLMs",
+    "Databases"
+   ],
+   "added": "2026-10-16T06:13:01Z"
+  },
+  {
+   "title": "Neon: Neon now has realtime (live SQL queries on Lakebase Postgres)",
+   "url": "https://neon.com/blog/neon-now-has-realtime",
+   "domain": "neon.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "AI/LLMs",
+    "Industry"
+   ],
+   "added": "2026-10-16T06:13:01Z"
+  },
+  {
+   "title": "PlanetScale is now available on Azure (Postgres + Neki, Metal NVMe)",
+   "url": "https://planetscale.com/blog/planetscale-is-now-on-azure",
+   "domain": "planetscale.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Industry"
+   ],
+   "added": "2026-10-16T06:13:01Z"
+  },
+  {
+   "title": "Pavel Luzanov: PostgreSQL 19 part 5.1 (QPT), CommitFest 2026-03 (plan advice, RevertFest)",
+   "url": "https://postgrespro.com/blog/pgsql/5973412",
+   "domain": "postgrespro.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres"
+   ],
+   "added": "2026-10-16T06:13:01Z"
+  },
+  {
+   "title": "ClickHouse: OLTP is expensive, you can ClickHouse it (offload settled Postgres data)",
+   "url": "https://clickhouse.com/blog/oltp-is-expensive-you-can-clickhouse-it",
+   "domain": "clickhouse.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "ClickHouse",
+    "Databases"
+   ],
+   "added": "2026-10-16T06:13:01Z"
+  },
+  {
    "title": "DuckDB: What's Inside an Iceberg Table?",
    "url": "https://x.com/duckdb/status/2110837648298541271",
    "domain": "x.com",
