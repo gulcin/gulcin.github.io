@@ -1,6 +1,99 @@
 {
  "items": [
   {
+   "title": "LWN: Why Uber dropped PostgreSQL",
+   "url": "https://lwn.net/Articles/696085",
+   "domain": "lwn.net",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Databases",
+    "Industry"
+   ],
+   "added": "2026-10-17T18:11:57Z"
+  },
+  {
+   "title": "Notion: Herding elephants: Lessons learned from sharding Postgres at Notion",
+   "url": "https://notion.com/blog/sharding-postgres-at-notion",
+   "domain": "notion.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Databases"
+   ],
+   "added": "2026-10-17T18:11:57Z"
+  },
+  {
+   "title": "Markus Winand: On Uber’s Choice of Databases",
+   "url": "https://use-the-index-luke.com/blog/2016-07-29/on-ubers-choice-of-databases",
+   "domain": "use-the-index-luke.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Databases"
+   ],
+   "added": "2026-10-17T18:11:57Z"
+  },
+  {
+   "title": "Notion: The Great Re-shard: adding Postgres capacity (again) with zero downtime",
+   "url": "https://notion.com/blog/the-great-re-shard",
+   "domain": "notion.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Databases"
+   ],
+   "added": "2026-10-17T18:11:57Z"
+  },
+  {
+   "title": "Robert Haas (EDB): Uber’s Move Away from PostgreSQL",
+   "url": "https://www.enterprisedb.com/index.php/blog/ubers-move-away-postgresql",
+   "domain": "enterprisedb.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Databases"
+   ],
+   "added": "2026-10-17T18:11:57Z"
+  },
+  {
+   "title": "Uber: Why Uber Engineering Switched from Postgres to MySQL",
+   "url": "https://www.uber.com/blog/postgres-to-mysql-migration/",
+   "domain": "uber.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Databases",
+    "Industry"
+   ],
+   "added": "2026-10-17T18:11:57Z"
+  },
+  {
+   "title": "Figma: How Figma’s databases team lived to tell the scale",
+   "url": "https://www.figma.com/blog/how-figmas-databases-team-lived-to-tell-the-scale/",
+   "domain": "figma.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Databases"
+   ],
+   "added": "2026-10-17T18:11:20Z"
+  },
+  {
    "title": "Gungnir: Agentic Evolution of SQL Test Generators (arXiv 2610.14161, Zhong & Rigger)",
    "url": "https://arxiv.org/abs/2610.14161",
    "domain": "arxiv.org",
