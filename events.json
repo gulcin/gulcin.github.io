@@ -28,6 +28,24 @@
    "abstract": "Databases were built for humans; AI agents bring bursty, unpredictable workloads. Covers tool-using agents, evaluation environments needing fast cloning and isolation, development agents treating databases as disposable, and databases as hybrid agent memory, and what PostgreSQL needs to stay the default."
   },
   {
+   "date": "2026-11-19",
+   "end": "2026-11-19",
+   "event": "AI Poland 2026",
+   "city": "Warsaw",
+   "country": "Poland",
+   "venue": "Multikino Złote Tarasy",
+   "title": "Databases in the Age of Agents",
+   "role": "speaker",
+   "url": "https://ai-poland.pl/",
+   "year": "2026",
+   "status": "declined",
+   "note": "Accepted as a Regular Talk (20 min); declined due to a conflict with my code::dive 2026 talk in Wrocław the same day.",
+   "see": {
+    "label": "code::dive 2026 session",
+    "url": "https://codedive.pl/?session=238-databases-in-the-age-of-agents#agenda"
+   }
+  },
+  {
    "date": "2026-10-20",
    "end": "2026-10-20",
    "event": "PGConf.EU 2026",
