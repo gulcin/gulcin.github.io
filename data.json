@@ -1,18 +1,14 @@
 {
  "items": [
   {
-   "title": "LWN: Why Uber dropped PostgreSQL",
-   "url": "https://lwn.net/Articles/696085",
-   "domain": "lwn.net",
+   "title": "Dan Koe: How to articulate yourself intelligently",
+   "url": "https://x.com/thedankoe/status/2011827303962329458",
+   "domain": "x.com",
    "category": "articles",
-   "type": "Blog",
-   "status": "backlog",
-   "topics": [
-    "Postgres",
-    "Databases",
-    "Industry"
-   ],
-   "added": "2026-10-17T18:11:57Z"
+   "type": "Post",
+   "status": "read",
+   "topics": [],
+   "added": "2026-10-18T05:25:04Z"
   },
   {
    "title": "Notion: Herding elephants: Lessons learned from sharding Postgres at Notion",
@@ -70,6 +66,20 @@
    "title": "Uber: Why Uber Engineering Switched from Postgres to MySQL",
    "url": "https://www.uber.com/blog/postgres-to-mysql-migration/",
    "domain": "uber.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Databases",
+    "Industry"
+   ],
+   "added": "2026-10-17T18:11:57Z"
+  },
+  {
+   "title": "LWN: Why Uber dropped PostgreSQL",
+   "url": "https://lwn.net/Articles/696085",
+   "domain": "lwn.net",
    "category": "articles",
    "type": "Blog",
    "status": "backlog",
