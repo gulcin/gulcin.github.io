@@ -2,7 +2,7 @@
 
 My personal site: Postgres, product & community. Talks, writing, memories and what I'm reading. Live at https://gulcin.github.io/
 
-Pages: `index.html` (home), `writing.html`, `events.html` (Speaking), `memories.html`, `about.html`, and Reading: `stats.html`, `list.html`, `books.html`.
+Pages: `index.html` (home), `writing.html`, `events.html` (Speaking), `memories.html`, `albums.html`, `about.html`, and Reading: `stats.html`, `list.html`, `books.html`.
 
 Static site (no build step): `index.html` (homepage), `stats.html` (reading stats), `list.html` (reading list), `books.html`, `style.css`, `data.json` (Notion), `books.json` (Goodreads), `writing.html` (my articles, talks & mentions).
 `export.py` produces `data.json` from the Notion Reading List and (optionally) Goodreads.
@@ -31,11 +31,27 @@ To add a new article, talk/podcast or mention, add one entry to the `items` arra
 
 Dates are `YYYY-MM-DD` (may be omitted; undated items sort last). Order in the file doesn't matter.
 
+## Albums
+`albums.json` feeds `albums.html` (Albums, under Memories). To add a photo, drop a JPEG in that album's folder and add one object to its `photos` array. For PGConf.EU 2026 the folder is `albums/pgconfeu-2026/`.
+
+```json
+{
+  "file": "albums/pgconfeu-2026/example.jpg",
+  "thumb": "albums/pgconfeu-2026/example-thumb.jpg",
+  "session": "postgres-for-everything",
+  "alt": "What the photo shows, who is in it, and the date, such as Oct 20, 2026.",
+  "caption": "With Petr Jelinek before ‘{talk}’"
+}
+```
+
+`thumb` is optional; without it the grid uses `file`. `{talk}` becomes a link to the session named in `session`. Photos in a session are grouped under that talk. A session with no photos stays in My sessions and does not get an empty gallery. Write dates as `Oct 20, 2026`. Leave room names out. A new album is another object in `albums`, with its own image folder. Keep the long edge around 1600px; a `-thumb` copy around 960px is plenty.
+
 ## Accessibility: every image needs alt text
 - Content images get short, meaningful alt text. Book covers: `Cover of <Title> by <Author>` (built automatically in `books.html`). Video/talk thumbnails: `Video thumbnail: <title> (<event>)` (built in `writing.html` / `stats.html`).
 - Memory photos: add an `alt` field to each `memories.json` item describing the scene, event and date (the templates fall back to `caption`). Don't name other people; describe them generically ("with a fellow organiser"). Naming me is fine.
 - Decorative SVG icons/ornaments: `aria-hidden="true"` (or `alt=""` on a decorative `<img>`). Meaningful SVGs: `role="img"` + `aria-label`.
-- Check: `python3 scripts/check_alt.py` fails if any `<img>` lacks `alt`, an `<svg>` is unlabelled and not hidden, or a memory has no `alt`. It runs in CI (`alt-text.yml` and before deploy).
+- Album photos: add an `alt` field on each `albums.json` photo. Name people when the caption names them.
+- Check: `python3 scripts/check_alt.py` fails if any `<img>` lacks `alt`, an `<svg>` is unlabelled and not hidden, or a memory or album photo has no `alt`. It runs in CI (`alt-text.yml` and before deploy).
 
 ## Data rules
 - Notion Type → tab: Blog/Article/Post/Newsletter → Articles, Paper → Papers, Podcast/Talk/Video → Podcasts / Talks. Rows without a URL are skipped.

@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Albums · Gülçin Yıldırım Jelínek</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+<!-- Add a photo: drop a JPEG in albums/<album-id>/ and add one object to that album's photos array in albums.json. thumb is optional. {talk} in a caption links the session title. See the README. -->
+<style>
+.ahead.framed{display:flex;gap:14px;align-items:center;padding:12px 16px;margin:0 0 28px;border:6px solid transparent;background:linear-gradient(#fff,#fff) padding-box,url(favicon.svg) 0 0/10px 10px border-box;outline:1px solid #1F3F8F}
+.ahead.framed>div{min-width:0}
+.ahead .azt{display:none;width:30px;height:30px;flex:none;background:url(favicon.svg) center/30px no-repeat}
+.ahead.framed .azt{display:block}
+.ahead.framed h1{margin:0;font-size:34px}
+.ahead.framed .lede{margin:4px 0 0}
+.lede a{color:var(--clay)}
+.lede a:hover{text-decoration:underline}
+.session h2{margin:4px 0 2px;font-size:22px}
+.session h2 a:hover{color:var(--clay)}
+.session .when{margin:0 0 12px;color:var(--muted);font-size:14px}
+.session+.session{margin-top:32px}
+.agallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,280px),1fr));gap:16px;align-items:start;margin:0 0 8px}
+.agallery .ph{margin:0;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.agallery .ph img{display:block;width:100%;height:auto;cursor:zoom-in;touch-action:manipulation}
+.agallery .ph figcaption{padding:10px 14px 12px;font-size:14px;line-height:1.45;color:var(--muted)}
+.agallery .ph figcaption a{color:var(--clay)}
+.agallery .ph figcaption a:hover{text-decoration:underline}
+.sessions{list-style:none;margin:0;padding:0}
+.sessions li{padding:14px 18px;border-bottom:1px solid var(--line)}
+.sessions li:last-child{border:0}
+.sessions time{display:block;font:500 12px ui-monospace,monospace;color:#2F7F73}
+.sessions a{font-family:"Source Serif 4",Georgia,serif;font-size:18px;line-height:1.35}
+.sessions li:hover a{color:var(--clay)}
+.sessions .role{display:block;color:var(--muted);font-size:13px;margin-top:2px}
+.alb{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:22px;margin:0 0 30px}
+.acard{all:unset;box-sizing:border-box;cursor:pointer;display:block;position:relative;max-width:100%}
+.acard .az{position:relative;margin:10px 10px 0;padding:11px;background:#F7F3EA url(favicon.svg) repeat 0 0/11px 11px;border:1px solid #1F3F8F;border-radius:3px}
+.acard .azi{aspect-ratio:4/3;background:#fff;padding:3px}
+.acard .azi img{position:relative;z-index:1;width:100%;height:100%;object-fit:cover;object-position:center;border:0;border-radius:1px;box-shadow:none;display:block}
+.acard .azm{position:absolute;z-index:2;left:-10px;top:-10px;width:26px;height:26px;background:#F7F3EA url(favicon.svg) center/22px no-repeat;border:1px solid #1F3F8F}
+.acard .azc{position:absolute;z-index:2;right:-9px;bottom:-9px;width:48px;height:48px;box-sizing:border-box;background:#1F3F8F;color:#fff;border:3px solid #F7F3EA;box-shadow:0 0 0 1px #1F3F8F;display:flex;flex-direction:column;align-items:center;justify-content:center;font:500 8px ui-monospace,monospace;letter-spacing:.08em;text-transform:uppercase;line-height:1.1}
+.acard .azc b{font-size:16px;letter-spacing:0}
+.acard h3{margin:16px 8px 2px;font-family:"Source Serif 4",Georgia,serif;font-weight:500;font-size:18px;color:var(--ink)}
+.acard .ad{margin:0 8px;font:500 12px ui-monospace,monospace;color:#2F7F73;text-transform:uppercase}
+.acard:hover .az,.acard:focus-visible .az{box-shadow:0 0 0 3px #2F7F73}
+#lb{position:fixed;inset:0;background:rgba(20,20,19,.88);display:none;align-items:center;justify-content:center;flex-direction:column;z-index:9;padding:max(16px,env(safe-area-inset-top)) max(16px,env(safe-area-inset-right)) max(16px,env(safe-area-inset-bottom)) max(16px,env(safe-area-inset-left))}
+#lb.on{display:flex}
+#lb img{max-width:min(92vw,1200px);max-height:78vh;width:auto;height:auto;object-fit:contain;border-radius:8px}
+#lb p{color:#f0eee6;margin:12px 0 0;font-size:14px;line-height:1.45;max-width:min(92vw,720px);text-align:center}
+#lb p a{color:#fff;text-decoration:underline;text-underline-offset:3px}
+#lb .lc{position:absolute;top:max(14px,env(safe-area-inset-top));left:18px;color:#f0eee6;font:500 13px ui-monospace,monospace}
+#lb .lx,#lb .lp,#lb .ln{position:absolute;background:rgba(255,255,255,.14);color:#fff;border:0;border-radius:999px;width:44px;height:44px;font-size:22px;cursor:pointer;line-height:1;touch-action:manipulation}
+#lb .lx{top:max(10px,env(safe-area-inset-top));right:max(12px,env(safe-area-inset-right))}
+#lb .lp{left:max(12px,env(safe-area-inset-left));top:50%;transform:translateY(-50%)}
+#lb .ln{right:max(12px,env(safe-area-inset-right));top:50%;transform:translateY(-50%)}
+#lb .lx:hover,#lb .lp:hover,#lb .ln:hover,#lb .lx:focus-visible,#lb .lp:focus-visible,#lb .ln:focus-visible{background:#2F7F73;outline:2px solid #fff}
+@media(max-width:600px){
+  #lb .lp,#lb .ln{top:auto;bottom:max(14px,env(safe-area-inset-bottom));transform:none}
+  #lb img{max-width:96vw;max-height:66vh}
+  #lb p{margin-bottom:56px}
+}
+@media(max-width:480px){
+  .ahead.framed{align-items:flex-start;padding:10px 12px}
+  .ahead.framed h1{font-size:28px}
+  .alb{grid-template-columns:1fr}
+  .sessions a{font-size:17px}
+}
+</style>
+</head>
+<body>
+<div class="tileband" aria-hidden="true"></div>
+<div class="wrap">
+<header class="site"><a class="brand" href="index.html"><svg class="mark" width="20" height="20" aria-hidden="true" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" rx="2" fill="#F7F3EA"/><rect x=".5" y=".5" width="23" height="23" rx="2" fill="none" stroke="#1F3F8F"/><path d="M12 3l2.3 4.4L19 5l-2.4 4.7L21 12l-4.4 2.3L19 19l-4.7-2.4L12 21l-2.3-4.4L5 19l2.4-4.7L3 12l4.4-2.3L5 5l4.7 2.4z" fill="#1F3F8F"/><circle cx="12" cy="12" r="3.2" fill="#F7F3EA"/><circle cx="12" cy="12" r="1.6" fill="#2F7F73"/><g fill="#2F7F73"><path d="M0 0h3.5L0 3.5zM24 0h-3.5L24 3.5zM0 24h3.5L0 20.5zM24 24h-3.5L24 20.5z"/></g></svg>Gülçin Yıldırım Jelínek</a><nav class="nav"><a href="writing.html">Writing</a><a href="events.html">Speaking</a><a href="stats.html">Reading</a><a href="memories.html" class="on">Memories</a><a href="about.html">About</a></nav></header>
+<nav class="subnav"><a href="memories.html">Memories</a><a href="albums.html" class="on">Albums</a></nav>
+<p class="back" id="back" hidden><a href="albums.html">← All albums</a></p>
+<div class="ahead" id="ahead"><span class="azt" aria-hidden="true"></span><div>
+<h1 id="ptitle">Albums</h1>
+<p class="lede" id="plede">Photos from conferences and events.</p>
+</div></div>
+<div id="app"><p class="dom">Loading…</p></div>
+<footer>Photos are shared for personal viewing. Please don't reuse them without permission. · <a href="memories.html">All memories</a></footer>
+<div class="tilediv" aria-hidden="true"></div><footer class="brandfoot"><p class="handle"><svg class="magpie" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9.5l2.6-.6A4 4 0 0 1 13 9.6l1.8 3.4 6.7 4.6-7.3-1.5A5.5 5.5 0 0 1 7.5 14 4 4 0 0 1 5.6 9"/><path d="M9.4 11.6c1.2 1.3 2.7 1.8 4.4 1.6"/><circle cx="7.7" cy="9.2" r=".6" fill="currentColor"/><path d="M9.5 15.6l-.6 3.4M11.4 16l.2 3"/></svg><a href="https://x.com/apatheticmagpie" rel="me noopener" target="_blank" style="color:inherit">apatheticmagpie</a></p><p class="socrow"><a href="https://x.com/apatheticmagpie" target="_blank" rel="noopener" aria-label="X (@apatheticmagpie)"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4.5 4h4l11 16h-4z"/><path d="M19 4l-6 7M5 20l6-7"/></svg></a><a href="https://www.linkedin.com/in/gulcinyildirim" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3.5"/><path d="M8 10.5V17M8 7.2v.1M12 17v-6.5M12 13.5c0-1.8 1.2-3 2.6-3S17 11.4 17 13v4"/></svg></a></p><p class="copy">© <span class="cy">2026</span> Gülçin Yıldırım Jelínek. All rights reserved.</p><script>document.querySelectorAll(".cy").forEach(e=>e.textContent=new Date().getFullYear())</script></footer>
+</div>
+<div id="lb" role="dialog" aria-modal="true" aria-labelledby="lbcap" hidden>
+<span class="lc" aria-live="polite"></span>
+<button class="lx" type="button" aria-label="Close">×</button>
+<button class="lp" type="button" aria-label="Previous photo">‹</button>
+<img alt="">
+<p id="lbcap"></p>
+<button class="ln" type="button" aria-label="Next photo">›</button>
+</div>
+<script>
+/* Add a photo: drop a JPEG in albums/<album-id>/ and append one object to that album's photos in albums.json. */
+(()=>{
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const app=document.getElementById("app"),ahead=document.getElementById("ahead"),ptitle=document.getElementById("ptitle"),plede=document.getElementById("plede"),back=document.getElementById("back");
+const lb=document.getElementById("lb"),li=lb.querySelector("img"),lcap=document.getElementById("lbcap"),lc=lb.querySelector(".lc");
+let albums=[],cur=[],ix=0,ret=null,album=null,locked=false,scrollY=0;
+const byId=(a,id)=>(a.sessions||[]).find(s=>s.id===id);
+function capHTML(a,p){const s=byId(a,p.session);const link=s?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>`:"";return String(p.caption||"").split("{talk}").map(esc).join(link)}
+function plain(a,p){const s=byId(a,p.session);return String(p.caption||"").split("{talk}").join(s?s.title:"")}
+function groups(a){const photos=a.photos||[],used=new Set(),out=[];
+ (a.sessions||[]).forEach(s=>{const xs=photos.filter(p=>p.session===s.id);if(xs.length){out.push({session:s,photos:xs});used.add(s.id)}});
+ const rest=photos.filter(p=>!used.has(p.session));if(rest.length)out.push({session:null,photos:rest});return out}
+function dims(p){const w=+p.width,h=+p.height;return Number.isFinite(w)&&w>0&&Number.isFinite(h)&&h>0?` width="${w}" height="${h}"`:""}
+function fig(a,p){const k=(a.photos||[]).indexOf(p),label=plain(a,p)||p.alt||"photo";
+ return `<figure class="ph"><img src="${esc(p.thumb||p.file)}" alt="${esc(p.alt||label)}"${dims(p)} loading="lazy" decoding="async" tabindex="0" role="button" data-i="${k}" aria-label="Enlarge photo: ${esc(label)}"><figcaption>${capHTML(a,p)}</figcaption></figure>`}
+function renderAlbum(a){const gs=groups(a);
+ return gs.map(g=>{let head="";
+  if(g.session)head=`<h2><a href="${esc(g.session.url)}" target="_blank" rel="noopener">${esc(g.session.title)}</a></h2><p class="when">${esc(g.session.date||"")}</p>`;
+  else if(gs.length>1)head="<h2>More photos</h2>";
+  return `<section class="session">${head}<div class="agallery">${g.photos.map(p=>fig(a,p)).join("")}</div></section>`}).join("")+sessionsList(a)}
+function sessionsList(a){const ss=a.sessions||[];if(!ss.length)return "";
+ return `<h2>My sessions</h2><div class="box"><ul class="sessions">${ss.map(s=>`<li><time>${esc(s.date||"")}</time><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>${s.note?`<span class="role">${esc(s.note)}</span>`:""}</li>`).join("")}</ul></div>`}
+function card(a){const n=(a.photos||[]).length,p=(a.photos||[])[0];
+ const img=p?`<img src="${esc(p.thumb||p.file)}" alt="" loading="lazy">`:`<span class="empty" aria-hidden="true"></span>`;
+ return `<a class="acard" href="#${esc(a.id)}" aria-label="Open album: ${esc(a.title)}, ${n} photo${n===1?"":"s"}"><div class="az"><span class="azm" aria-hidden="true"></span><div class="azi">${img}</div><span class="azc"><b>${n}</b>${n===1?"photo":"photos"}</span></div><h3>${esc(a.title)}</h3><p class="ad">${esc(a.dates||"")}</p></a>`}
+function showAlbum(a){document.title=`${a.title} · Gülçin Yıldırım Jelínek`;back.hidden=false;ahead.classList.add("framed");ptitle.textContent=a.title;
+ plede.innerHTML=`${esc(a.dates||"")}${a.url?` · <a href="${esc(a.url)}" target="_blank" rel="noopener">Schedule</a>`:""}`;
+ app.innerHTML=renderAlbum(a);
+ app.querySelectorAll("img[data-i]").forEach(el=>{const go=()=>openLb(a,+el.dataset.i);el.addEventListener("click",go);el.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();go()}})});
+ scrollTo(0,0)}
+function showIndex(){document.title="Albums · Gülçin Yıldırım Jelínek";back.hidden=true;ahead.classList.remove("framed");ptitle.textContent="Albums";plede.textContent="Photos from conferences and events.";
+ const list=albums.slice().sort((a,b)=>(b.sort||"").localeCompare(a.sort||""));
+ app.innerHTML=list.length?`<div class="alb">${list.map(card).join("")}</div>`:`<p>No albums yet.</p>`}
+function route(){if(lb.classList.contains("on"))closeLb();const id=decodeURIComponent(location.hash.replace(/^#/,""));const a=albums.find(x=>x.id===id);if(a)showAlbum(a);else showIndex()}
+function show(){const p=cur[ix];li.src=p.file;li.alt=p.alt||plain(album,p);lcap.innerHTML=capHTML(album,p)||esc(li.alt);lc.textContent=(ix+1)+" / "+cur.length;[cur[ix+1],cur[ix-1]].forEach(n=>{if(n){const im=new Image();im.src=n.file}})}
+function lock(){if(locked)return;scrollY=window.scrollY||0;document.body.style.position="fixed";document.body.style.top=`-${scrollY}px`;document.body.style.left="0";document.body.style.right="0";document.body.style.width="100%";locked=true}
+function unlock(){if(!locked)return;document.body.style.position="";document.body.style.top="";document.body.style.left="";document.body.style.right="";document.body.style.width="";locked=false;window.scrollTo(0,scrollY)}
+function openLb(a,k){album=a;cur=a.photos||[];ix=k;ret=document.activeElement;show();lb.hidden=false;lb.classList.add("on");lock();lb.querySelector(".lx").focus()}
+function closeLb(){const was=lb.classList.contains("on");lb.classList.remove("on");lb.hidden=true;li.removeAttribute("src");li.alt="";unlock();if(was&&ret&&ret.isConnected)ret.focus();ret=null}
+const step=n=>{if(!cur.length)return;ix=(ix+n+cur.length)%cur.length;show()};
+lb.querySelector(".lx").addEventListener("click",closeLb);
+lb.querySelector(".lp").addEventListener("click",()=>step(-1));
+lb.querySelector(".ln").addEventListener("click",()=>step(1));
+lb.addEventListener("click",e=>{if(e.target===lb)closeLb()});
+let tx=null,ty=null;
+lb.addEventListener("touchstart",e=>{if(e.target.closest("a,button")){tx=null;return}tx=e.touches[0].clientX;ty=e.touches[0].clientY},{passive:true});
+lb.addEventListener("touchend",e=>{if(tx==null)return;const dx=e.changedTouches[0].clientX-tx,dy=e.changedTouches[0].clientY-ty;if(Math.abs(dx)>50&&Math.abs(dx)>Math.abs(dy))step(dx<0?1:-1);tx=null});
+document.addEventListener("keydown",e=>{if(!lb.classList.contains("on"))return;const pop=document.getElementById("alt-pop");if(pop&&!pop.hidden)return;
+ if(e.key==="Escape")closeLb();
+ else if(e.key==="ArrowRight")step(1);
+ else if(e.key==="ArrowLeft")step(-1);
+ else if(e.key==="Tab"){const b=[...lb.querySelectorAll("button")];if(!b.length)return;e.preventDefault();const f=b.indexOf(document.activeElement);b[(f+(e.shiftKey?-1:1)+b.length)%b.length].focus()}});
+fetch("albums.json").then(r=>r.json()).then(d=>{albums=d.albums||[];addEventListener("hashchange",route);route()}).catch(()=>{app.innerHTML="<p>Albums could not be loaded.</p>"});
+})();
+</script>
+<link rel="stylesheet" href="alt.css"><script src="alt.js" defer></script>
+</body>
+</html>
