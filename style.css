@@ -56,7 +56,7 @@ h2{font-family:"Source Serif 4",Georgia,serif;font-weight:500;font-size:26px;mar
 .vids{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:20px}.vids.three{grid-template-columns:repeat(3,1fr)}@media(max-width:640px){.vids.three{grid-template-columns:1fr}}
 .vids a{display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}.vids img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;background:var(--soft)}
 .vids .vb{padding:12px 14px}.vids .t{font-family:"Source Serif 4",Georgia,serif;font-size:15px;line-height:1.3;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.vids a:hover .t{color:var(--clay)}
-.more{display:block;text-align:right;color:var(--clay);font-size:14px;margin:-8px 0 24px}.more:hover{text-decoration:underline}
+.more{display:block;text-align:right;color:var(--clay);font-size:14px;margin:16px 0 24px}.more:hover{text-decoration:underline}
 
 /* mobile */
 html,body{overflow-x:hidden;max-width:100%}
@@ -91,7 +91,7 @@ header.site .nav{margin-bottom:0}
 .hero p{font-family:"Source Serif 4",Georgia,serif;font-size:19px;line-height:1.6;max-width:640px}
 .hgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px}
 .hcard{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--clay);border-radius:12px;padding:14px 16px;min-width:0}
-.hcard .d{font:500 12px ui-monospace,monospace;color:var(--clay);text-transform:uppercase}.hcard .e{font-weight:600;margin:4px 0 2px}.hcard .e a{color:var(--ink)}.hcard .t{font-family:"Source Serif 4",Georgia,serif;font-size:16px;margin-top:6px}
+.hcard .d{font:500 12px ui-monospace,monospace;color:var(--clay);text-transform:uppercase}.hcard .e{font-weight:600;margin:4px 0 2px}.hcard .e a{color:var(--ink)}.hcard .t{font-family:"Source Serif 4",Georgia,serif;font-size:16px;margin-top:6px}.hcard .who{color:var(--muted);font-size:13.5px;margin-top:4px}.hcard .pics{display:inline-block;margin-top:8px;font-size:13px;color:var(--clay)}.hcard .pics:hover{text-decoration:underline}
 .mrow{margin-bottom:10px;display:grid;grid-template-columns:repeat(4,1fr);gap:8px}.mrow img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8px;border:1px solid var(--line);display:block}
 .teaser{padding:16px 20px;display:flex;flex-wrap:wrap;gap:8px 24px;align-items:baseline}.teaser b{font-size:26px}
 @media(max-width:480px){.nav{gap:8px 14px;font-size:13.5px}.mrow{grid-template-columns:repeat(2,1fr)}}
