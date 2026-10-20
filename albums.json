@@ -1,0 +1,61 @@
+{
+  "note": "Add a photo: drop a JPEG in that album's folder and append one object to its photos array. thumb is optional. {talk} in a caption links the session title. Dates like Oct 20, 2026. No room names. Details in the README.",
+  "albums": [
+    {
+      "id": "pgconfeu-2026",
+      "title": "PGConf.EU 2026 · Valencia",
+      "dates": "Oct 20–23, 2026",
+      "sort": "2026-10-20",
+      "url": "https://www.postgresql.eu/events/pgconfeu2026/schedule/",
+      "sessions": [
+        {
+          "id": "postgres-for-everything",
+          "date": "Oct 20, 2026",
+          "title": "Postgres for Everything, Until It Isn't",
+          "url": "https://www.postgresql.eu/events/pgconfeu2026/schedule/session/8326-postgres-for-everything-until-it-isnt/",
+          "note": "with Petr Jelinek"
+        },
+        {
+          "id": "monitoring-pg19",
+          "date": "Oct 21, 2026",
+          "title": "What’s New with Monitoring in PostgreSQL 19",
+          "url": "https://www.postgresql.eu/events/pgconfeu2026/schedule/session/8182-whats-new-with-monitoring-in-postgresql-19/"
+        },
+        {
+          "id": "observability-summit",
+          "date": "Oct 23, 2026",
+          "title": "PostgreSQL Observability Summit",
+          "url": "https://www.postgresql.eu/events/pgconfeu2026/schedule/session/8552-postgresql-observability-summit/",
+          "note": "co-organizer, Community Events Day"
+        },
+        {
+          "id": "kubernetes-summit",
+          "date": "Oct 23, 2026",
+          "title": "PostgreSQL on Kubernetes Summit",
+          "url": "https://www.postgresql.eu/events/pgconfeu2026/schedule/session/8553-postgresql-on-kubernetes-summit/",
+          "note": "co-organizer with Floor Drees"
+        }
+      ],
+      "photos": [
+        {
+          "file": "albums/pgconfeu-2026/main-stage.jpg",
+          "thumb": "albums/pgconfeu-2026/main-stage-thumb.jpg",
+          "width": 1280,
+          "height": 960,
+          "session": "postgres-for-everything",
+          "alt": "Gülçin Yıldırım Jelínek and Petr Jelinek standing together on the main stage at PGConf.EU 2026 in Valencia, Oct 20, 2026, in front of the Welcome to Valencia screen",
+          "caption": "With Petr Jelinek on the main stage before ‘{talk}’"
+        },
+        {
+          "file": "albums/pgconfeu-2026/talk.jpg",
+          "thumb": "albums/pgconfeu-2026/talk-thumb.jpg",
+          "width": 964,
+          "height": 1280,
+          "session": "postgres-for-everything",
+          "alt": "Gülçin Yıldırım Jelínek at the PGConf.EU podium and Petr Jelinek beside her, presenting Postgres for Everything, Until It Isn't, with the About us slide on the screen, Oct 20, 2026",
+          "caption": "Presenting ‘{talk}’ with Petr Jelinek"
+        }
+      ]
+    }
+  ]
+}

@@ -30,6 +30,7 @@
 .avh .azh h2{margin:0;flex:none}.avh .azt{width:30px;height:30px;flex:none;background:url(favicon.svg) center/30px no-repeat}
 @media(max-width:480px){.avh .azh{flex-basis:100%}.avh .azh h2{font-size:22px}}
 </style></head><body><div class="tileband" aria-hidden="true"></div><div class="wrap"><header class="site"><a class="brand" href="index.html"><svg class="mark" width="20" height="20" aria-hidden="true" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" rx="2" fill="#F7F3EA"/><rect x=".5" y=".5" width="23" height="23" rx="2" fill="none" stroke="#1F3F8F"/><path d="M12 3l2.3 4.4L19 5l-2.4 4.7L21 12l-4.4 2.3L19 19l-4.7-2.4L12 21l-2.3-4.4L5 19l2.4-4.7L3 12l4.4-2.3L5 5l4.7 2.4z" fill="#1F3F8F"/><circle cx="12" cy="12" r="3.2" fill="#F7F3EA"/><circle cx="12" cy="12" r="1.6" fill="#2F7F73"/><g fill="#2F7F73"><path d="M0 0h3.5L0 3.5zM24 0h-3.5L24 3.5zM0 24h3.5L0 20.5zM24 24h-3.5L24 20.5z"/></g></svg>Gülçin Yıldırım Jelínek</a><nav class="nav"><a href="writing.html">Writing</a><a href="events.html">Speaking</a><a href="stats.html">Reading</a><a href="memories.html" class="on">Memories</a><a href="about.html">About</a></nav></header>
+<nav class="subnav"><a href="memories.html" class="on">Memories</a><a href="albums.html">Albums</a></nav>
 <h1>Memories</h1>
 <p class="lede">Moments from conferences, meetups and talks.</p>
 <div id="g"></div>
@@ -41,7 +42,7 @@ const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&g
 const fd=d=>(d||"").length<10?(d||""):new Date(d+"T00:00:00").toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"});
 const slug=s=>String(s).toLowerCase().normalize("NFD").replace(/[^\w\s-]/g,"").trim().replace(/[\s_]+/g,"-");
 const G=document.getElementById("g"),lb=document.getElementById("lb"),li=lb.querySelector("img"),lp=lb.querySelector("p"),lc=lb.querySelector(".lc");
-let gs=[],cur=[],ix=0,ret=null;
+let gs=[],cur=[],ix=0,ret=null,extra=[];
 function show(){const i=cur[ix];li.src=i.file;li.alt=i.alt||i.caption;lp.textContent=i.caption;lc.textContent=(ix+1)+" / "+cur.length;[cur[ix+1],cur[ix-1]].forEach(n=>{if(n)new Image().src=n.file})}
 function openLb(list,k){cur=list;ix=k;ret=document.activeElement;show();lb.classList.add("on");lb.querySelector(".lx").focus()}
 function closeLb(){lb.classList.remove("on");li.removeAttribute("src");if(ret)ret.focus()}
@@ -53,6 +54,7 @@ lb.addEventListener("touchend",e=>{if(tx==null)return;const dx=e.changedTouches[
 document.addEventListener("keydown",e=>{if(lb.classList.contains("on")){if(e.key=="Escape")closeLb();else if(e.key=="ArrowRight")step(1);else if(e.key=="ArrowLeft")step(-1);else if(e.key=="Tab"){const b=[...lb.querySelectorAll("button")],f=b.indexOf(document.activeElement);e.preventDefault();b[(f+(e.shiftKey?-1:1)+b.length)%b.length].focus()}}else if(e.key=="Escape"&&location.hash)location.hash=""});
 function grid(){
  let h="",alb=[];const flush=()=>{if(alb.length){h+=`<div class="alb">${alb.join("")}</div>`;alb=[]}};
+ extra.forEach(a=>{const n=(a.photos||[]).length,p=(a.photos||[])[0];if(!n||!p)return;alb.push(`<a class="acard" href="albums.html#${esc(a.id)}" aria-label="Open album: ${esc(a.title)}, ${n} photo${n==1?"":"s"}"><div class="az"><span class="azm" aria-hidden="true"></span><div class="azi"><img src="${esc(p.thumb||p.file)}" alt="" loading="lazy"></div><span class="azc"><b>${n}</b>${n==1?"photo":"photos"}</span></div><h3>${esc(a.title)}</h3><p class="ad">${esc(a.dates||"")}</p></a>`)});
  gs.forEach(g=>{const n=g.xs.length;
   if(n>3){alb.push(`<button class="acard" data-a="${esc(g.id)}" aria-label="Open album: ${esc(g.e)}, ${n} photos"><div class="az"><span class="azm" aria-hidden="true"></span><div class="azi"><img src="${esc(g.xs[0].thumb)}" alt="" loading="lazy"></div><span class="azc"><b>${n}</b>${n==1?"photo":"photos"}</span></div><h3>${esc(g.e)}</h3><p class="ad">${fd(g.d)}</p></button>`)}
   else{flush();h+=`<div class="gh"><h2>${esc(g.e)}</h2><span class="dom">${fd(g.d)}</span></div><div class="mgrid">${g.xs.map((i,k)=>`<figure class="ph"><img src="${esc(i.thumb)}" data-g="${esc(g.id)}" data-k="${k}" alt="${esc(i.alt||i.caption)}" loading="lazy" tabindex="0" role="button" aria-label="View photo: ${esc(i.alt||i.caption)}"><figcaption>${esc(i.caption)}${i.link?` · <a href="${esc(i.link)}" target="_blank" rel="noopener">more</a>`:""}</figcaption></figure>`).join("")}</div>`}});
@@ -60,11 +62,11 @@ function grid(){
 function album(g){const l=g.xs[0].link;return `<section id="av" class="on" aria-label="${esc(g.e)} album"><div class="avh"><button class="btn back" aria-label="Back to all memories">← All memories</button><div class="azh"><span class="azt" aria-hidden="true"></span><div><h2>${esc(g.e)}</h2><span class="dom">${fd(g.d)} · ${g.xs.length} photos${l?` · <a href="${esc(l)}" target="_blank" rel="noopener">event</a>`:""}</span></div></div></div><div class="tg">${g.xs.map((i,k)=>`<button data-g="${esc(g.id)}" data-k="${k}" aria-label="View photo ${k+1} of ${g.xs.length}: ${esc(i.caption)}"><img src="${esc(i.thumb)}" alt="${esc(i.alt||i.caption)}" loading="lazy"></button>`).join("")}</div></section>`}
 function route(){const id=decodeURIComponent(location.hash.slice(1)),g=gs.find(g=>g.id==id&&g.xs.length>3);
  G.innerHTML=g?album(g):grid();if(g)scrollTo(0,0);
- G.querySelectorAll(".acard").forEach(b=>b.onclick=()=>location.hash=b.dataset.a);
+ G.querySelectorAll(".acard[data-a]").forEach(b=>b.onclick=()=>location.hash=b.dataset.a);
  const bk=G.querySelector(".back");if(bk){bk.onclick=()=>{location.hash=""};bk.focus({preventScroll:true})}
  G.querySelectorAll("[data-k]").forEach(el=>{const go=()=>openLb(gs.find(g=>g.id==el.dataset.g).xs,+el.dataset.k);el.onclick=go;el.onkeydown=e=>{if(e.key=="Enter"||e.key==" "){e.preventDefault();go()}}});
  if(!g&&id){const t=G.querySelector(`[data-a="${CSS.escape(id)}"]`);if(t)t.focus()}}
-fetch("memories.json").then(r=>r.json()).then(d=>{const xs=(d.items||[]).map((i,o)=>({...i,o})).sort((a,b)=>b.date.localeCompare(a.date)||a.o-b.o);
+Promise.all([fetch("memories.json").then(r=>r.json()),fetch("albums.json").then(r=>r.ok?r.json():{albums:[]}).catch(()=>({albums:[]}))]).then(([d,ab])=>{extra=(ab.albums||[]).filter(a=>(a.photos||[]).length).sort((a,b)=>(b.sort||"").localeCompare(a.sort||""));const xs=(d.items||[]).map((i,o)=>({...i,o})).sort((a,b)=>b.date.localeCompare(a.date)||a.o-b.o);
  xs.forEach(i=>{let g=gs.find(g=>g.e==i.event);if(!g)gs.push(g={e:i.event,d:i.date,id:i.album||slug(i.event),xs:[]});g.xs.push(i)});
  addEventListener("hashchange",route);route()});
 </script><link rel="stylesheet" href="alt.css"><script src="alt.js" defer></script></body></html>

@@ -4,6 +4,7 @@
 - every <img> (static or in a JS template string) in *.html must have an alt attribute
 - every inline <svg> must be aria-hidden="true" or role="img" with an aria-label
 - every memories.json item must have a non-empty "alt"
+- every albums.json photo must have a non-empty "alt", and its file (and thumb, if set) must exist
 Run: python3 scripts/check_alt.py   (exit code 1 on problems)
 """
 import glob, json, os, re, sys
@@ -24,5 +25,15 @@ if os.path.exists("memories.json"):
     for k, i in enumerate(json.load(open("memories.json", encoding="utf-8")).get("items", [])):
         if not (i.get("alt") or "").strip():
             bad.append(f"memories.json item {k} ({i.get('file')}): missing \"alt\"")
+if os.path.exists("albums.json"):
+    for a in json.load(open("albums.json", encoding="utf-8")).get("albums", []):
+        for k, i in enumerate(a.get("photos") or []):
+            where = f"albums.json {a.get('id')} photo {k} ({i.get('file')})"
+            if not (i.get("alt") or "").strip():
+                bad.append(f"{where}: missing \"alt\"")
+            if not i.get("file") or not os.path.exists(i.get("file")):
+                bad.append(f"{where}: file not found")
+            if i.get("thumb") and not os.path.exists(i.get("thumb")):
+                bad.append(f"{where}: thumb not found")
 print("\n".join(bad) or "alt-text check: OK")
 sys.exit(1 if bad else 0)
