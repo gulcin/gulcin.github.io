@@ -46,6 +46,9 @@ Dates are `YYYY-MM-DD` (may be omitted; undated items sort last). Order in the f
 
 `thumb` is optional; without it the grid uses `file`. `{talk}` becomes a link to the session named in `session`. Photos in a session are grouped under that talk. A session with no photos stays in My sessions and does not get an empty gallery. Write dates as `Oct 20, 2026`. Leave room names out. A new album is another object in `albums`, with its own image folder. Keep the long edge around 1600px; a `-thumb` copy around 960px is plenty.
 
+## Speaking
+`events.json` feeds the home page and Speaking. A talk is upcoming when `date` is today or later. Set `"done": true` when a talk dated today is already over. `"with"` names a co-speaker (shown as “with Petr Jelinek”). `"photos"` is an optional link to an album. Room and stage names are not shown. Declined talks stay out of the home list.
+
 ## Accessibility: every image needs alt text
 - Content images get short, meaningful alt text. Book covers: `Cover of <Title> by <Author>` (built automatically in `books.html`). Video/talk thumbnails: `Video thumbnail: <title> (<event>)` (built in `writing.html` / `stats.html`).
 - Memory photos: add an `alt` field to each `memories.json` item describing the scene, event and date (the templates fall back to `caption`). Don't name other people; describe them generically ("with a fellow organiser"). Naming me is fine.
