@@ -2,18 +2,22 @@
  "items": [
   {
    "date": "2026-11-24",
-   "end": "2026-11-24",
+   "start": "10:25",
+   "end": "11:10",
    "event": "PGConf.PL 2026",
    "city": "Gdańsk",
    "country": "Poland",
    "title": "PostgreSQL in the Age of Agents",
    "role": "speaker",
    "url": "https://www.postgresql.eu/events/pgconfpl2026/schedule/session/8362-postgresql-in-the-age-of-agents/",
-   "year": "2026"
+   "year": "2026",
+   "time": "10:25–11:10",
+   "tz": "Europe/Warsaw"
   },
   {
    "date": "2026-11-19",
-   "end": "2026-11-19",
+   "start": "10:55",
+   "end": "11:15",
    "event": "code::dive 2026",
    "city": "Wrocław",
    "country": "Poland",
@@ -24,7 +28,7 @@
    "url": "https://codedive.pl/?session=238-databases-in-the-age-of-agents#agenda",
    "year": "2026",
    "time": "10:55–11:15",
-   "tz": "CET",
+   "tz": "Europe/Warsaw",
    "abstract": "Databases were built for humans; AI agents bring bursty, unpredictable workloads. Covers tool-using agents, evaluation environments needing fast cloning and isolation, development agents treating databases as disposable, and databases as hybrid agent memory, and what PostgreSQL needs to stay the default."
   },
   {
@@ -47,7 +51,8 @@
   },
   {
    "date": "2026-10-20",
-   "end": "2026-10-20",
+   "start": "11:15",
+   "end": "12:05",
    "event": "PGConf.EU 2026",
    "city": "Valencia",
    "country": "Spain",
@@ -56,17 +61,17 @@
    "title": "Postgres for Everything, Until It Isn't",
    "role": "speaker",
    "with": "Petr Jelinek",
-   "done": true,
    "photos": "albums.html#pgconfeu-2026",
    "url": "https://www.postgresql.eu/events/pgconfeu2026/schedule/session/8326-postgres-for-everything-until-it-isnt/",
    "year": "2026",
    "time": "11:15–12:05",
-   "tz": "CEST",
+   "tz": "Europe/Madrid",
    "abstract": "PostgreSQL is a general-purpose transactional engine whose row store, WAL, MVCC, vacuum and constraint enforcement are tuned for OLTP. That machinery carries a cost for append-heavy telemetry, large analytical scans or datasets in object storage. The talk looks at where the execution model excels, where it strains at scale, and why compositional architectures are emerging around PostgreSQL rather than replacing it."
   },
   {
    "date": "2026-10-21",
-   "end": "2026-10-21",
+   "start": "09:25",
+   "end": "10:15",
    "event": "PGConf.EU 2026",
    "city": "Valencia",
    "country": "Spain",
@@ -77,12 +82,13 @@
    "url": "https://www.postgresql.eu/events/pgconfeu2026/schedule/session/8182-whats-new-with-monitoring-in-postgresql-19/",
    "year": "2026",
    "time": "09:25–10:15",
-   "tz": "CEST",
+   "tz": "Europe/Madrid",
    "abstract": "PostgreSQL 19 ships a focused set of monitoring improvements that close several long-standing observability gaps for DBAs, platform engineers and tooling authors. Covers default lock-wait logging, per-process log verbosity, separate autoanalyze logging, WAL and COPY I/O visibility, remote server messages in the server log, pg_get_multixact_stats(), and a higher XID wraparound warning threshold."
   },
   {
    "date": "2026-10-23",
-   "end": "2026-10-23",
+   "start": "09:00",
+   "end": "12:30",
    "event": "PGConf.EU 2026",
    "city": "Valencia",
    "country": "Spain",
@@ -93,12 +99,13 @@
    "url": "https://www.postgresql.eu/events/pgconfeu2026/schedule/session/8552-postgresql-observability-summit/",
    "year": "2026",
    "time": "09:00–12:30",
-   "tz": "CEST",
+   "tz": "Europe/Madrid",
    "abstract": "PostgreSQL now runs on-prem, cloud-managed and on Kubernetes, each with its own monitoring stack, blind spots and trade-offs. This half-day Community Events Day summit explores a unified observability strategy across those platforms, including AI and vector workloads, agentic access through MCP servers, and gaps in current tooling."
   },
   {
    "date": "2026-10-23",
-   "end": "2026-10-23",
+   "start": "13:30",
+   "end": "16:45",
    "event": "PGConf.EU 2026",
    "city": "Valencia",
    "country": "Spain",
@@ -109,7 +116,7 @@
    "url": "https://www.postgresql.eu/events/pgconfeu2026/schedule/session/8553-postgresql-on-kubernetes-summit/",
    "year": "2026",
    "time": "13:30–16:45",
-   "tz": "CEST",
+   "tz": "Europe/Madrid",
    "abstract": "A half-day Community Events Day summit on running PostgreSQL in cloud native and cloud neutral environments: the operator landscape, best practices, challenges and production stories. Covers operator tradeoffs, backup and recovery in Kubernetes, scaling, monitoring and zero-downtime upgrades, with short talks and panel Q&As."
   },
   {
