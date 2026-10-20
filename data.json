@@ -1,6 +1,59 @@
 {
  "items": [
   {
+   "title": "StackGres: Open-source Citus matches PlanetScale's Neki at 10M QPS on half the data nodes",
+   "url": "https://stackgres.io/blog/open-source-citus-matches-planetscales-neki-at-10m-qps-on-half-the-data-nodes/",
+   "domain": "stackgres.io",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Databases",
+    "Industry"
+   ],
+   "added": "2026-10-19T06:07:38Z"
+  },
+  {
+   "title": "Neon: Sync Stripe data in real-time to Neon (Stripe Data Pipeline real-time sync to Postgres)",
+   "url": "https://neon.com/blog/stripe-data-pipeline-realtime-sync-to-postgres",
+   "domain": "neon.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Industry"
+   ],
+   "added": "2026-10-19T06:07:38Z"
+  },
+  {
+   "title": "Supabase: A local Supabase project per agent, with or without Docker",
+   "url": "https://supabase.com/blog/local-supabase-project-per-agent-with-or-without-docker",
+   "domain": "supabase.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "AI/LLMs",
+    "Industry"
+   ],
+   "added": "2026-10-19T06:07:38Z"
+  },
+  {
+   "title": "Christophe Pettus: A Parade of Horribles, in Serial Order (why not to default to SERIALIZABLE)",
+   "url": "https://thebuild.com/blog/a-parade-of-horribles-in-serial-order/",
+   "domain": "thebuild.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres"
+   ],
+   "added": "2026-10-19T06:07:38Z"
+  },
+  {
    "title": "Dan Koe: How to articulate yourself intelligently",
    "url": "https://x.com/thedankoe/status/2011827303962329458",
    "domain": "x.com",
