@@ -54,6 +54,51 @@
           "session": "postgres-for-everything",
           "alt": "Gülçin Yıldırım Jelínek at the PGConf.EU podium and Petr Jelinek beside her, presenting Postgres for Everything, Until It Isn't, with the About us slide on the screen, Oct 20, 2026",
           "caption": "Presenting ‘{talk}’ with Petr Jelinek"
+        },
+        {
+          "file": "albums/pgconfeu-2026/on-stage.jpg",
+          "thumb": "albums/pgconfeu-2026/on-stage-thumb.jpg",
+          "width": 852,
+          "height": 1280,
+          "session": "postgres-for-everything",
+          "alt": "Gülçin Yıldırım Jelínek smiling on stage with a headset microphone, hands on her hips, in a brown leather jacket and plaid skirt at PGConf.EU 2026, Oct 20, 2026",
+          "caption": "On stage for ‘{talk}’, Oct 20, 2026"
+        },
+        {
+          "file": "albums/pgconfeu-2026/podium.jpg",
+          "thumb": "albums/pgconfeu-2026/podium-thumb.jpg",
+          "width": 852,
+          "height": 1280,
+          "session": "postgres-for-everything",
+          "alt": "Gülçin Yıldırım Jelínek at the PGConf.EU podium with a sticker-covered laptop, and Petr Jelinek standing beside her, Oct 20, 2026",
+          "caption": "With Petr Jelinek at the podium for ‘{talk}’, Oct 20, 2026"
+        },
+        {
+          "file": "albums/pgconfeu-2026/about-us.jpg",
+          "thumb": "albums/pgconfeu-2026/about-us-thumb.jpg",
+          "width": 1280,
+          "height": 852,
+          "session": "postgres-for-everything",
+          "alt": "Gülçin Yıldırım Jelínek at the podium and Petr Jelinek beside her, with the About us slide on the screen behind them at PGConf.EU 2026, Oct 20, 2026",
+          "caption": "With Petr Jelinek during ‘{talk}’, About us on the screen, Oct 20, 2026"
+        },
+        {
+          "file": "albums/pgconfeu-2026/monitoring-podium.jpg",
+          "thumb": "albums/pgconfeu-2026/monitoring-podium-thumb.jpg",
+          "width": 1280,
+          "height": 852,
+          "session": "monitoring-pg19",
+          "alt": "Gülçin Yıldırım Jelínek in a striped sweater at a PGConf.EU podium, while a man in an orange shirt holds a microphone beside her, Oct 21, 2026",
+          "caption": "At the podium for ‘{talk}’, Oct 21, 2026"
+        },
+        {
+          "file": "albums/pgconfeu-2026/monitoring-speaking.jpg",
+          "thumb": "albums/pgconfeu-2026/monitoring-speaking-thumb.jpg",
+          "width": 852,
+          "height": 1280,
+          "session": "monitoring-pg19",
+          "alt": "Gülçin Yıldırım Jelínek at the PGConf.EU podium in a striped sweater, one hand raised, with a sticker-covered laptop open beside her, Oct 21, 2026",
+          "caption": "Speaking at ‘{talk}’, Oct 21, 2026"
         }
       ]
     }
