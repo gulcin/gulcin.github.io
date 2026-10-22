@@ -1,6 +1,70 @@
 {
  "items": [
   {
+   "title": "ClickHouse: The Agentic Analytics Benchmark, round two (GPT-6, Claude Opus 5.5, Sonnet 5.5)",
+   "url": "https://clickhouse.com/blog/agentic-analytics-benchmark-round-two",
+   "domain": "clickhouse.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "ClickHouse",
+    "AI/LLMs",
+    "Databases"
+   ],
+   "added": "2026-10-21T06:06:42Z"
+  },
+  {
+   "title": "Christophe Pettus: Binary read replicas in PostgreSQL, Part 1 (what a replica is and what it costs)",
+   "url": "https://thebuild.com/blog/binary-read-replicas-in-postgresql/",
+   "domain": "thebuild.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Databases"
+   ],
+   "added": "2026-10-21T06:06:42Z"
+  },
+  {
+   "title": "Pavel Luzanov: PostgreSQL 19 part 5.2 (DBA1, DBA2), CommitFest 2026-03 (pg_stat_lock, autovacuum scores, REPACK)",
+   "url": "https://postgrespro.com/blog/pgsql/5973414",
+   "domain": "postgrespro.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres"
+   ],
+   "added": "2026-10-21T06:06:42Z"
+  },
+  {
+   "title": "Pavel Luzanov: PostgreSQL 19 part 5.3 (DBA3, DBS), CommitFest 2026-03 (pg_stat_recovery, publication EXCEPT, server-side SNI)",
+   "url": "https://postgrespro.com/blog/pgsql/5973416",
+   "domain": "postgrespro.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres"
+   ],
+   "added": "2026-10-21T06:06:42Z"
+  },
+  {
+   "title": "NousDB: A Fast Query Engine for Semantic Analytics (arXiv 2610.28551)",
+   "url": "https://arxiv.org/abs/2610.28551",
+   "domain": "arxiv.org",
+   "category": "papers",
+   "type": "Paper",
+   "status": "backlog",
+   "topics": [
+    "AI/LLMs",
+    "Databases"
+   ],
+   "added": "2026-10-21T06:06:42Z"
+  },
+  {
    "title": "The Register: Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
    "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
    "domain": "theregister.com",
