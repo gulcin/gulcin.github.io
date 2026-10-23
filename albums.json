@@ -90,6 +90,33 @@
           "session": "monitoring-pg19",
           "alt": "Gülçin Yıldırım Jelínek at the PGConf.EU podium in a striped sweater, one hand raised, with a sticker-covered laptop open beside her, Oct 21, 2026",
           "caption": "Speaking at ‘{talk}’, Oct 21, 2026"
+        },
+        {
+          "file": "albums/pgconfeu-2026/observability-stage.jpg",
+          "thumb": "albums/pgconfeu-2026/observability-stage-thumb.jpg",
+          "width": 960,
+          "height": 1280,
+          "session": "observability-summit",
+          "alt": "Gülçin Yıldırım Jelínek at the PGConf.EU podium on a wide stage, under a big screen showing her slide Autoanalyze logging split from autovacuum and a live camera feed of her, Oct 23, 2026",
+          "caption": "Talking about what’s new in PostgreSQL 19 monitoring at the {talk}, Oct 23, 2026"
+        },
+        {
+          "file": "albums/pgconfeu-2026/observability-podium.jpg",
+          "thumb": "albums/pgconfeu-2026/observability-podium-thumb.jpg",
+          "width": 960,
+          "height": 1280,
+          "session": "observability-summit",
+          "alt": "Closer view of Gülçin Yıldırım Jelínek at the PGConf.EU Oct 20-23 2026 Valencia podium with a sticker-covered laptop, below the Autoanalyze logging split from autovacuum slide, Oct 23, 2026",
+          "caption": "At the podium for a 10-minute talk on PostgreSQL 19 monitoring at the {talk}, Oct 23, 2026"
+        },
+        {
+          "file": "albums/pgconfeu-2026/observability-wide.jpg",
+          "thumb": "albums/pgconfeu-2026/observability-wide-thumb.jpg",
+          "width": 960,
+          "height": 1280,
+          "session": "observability-summit",
+          "alt": "Wide view of the stage with Gülçin Yıldırım Jelínek speaking at the podium and her autoanalyze logging slide and live camera feed on the big screen at PGConf.EU 2026, Oct 23, 2026",
+          "caption": "Walking through the autoanalyze logging change in PostgreSQL 19 at the {talk}, Oct 23, 2026"
         }
       ]
     }
