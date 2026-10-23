@@ -115,6 +115,8 @@
    "stage": "Audit 2",
    "title": "PostgreSQL on Kubernetes Summit",
    "role": "host",
+   "with": "Floor Drees (co-organizer)",
+   "photos": "albums.html#pgconfeu-2026",
    "url": "https://www.postgresql.eu/events/pgconfeu2026/schedule/session/8553-postgresql-on-kubernetes-summit/",
    "year": "2026",
    "time": "13:30–16:45",

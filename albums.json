@@ -117,6 +117,33 @@
           "session": "observability-summit",
           "alt": "Wide view of the stage with Gülçin Yıldırım Jelínek speaking at the podium and her autoanalyze logging slide and live camera feed on the big screen at PGConf.EU 2026, Oct 23, 2026",
           "caption": "Walking through the autoanalyze logging change in PostgreSQL 19 at the {talk}, Oct 23, 2026"
+        },
+        {
+          "file": "albums/pgconfeu-2026/kubernetes-wide.jpg",
+          "thumb": "albums/pgconfeu-2026/kubernetes-wide-thumb.jpg",
+          "width": 960,
+          "height": 1280,
+          "session": "kubernetes-summit",
+          "alt": "Floor Drees at the PGConf.EU 30 Years of PostgreSQL podium and Gülçin Yıldırım Jelínek in a yellow shirt standing beside her on a wide stage, with both of them on the big screen above and empty chairs to the side, Oct 23, 2026",
+          "caption": "Opening the {talk} with Floor Drees, which we co-organized, Oct 23, 2026"
+        },
+        {
+          "file": "albums/pgconfeu-2026/kubernetes-podium.jpg",
+          "thumb": "albums/pgconfeu-2026/kubernetes-podium-thumb.jpg",
+          "width": 960,
+          "height": 1280,
+          "session": "kubernetes-summit",
+          "alt": "Closer view of Gülçin Yıldırım Jelínek in a yellow shirt standing next to the PGConf.EU Oct 20-23 2026 Valencia, 30 Years of PostgreSQL podium, with Floor Drees behind the sticker-covered laptop, Oct 23, 2026",
+          "caption": "Beside the podium with Floor Drees, my co-organizer of the {talk}, Oct 23, 2026"
+        },
+        {
+          "file": "albums/pgconfeu-2026/kubernetes-together.jpg",
+          "thumb": "albums/pgconfeu-2026/kubernetes-together-thumb.jpg",
+          "width": 960,
+          "height": 1280,
+          "session": "kubernetes-summit",
+          "alt": "Floor Drees and Gülçin Yıldırım Jelínek in a yellow jacket smiling arm in arm on stage in front of a screen reading PostgreSQL on Kubernetes Summit at PGConf.EU 2026, Oct 23, 2026",
+          "caption": "With Floor Drees, my co-organizer, at the {talk}, Oct 23, 2026"
         }
       ]
     }
