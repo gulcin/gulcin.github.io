@@ -1,6 +1,71 @@
 {
  "items": [
   {
+   "title": "Christophe Pettus: Binary read replicas in PostgreSQL, Part 2 (a read replica cookbook)",
+   "url": "https://thebuild.com/blog/binary-read-replicas-in-postgresql-part-2/",
+   "domain": "thebuild.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres"
+   ],
+   "added": "2026-10-22T06:04:18Z"
+  },
+  {
+   "title": "PlanetScale: Neki update: $50 Metal, read-only replicas, Azure, and more",
+   "url": "https://planetscale.com/blog/neki-updates-and-preparing-for-production",
+   "domain": "planetscale.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Industry"
+   ],
+   "added": "2026-10-22T06:04:18Z"
+  },
+  {
+   "title": "Supabase: Operate with confidence, check production with your coding agent",
+   "url": "https://supabase.com/blog/operate-with-confidence-check-production-with-your-coding-agent",
+   "domain": "supabase.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "AI/LLMs",
+    "Industry"
+   ],
+   "added": "2026-10-22T06:04:18Z"
+  },
+  {
+   "title": "Jeremy Schneider: Postgres recovery_prefetch Considered Harmful and Causing Outages",
+   "url": "https://ardentperf.com/2026/10/20/postgres-recovery_prefetch-considered-harmful-and-causing-outages/",
+   "domain": "ardentperf.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres"
+   ],
+   "added": "2026-10-22T06:04:18Z"
+  },
+  {
+   "title": "Igor Suhorukov: My PostgreSQL is faster than yours and has almost caught up with ClickHouse (MergeTree as a Postgres table AM)",
+   "url": "https://igor-suhorukov.github.io/blog/2026/10/21/my-postgresql-is-faster-than-yours/",
+   "domain": "igor-suhorukov.github.io",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "ClickHouse",
+    "Databases"
+   ],
+   "added": "2026-10-22T06:04:18Z"
+  },
+  {
    "title": "ClickHouse: The Agentic Analytics Benchmark, round two (GPT-6, Claude Opus 5.5, Sonnet 5.5)",
    "url": "https://clickhouse.com/blog/agentic-analytics-benchmark-round-two",
    "domain": "clickhouse.com",
@@ -65,6 +130,33 @@
    "added": "2026-10-21T06:06:42Z"
   },
   {
+   "title": "Awide Labs open-sources Awide Polar: a PostgreSQL fork with compute-storage disaggregation and HTAP",
+   "url": "https://awide.tech/blog/awide-polar-open-source",
+   "domain": "awide.tech",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Databases",
+    "Industry"
+   ],
+   "added": "2026-10-20T06:09:25Z"
+  },
+  {
+   "title": "Tom Kincaid (EDB): PostgreSQL 19, what changed, what matters, and what to test now",
+   "url": "https://www.enterprisedb.com/blog/postgresql-19-what-changed-what-matters-and-what-test-now",
+   "domain": "enterprisedb.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "AI/LLMs"
+   ],
+   "added": "2026-10-20T06:09:25Z"
+  },
+  {
    "title": "The Register: Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
    "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
    "domain": "theregister.com",
@@ -93,20 +185,6 @@
    "added": "2026-10-20T06:09:25Z"
   },
   {
-   "title": "Awide Labs open-sources Awide Polar: a PostgreSQL fork with compute-storage disaggregation and HTAP",
-   "url": "https://awide.tech/blog/awide-polar-open-source",
-   "domain": "awide.tech",
-   "category": "articles",
-   "type": "Blog",
-   "status": "backlog",
-   "topics": [
-    "Postgres",
-    "Databases",
-    "Industry"
-   ],
-   "added": "2026-10-20T06:09:25Z"
-  },
-  {
    "title": "RemoteANN: A Native Vector Search Engine for Cloud Object Storage (arXiv 2610.25172)",
    "url": "https://arxiv.org/abs/2610.25172",
    "domain": "arxiv.org",
@@ -115,19 +193,6 @@
    "status": "backlog",
    "topics": [
     "Databases",
-    "AI/LLMs"
-   ],
-   "added": "2026-10-20T06:09:25Z"
-  },
-  {
-   "title": "Tom Kincaid (EDB): PostgreSQL 19, what changed, what matters, and what to test now",
-   "url": "https://www.enterprisedb.com/blog/postgresql-19-what-changed-what-matters-and-what-test-now",
-   "domain": "enterprisedb.com",
-   "category": "articles",
-   "type": "Blog",
-   "status": "backlog",
-   "topics": [
-    "Postgres",
     "AI/LLMs"
    ],
    "added": "2026-10-20T06:09:25Z"
@@ -209,6 +274,20 @@
    "added": "2026-10-18T05:25:04Z"
   },
   {
+   "title": "LWN: Why Uber dropped PostgreSQL",
+   "url": "https://lwn.net/Articles/696085",
+   "domain": "lwn.net",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Databases",
+    "Industry"
+   ],
+   "added": "2026-10-17T18:11:57Z"
+  },
+  {
    "title": "Notion: Herding elephants: Lessons learned from sharding Postgres at Notion",
    "url": "https://notion.com/blog/sharding-postgres-at-notion",
    "domain": "notion.com",
@@ -264,20 +343,6 @@
    "title": "Uber: Why Uber Engineering Switched from Postgres to MySQL",
    "url": "https://www.uber.com/blog/postgres-to-mysql-migration/",
    "domain": "uber.com",
-   "category": "articles",
-   "type": "Blog",
-   "status": "backlog",
-   "topics": [
-    "Postgres",
-    "Databases",
-    "Industry"
-   ],
-   "added": "2026-10-17T18:11:57Z"
-  },
-  {
-   "title": "LWN: Why Uber dropped PostgreSQL",
-   "url": "https://lwn.net/Articles/696085",
-   "domain": "lwn.net",
    "category": "articles",
    "type": "Blog",
    "status": "backlog",
