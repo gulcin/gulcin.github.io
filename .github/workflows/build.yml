@@ -31,7 +31,7 @@ jobs:
         run: |
           mkdir _site
           cp index.html list.html stats.html books.html writing.html events.html about.html memories.html albums.html style.css alt.css alt.js talks.js favicon.svg data.json books.json writing.json videos.json mentions.json events.json memories.json albums.json 404.html _site/
-          cp -a memories audio reading-list albums _site/
+          cp -a memories audio reading-list albums assets _site/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

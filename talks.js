@@ -1,5 +1,7 @@
 /* A dated talk stays upcoming until its end instant.
    start and end are local HH:MM; tz is an IANA zone such as Europe/Madrid.
+   A date-shaped end (YYYY-MM-DD) later than date keeps an unscheduled talk
+   upcoming until midnight at the end of that day in tz.
    With no end time the talk lasts until midnight at the end of date in tz
    (UTC when tz is missing or not a zone). done: true forces the talk into the past. */
 (function (g) {
@@ -56,13 +58,22 @@
     return new Date(utc);
   }
 
+  const YMD = /^\d{4}-\d{2}-\d{2}$/;
+
+  function endsOn(item) {
+    const date = item && String(item.date || "");
+    const end = item && item.end != null ? String(item.end) : "";
+    if (!YMD.test(date) || !YMD.test(end) || !(end > date)) return "";
+    return end;
+  }
+
   function endInstant(item) {
     const date = item && item.date;
     if (!date || String(date).length !== 10) return null;
     const tz = zoneOf(item);
     const hm = clock(item.end);
-    if (!hm) return zoned(date, 24, 0, tz);
-    return zoned(date, hm.h, hm.min, tz);
+    if (hm) return zoned(date, hm.h, hm.min, tz);
+    return zoned(endsOn(item) || date, 24, 0, tz);
   }
 
   function isUpcoming(item, now) {
@@ -109,7 +120,7 @@
     return z ? range + " " + z : range;
   }
 
-  const api = { isUpcoming, endInstant, compareUpcoming, zoneName, whenLabel };
+  const api = { isUpcoming, endInstant, endsOn, compareUpcoming, zoneName, whenLabel };
   g.talks = api;
   if (typeof module !== "undefined" && module.exports) module.exports = api;
 })(typeof globalThis !== "undefined" ? globalThis : this);
