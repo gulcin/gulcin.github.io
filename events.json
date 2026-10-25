@@ -160,7 +160,11 @@
    "role": "speaker",
    "url": "https://perconalive.com/2026-amsterdam/talks/whats-new-with-monitoring-in-postgresql-19/",
    "video": "https://www.youtube.com/watch?v=Xt9P07k0R-0",
-   "year": "2026"
+   "year": "2026",
+   "badge": {
+    "src": "assets/percona-live-amsterdam-2026-speaker.png",
+    "alt": "Percona Live Amsterdam 2026 speaker badge"
+   }
   },
   {
    "date": "2026-09-10",

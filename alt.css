@@ -63,6 +63,8 @@ button.altbadge{
   user-select:none;
 }
 .mstrip button.altbadge{left:3px;bottom:3px;padding:1px 4px;font-size:9px}
+li.sr .stt>.altframe{flex:none;width:44px;height:44px;line-height:0}
+li.sr .stt button.altbadge{top:1px;bottom:auto;left:1px;padding:0 3px;font-size:8px;letter-spacing:.04em;border-radius:3px;line-height:1.15}
 button.altbadge:hover{background:#fff}
 button.altbadge:focus{outline:none}
 button.altbadge:focus-visible{
