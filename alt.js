@@ -1,4 +1,5 @@
-/* Visible ALT badge for every content image with non-empty alt text.
+/* Visible ALT badge for content photos with non-empty alt text.
+   Speaker badges (.badge) keep their alt attribute and do not get the chip.
    Shared so images injected later (covers, thumbnails, lightbox) get one too. */
 (function () {
   if (window.__altBadge) return;
@@ -11,7 +12,7 @@
   var swallowClick = false;
 
   function described(img) {
-    return img && img.tagName === "IMG" && (img.getAttribute("alt") || "").trim();
+    return img && img.tagName === "IMG" && !img.classList.contains("badge") && (img.getAttribute("alt") || "").trim();
   }
 
   function stop(e) {
