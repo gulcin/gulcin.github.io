@@ -1,6 +1,21 @@
 {
  "items": [
   {
+   "date": "2027-03-17",
+   "end": "2027-03-19",
+   "event": "Booster Conference 2027",
+   "city": "Bergen",
+   "country": "Norway",
+   "venue": "Radisson Blu Bryggen",
+   "title": "Databases in the age of agents (30-minute experience report)",
+   "role": "speaker",
+   "url": "https://www.boosterconf.no/2027/",
+   "year": "2027",
+   "tz": "Europe/Oslo",
+   "note": "Day TBA. The conference runs 17–19 March.",
+   "abstract": "Databases were designed for humans: long-lived connections, predictable traffic and slowly evolving schemas, assumptions that agent-driven systems break with bursty, unpredictable workloads at a scale they were not built for. Covers four patterns: many short tool queries, evaluation environments that need fast cloning and isolation, development agents treating the database as disposable, and hybrid relational, vector and document memory, plus what PostgreSQL needs to remain the default while correctness, durability and operational safety stay non-negotiable."
+  },
+  {
    "date": "2026-11-24",
    "start": "10:25",
    "end": "11:10",
