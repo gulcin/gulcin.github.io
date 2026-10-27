@@ -1,6 +1,73 @@
 {
  "items": [
   {
+   "title": "ClickHouse: How Shipsidekick replaced Neon with ClickHouse Managed Postgres",
+   "url": "https://clickhouse.com/blog/shipsidekick-neon-to-clickhouse-managed-postgres",
+   "domain": "clickhouse.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "ClickHouse",
+    "Industry",
+    "AI/LLMs"
+   ],
+   "added": "2026-10-26T07:05:35Z"
+  },
+  {
+   "title": "Karen Jex: Tuning Postgres for Analytics (PGConf.EU 2026 slides + transcript)",
+   "url": "https://karenjex.blogspot.com/2026/10/tuning-postgres-for-analytics-pgconfeu.html",
+   "domain": "karenjex.blogspot.com",
+   "category": "podcasts",
+   "type": "Talk/Video",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Databases"
+   ],
+   "added": "2026-10-26T07:05:35Z"
+  },
+  {
+   "title": "Awide Labs: Commit Sequence Number (CSN) MVCC, lock-free snapshot acquisition (Awide Polar)",
+   "url": "https://awide.tech/blog/csn-mvcc",
+   "domain": "awide.tech",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Databases"
+   ],
+   "added": "2026-10-26T07:05:35Z"
+  },
+  {
+   "title": "Pavel Luzanov: PostgreSQL 19 part 5.4 (SQL, DEV1, DEV2), CommitFest 2026-03 (ON CONFLICT DO SELECT, COPY TO JSON)",
+   "url": "https://postgrespro.com/blog/pgsql/5973418",
+   "domain": "postgrespro.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres"
+   ],
+   "added": "2026-10-26T07:05:35Z"
+  },
+  {
+   "title": "PlanetScale: Shard design doesn't start from your tables (Neki shard groups)",
+   "url": "https://planetscale.com/blog/shard-groups-the-unit-of-co-location",
+   "domain": "planetscale.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Databases",
+    "Industry"
+   ],
+   "added": "2026-10-26T07:05:35Z"
+  },
+  {
    "title": "Supabase: Give your Supabase app its own MCP server",
    "url": "https://supabase.com/blog/give-your-supabase-app-its-own-mcp-server",
    "domain": "supabase.com",
