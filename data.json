@@ -1,6 +1,71 @@
 {
  "items": [
   {
+   "title": "Nikolay Samokhvalov (PostgresAI): Dump/restore done. Now what? (VACUUM ANALYZE before traffic)",
+   "url": "https://postgres.ai/blog/20261028-dump-restore-now-what",
+   "domain": "postgres.ai",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres"
+   ],
+   "added": "2026-10-28T07:03:54Z"
+  },
+  {
+   "title": "ClickHouse: The Agentic Analytics Benchmark, ranking tables and labeling failures with Jev",
+   "url": "https://clickhouse.com/blog/agentic-analytics-benchmark-jev",
+   "domain": "clickhouse.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "ClickHouse",
+    "AI/LLMs"
+   ],
+   "added": "2026-10-28T07:03:54Z"
+  },
+  {
+   "title": "Supabase Compute: run your agents inside your project (private alpha)",
+   "url": "https://supabase.com/blog/supabase-compute-private-alpha",
+   "domain": "supabase.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "AI/LLMs",
+    "Industry"
+   ],
+   "added": "2026-10-28T07:03:54Z"
+  },
+  {
+   "title": "DuckDB: Gems of DuckDB 2.0.0 (Python appender, CLI improvements and more)",
+   "url": "https://duckdb.org/2026/10/26/gems-of-duckdb-200.html",
+   "domain": "duckdb.org",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "DuckDB",
+    "Databases"
+   ],
+   "added": "2026-10-27T07:10:18Z"
+  },
+  {
+   "title": "ClickHouse: Expanding customer notifications for Managed Postgres (inactive slots, failovers, long-running xacts)",
+   "url": "https://clickhouse.com/blog/expanding-customer-notifications-managed-postgres",
+   "domain": "clickhouse.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "ClickHouse"
+   ],
+   "added": "2026-10-27T07:10:18Z"
+  },
+  {
    "title": "Semab Tariq (Stormatics): Your backups are green. That does not mean you can restore.",
    "url": "https://stormatics.tech/blogs/postgresql-backups-restore-testing",
    "domain": "stormatics.tech",
@@ -27,19 +92,6 @@
    "added": "2026-10-27T07:10:18Z"
   },
   {
-   "title": "DuckDB: Gems of DuckDB 2.0.0 (Python appender, CLI improvements and more)",
-   "url": "https://duckdb.org/2026/10/26/gems-of-duckdb-200.html",
-   "domain": "duckdb.org",
-   "category": "articles",
-   "type": "Blog",
-   "status": "backlog",
-   "topics": [
-    "DuckDB",
-    "Databases"
-   ],
-   "added": "2026-10-27T07:10:18Z"
-  },
-  {
    "title": "Vadim Iatsenko (Awide Labs): DataMax, a dedicated WAL log-store node for near-synchronous durability",
    "url": "https://awide.tech/blog/datamax-wal-log-store",
    "domain": "awide.tech",
@@ -53,17 +105,32 @@
    "added": "2026-10-27T07:10:18Z"
   },
   {
-   "title": "ClickHouse: Expanding customer notifications for Managed Postgres (inactive slots, failovers, long-running xacts)",
-   "url": "https://clickhouse.com/blog/expanding-customer-notifications-managed-postgres",
+   "title": "ClickHouse: How Shipsidekick replaced Neon with ClickHouse Managed Postgres",
+   "url": "https://clickhouse.com/blog/shipsidekick-neon-to-clickhouse-managed-postgres",
    "domain": "clickhouse.com",
    "category": "articles",
    "type": "Blog",
    "status": "backlog",
    "topics": [
     "Postgres",
-    "ClickHouse"
+    "ClickHouse",
+    "Industry",
+    "AI/LLMs"
    ],
-   "added": "2026-10-27T07:10:18Z"
+   "added": "2026-10-26T07:05:35Z"
+  },
+  {
+   "title": "Karen Jex: Tuning Postgres for Analytics (PGConf.EU 2026 slides + transcript)",
+   "url": "https://karenjex.blogspot.com/2026/10/tuning-postgres-for-analytics-pgconfeu.html",
+   "domain": "karenjex.blogspot.com",
+   "category": "podcasts",
+   "type": "Talk/Video",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Databases"
+   ],
+   "added": "2026-10-26T07:05:35Z"
   },
   {
    "title": "Awide Labs: Commit Sequence Number (CSN) MVCC, lock-free snapshot acquisition (Awide Polar)",
@@ -101,34 +168,6 @@
     "Postgres",
     "Databases",
     "Industry"
-   ],
-   "added": "2026-10-26T07:05:35Z"
-  },
-  {
-   "title": "ClickHouse: How Shipsidekick replaced Neon with ClickHouse Managed Postgres",
-   "url": "https://clickhouse.com/blog/shipsidekick-neon-to-clickhouse-managed-postgres",
-   "domain": "clickhouse.com",
-   "category": "articles",
-   "type": "Blog",
-   "status": "backlog",
-   "topics": [
-    "Postgres",
-    "ClickHouse",
-    "Industry",
-    "AI/LLMs"
-   ],
-   "added": "2026-10-26T07:05:35Z"
-  },
-  {
-   "title": "Karen Jex: Tuning Postgres for Analytics (PGConf.EU 2026 slides + transcript)",
-   "url": "https://karenjex.blogspot.com/2026/10/tuning-postgres-for-analytics-pgconfeu.html",
-   "domain": "karenjex.blogspot.com",
-   "category": "podcasts",
-   "type": "Talk/Video",
-   "status": "backlog",
-   "topics": [
-    "Postgres",
-    "Databases"
    ],
    "added": "2026-10-26T07:05:35Z"
   },
