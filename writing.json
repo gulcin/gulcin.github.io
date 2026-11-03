@@ -1,6 +1,18 @@
 {
   "items": [
     {
+      "title": "Does your application need local data or faster Postgres?",
+      "url": "https://clickhouse.com/blog/does-your-application-need-local-data-or-faster-postgres",
+      "publisher": "ClickHouse",
+      "date": "2026-11-03",
+      "coauthors": [
+        "Lionel Palacin"
+      ],
+      "tags": [
+        "Postgres"
+      ]
+    },
+    {
       "title": "Postgres week in the Netherlands: PGDay Lowlands & Percona Live 2026",
       "url": "https://clickhouse.com/blog/postgres-week-in-the-netherlands-pgday-lowlands-percona-live-2026",
       "publisher": "ClickHouse",
