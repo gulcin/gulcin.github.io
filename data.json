@@ -1,6 +1,59 @@
 {
  "items": [
   {
+   "title": "Igor Suhorukov: pg_vexec one month on, ahead of ClickHouse on Parquet, close behind on MergeTree",
+   "url": "https://igor-suhorukov.github.io/blog/2026/10/30/pg-vexec-one-month-on/",
+   "domain": "igor-suhorukov.github.io",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "ClickHouse",
+    "Databases"
+   ],
+   "added": "2026-11-02T07:07:17Z"
+  },
+  {
+   "title": "Awide Labs: Splitting the read-only transaction, replica reads inside an open transaction (Polar Proxy)",
+   "url": "https://awide.tech/blog/splitting-read-only-transaction",
+   "domain": "awide.tech",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Databases"
+   ],
+   "added": "2026-11-02T07:07:17Z"
+  },
+  {
+   "title": "Robert Haas: Postgres 19 is late, and it's AI's fault",
+   "url": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
+   "domain": "rhaas.blogspot.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "AI/LLMs",
+    "Industry"
+   ],
+   "added": "2026-11-02T07:07:17Z"
+  },
+  {
+   "title": "Radim Marek (boringSQL): Getting rid of a 4 TB table in PostgreSQL",
+   "url": "https://boringsql.com/posts/delete-4tb/",
+   "domain": "boringsql.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres"
+   ],
+   "added": "2026-11-02T07:07:17Z"
+  },
+  {
    "title": "Supabase: Multigres private alpha, automatic failover for Supabase Postgres",
    "url": "https://supabase.com/blog/multigres-private-alpha",
    "domain": "supabase.com",
