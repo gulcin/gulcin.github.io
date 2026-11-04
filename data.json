@@ -1,6 +1,70 @@
 {
  "items": [
   {
+   "title": "Vibhor Kumar: Autonomous Postgres at PGConf.EU 2026, from scripts to self-driving and the primitives in between",
+   "url": "https://vibhorkumar.wordpress.com/2026/11/02/autonomous-postgres-at-pgconf-eu-2026-from-scripts-to-self-driving-and-the-primitives-in-between/",
+   "domain": "vibhorkumar.wordpress.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "AI/LLMs"
+   ],
+   "added": "2026-11-03T07:09:07Z"
+  },
+  {
+   "title": "Gabriele Bartolini: CloudNativePG reaches CNCF Incubation, another rung on the ladder",
+   "url": "https://www.gabrielebartolini.it/articles/2026/11/cloudnativepg-reaches-cncf-incubation-another-rung-on-the-ladder/",
+   "domain": "gabrielebartolini.it",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Industry"
+   ],
+   "added": "2026-11-03T07:09:07Z"
+  },
+  {
+   "title": "Supabase: Introducing DBArena, open reproducible benchmarks for hosted Postgres (Supabase vs RDS vs Cloud SQL)",
+   "url": "https://supabase.com/blog/introducing-dbarena",
+   "domain": "supabase.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Industry"
+   ],
+   "added": "2026-11-03T07:09:07Z"
+  },
+  {
+   "title": "ClickHouse: How OpenRouter observes, understands and acts on 740M LLM requests a day with ClickHouse Cloud",
+   "url": "https://clickhouse.com/blog/openrouter-llm-routing-observability-clickhouse-cloud",
+   "domain": "clickhouse.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "ClickHouse",
+    "AI/LLMs"
+   ],
+   "added": "2026-11-03T07:09:07Z"
+  },
+  {
+   "title": "Shaun Thomas (pgEdge): PG Phriday, Burnt TOAST",
+   "url": "https://www.pgedge.com/blog/burnt-toast",
+   "domain": "pgedge.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres"
+   ],
+   "added": "2026-11-03T07:09:07Z"
+  },
+  {
    "title": "Igor Suhorukov: pg_vexec one month on, ahead of ClickHouse on Parquet, close behind on MergeTree",
    "url": "https://igor-suhorukov.github.io/blog/2026/10/30/pg-vexec-one-month-on/",
    "domain": "igor-suhorukov.github.io",
