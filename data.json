@@ -1,6 +1,57 @@
 {
  "items": [
   {
+   "title": "PostgresAI: What your Postgres is waiting for, and why the dashboard can't tell you (wait-event sampling limits)",
+   "url": "https://postgres.ai/blog/20261103-what-postgres-is-waiting-for",
+   "domain": "postgres.ai",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres"
+   ],
+   "added": "2026-11-04T07:07:05Z"
+  },
+  {
+   "title": "Dave Stokes: Is PostgreSQL Really Winning? (Nov 2026 DB-Engines, 3.84 points behind SQL Server)",
+   "url": "https://stokerpostgresql.blogspot.com/2026/11/",
+   "domain": "stokerpostgresql.blogspot.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Industry"
+   ],
+   "added": "2026-11-04T07:07:05Z"
+  },
+  {
+   "title": "Dimitri Fontaine: Postgres logical replication beyond one writer (5-region multi-writer on PG19 RC1 + pg_auto_failover)",
+   "url": "https://tapoueh.org/blog/2026/11/postgres-logical-replication-beyond-one-writer/",
+   "domain": "tapoueh.org",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Databases"
+   ],
+   "added": "2026-11-04T07:07:05Z"
+  },
+  {
+   "title": "ClickHouse: What's new in clickhousectl v0.5.0 (Managed Postgres metrics, logs, slow-query patterns in the CLI)",
+   "url": "https://clickhouse.com/blog/clickhousectl-v0-5-0",
+   "domain": "clickhouse.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "ClickHouse",
+    "Postgres"
+   ],
+   "added": "2026-11-04T07:07:05Z"
+  },
+  {
    "title": "Vibhor Kumar: Autonomous Postgres at PGConf.EU 2026, from scripts to self-driving and the primitives in between",
    "url": "https://vibhorkumar.wordpress.com/2026/11/02/autonomous-postgres-at-pgconf-eu-2026-from-scripts-to-self-driving-and-the-primitives-in-between/",
    "domain": "vibhorkumar.wordpress.com",
