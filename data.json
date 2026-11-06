@@ -1,6 +1,72 @@
 {
  "items": [
   {
+   "title": "Ilya Kosmodemiansky (Data Egret): The “default” postgresql.conf, Part 1 — connection settings",
+   "url": "https://dataegret.com/2026/11/default-postgresql-conf-part-1-connection-settings/",
+   "domain": "dataegret.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres"
+   ],
+   "added": "2026-11-05T07:12:21Z"
+  },
+  {
+   "title": "PostHog: Why we're moving our warehouse product off DuckDB",
+   "url": "https://posthog.com/blog/moving-off-duckdb",
+   "domain": "posthog.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "DuckDB",
+    "ClickHouse",
+    "Databases"
+   ],
+   "added": "2026-11-05T07:12:21Z"
+  },
+  {
+   "title": "Furkan Sahin (ClickHouse/Ubicloud): Fencing a Postgres primary that might still be alive",
+   "url": "https://clickhouse.com/blog/fencing-a-postgres-primary-that-might-still-be-alive",
+   "domain": "clickhouse.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "ClickHouse"
+   ],
+   "added": "2026-11-05T07:12:21Z"
+  },
+  {
+   "title": "Bruce Momjian: Can AI Write SQL? (FOSS4G North America 2026)",
+   "url": "https://momjian.us/main/presentations/ai.html",
+   "domain": "momjian.us",
+   "category": "podcasts",
+   "type": "Talk/Video",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "AI/LLMs"
+   ],
+   "added": "2026-11-05T07:12:21Z"
+  },
+  {
+   "title": "Lao & Trummer: GenDB-V — AI-generated and formally verified database systems (arXiv 2611.02779)",
+   "url": "https://arxiv.org/abs/2611.02779",
+   "domain": "arxiv.org",
+   "category": "papers",
+   "type": "Paper",
+   "status": "backlog",
+   "topics": [
+    "AI/LLMs",
+    "Databases",
+    "Postgres"
+   ],
+   "added": "2026-11-05T07:12:21Z"
+  },
+  {
    "title": "PostgresAI: What your Postgres is waiting for, and why the dashboard can't tell you (wait-event sampling limits)",
    "url": "https://postgres.ai/blog/20261103-what-postgres-is-waiting-for",
    "domain": "postgres.ai",
