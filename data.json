@@ -1,6 +1,69 @@
 {
  "items": [
   {
+   "title": "Railway: Managed Postgres on Railway (HA, PITR, agents)",
+   "url": "https://blog.railway.com/p/managed-postgres",
+   "domain": "blog.railway.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Industry"
+   ],
+   "added": "2026-11-06T07:19:35Z"
+  },
+  {
+   "title": "PostgresAI: UUIDv4 vs UUIDv7, what a random primary key costs in Postgres",
+   "url": "https://postgres.ai/blog/20261105-uuidv4-vs-uuidv7",
+   "domain": "postgres.ai",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Databases"
+   ],
+   "added": "2026-11-06T07:19:35Z"
+  },
+  {
+   "title": "Craig Kerstiens: Postgres 19 REPACK, built-in online table bloat cleanup",
+   "url": "https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/",
+   "domain": "snowflake.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres"
+   ],
+   "added": "2026-11-06T07:19:35Z"
+  },
+  {
+   "title": "ClickHouse: MongoDB CDC connector for ClickPipes is now generally available",
+   "url": "https://clickhouse.com/blog/mongodb-cdc-connector-clickpipes-ga",
+   "domain": "clickhouse.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "ClickHouse",
+    "Databases"
+   ],
+   "added": "2026-11-06T07:19:35Z"
+  },
+  {
+   "title": "Chris van Eijk: server closed the connection unexpectedly in PostgreSQL",
+   "url": "https://now-next.nl/en/insights/postgresql-server-closed-the-connection-unexpectedly/",
+   "domain": "now-next.nl",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres"
+   ],
+   "added": "2026-11-06T07:19:35Z"
+  },
+  {
    "title": "Ilya Kosmodemiansky (Data Egret): The “default” postgresql.conf, Part 1 — connection settings",
    "url": "https://dataegret.com/2026/11/default-postgresql-conf-part-1-connection-settings/",
    "domain": "dataegret.com",
