@@ -1,6 +1,14 @@
 {
  "items": [
   {
+   "title": "PGConf.EU 2026 MEGAPOST: a busy week in Valencia",
+   "url": "https://vyruss.org/blog/pgconfeu-2026-megapost.html",
+   "publisher": "Jimmy Angelakos (vyruss.org)",
+   "date": "2026-11-05",
+   "kind": "blog",
+   "context": "Names her as Observability Summit co-organizer and panelist, and as a PGConf.EU talk selection committee member"
+  },
+  {
    "title": "PostgreSQL on Kubernetes Summit — PGConf.EU 2026",
    "url": "https://www.postgresql.eu/events/pgconfeu2026/schedule/session/8553-postgresql-on-kubernetes-summit/",
    "publisher": "PostgreSQL Europe (PGConf.EU)",
@@ -23,6 +31,22 @@
    "date": "2026-10-20",
    "kind": "speaker-page",
    "context": "Her PGConf.EU 2026 session on PG19 monitoring"
+  },
+  {
+   "title": "October 2026 newsletter",
+   "url": "https://clickhouse.com/blog/202610-newsletter",
+   "publisher": "ClickHouse (Mark Needham)",
+   "date": "2026-10-15",
+   "kind": "blog",
+   "context": "Credits her notes from PGDay Lowlands and Percona Live Amsterdam"
+  },
+  {
+   "title": "PGConf.EU 2026: Into the PostgreSQL Multiverse",
+   "url": "https://drunkdba.medium.com/pgconf-eu-2026-into-the-postgresql-multiverse-1b1c0f3be1f0",
+   "publisher": "Mayur B. (Medium)",
+   "date": "2026-10-13",
+   "kind": "blog",
+   "context": "Recommends her talk with Petr Jelinek, “Postgres for Everything, Until It Isn’t”"
   },
   {
    "title": "What’s New with Monitoring in PostgreSQL 19 | Percona Live 2026",

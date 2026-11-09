@@ -266,6 +266,20 @@
   "kind": "organizing"
  },
  {
+  "date": "2026-10-24",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for week 41 & 42: Co-organized Istanbul Meetup Oct 14 with Devrim Gündüz and Bilge Korkmaz Erdim; PGConf.EU 2026 talk selection committee, speaker, and Community Events Day organizer & speaker",
+  "url": "https://postgres-contrib.org/post/101/",
+  "kind": "organizing/committee/talk"
+ },
+ {
+  "date": "2026-11-04",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for week 43: Co-organized Prague PostgreSQL Meetup Oct 30 2026 with Mayur B.",
+  "url": "https://postgres-contrib.org/post/102/",
+  "kind": "organizing"
+ },
+ {
   "date": "2024",
   "source": "postgresql.org",
   "title": "Listed on PostgreSQL Community Contributors page",
@@ -292,6 +306,13 @@
   "title": "Speaker profile",
   "url": "https://www.postgresql.eu/events/pgconfeu2026/sessions/speaker/281-gulcin-yldrm-jelinek/",
   "kind": "speaker-profile"
+ },
+ {
+  "date": "2026-10-23",
+  "source": "PostgreSQL wiki",
+  "title": "PGConf.EU 2026 PostgreSQL Observability Summit: organizer, speaker (What’s New with Monitoring in PostgreSQL 19), and panelist",
+  "url": "https://wiki.postgresql.org/wiki/PGConf.EU_2026_PostgreSQL_Observability_Summit",
+  "kind": "organizing/talk"
  },
  {
   "date": "2025-01-24",
