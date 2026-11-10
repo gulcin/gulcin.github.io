@@ -1,6 +1,32 @@
 {
  "items": [
   {
+   "title": "Dave Stokes: Is PostgreSQL Really Winning, Part 2: The Evidence Beyond the Rankings",
+   "url": "https://stokerpostgresql.blogspot.com/2026/11/is-postgresql-really-winning-part-2.html",
+   "domain": "stokerpostgresql.blogspot.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Industry"
+   ],
+   "added": "2026-11-09T07:04:18Z"
+  },
+  {
+   "title": "DiagDBench: Evaluating Agentic LLMs on Interactive Database Diagnosis and Anomaly Remediation (arXiv 2611.07339)",
+   "url": "https://arxiv.org/abs/2611.07339",
+   "domain": "arxiv.org",
+   "category": "papers",
+   "type": "Paper",
+   "status": "backlog",
+   "topics": [
+    "AI/LLMs",
+    "Databases"
+   ],
+   "added": "2026-11-09T07:04:18Z"
+  },
+  {
    "title": "Railway: Managed Postgres on Railway (HA, PITR, agents)",
    "url": "https://blog.railway.com/p/managed-postgres",
    "domain": "blog.railway.com",
