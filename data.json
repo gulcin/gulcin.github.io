@@ -1,6 +1,71 @@
 {
  "items": [
   {
+   "title": "Amiri, Binnig, Kipf, Kraska, Marcus et al.: Correctness Firewalls for Synthesized Database Components (arXiv 2611.05173)",
+   "url": "https://arxiv.org/abs/2611.05173",
+   "domain": "arxiv.org",
+   "category": "papers",
+   "type": "Paper",
+   "status": "backlog",
+   "topics": [
+    "AI/LLMs",
+    "Databases"
+   ],
+   "added": "2026-11-10T07:09:49Z"
+  },
+  {
+   "title": "ClickHouse release 26.10",
+   "url": "https://clickhouse.com/blog/clickhouse-release-26-10",
+   "domain": "clickhouse.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "ClickHouse"
+   ],
+   "added": "2026-11-10T07:09:49Z"
+  },
+  {
+   "title": "Constructive: Introducing Safegres, an open-source verifier for secure Postgres",
+   "url": "https://constructive.io/blog/introducing-safegres",
+   "domain": "constructive.io",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "AI/LLMs"
+   ],
+   "added": "2026-11-10T07:09:49Z"
+  },
+  {
+   "title": "PGSTY: pg_tokenizer 1.0.0, multilingual tokenizers for native Postgres full-text search",
+   "url": "https://vchord.pgsty.com/blog/release/pg-tokenizer-1.0.0/",
+   "domain": "vchord.pgsty.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Databases"
+   ],
+   "added": "2026-11-10T07:09:49Z"
+  },
+  {
+   "title": "Supabase raises $150M and acquires Turso for per-agent databases",
+   "url": "https://www.storagenewsletter.com/2026/11/09/supabase-announces-150m-in-new-funding-and-turso-acquisition/",
+   "domain": "storagenewsletter.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Industry",
+    "AI/LLMs"
+   ],
+   "added": "2026-11-10T07:09:49Z"
+  },
+  {
    "title": "Dave Stokes: Is PostgreSQL Really Winning, Part 2: The Evidence Beyond the Rankings",
    "url": "https://stokerpostgresql.blogspot.com/2026/11/is-postgresql-really-winning-part-2.html",
    "domain": "stokerpostgresql.blogspot.com",
@@ -27,35 +92,9 @@
    "added": "2026-11-09T07:04:18Z"
   },
   {
-   "title": "Railway: Managed Postgres on Railway (HA, PITR, agents)",
-   "url": "https://blog.railway.com/p/managed-postgres",
-   "domain": "blog.railway.com",
-   "category": "articles",
-   "type": "Blog",
-   "status": "backlog",
-   "topics": [
-    "Postgres",
-    "Industry"
-   ],
-   "added": "2026-11-06T07:19:35Z"
-  },
-  {
-   "title": "PostgresAI: UUIDv4 vs UUIDv7, what a random primary key costs in Postgres",
-   "url": "https://postgres.ai/blog/20261105-uuidv4-vs-uuidv7",
-   "domain": "postgres.ai",
-   "category": "articles",
-   "type": "Blog",
-   "status": "backlog",
-   "topics": [
-    "Postgres",
-    "Databases"
-   ],
-   "added": "2026-11-06T07:19:35Z"
-  },
-  {
-   "title": "Craig Kerstiens: Postgres 19 REPACK, built-in online table bloat cleanup",
-   "url": "https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/",
-   "domain": "snowflake.com",
+   "title": "Chris van Eijk: server closed the connection unexpectedly in PostgreSQL",
+   "url": "https://now-next.nl/en/insights/postgresql-server-closed-the-connection-unexpectedly/",
+   "domain": "now-next.nl",
    "category": "articles",
    "type": "Blog",
    "status": "backlog",
@@ -78,9 +117,9 @@
    "added": "2026-11-06T07:19:35Z"
   },
   {
-   "title": "Chris van Eijk: server closed the connection unexpectedly in PostgreSQL",
-   "url": "https://now-next.nl/en/insights/postgresql-server-closed-the-connection-unexpectedly/",
-   "domain": "now-next.nl",
+   "title": "Craig Kerstiens: Postgres 19 REPACK, built-in online table bloat cleanup",
+   "url": "https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/",
+   "domain": "snowflake.com",
    "category": "articles",
    "type": "Blog",
    "status": "backlog",
@@ -90,6 +129,58 @@
    "added": "2026-11-06T07:19:35Z"
   },
   {
+   "title": "PostgresAI: UUIDv4 vs UUIDv7, what a random primary key costs in Postgres",
+   "url": "https://postgres.ai/blog/20261105-uuidv4-vs-uuidv7",
+   "domain": "postgres.ai",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Databases"
+   ],
+   "added": "2026-11-06T07:19:35Z"
+  },
+  {
+   "title": "Railway: Managed Postgres on Railway (HA, PITR, agents)",
+   "url": "https://blog.railway.com/p/managed-postgres",
+   "domain": "blog.railway.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Industry"
+   ],
+   "added": "2026-11-06T07:19:35Z"
+  },
+  {
+   "title": "Bruce Momjian: Can AI Write SQL? (FOSS4G North America 2026)",
+   "url": "https://momjian.us/main/presentations/ai.html",
+   "domain": "momjian.us",
+   "category": "podcasts",
+   "type": "Talk/Video",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "AI/LLMs"
+   ],
+   "added": "2026-11-05T07:12:21Z"
+  },
+  {
+   "title": "Furkan Sahin (ClickHouse/Ubicloud): Fencing a Postgres primary that might still be alive",
+   "url": "https://clickhouse.com/blog/fencing-a-postgres-primary-that-might-still-be-alive",
+   "domain": "clickhouse.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "ClickHouse"
+   ],
+   "added": "2026-11-05T07:12:21Z"
+  },
+  {
    "title": "Ilya Kosmodemiansky (Data Egret): The “default” postgresql.conf, Part 1 — connection settings",
    "url": "https://dataegret.com/2026/11/default-postgresql-conf-part-1-connection-settings/",
    "domain": "dataegret.com",
@@ -97,6 +188,20 @@
    "type": "Blog",
    "status": "backlog",
    "topics": [
+    "Postgres"
+   ],
+   "added": "2026-11-05T07:12:21Z"
+  },
+  {
+   "title": "Lao & Trummer: GenDB-V — AI-generated and formally verified database systems (arXiv 2611.02779)",
+   "url": "https://arxiv.org/abs/2611.02779",
+   "domain": "arxiv.org",
+   "category": "papers",
+   "type": "Paper",
+   "status": "backlog",
+   "topics": [
+    "AI/LLMs",
+    "Databases",
     "Postgres"
    ],
    "added": "2026-11-05T07:12:21Z"
@@ -116,53 +221,14 @@
    "added": "2026-11-05T07:12:21Z"
   },
   {
-   "title": "Furkan Sahin (ClickHouse/Ubicloud): Fencing a Postgres primary that might still be alive",
-   "url": "https://clickhouse.com/blog/fencing-a-postgres-primary-that-might-still-be-alive",
+   "title": "ClickHouse: What's new in clickhousectl v0.5.0 (Managed Postgres metrics, logs, slow-query patterns in the CLI)",
+   "url": "https://clickhouse.com/blog/clickhousectl-v0-5-0",
    "domain": "clickhouse.com",
    "category": "articles",
    "type": "Blog",
    "status": "backlog",
    "topics": [
-    "Postgres",
-    "ClickHouse"
-   ],
-   "added": "2026-11-05T07:12:21Z"
-  },
-  {
-   "title": "Bruce Momjian: Can AI Write SQL? (FOSS4G North America 2026)",
-   "url": "https://momjian.us/main/presentations/ai.html",
-   "domain": "momjian.us",
-   "category": "podcasts",
-   "type": "Talk/Video",
-   "status": "backlog",
-   "topics": [
-    "Postgres",
-    "AI/LLMs"
-   ],
-   "added": "2026-11-05T07:12:21Z"
-  },
-  {
-   "title": "Lao & Trummer: GenDB-V — AI-generated and formally verified database systems (arXiv 2611.02779)",
-   "url": "https://arxiv.org/abs/2611.02779",
-   "domain": "arxiv.org",
-   "category": "papers",
-   "type": "Paper",
-   "status": "backlog",
-   "topics": [
-    "AI/LLMs",
-    "Databases",
-    "Postgres"
-   ],
-   "added": "2026-11-05T07:12:21Z"
-  },
-  {
-   "title": "PostgresAI: What your Postgres is waiting for, and why the dashboard can't tell you (wait-event sampling limits)",
-   "url": "https://postgres.ai/blog/20261103-what-postgres-is-waiting-for",
-   "domain": "postgres.ai",
-   "category": "articles",
-   "type": "Blog",
-   "status": "backlog",
-   "topics": [
+    "ClickHouse",
     "Postgres"
    ],
    "added": "2026-11-04T07:07:05Z"
@@ -194,27 +260,26 @@
    "added": "2026-11-04T07:07:05Z"
   },
   {
-   "title": "ClickHouse: What's new in clickhousectl v0.5.0 (Managed Postgres metrics, logs, slow-query patterns in the CLI)",
-   "url": "https://clickhouse.com/blog/clickhousectl-v0-5-0",
+   "title": "PostgresAI: What your Postgres is waiting for, and why the dashboard can't tell you (wait-event sampling limits)",
+   "url": "https://postgres.ai/blog/20261103-what-postgres-is-waiting-for",
+   "domain": "postgres.ai",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres"
+   ],
+   "added": "2026-11-04T07:07:05Z"
+  },
+  {
+   "title": "ClickHouse: How OpenRouter observes, understands and acts on 740M LLM requests a day with ClickHouse Cloud",
+   "url": "https://clickhouse.com/blog/openrouter-llm-routing-observability-clickhouse-cloud",
    "domain": "clickhouse.com",
    "category": "articles",
    "type": "Blog",
    "status": "backlog",
    "topics": [
     "ClickHouse",
-    "Postgres"
-   ],
-   "added": "2026-11-04T07:07:05Z"
-  },
-  {
-   "title": "Vibhor Kumar: Autonomous Postgres at PGConf.EU 2026, from scripts to self-driving and the primitives in between",
-   "url": "https://vibhorkumar.wordpress.com/2026/11/02/autonomous-postgres-at-pgconf-eu-2026-from-scripts-to-self-driving-and-the-primitives-in-between/",
-   "domain": "vibhorkumar.wordpress.com",
-   "category": "articles",
-   "type": "Blog",
-   "status": "backlog",
-   "topics": [
-    "Postgres",
     "AI/LLMs"
    ],
    "added": "2026-11-03T07:09:07Z"
@@ -233,6 +298,18 @@
    "added": "2026-11-03T07:09:07Z"
   },
   {
+   "title": "Shaun Thomas (pgEdge): PG Phriday, Burnt TOAST",
+   "url": "https://www.pgedge.com/blog/burnt-toast",
+   "domain": "pgedge.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres"
+   ],
+   "added": "2026-11-03T07:09:07Z"
+  },
+  {
    "title": "Supabase: Introducing DBArena, open reproducible benchmarks for hosted Postgres (Supabase vs RDS vs Cloud SQL)",
    "url": "https://supabase.com/blog/introducing-dbarena",
    "domain": "supabase.com",
@@ -246,29 +323,30 @@
    "added": "2026-11-03T07:09:07Z"
   },
   {
-   "title": "ClickHouse: How OpenRouter observes, understands and acts on 740M LLM requests a day with ClickHouse Cloud",
-   "url": "https://clickhouse.com/blog/openrouter-llm-routing-observability-clickhouse-cloud",
-   "domain": "clickhouse.com",
+   "title": "Vibhor Kumar: Autonomous Postgres at PGConf.EU 2026, from scripts to self-driving and the primitives in between",
+   "url": "https://vibhorkumar.wordpress.com/2026/11/02/autonomous-postgres-at-pgconf-eu-2026-from-scripts-to-self-driving-and-the-primitives-in-between/",
+   "domain": "vibhorkumar.wordpress.com",
    "category": "articles",
    "type": "Blog",
    "status": "backlog",
    "topics": [
-    "ClickHouse",
+    "Postgres",
     "AI/LLMs"
    ],
    "added": "2026-11-03T07:09:07Z"
   },
   {
-   "title": "Shaun Thomas (pgEdge): PG Phriday, Burnt TOAST",
-   "url": "https://www.pgedge.com/blog/burnt-toast",
-   "domain": "pgedge.com",
+   "title": "Awide Labs: Splitting the read-only transaction, replica reads inside an open transaction (Polar Proxy)",
+   "url": "https://awide.tech/blog/splitting-read-only-transaction",
+   "domain": "awide.tech",
    "category": "articles",
    "type": "Blog",
    "status": "backlog",
    "topics": [
-    "Postgres"
+    "Postgres",
+    "Databases"
    ],
-   "added": "2026-11-03T07:09:07Z"
+   "added": "2026-11-02T07:07:17Z"
   },
   {
    "title": "Igor Suhorukov: pg_vexec one month on, ahead of ClickHouse on Parquet, close behind on MergeTree",
@@ -285,15 +363,14 @@
    "added": "2026-11-02T07:07:17Z"
   },
   {
-   "title": "Awide Labs: Splitting the read-only transaction, replica reads inside an open transaction (Polar Proxy)",
-   "url": "https://awide.tech/blog/splitting-read-only-transaction",
-   "domain": "awide.tech",
+   "title": "Radim Marek (boringSQL): Getting rid of a 4 TB table in PostgreSQL",
+   "url": "https://boringsql.com/posts/delete-4tb/",
+   "domain": "boringsql.com",
    "category": "articles",
    "type": "Blog",
    "status": "backlog",
    "topics": [
-    "Postgres",
-    "Databases"
+    "Postgres"
    ],
    "added": "2026-11-02T07:07:17Z"
   },
@@ -310,31 +387,6 @@
     "Industry"
    ],
    "added": "2026-11-02T07:07:17Z"
-  },
-  {
-   "title": "Radim Marek (boringSQL): Getting rid of a 4 TB table in PostgreSQL",
-   "url": "https://boringsql.com/posts/delete-4tb/",
-   "domain": "boringsql.com",
-   "category": "articles",
-   "type": "Blog",
-   "status": "backlog",
-   "topics": [
-    "Postgres"
-   ],
-   "added": "2026-11-02T07:07:17Z"
-  },
-  {
-   "title": "Supabase: Multigres private alpha, automatic failover for Supabase Postgres",
-   "url": "https://supabase.com/blog/multigres-private-alpha",
-   "domain": "supabase.com",
-   "category": "articles",
-   "type": "Blog",
-   "status": "backlog",
-   "topics": [
-    "Postgres",
-    "Industry"
-   ],
-   "added": "2026-10-30T07:11:31Z"
   },
   {
    "title": "ClickHouse: Meet GroeneAI, our autonomous contributor to ClickHouse (3,000+ merged PRs)",
@@ -378,6 +430,32 @@
    "added": "2026-10-30T07:11:31Z"
   },
   {
+   "title": "Supabase: Multigres private alpha, automatic failover for Supabase Postgres",
+   "url": "https://supabase.com/blog/multigres-private-alpha",
+   "domain": "supabase.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Industry"
+   ],
+   "added": "2026-10-30T07:11:31Z"
+  },
+  {
+   "title": "ClickHouse: The new cost-based join optimizer with reordering for non-inner joins",
+   "url": "https://clickhouse.com/blog/the-new-cost-based-join-optimizer-with-reordering-support-for-non-inner-joins",
+   "domain": "clickhouse.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "ClickHouse",
+    "Databases"
+   ],
+   "added": "2026-10-29T07:11:22Z"
+  },
+  {
    "title": "Igor Suhorukov: Which language should an AI agent use to search its memory, SQL or SPARQL? (plus pgvector vs Lance)",
    "url": "https://igor-suhorukov.github.io/blog/2026/10/28/agent-memory-sql-sparql/",
    "domain": "igor-suhorukov.github.io",
@@ -405,19 +483,6 @@
    "added": "2026-10-29T07:11:22Z"
   },
   {
-   "title": "ClickHouse: The new cost-based join optimizer with reordering for non-inner joins",
-   "url": "https://clickhouse.com/blog/the-new-cost-based-join-optimizer-with-reordering-support-for-non-inner-joins",
-   "domain": "clickhouse.com",
-   "category": "articles",
-   "type": "Blog",
-   "status": "backlog",
-   "topics": [
-    "ClickHouse",
-    "Databases"
-   ],
-   "added": "2026-10-29T07:11:22Z"
-  },
-  {
    "title": "Supabase: OrioleDB public beta, a Postgres storage engine for update-heavy tables",
    "url": "https://supabase.com/blog/orioledb-public-beta",
    "domain": "supabase.com",
@@ -431,18 +496,6 @@
    "added": "2026-10-29T07:11:22Z"
   },
   {
-   "title": "Nikolay Samokhvalov (PostgresAI): Dump/restore done. Now what? (VACUUM ANALYZE before traffic)",
-   "url": "https://postgres.ai/blog/20261028-dump-restore-now-what",
-   "domain": "postgres.ai",
-   "category": "articles",
-   "type": "Blog",
-   "status": "backlog",
-   "topics": [
-    "Postgres"
-   ],
-   "added": "2026-10-28T07:03:54Z"
-  },
-  {
    "title": "ClickHouse: The Agentic Analytics Benchmark, ranking tables and labeling failures with Jev",
    "url": "https://clickhouse.com/blog/agentic-analytics-benchmark-jev",
    "domain": "clickhouse.com",
@@ -452,6 +505,18 @@
    "topics": [
     "ClickHouse",
     "AI/LLMs"
+   ],
+   "added": "2026-10-28T07:03:54Z"
+  },
+  {
+   "title": "Nikolay Samokhvalov (PostgresAI): Dump/restore done. Now what? (VACUUM ANALYZE before traffic)",
+   "url": "https://postgres.ai/blog/20261028-dump-restore-now-what",
+   "domain": "postgres.ai",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres"
    ],
    "added": "2026-10-28T07:03:54Z"
   },
@@ -470,14 +535,28 @@
    "added": "2026-10-28T07:03:54Z"
   },
   {
-   "title": "Semab Tariq (Stormatics): Your backups are green. That does not mean you can restore.",
-   "url": "https://stormatics.tech/blogs/postgresql-backups-restore-testing",
-   "domain": "stormatics.tech",
+   "title": "ClickHouse: Expanding customer notifications for Managed Postgres (inactive slots, failovers, long-running xacts)",
+   "url": "https://clickhouse.com/blog/expanding-customer-notifications-managed-postgres",
+   "domain": "clickhouse.com",
    "category": "articles",
    "type": "Blog",
    "status": "backlog",
    "topics": [
-    "Postgres"
+    "Postgres",
+    "ClickHouse"
+   ],
+   "added": "2026-10-27T07:10:18Z"
+  },
+  {
+   "title": "DuckDB: Gems of DuckDB 2.0.0 (Python appender, CLI improvements and more)",
+   "url": "https://duckdb.org/2026/10/26/gems-of-duckdb-200.html",
+   "domain": "duckdb.org",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "DuckDB",
+    "Databases"
    ],
    "added": "2026-10-27T07:10:18Z"
   },
@@ -496,15 +575,14 @@
    "added": "2026-10-27T07:10:18Z"
   },
   {
-   "title": "DuckDB: Gems of DuckDB 2.0.0 (Python appender, CLI improvements and more)",
-   "url": "https://duckdb.org/2026/10/26/gems-of-duckdb-200.html",
-   "domain": "duckdb.org",
+   "title": "Semab Tariq (Stormatics): Your backups are green. That does not mean you can restore.",
+   "url": "https://stormatics.tech/blogs/postgresql-backups-restore-testing",
+   "domain": "stormatics.tech",
    "category": "articles",
    "type": "Blog",
    "status": "backlog",
    "topics": [
-    "DuckDB",
-    "Databases"
+    "Postgres"
    ],
    "added": "2026-10-27T07:10:18Z"
   },
@@ -522,24 +600,39 @@
    "added": "2026-10-27T07:10:18Z"
   },
   {
-   "title": "ClickHouse: Expanding customer notifications for Managed Postgres (inactive slots, failovers, long-running xacts)",
-   "url": "https://clickhouse.com/blog/expanding-customer-notifications-managed-postgres",
+   "title": "Awide Labs: Commit Sequence Number (CSN) MVCC, lock-free snapshot acquisition (Awide Polar)",
+   "url": "https://awide.tech/blog/csn-mvcc",
+   "domain": "awide.tech",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Databases"
+   ],
+   "added": "2026-10-26T07:05:35Z"
+  },
+  {
+   "title": "ClickHouse: How Shipsidekick replaced Neon with ClickHouse Managed Postgres",
+   "url": "https://clickhouse.com/blog/shipsidekick-neon-to-clickhouse-managed-postgres",
    "domain": "clickhouse.com",
    "category": "articles",
    "type": "Blog",
    "status": "backlog",
    "topics": [
     "Postgres",
-    "ClickHouse"
+    "ClickHouse",
+    "Industry",
+    "AI/LLMs"
    ],
-   "added": "2026-10-27T07:10:18Z"
+   "added": "2026-10-26T07:05:35Z"
   },
   {
-   "title": "Awide Labs: Commit Sequence Number (CSN) MVCC, lock-free snapshot acquisition (Awide Polar)",
-   "url": "https://awide.tech/blog/csn-mvcc",
-   "domain": "awide.tech",
-   "category": "articles",
-   "type": "Blog",
+   "title": "Karen Jex: Tuning Postgres for Analytics (PGConf.EU 2026 slides + transcript)",
+   "url": "https://karenjex.blogspot.com/2026/10/tuning-postgres-for-analytics-pgconfeu.html",
+   "domain": "karenjex.blogspot.com",
+   "category": "podcasts",
+   "type": "Talk/Video",
    "status": "backlog",
    "topics": [
     "Postgres",
@@ -574,60 +667,6 @@
    "added": "2026-10-26T07:05:35Z"
   },
   {
-   "title": "ClickHouse: How Shipsidekick replaced Neon with ClickHouse Managed Postgres",
-   "url": "https://clickhouse.com/blog/shipsidekick-neon-to-clickhouse-managed-postgres",
-   "domain": "clickhouse.com",
-   "category": "articles",
-   "type": "Blog",
-   "status": "backlog",
-   "topics": [
-    "Postgres",
-    "ClickHouse",
-    "Industry",
-    "AI/LLMs"
-   ],
-   "added": "2026-10-26T07:05:35Z"
-  },
-  {
-   "title": "Karen Jex: Tuning Postgres for Analytics (PGConf.EU 2026 slides + transcript)",
-   "url": "https://karenjex.blogspot.com/2026/10/tuning-postgres-for-analytics-pgconfeu.html",
-   "domain": "karenjex.blogspot.com",
-   "category": "podcasts",
-   "type": "Talk/Video",
-   "status": "backlog",
-   "topics": [
-    "Postgres",
-    "Databases"
-   ],
-   "added": "2026-10-26T07:05:35Z"
-  },
-  {
-   "title": "Supabase: Give your Supabase app its own MCP server",
-   "url": "https://supabase.com/blog/give-your-supabase-app-its-own-mcp-server",
-   "domain": "supabase.com",
-   "category": "articles",
-   "type": "Blog",
-   "status": "backlog",
-   "topics": [
-    "Postgres",
-    "AI/LLMs",
-    "Industry"
-   ],
-   "added": "2026-10-23T06:03:51Z"
-  },
-  {
-   "title": "Muhammad Aqeel (pgEdge): Undo for Postgres, without losing the rest of your day (pgVolvra)",
-   "url": "https://www.pgedge.com/blog/undo-for-postgres-without-losing-the-rest-of-your-day",
-   "domain": "pgedge.com",
-   "category": "articles",
-   "type": "Blog",
-   "status": "backlog",
-   "topics": [
-    "Postgres"
-   ],
-   "added": "2026-10-23T06:03:51Z"
-  },
-  {
    "title": "Announcing DuckDB 2.0.0 LTS \"Cinnamon Teal\"",
    "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200.html",
    "domain": "duckdb.org",
@@ -642,9 +681,34 @@
    "added": "2026-10-23T06:03:51Z"
   },
   {
+   "title": "Ayoub Kazar (Data Bene): PostgreSQL as a graph database, part 1: SQL/PGQ in PostgreSQL",
+   "url": "https://www.data-bene.io/en/blog/postgresql-as-a-graph-database-part-1/",
+   "domain": "data-bene.io",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Databases"
+   ],
+   "added": "2026-10-23T06:03:51Z"
+  },
+  {
    "title": "Christophe Pettus: Binary read replicas in PostgreSQL, Part 3 (building replicas and failing over)",
    "url": "https://thebuild.com/blog/binary-read-replicas-in-postgresql-part-3/",
    "domain": "thebuild.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres"
+   ],
+   "added": "2026-10-23T06:03:51Z"
+  },
+  {
+   "title": "Muhammad Aqeel (pgEdge): Undo for Postgres, without losing the rest of your day (pgVolvra)",
+   "url": "https://www.pgedge.com/blog/undo-for-postgres-without-losing-the-rest-of-your-day",
+   "domain": "pgedge.com",
    "category": "articles",
    "type": "Blog",
    "status": "backlog",
@@ -666,15 +730,16 @@
    "added": "2026-10-23T06:03:51Z"
   },
   {
-   "title": "Ayoub Kazar (Data Bene): PostgreSQL as a graph database, part 1: SQL/PGQ in PostgreSQL",
-   "url": "https://www.data-bene.io/en/blog/postgresql-as-a-graph-database-part-1/",
-   "domain": "data-bene.io",
+   "title": "Supabase: Give your Supabase app its own MCP server",
+   "url": "https://supabase.com/blog/give-your-supabase-app-its-own-mcp-server",
+   "domain": "supabase.com",
    "category": "articles",
    "type": "Blog",
    "status": "backlog",
    "topics": [
     "Postgres",
-    "Databases"
+    "AI/LLMs",
+    "Industry"
    ],
    "added": "2026-10-23T06:03:51Z"
   },
@@ -682,6 +747,32 @@
    "title": "Christophe Pettus: Binary read replicas in PostgreSQL, Part 2 (a read replica cookbook)",
    "url": "https://thebuild.com/blog/binary-read-replicas-in-postgresql-part-2/",
    "domain": "thebuild.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres"
+   ],
+   "added": "2026-10-22T06:04:18Z"
+  },
+  {
+   "title": "Igor Suhorukov: My PostgreSQL is faster than yours and has almost caught up with ClickHouse (MergeTree as a Postgres table AM)",
+   "url": "https://igor-suhorukov.github.io/blog/2026/10/21/my-postgresql-is-faster-than-yours/",
+   "domain": "igor-suhorukov.github.io",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "ClickHouse",
+    "Databases"
+   ],
+   "added": "2026-10-22T06:04:18Z"
+  },
+  {
+   "title": "Jeremy Schneider: Postgres recovery_prefetch Considered Harmful and Causing Outages",
+   "url": "https://ardentperf.com/2026/10/20/postgres-recovery_prefetch-considered-harmful-and-causing-outages/",
+   "domain": "ardentperf.com",
    "category": "articles",
    "type": "Blog",
    "status": "backlog",
@@ -718,30 +809,17 @@
    "added": "2026-10-22T06:04:18Z"
   },
   {
-   "title": "Jeremy Schneider: Postgres recovery_prefetch Considered Harmful and Causing Outages",
-   "url": "https://ardentperf.com/2026/10/20/postgres-recovery_prefetch-considered-harmful-and-causing-outages/",
-   "domain": "ardentperf.com",
-   "category": "articles",
-   "type": "Blog",
-   "status": "backlog",
-   "topics": [
-    "Postgres"
-   ],
-   "added": "2026-10-22T06:04:18Z"
-  },
-  {
-   "title": "Igor Suhorukov: My PostgreSQL is faster than yours and has almost caught up with ClickHouse (MergeTree as a Postgres table AM)",
-   "url": "https://igor-suhorukov.github.io/blog/2026/10/21/my-postgresql-is-faster-than-yours/",
-   "domain": "igor-suhorukov.github.io",
+   "title": "Christophe Pettus: Binary read replicas in PostgreSQL, Part 1 (what a replica is and what it costs)",
+   "url": "https://thebuild.com/blog/binary-read-replicas-in-postgresql/",
+   "domain": "thebuild.com",
    "category": "articles",
    "type": "Blog",
    "status": "backlog",
    "topics": [
     "Postgres",
-    "ClickHouse",
     "Databases"
    ],
-   "added": "2026-10-22T06:04:18Z"
+   "added": "2026-10-21T06:06:42Z"
   },
   {
    "title": "ClickHouse: The Agentic Analytics Benchmark, round two (GPT-6, Claude Opus 5.5, Sonnet 5.5)",
@@ -758,14 +836,14 @@
    "added": "2026-10-21T06:06:42Z"
   },
   {
-   "title": "Christophe Pettus: Binary read replicas in PostgreSQL, Part 1 (what a replica is and what it costs)",
-   "url": "https://thebuild.com/blog/binary-read-replicas-in-postgresql/",
-   "domain": "thebuild.com",
-   "category": "articles",
-   "type": "Blog",
+   "title": "NousDB: A Fast Query Engine for Semantic Analytics (arXiv 2610.28551)",
+   "url": "https://arxiv.org/abs/2610.28551",
+   "domain": "arxiv.org",
+   "category": "papers",
+   "type": "Paper",
    "status": "backlog",
    "topics": [
-    "Postgres",
+    "AI/LLMs",
     "Databases"
    ],
    "added": "2026-10-21T06:06:42Z"
@@ -795,28 +873,15 @@
    "added": "2026-10-21T06:06:42Z"
   },
   {
-   "title": "NousDB: A Fast Query Engine for Semantic Analytics (arXiv 2610.28551)",
-   "url": "https://arxiv.org/abs/2610.28551",
-   "domain": "arxiv.org",
-   "category": "papers",
-   "type": "Paper",
-   "status": "backlog",
-   "topics": [
-    "AI/LLMs",
-    "Databases"
-   ],
-   "added": "2026-10-21T06:06:42Z"
-  },
-  {
-   "title": "The Register: Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
-   "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
-   "domain": "theregister.com",
+   "title": "Awide Labs open-sources Awide Polar: a PostgreSQL fork with compute-storage disaggregation and HTAP",
+   "url": "https://awide.tech/blog/awide-polar-open-source",
+   "domain": "awide.tech",
    "category": "articles",
    "type": "Blog",
    "status": "backlog",
    "topics": [
     "Postgres",
-    "AI/LLMs",
+    "Databases",
     "Industry"
    ],
    "added": "2026-10-20T06:09:25Z"
@@ -836,16 +901,15 @@
    "added": "2026-10-20T06:09:25Z"
   },
   {
-   "title": "Awide Labs open-sources Awide Polar: a PostgreSQL fork with compute-storage disaggregation and HTAP",
-   "url": "https://awide.tech/blog/awide-polar-open-source",
-   "domain": "awide.tech",
-   "category": "articles",
-   "type": "Blog",
+   "title": "MemDerive: A Diagnostic Benchmark for Agent Memory over Evolving Data (arXiv 2610.25373)",
+   "url": "https://arxiv.org/abs/2610.25373",
+   "domain": "arxiv.org",
+   "category": "papers",
+   "type": "Paper",
    "status": "backlog",
    "topics": [
-    "Postgres",
-    "Databases",
-    "Industry"
+    "AI/LLMs",
+    "Databases"
    ],
    "added": "2026-10-20T06:09:25Z"
   },
@@ -863,6 +927,20 @@
    "added": "2026-10-20T06:09:25Z"
   },
   {
+   "title": "The Register: Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+   "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+   "domain": "theregister.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "AI/LLMs",
+    "Industry"
+   ],
+   "added": "2026-10-20T06:09:25Z"
+  },
+  {
    "title": "Tom Kincaid (EDB): PostgreSQL 19, what changed, what matters, and what to test now",
    "url": "https://www.enterprisedb.com/blog/postgresql-19-what-changed-what-matters-and-what-test-now",
    "domain": "enterprisedb.com",
@@ -876,29 +954,14 @@
    "added": "2026-10-20T06:09:25Z"
   },
   {
-   "title": "MemDerive: A Diagnostic Benchmark for Agent Memory over Evolving Data (arXiv 2610.25373)",
-   "url": "https://arxiv.org/abs/2610.25373",
-   "domain": "arxiv.org",
-   "category": "papers",
-   "type": "Paper",
-   "status": "backlog",
-   "topics": [
-    "AI/LLMs",
-    "Databases"
-   ],
-   "added": "2026-10-20T06:09:25Z"
-  },
-  {
-   "title": "StackGres: Open-source Citus matches PlanetScale's Neki at 10M QPS on half the data nodes",
-   "url": "https://stackgres.io/blog/open-source-citus-matches-planetscales-neki-at-10m-qps-on-half-the-data-nodes/",
-   "domain": "stackgres.io",
+   "title": "Christophe Pettus: A Parade of Horribles, in Serial Order (why not to default to SERIALIZABLE)",
+   "url": "https://thebuild.com/blog/a-parade-of-horribles-in-serial-order/",
+   "domain": "thebuild.com",
    "category": "articles",
    "type": "Blog",
    "status": "backlog",
    "topics": [
-    "Postgres",
-    "Databases",
-    "Industry"
+    "Postgres"
    ],
    "added": "2026-10-19T06:07:38Z"
   },
@@ -916,6 +979,20 @@
    "added": "2026-10-19T06:07:38Z"
   },
   {
+   "title": "StackGres: Open-source Citus matches PlanetScale's Neki at 10M QPS on half the data nodes",
+   "url": "https://stackgres.io/blog/open-source-citus-matches-planetscales-neki-at-10m-qps-on-half-the-data-nodes/",
+   "domain": "stackgres.io",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Databases",
+    "Industry"
+   ],
+   "added": "2026-10-19T06:07:38Z"
+  },
+  {
    "title": "Supabase: A local Supabase project per agent, with or without Docker",
    "url": "https://supabase.com/blog/local-supabase-project-per-agent-with-or-without-docker",
    "domain": "supabase.com",
@@ -926,18 +1003,6 @@
     "Postgres",
     "AI/LLMs",
     "Industry"
-   ],
-   "added": "2026-10-19T06:07:38Z"
-  },
-  {
-   "title": "Christophe Pettus: A Parade of Horribles, in Serial Order (why not to default to SERIALIZABLE)",
-   "url": "https://thebuild.com/blog/a-parade-of-horribles-in-serial-order/",
-   "domain": "thebuild.com",
-   "category": "articles",
-   "type": "Blog",
-   "status": "backlog",
-   "topics": [
-    "Postgres"
    ],
    "added": "2026-10-19T06:07:38Z"
   },
@@ -966,9 +1031,9 @@
    "added": "2026-10-17T18:11:57Z"
   },
   {
-   "title": "Notion: Herding elephants: Lessons learned from sharding Postgres at Notion",
-   "url": "https://notion.com/blog/sharding-postgres-at-notion",
-   "domain": "notion.com",
+   "title": "Markus Winand: On Uber’s Choice of Databases",
+   "url": "https://use-the-index-luke.com/blog/2016-07-29/on-ubers-choice-of-databases",
+   "domain": "use-the-index-luke.com",
    "category": "articles",
    "type": "Blog",
    "status": "backlog",
@@ -979,9 +1044,9 @@
    "added": "2026-10-17T18:11:57Z"
   },
   {
-   "title": "Markus Winand: On Uber’s Choice of Databases",
-   "url": "https://use-the-index-luke.com/blog/2016-07-29/on-ubers-choice-of-databases",
-   "domain": "use-the-index-luke.com",
+   "title": "Notion: Herding elephants: Lessons learned from sharding Postgres at Notion",
+   "url": "https://notion.com/blog/sharding-postgres-at-notion",
+   "domain": "notion.com",
    "category": "articles",
    "type": "Blog",
    "status": "backlog",
@@ -1045,6 +1110,20 @@
    "added": "2026-10-17T18:11:20Z"
   },
   {
+   "title": "ClickHouse: OLTP is expensive, you can ClickHouse it (offload settled Postgres data)",
+   "url": "https://clickhouse.com/blog/oltp-is-expensive-you-can-clickhouse-it",
+   "domain": "clickhouse.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "ClickHouse",
+    "Databases"
+   ],
+   "added": "2026-10-16T06:13:01Z"
+  },
+  {
    "title": "Gungnir: Agentic Evolution of SQL Test Generators (arXiv 2610.14161, Zhong & Rigger)",
    "url": "https://arxiv.org/abs/2610.14161",
    "domain": "arxiv.org",
@@ -1074,19 +1153,6 @@
    "added": "2026-10-16T06:13:01Z"
   },
   {
-   "title": "PlanetScale is now available on Azure (Postgres + Neki, Metal NVMe)",
-   "url": "https://planetscale.com/blog/planetscale-is-now-on-azure",
-   "domain": "planetscale.com",
-   "category": "articles",
-   "type": "Blog",
-   "status": "backlog",
-   "topics": [
-    "Postgres",
-    "Industry"
-   ],
-   "added": "2026-10-16T06:13:01Z"
-  },
-  {
    "title": "Pavel Luzanov: PostgreSQL 19 part 5.1 (QPT), CommitFest 2026-03 (plan advice, RevertFest)",
    "url": "https://postgrespro.com/blog/pgsql/5973412",
    "domain": "postgrespro.com",
@@ -1099,16 +1165,15 @@
    "added": "2026-10-16T06:13:01Z"
   },
   {
-   "title": "ClickHouse: OLTP is expensive, you can ClickHouse it (offload settled Postgres data)",
-   "url": "https://clickhouse.com/blog/oltp-is-expensive-you-can-clickhouse-it",
-   "domain": "clickhouse.com",
+   "title": "PlanetScale is now available on Azure (Postgres + Neki, Metal NVMe)",
+   "url": "https://planetscale.com/blog/planetscale-is-now-on-azure",
+   "domain": "planetscale.com",
    "category": "articles",
    "type": "Blog",
    "status": "backlog",
    "topics": [
     "Postgres",
-    "ClickHouse",
-    "Databases"
+    "Industry"
    ],
    "added": "2026-10-16T06:13:01Z"
   },
@@ -1176,15 +1241,15 @@
    "added": "2026-10-15T06:30:48Z"
   },
   {
-   "title": "Postgres at Open House NYC (WalShadow, GCP Managed Postgres, chdb)",
-   "url": "https://clickhouse.com/blog/postgres-at-open-house-nyc",
-   "domain": "clickhouse.com",
-   "category": "articles",
-   "type": "Blog",
+   "title": "DBA-Bench: A Production-Fidelity Benchmark for LLM-Based Database Operations Agents (arXiv 2607.22165)",
+   "url": "https://arxiv.org/abs/2607.22165",
+   "domain": "arxiv.org",
+   "category": "papers",
+   "type": "Paper",
    "status": "backlog",
    "topics": [
     "Postgres",
-    "ClickHouse",
+    "AI/LLMs",
     "Databases"
    ],
    "added": "2026-10-15T06:04:49Z"
@@ -1203,15 +1268,15 @@
    "added": "2026-10-15T06:04:49Z"
   },
   {
-   "title": "DBA-Bench: A Production-Fidelity Benchmark for LLM-Based Database Operations Agents (arXiv 2607.22165)",
-   "url": "https://arxiv.org/abs/2607.22165",
-   "domain": "arxiv.org",
-   "category": "papers",
-   "type": "Paper",
+   "title": "Postgres at Open House NYC (WalShadow, GCP Managed Postgres, chdb)",
+   "url": "https://clickhouse.com/blog/postgres-at-open-house-nyc",
+   "domain": "clickhouse.com",
+   "category": "articles",
+   "type": "Blog",
    "status": "backlog",
    "topics": [
     "Postgres",
-    "AI/LLMs",
+    "ClickHouse",
     "Databases"
    ],
    "added": "2026-10-15T06:04:49Z"
@@ -1229,16 +1294,15 @@
    "added": "2026-10-14T06:11:08Z"
   },
   {
-   "title": "ParadeDB: Making COUNTs and the Rest of Search Really Fast, Part II (vs PlanetScale TIN)",
-   "url": "https://www.paradedb.com/blog/opening-a-closed-tin-part-2",
-   "domain": "paradedb.com",
-   "category": "articles",
-   "type": "Blog",
+   "title": "HarnessSQL: Harness-Native Training for SQL Agents in Realistic Database Environments (arXiv 2610.12274)",
+   "url": "https://arxiv.org/html/2610.12274",
+   "domain": "arxiv.org",
+   "category": "papers",
+   "type": "Paper",
    "status": "backlog",
    "topics": [
-    "Postgres",
-    "Databases",
-    "Industry"
+    "AI/LLMs",
+    "Databases"
    ],
    "added": "2026-10-14T06:11:08Z"
   },
@@ -1257,49 +1321,23 @@
    "added": "2026-10-14T06:11:08Z"
   },
   {
-   "title": "HarnessSQL: Harness-Native Training for SQL Agents in Realistic Database Environments (arXiv 2610.12274)",
-   "url": "https://arxiv.org/html/2610.12274",
-   "domain": "arxiv.org",
-   "category": "papers",
-   "type": "Paper",
-   "status": "backlog",
-   "topics": [
-    "AI/LLMs",
-    "Databases"
-   ],
-   "added": "2026-10-14T06:11:08Z"
-  },
-  {
-   "title": "DuckDB: Agent Mode in the DuckDB CLI",
-   "url": "https://duckdb.org/2026/10/09/agent-mode",
-   "domain": "duckdb.org",
-   "category": "articles",
-   "type": "Blog",
-   "status": "backlog",
-   "topics": [
-    "DuckDB",
-    "AI/LLMs",
-    "Databases"
-   ],
-   "added": "2026-10-13T06:04:51Z"
-  },
-  {
-   "title": "Peter Eisentraut: The reverts will continue until morale improves (PG19 reverts)",
-   "url": "http://peter.eisentraut.org/blog/2026/10/09/the-reverts-will-continue-until-morale-improves",
-   "domain": "peter.eisentraut.org",
+   "title": "ParadeDB: Making COUNTs and the Rest of Search Really Fast, Part II (vs PlanetScale TIN)",
+   "url": "https://www.paradedb.com/blog/opening-a-closed-tin-part-2",
+   "domain": "paradedb.com",
    "category": "articles",
    "type": "Blog",
    "status": "backlog",
    "topics": [
     "Postgres",
-    "AI/LLMs"
+    "Databases",
+    "Industry"
    ],
-   "added": "2026-10-13T06:04:51Z"
+   "added": "2026-10-14T06:11:08Z"
   },
   {
-   "title": "David Wheeler: PGConf.EU Community Day, A Postgres Ecosystem Foundation?",
-   "url": "https://justatheory.com/2026/10/pgconf-eu-pgef/",
-   "domain": "justatheory.com",
+   "title": "Alexander Ioffe: Why is my Whale Query 1000x Slower in Prod? (skew on Neon vs Azure SQL)",
+   "url": "https://exobench.ai/blog/why-is-my-whale-query-1000x-slower-in-prod",
+   "domain": "exobench.ai",
    "category": "articles",
    "type": "Blog",
    "status": "backlog",
@@ -1323,6 +1361,21 @@
    "added": "2026-10-13T06:04:51Z"
   },
   {
+   "title": "Christophe Pettus: The International Ice Patrol (four ways \"Postgres reads Iceberg\")",
+   "url": "https://thebuild.com/blog/the-international-ice-patrol/",
+   "domain": "thebuild.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "ClickHouse",
+    "DuckDB",
+    "Industry"
+   ],
+   "added": "2026-10-13T06:04:51Z"
+  },
+  {
    "title": "Christophe Pettus: The Patch Is Coming From Inside the House (Claude on v19 patches)",
    "url": "https://thebuild.com/blog/the-patch-is-coming-from-inside-the-house/",
    "domain": "thebuild.com",
@@ -1332,6 +1385,33 @@
    "topics": [
     "Postgres",
     "AI/LLMs"
+   ],
+   "added": "2026-10-13T06:04:51Z"
+  },
+  {
+   "title": "David Wheeler: PGConf.EU Community Day, A Postgres Ecosystem Foundation?",
+   "url": "https://justatheory.com/2026/10/pgconf-eu-pgef/",
+   "domain": "justatheory.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Industry"
+   ],
+   "added": "2026-10-13T06:04:51Z"
+  },
+  {
+   "title": "DuckDB: Agent Mode in the DuckDB CLI",
+   "url": "https://duckdb.org/2026/10/09/agent-mode",
+   "domain": "duckdb.org",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "DuckDB",
+    "AI/LLMs",
+    "Databases"
    ],
    "added": "2026-10-13T06:04:51Z"
   },
@@ -1349,44 +1429,17 @@
    "added": "2026-10-13T06:04:51Z"
   },
   {
-   "title": "Christophe Pettus: The International Ice Patrol (four ways \"Postgres reads Iceberg\")",
-   "url": "https://thebuild.com/blog/the-international-ice-patrol/",
-   "domain": "thebuild.com",
+   "title": "Peter Eisentraut: The reverts will continue until morale improves (PG19 reverts)",
+   "url": "http://peter.eisentraut.org/blog/2026/10/09/the-reverts-will-continue-until-morale-improves",
+   "domain": "peter.eisentraut.org",
    "category": "articles",
    "type": "Blog",
    "status": "backlog",
    "topics": [
     "Postgres",
-    "ClickHouse",
-    "DuckDB",
-    "Industry"
-   ],
-   "added": "2026-10-13T06:04:51Z"
-  },
-  {
-   "title": "Alexander Ioffe: Why is my Whale Query 1000x Slower in Prod? (skew on Neon vs Azure SQL)",
-   "url": "https://exobench.ai/blog/why-is-my-whale-query-1000x-slower-in-prod",
-   "domain": "exobench.ai",
-   "category": "articles",
-   "type": "Blog",
-   "status": "backlog",
-   "topics": [
-    "Postgres",
-    "Industry"
-   ],
-   "added": "2026-10-13T06:04:51Z"
-  },
-  {
-   "title": "Pedro Domingos: \"the model swallows the harness\" (on Harness Learning paper, arXiv 2609.35738)",
-   "url": "https://x.com/pmddomingos/status/2109420932955804040",
-   "domain": "x.com",
-   "category": "articles",
-   "type": "Post",
-   "status": "backlog",
-   "topics": [
     "AI/LLMs"
    ],
-   "added": "2026-10-12T12:02:57Z"
+   "added": "2026-10-13T06:04:51Z"
   },
   {
    "title": "DuckDB: A DuckDB Database with No Data in It (view-only catalogs)",
@@ -1398,6 +1451,18 @@
    "topics": [
     "DuckDB",
     "Databases"
+   ],
+   "added": "2026-10-12T12:02:57Z"
+  },
+  {
+   "title": "Pedro Domingos: \"the model swallows the harness\" (on Harness Learning paper, arXiv 2609.35738)",
+   "url": "https://x.com/pmddomingos/status/2109420932955804040",
+   "domain": "x.com",
+   "category": "articles",
+   "type": "Post",
+   "status": "backlog",
+   "topics": [
+    "AI/LLMs"
    ],
    "added": "2026-10-12T12:02:57Z"
   }
