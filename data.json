@@ -1,6 +1,87 @@
 {
  "items": [
   {
+   "title": "Greg Pollock (UpGuard): Everything Everywhere: Systemic Data Exposure in Supabase Apps",
+   "url": "https://www.upguard.com/blog/everything-everywhere-systemic-data-exposure-in-supabase-apps",
+   "domain": "upguard.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "AI/LLMs",
+    "Databases"
+   ],
+   "added": "2026-11-11T09:09:05Z"
+  },
+  {
+   "title": "depesz: What LLMs do to PostgreSQL and DBAs",
+   "url": "https://www.depesz.com/2026/11/09/what-llms-do-to-postgresql-and-dbas/",
+   "domain": "depesz.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "AI/LLMs",
+    "Industry"
+   ],
+   "added": "2026-11-11T07:07:10Z"
+  },
+  {
+   "title": "Hidehiko ASAHI: What I learned from a month with WalShadow on ClickHouse Managed Postgres",
+   "url": "https://clickhouse.com/blog/a-month-with-walshadow-clickhouse-managed-postgres",
+   "domain": "clickhouse.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "ClickHouse"
+   ],
+   "added": "2026-11-11T07:07:10Z"
+  },
+  {
+   "title": "Neon: What's new with the Neon backend (Nov 2026 roundup)",
+   "url": "https://neon.com/blog/whats-new-with-the-neon-backend",
+   "domain": "neon.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Industry",
+    "AI/LLMs"
+   ],
+   "added": "2026-11-11T07:07:10Z"
+  },
+  {
+   "title": "Radim Marek (boringSQL): B-tree pages, sorted and sparse",
+   "url": "https://boringsql.com/posts/index-storage-and-bloat/",
+   "domain": "boringsql.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres"
+   ],
+   "added": "2026-11-11T07:07:10Z"
+  },
+  {
+   "title": "Rankothge et al.: Agents Propose, Code Verifies, Humans Decide: Verified Agentic Ingestion into Relational Databases (arXiv 2611.11045)",
+   "url": "https://arxiv.org/abs/2611.11045",
+   "domain": "arxiv.org",
+   "category": "papers",
+   "type": "Paper",
+   "status": "backlog",
+   "topics": [
+    "AI/LLMs",
+    "Databases",
+    "Postgres"
+   ],
+   "added": "2026-11-11T07:07:10Z"
+  },
+  {
    "title": "Amiri, Binnig, Kipf, Kraska, Marcus et al.: Correctness Firewalls for Synthesized Database Components (arXiv 2611.05173)",
    "url": "https://arxiv.org/abs/2611.05173",
    "domain": "arxiv.org",
