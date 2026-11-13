@@ -35,7 +35,7 @@ const TYPES = {
 const PAGES = [
   { name: "home", path: "/index.html", ready: "#talks .hcard" },
   { name: "speaking", path: "/events.html", ready: "#up .up" },
-  { name: "community", path: "/community.html", ready: ".ccards ul.list li" },
+  { name: "community", path: "/community.html", ready: ".ctl .window" },
   { name: "about", path: "/about.html", ready: "h1.cmd" },
   { name: "albums", path: "/albums.html#pgconfeu-2026", ready: ".agallery .ph" }
 ];
@@ -66,8 +66,8 @@ const PEERS = [
   ".coffee",
   ".ahead",
   ".copen",
-  "p.ptitle",
-  ".ccards li"
+  ".ctl .window",
+  ".ctl .roles li"
 ].join(",");
 
 function startServer() {
