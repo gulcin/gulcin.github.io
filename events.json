@@ -16,6 +16,18 @@
    "abstract": "Databases were designed for humans: long-lived connections, predictable traffic and slowly evolving schemas, assumptions that agent-driven systems break with bursty, unpredictable workloads at a scale they were not built for. Covers four patterns: many short tool queries, evaluation environments that need fast cloning and isolation, development agents treating the database as disposable, and hybrid relational, vector and document memory, plus what PostgreSQL needs to remain the default while correctness, durability and operational safety stay non-negotiable."
   },
   {
+   "date": "2026-12-22",
+   "event": "PostgreSQL Istanbul Meetup",
+   "city": "Istanbul",
+   "country": "Türkiye",
+   "title": "What’s New with Monitoring in PostgreSQL 19",
+   "role": "speaker",
+   "url": "https://postgresql.istanbul/",
+   "year": "2026",
+   "tz": "Europe/Istanbul",
+   "abstract": "PostgreSQL 19 ships a focused set of monitoring improvements that close several long-standing observability gaps for DBAs, platform engineers and tooling authors. Covers default lock-wait logging, per-process log verbosity, separate autoanalyze logging, WAL and COPY I/O visibility, remote server messages in the server log, pg_get_multixact_stats(), and a higher XID wraparound warning threshold."
+  },
+  {
    "date": "2026-11-24",
    "start": "10:25",
    "end": "11:10",
@@ -74,6 +86,7 @@
    "venue": "Amazon Web Services, Oskar-von-Miller-Ring 20",
    "title": "What’s New with Monitoring in PostgreSQL 19",
    "role": "speaker",
+   "photos": "albums.html#pg-munich-meetup-2026",
    "url": "https://www.meetup.com/postgresql-meetup-munich/events/317146075/",
    "year": "2026",
    "time": "17:30–20:30",

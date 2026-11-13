@@ -2,6 +2,57 @@
   "note": "Add a photo: drop a JPEG in that album's folder and append one object to its photos array. thumb is optional. {talk} in a caption links the session title. Dates like Oct 20, 2026. No room names. Details in the README.",
   "albums": [
     {
+      "id": "pg-munich-meetup-2026",
+      "title": "PostgreSQL Munich November 2026 Meetup · Munich",
+      "dates": "Nov 12, 2026",
+      "sort": "2026-11-12",
+      "url": "https://www.meetup.com/postgresql-meetup-munich/events/317146075/",
+      "sessions": [
+        {
+          "id": "monitoring-pg19",
+          "date": "Nov 12, 2026",
+          "title": "What’s New with Monitoring in PostgreSQL 19",
+          "url": "https://www.meetup.com/postgresql-meetup-munich/events/317146075/"
+        }
+      ],
+      "photos": [
+        {
+          "file": "albums/pg-munich-meetup-2026/talk-whoami.jpg",
+          "thumb": "albums/pg-munich-meetup-2026/talk-whoami-thumb.jpg",
+          "width": 1280,
+          "height": 790,
+          "session": "monitoring-pg19",
+          "alt": "Gülçin presenting her whoami slide at the PostgreSQL Munich Meetup, Nov 12, 2026",
+          "caption": "Gülçin presenting her whoami slide at the PostgreSQL Munich Meetup, Nov 12, 2026"
+        },
+        {
+          "file": "albums/pg-munich-meetup-2026/talk-log-verbosity.jpg",
+          "thumb": "albums/pg-munich-meetup-2026/talk-log-verbosity-thumb.jpg",
+          "width": 1280,
+          "height": 731,
+          "session": "monitoring-pg19",
+          "alt": "Presenting 'What's New with Monitoring in PostgreSQL 19': per-process log verbosity, Nov 12, 2026",
+          "caption": "Presenting 'What's New with Monitoring in PostgreSQL 19': per-process log verbosity, Nov 12, 2026"
+        },
+        {
+          "file": "albums/pg-munich-meetup-2026/group-aws-logo.jpg",
+          "thumb": "albums/pg-munich-meetup-2026/group-aws-logo-thumb.jpg",
+          "width": 1280,
+          "height": 960,
+          "alt": "With ClickHouse colleagues at the AWS office in Munich, Nov 12, 2026",
+          "caption": "With ClickHouse colleagues at the AWS office in Munich, Nov 12, 2026"
+        },
+        {
+          "file": "albums/pg-munich-meetup-2026/selfie.jpg",
+          "thumb": "albums/pg-munich-meetup-2026/selfie-thumb.jpg",
+          "width": 960,
+          "height": 1280,
+          "alt": "Selfie with ClickHouse colleagues at the PostgreSQL Munich Meetup, Nov 12, 2026",
+          "caption": "Selfie with ClickHouse colleagues at the PostgreSQL Munich Meetup, Nov 12, 2026"
+        }
+      ]
+    },
+    {
       "id": "pgconfeu-2026",
       "title": "PGConf.EU 2026 · Valencia",
       "dates": "Oct 20–23, 2026",
