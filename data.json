@@ -1,6 +1,61 @@
 {
  "items": [
   {
+   "title": "Andreakis: Extending DBLog-Based Incremental Snapshots to Handle Orphan Rows in CDC Pipelines (arXiv 2611.10810)",
+   "url": "https://arxiv.org/abs/2611.10810",
+   "domain": "arxiv.org",
+   "category": "papers",
+   "type": "Paper",
+   "status": "backlog",
+   "topics": [
+    "Databases",
+    "Postgres"
+   ],
+   "added": "2026-11-12T07:09:38Z"
+  },
+  {
+   "title": "CoreWeave Database GA: managed Postgres inside AI GPU clusters",
+   "url": "https://www.coreweave.com/news/coreweave-database-launches-so-ai-teams-can-build-run-and-scale-production-applications-on-one-platform",
+   "domain": "coreweave.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "AI/LLMs",
+    "Industry"
+   ],
+   "added": "2026-11-12T07:09:38Z"
+  },
+  {
+   "title": "EDB acquires Altinity: Postgres + ClickHouse under one roof",
+   "url": "https://www.enterprisedb.com/press-releases/edb-acquires-altinity-bring-together-two-leading-open-source-databases-advancing-its",
+   "domain": "enterprisedb.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "ClickHouse",
+    "Industry"
+   ],
+   "added": "2026-11-12T07:09:38Z"
+  },
+  {
+   "title": "Google: Introducing AlloyDB Express (scale-to-zero Postgres for coding agents, preview)",
+   "url": "https://cloud.google.com/blog/products/databases/introducing-alloydb-express-for-rapid-testing-and-prototyping",
+   "domain": "cloud.google.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "AI/LLMs",
+    "Industry"
+   ],
+   "added": "2026-11-12T07:09:38Z"
+  },
+  {
    "title": "Greg Pollock (UpGuard): Everything Everywhere: Systemic Data Exposure in Supabase Apps",
    "url": "https://www.upguard.com/blog/everything-everywhere-systemic-data-exposure-in-supabase-apps",
    "domain": "upguard.com",
