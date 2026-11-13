@@ -2,7 +2,7 @@
 
 My personal site: Postgres, product & community. Talks, writing, memories and what I'm reading. Live at https://gulcin.github.io/
 
-Pages: `index.html` (home), `writing.html`, `events.html` (Speaking), `memories.html`, `albums.html`, `about.html`, and Reading: `stats.html`, `list.html`, `books.html`.
+Pages: `index.html` (home), `writing.html`, `events.html` (Speaking), `community.html` (Community), `memories.html`, `albums.html`, `about.html`, and Reading: `stats.html`, `list.html`, `books.html`. `sitemap.xml` lists those public pages.
 
 Static site (no build step): `index.html` (homepage), `stats.html` (reading stats), `list.html` (reading list), `books.html`, `style.css`, `data.json` (Notion), `books.json` (Goodreads), `writing.html` (my articles, talks & mentions).
 `export.py` produces `data.json` from the Notion Reading List and (optionally) Goodreads.
@@ -45,6 +45,9 @@ Dates are `YYYY-MM-DD` (may be omitted; undated items sort last). Order in the f
 ```
 
 `thumb` is optional; without it the grid uses `file`. `{talk}` becomes a link to the session named in `session`. Photos in a session are grouped under that talk. A session with no photos stays in My sessions and does not get an empty gallery. Write dates as `Oct 20, 2026`. Leave room names out. A new album is another object in `albums`, with its own image folder. Keep the long edge around 1600px; a `-thumb` copy around 960px is plenty.
+
+## Community
+`community.html` is the community showcase: the roles, meetups, program committees, and other contributions that used to live on About. Each list is hand-maintained in the page. A small script sorts every list newest first. The year is the latest four-digit year in the date label; "now" and "since" count as this year. Undated rows stay last, and equal years keep their previous order, so P2D2 2027 (Chair) stays above the other 2027 committee row.
 
 ## Speaking
 `events.json` feeds the home page, Speaking, and the Reading “Next up” line. A talk with a full `date` (`YYYY-MM-DD`) stays upcoming until its `end` time. `start` and `end` are local `HH:MM`. A date-shaped `end` (`YYYY-MM-DD`) later than `date` keeps an unscheduled talk upcoming until midnight at the end of that day, in the same zone; an `end` equal to `date` still means the end of `date`. `tz` is an IANA name such as `Europe/Madrid` or `Europe/Warsaw`. With no `end`, the talk stays upcoming until midnight at the end of `date` in `tz` (UTC if `tz` is missing). `"done": true` forces a talk into the past. `"with"` names a co-speaker (shown as “with Petr Jelinek”). `"photos"` is an optional link to an album. `time` is the label shown on Speaking, such as `11:15–12:05`; the short zone name (CEST, CET) is added from `tz`. `"note"` is an optional line on an upcoming card, such as “Day TBA.” `"badge"` is an optional `{src, alt}` shown beside that talk in the past list; keep the image square and give it alt text. Room and stage names are not shown. Declined talks stay out of the home list.

@@ -1,4 +1,4 @@
-// Overlap and horizontal-overflow check for the home page, Speaking, and Albums.
+// Overlap and horizontal-overflow check for the home page, Speaking, Community, About, and Albums.
 //
 // From the repo root, with the playwright package available:
 //   npm install --no-save playwright
@@ -35,6 +35,8 @@ const TYPES = {
 const PAGES = [
   { name: "home", path: "/index.html", ready: "#talks .hcard" },
   { name: "speaking", path: "/events.html", ready: "#up .up" },
+  { name: "community", path: "/community.html", ready: ".ccards ul.list li" },
+  { name: "about", path: "/about.html", ready: "h1.cmd" },
   { name: "albums", path: "/albums.html#pgconfeu-2026", ready: ".agallery .ph" }
 ];
 
@@ -62,7 +64,10 @@ const PEERS = [
   ".mrow",
   ".coffeeline",
   ".coffee",
-  ".ahead"
+  ".ahead",
+  ".copen",
+  "p.ptitle",
+  ".ccards li"
 ].join(",");
 
 function startServer() {
