@@ -49,6 +49,22 @@
    "context": "Recommends her talk with Petr Jelinek, “Postgres for Everything, Until It Isn’t”"
   },
   {
+   "title": "ClickHouse release 26.9",
+   "url": "https://clickhouse.com/blog/clickhouse-release-26-09",
+   "publisher": "ClickHouse",
+   "date": "2026-09-24",
+   "kind": "blog",
+   "context": "Listed as a new contributor in the 26.9 release"
+  },
+  {
+   "title": "September 2026 newsletter",
+   "url": "https://clickhouse.com/blog/202609-newsletter",
+   "publisher": "ClickHouse (Mark Needham)",
+   "date": "2026-09-17",
+   "kind": "blog",
+   "context": "Highlights her new series of Postgres 19 posts on monitoring, new system views, and read-your-writes"
+  },
+  {
    "title": "What’s New with Monitoring in PostgreSQL 19 | Percona Live 2026",
    "url": "https://perconalive.com/2026-amsterdam/talks/whats-new-with-monitoring-in-postgresql-19/",
    "publisher": "Percona Live",
