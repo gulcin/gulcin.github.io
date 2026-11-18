@@ -331,6 +331,7 @@
     {
       "title": "What Is Retrieval-Augmented Generation (RAG)? (Build a RAG app with Postgres and pgvector)",
       "url": "https://www.enterprisedb.com/blog/rag-app-postgres-and-pgvector",
+      "repo": "https://github.com/gulcin/pgvector-rag-app",
       "publisher": "EDB",
       "date": "2024-10-08",
       "coauthors": [],
