@@ -445,6 +445,19 @@
    "url": "https://2024.divaconf.com/speaker/gulcin-yildirim-jelinek"
   },
   {
+   "date": "2024-06-27",
+   "end": "2024-06-27",
+   "event": "Swiss PGDay 2024",
+   "city": "Rapperswil",
+   "country": "Switzerland",
+   "title": "Bringing vectors to Postgres with pgvector",
+   "role": "speaker",
+   "url": "https://www.pgday.ch/2024/#schedule",
+   "year": "2024",
+   "slides": "https://www.pgday.ch/common/slides/2024_Bringing-vectors-to-postres-Gulcin.pdf",
+   "abstract": "Postgres does not yet have native vector capabilities (as of Postgres 16) and pgvector is designed to fill this gap. You can store your vector data alongside the rest of your data in Postgres and do vector similarity search while still utilizing all the great features Postgres provides. The pgvector extension integrates seamlessly with Postgres – allowing users to leverage its capabilities within their existing database infrastructure. This simplifies the deployment and management of AI applications, as there's no need for separate data stores or complex data transfer processes. In this talk, we will learn how to generate and store vector embeddings in Postgres. We will discuss indexing (IVFFlat, HNSW) the embedding data and illustrate how to run a similarity query on our embeddings."
+  },
+  {
    "date": "2024-05-09",
    "end": "2024-05-09",
    "event": "Hacking Postgres (podcast, S2E6)",
