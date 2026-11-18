@@ -1,6 +1,59 @@
 {
  "items": [
   {
+   "title": "Christophe Pettus: Stop Using AI to Report PostgreSQL Bugs",
+   "url": "https://thebuild.com/blog/stop-using-ai-to-report-postgresql-bugs/",
+   "domain": "thebuild.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "AI/LLMs"
+   ],
+   "added": "2026-11-17T07:04:50Z"
+  },
+  {
+   "title": "ClickHouse: How Infinitas Learning uses ClickHouse Managed Postgres to process billions of events for 1.6M learners",
+   "url": "https://clickhouse.com/blog/infinitas-learning-clickhouse-managed-postgres",
+   "domain": "clickhouse.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "ClickHouse"
+   ],
+   "added": "2026-11-17T07:04:50Z"
+  },
+  {
+   "title": "Google (Zhang, Halevy et al.): SynthCorp, a platform for creating benchmarks for data agents (arXiv 2611.14765)",
+   "url": "https://arxiv.org/abs/2611.14765",
+   "domain": "arxiv.org",
+   "category": "papers",
+   "type": "Paper",
+   "status": "backlog",
+   "topics": [
+    "AI/LLMs",
+    "Databases"
+   ],
+   "added": "2026-11-17T07:04:50Z"
+  },
+  {
+   "title": "Ruohang Feng (Vonng): PostgreSQL Ate the Database World. Now the Giants Are Eating Postgres Companies.",
+   "url": "https://vonng.com/en/pg/clickhouse-got-xata/",
+   "domain": "vonng.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "ClickHouse",
+    "Industry"
+   ],
+   "added": "2026-11-17T07:04:50Z"
+  },
+  {
    "title": "ClickHouse: Introducing Loom, agent memory that keeps up with your code",
    "url": "https://clickhouse.com/blog/introducing-loom-agent-memory-that-keeps-up-with-your-code",
    "domain": "clickhouse.com",
