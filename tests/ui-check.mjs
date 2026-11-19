@@ -159,6 +159,60 @@ async function inspect(page) {
   }, { peers: PEERS, minGap: MIN_GAP });
 }
 
+async function checkAbstractToggle(page) {
+  const btn = page.locator("#up .up", { hasText: "CERN PGDay 2027" }).locator("button.absmore");
+  await btn.waitFor({ state: "visible" });
+  const before = await page.evaluate(() => {
+    const issues = [];
+    const cards = [...document.querySelectorAll("#up .up")];
+    const cern = cards.find(el => (el.innerText || "").includes("CERN PGDay 2027"));
+    const button = cern && cern.querySelector("button.absmore");
+    if (!button) return ["CERN card has no Read more button"];
+    if (button.getAttribute("aria-expanded") !== "false") issues.push("CERN toggle should start collapsed");
+    if (button.textContent.trim() !== "Read more") issues.push(`CERN toggle label is “${button.textContent.trim()}”`);
+    const body = cern.querySelector(".absbody");
+    if (!body || !body.classList.contains("clamp")) issues.push("CERN abstract is not clamped");
+    else if (body.scrollHeight <= body.clientHeight + 1) issues.push("CERN clamp is not hiding any text");
+    let toggles = 0;
+    for (const card of cards) {
+      const b = card.querySelector("button.absmore");
+      const bd = card.querySelector(".absbody");
+      if (!bd && b) issues.push("Read more on a card with no abstract");
+      if (!bd) continue;
+      if (b) toggles++;
+      if (!b && bd.scrollHeight > bd.clientHeight + 1) issues.push("overflowing abstract has no Read more button");
+      if (b && b.getAttribute("aria-expanded") === "false" && !bd.classList.contains("clamp")) issues.push("collapsed button on an unclamped abstract");
+    }
+    if (toggles < 2) issues.push(`expected every long abstract to toggle, found ${toggles}`);
+    return issues;
+  });
+  await btn.focus();
+  await page.keyboard.press("Enter");
+  const opened = await page.evaluate(() => {
+    const cern = [...document.querySelectorAll("#up .up")].find(el => (el.innerText || "").includes("CERN PGDay 2027"));
+    const button = cern.querySelector("button.absmore");
+    const body = cern.querySelector(".absbody");
+    const issues = [];
+    if (button.getAttribute("aria-expanded") !== "true") issues.push("Enter did not set aria-expanded");
+    if (button.textContent.trim() !== "Show less") issues.push("expanded label is not Show less");
+    if (body.classList.contains("clamp")) issues.push("abstract stayed clamped after Read more");
+    if (!body.innerText.includes("This talk shows an open-source workflow")) issues.push("expanded abstract is missing the second paragraph");
+    return issues;
+  });
+  const expandedLayout = await inspect(page);
+  await page.keyboard.press("Enter");
+  const closed = await page.evaluate(() => {
+    const cern = [...document.querySelectorAll("#up .up")].find(el => (el.innerText || "").includes("CERN PGDay 2027"));
+    const button = cern.querySelector("button.absmore");
+    const issues = [];
+    if (button.getAttribute("aria-expanded") !== "false") issues.push("second Enter did not collapse");
+    if (button.textContent.trim() !== "Read more") issues.push("collapsed label did not return to Read more");
+    if (!cern.querySelector(".absbody").classList.contains("clamp")) issues.push("abstract did not clamp again");
+    return issues;
+  });
+  return [...before, ...opened, ...expandedLayout.map(issue => `expanded: ${issue}`), ...closed];
+}
+
 const server = process.env.BASE_URL ? null : await startServer();
 const base = process.env.BASE_URL || `http://127.0.0.1:${server.address().port}`;
 await mkdir(SHOTS, { recursive: true });
@@ -180,6 +234,7 @@ try {
       await page.waitForSelector(item.ready);
       await page.evaluate(() => document.fonts.ready);
       const issues = await inspect(page);
+      if (item.name === "speaking") issues.push(...await checkAbstractToggle(page));
       const file = path.join(SHOTS, `${item.name}-${width}.png`);
       await page.screenshot({ path: file, fullPage: true });
       if (issues.length) {
