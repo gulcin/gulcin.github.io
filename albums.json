@@ -2,6 +2,66 @@
   "note": "Add a photo: drop a JPEG in that album's folder and append one object to its photos array. thumb is optional. {talk} in a caption links the session title. Dates like Oct 20, 2026. No room names. Details in the README.",
   "albums": [
     {
+      "id": "codedive-2026",
+      "title": "code::dive 2026 · Wrocław",
+      "dates": "Nov 19, 2026",
+      "sort": "2026-11-19",
+      "url": "https://codedive.pl/?session=238-databases-in-the-age-of-agents#agenda",
+      "sessions": [
+        {
+          "id": "databases-agents",
+          "date": "Nov 19, 2026",
+          "title": "Databases in the Age of Agents",
+          "url": "https://codedive.pl/?session=238-databases-in-the-age-of-agents#agenda"
+        }
+      ],
+      "photos": [
+        {
+          "file": "albums/codedive-2026/before-talk.jpg",
+          "thumb": "albums/codedive-2026/before-talk-thumb.jpg",
+          "width": 960,
+          "height": 1280,
+          "session": "databases-agents",
+          "alt": "Gülçin Yıldırım Jelínek smiling in a leopard-print cardigan, jeans and a conference badge, standing in front of a large screen announcing Databases in the Age of Agents at 10:55–11:15, with the code::dive logo, Nov 19, 2026",
+          "caption": "Before ‘{talk}’ at code::dive, Nov 19, 2026"
+        },
+        {
+          "file": "albums/codedive-2026/with-friend.jpg",
+          "thumb": "albums/codedive-2026/with-friend-thumb.jpg",
+          "width": 960,
+          "height": 1280,
+          "session": "databases-agents",
+          "alt": "Gülçin Yıldırım Jelínek and Ines, friends since their MSc days in Tallinn in 2015, smiling together in front of the code::dive screen for Databases in the Age of Agents. Gülçin wears a leopard-print cardigan; Ines wears a patterned blouse and purple trousers. November 19, 2026",
+          "caption": "With Ines, my friend since our MSc days in Tallinn (2015), at code::dive — November 19, 2026"
+        },
+        {
+          "file": "albums/codedive-2026/intro-slide.jpg",
+          "thumb": "albums/codedive-2026/intro-slide-thumb.jpg",
+          "width": 960,
+          "height": 1280,
+          "session": "databases-agents",
+          "alt": "The big screen at code::dive showing Gülçin Yıldırım Jelínek in a cream jacket beside her intro slide titled Select * from me;, Nov 19, 2026",
+          "caption": "On the big screen next to her ‘Select * from me;’ slide, Nov 19, 2026"
+        },
+        {
+          "file": "albums/codedive-2026/wroclaw-building.jpg",
+          "thumb": "albums/codedive-2026/wroclaw-building-thumb.jpg",
+          "width": 960,
+          "height": 1280,
+          "alt": "Gülçin Yıldırım Jelínek in a striped coat and cream scarf, smiling at her phone outside a white historic building with an arched doorway, autumn leaves on the pavement in Wrocław, Nov 19, 2026",
+          "caption": "Outside a historic building in Wrocław, Nov 19, 2026"
+        },
+        {
+          "file": "albums/codedive-2026/wroclaw-dinner.jpg",
+          "thumb": "albums/codedive-2026/wroclaw-dinner-thumb.jpg",
+          "width": 960,
+          "height": 1280,
+          "alt": "Gülçin Yıldırım Jelínek smiling at dinner at Samarqand — Uzbek, Georgian & Grill in Wrocław, in a beige turtleneck, with a large fried pastry and a glass pot of tea, Nov 18, 2026",
+          "caption": "Dinner at Samarqand — Uzbek, Georgian & Grill in Wrocław, Nov 18, 2026"
+        }
+      ]
+    },
+    {
       "id": "pg-munich-meetup-2026",
       "title": "PostgreSQL Munich November 2026 Meetup · Munich",
       "dates": "Nov 12, 2026",
