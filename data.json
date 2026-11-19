@@ -1,6 +1,74 @@
 {
  "items": [
   {
+   "title": "Dimitri Fontaine: Distributed primary keys (multi-region logical replication, measured)",
+   "url": "https://tapoueh.org/blog/2026/11/distributed-primary-keys/",
+   "domain": "tapoueh.org",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Databases"
+   ],
+   "added": "2026-11-18T07:07:30Z"
+  },
+  {
+   "title": "Readie: Low-latency code sandboxes for AI agents (arXiv 2611.22171)",
+   "url": "https://arxiv.org/abs/2611.22171",
+   "domain": "arxiv.org",
+   "category": "papers",
+   "type": "Paper",
+   "status": "backlog",
+   "topics": [
+    "AI/LLMs",
+    "Databases"
+   ],
+   "added": "2026-11-18T07:07:30Z"
+  },
+  {
+   "title": "Nikolay Samokhvalov (PostgresAI): The hidden costs of CREATE TEMP TABLE, catalog bloat and LWLock:SInvalWrite",
+   "url": "https://postgres.ai/blog/20261118-hidden-costs-of-create-temp-table",
+   "domain": "postgres.ai",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres"
+   ],
+   "added": "2026-11-18T07:07:30Z"
+  },
+  {
+   "title": "ClickHouse: JSONBench is back, and ClickHouse still leads (27 engines incl. PostgreSQL, DuckDB, MongoDB)",
+   "url": "https://clickhouse.com/blog/jsonbench-is-back-clickhouse-still-leads",
+   "domain": "clickhouse.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "ClickHouse",
+    "Postgres",
+    "DuckDB",
+    "Databases"
+   ],
+   "added": "2026-11-18T07:07:30Z"
+  },
+  {
+   "title": "Errpedia: Is your exact k-NN vector search really exact? (arXiv 2611.22474)",
+   "url": "https://arxiv.org/abs/2611.22474",
+   "domain": "arxiv.org",
+   "category": "papers",
+   "type": "Paper",
+   "status": "backlog",
+   "topics": [
+    "Databases",
+    "Postgres",
+    "ClickHouse",
+    "DuckDB"
+   ],
+   "added": "2026-11-18T07:07:30Z"
+  },
+  {
    "title": "Christophe Pettus: Stop Using AI to Report PostgreSQL Bugs",
    "url": "https://thebuild.com/blog/stop-using-ai-to-report-postgresql-bugs/",
    "domain": "thebuild.com",
