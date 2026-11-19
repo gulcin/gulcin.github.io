@@ -30,14 +30,18 @@
    "tz": "Europe/Zurich"
   },
   {
-   "date": "2026-12-22",
-   "event": "PostgreSQL Istanbul Meetup",
+   "date": "2026-12-23",
+   "start": "18:00",
+   "end": "20:00",
+   "event": "PostgreSQL Istanbul Meetup - December 2026 Edition",
    "city": "Istanbul",
    "country": "Türkiye",
+   "venue": "Levent",
    "title": "What’s New with Monitoring in PostgreSQL 19",
    "role": "speaker",
    "url": "https://postgresql.istanbul/",
    "year": "2026",
+   "time": "18:00–20:00",
    "tz": "Europe/Istanbul",
    "abstract": "PostgreSQL 19 ships a focused set of monitoring improvements that close several long-standing observability gaps for DBAs, platform engineers and tooling authors. Covers default lock-wait logging, per-process log verbosity, separate autoanalyze logging, WAL and COPY I/O visibility, remote server messages in the server log, pg_get_multixact_stats(), and a higher XID wraparound warning threshold."
   },
