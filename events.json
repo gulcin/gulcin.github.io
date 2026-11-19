@@ -16,6 +16,20 @@
    "abstract": "Databases were designed for humans: long-lived connections, predictable traffic and slowly evolving schemas, assumptions that agent-driven systems break with bursty, unpredictable workloads at a scale they were not built for. Covers four patterns: many short tool queries, evaluation environments that need fast cloning and isolation, development agents treating the database as disposable, and hybrid relational, vector and document memory, plus what PostgreSQL needs to remain the default while correctness, durability and operational safety stay non-negotiable."
   },
   {
+   "date": "2027-02-12",
+   "end": "2027-02-12",
+   "event": "CERN PGDay 2027",
+   "city": "Geneva",
+   "country": "Switzerland",
+   "venue": "CERN",
+   "title": "\"You're Absolutely Right?\" Prove It.",
+   "role": "speaker",
+   "with": "Amy Chen",
+   "url": "https://indico.cern.ch/event/1720940/",
+   "year": "2027",
+   "tz": "Europe/Zurich"
+  },
+  {
    "date": "2026-12-22",
    "event": "PostgreSQL Istanbul Meetup",
    "city": "Istanbul",
