@@ -37,7 +37,8 @@ const PAGES = [
   { name: "speaking", path: "/events.html", ready: "#up .up" },
   { name: "community", path: "/community.html", ready: ".ctl .window" },
   { name: "about", path: "/about.html", ready: "h1.cmd" },
-  { name: "albums", path: "/albums.html#pgconfeu-2026", ready: ".agallery .ph" }
+  { name: "albums", path: "/albums.html#pgconfeu-2026", ready: ".agallery .ph" },
+  { name: "codedive", path: "/albums.html#codedive-2026", ready: ".agallery .ph" }
 ];
 
 // Section peers: headings, cards, and the links that sit beside them.
