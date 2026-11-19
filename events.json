@@ -27,7 +27,8 @@
    "with": "Amy Chen",
    "url": "https://indico.cern.ch/event/1720940/",
    "year": "2027",
-   "tz": "Europe/Zurich"
+   "tz": "Europe/Zurich",
+   "abstract": "Every Postgres performance tool, and now every AI assistant, is happy to tell you what to fix: add this index, rewrite that query, raise that parameter. “You’re absolutely right” comes free with the recommendation. What doesn’t come free is the proof: did the planner actually pick the new index, did the change regress writes, will the DDL take a lock the application can’t tolerate? We rarely have the time to verify all of this advice, some of which may be wrong, and applying unchecked advice to production is how a performance fix becomes an incident. So the recommendation lands in the “later” pile, and the pile grows.\n\nThis talk shows an open-source workflow that makes a recommendation earn its way into production: gather evidence, generate candidate fixes (rule-based and LLM-generated), test them on a branch or clone of production with the captured workload replayed against it, measure the impact in plans, buffers and timings, and only then deploy with the guard rails Postgres already has: CREATE INDEX CONCURRENTLY, lock_timeout, statement_timeout and a rollback path. The advisor we built for ClickHouse Managed Postgres is the running example, including the recommendations it got wrong. Every step uses tooling you can run against your own Postgres, and the workflow is packaged as a set of agent skills so you can replicate the same discipline on whatever database you like."
   },
   {
    "date": "2026-12-23",
