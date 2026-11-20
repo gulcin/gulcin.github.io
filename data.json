@@ -1,6 +1,57 @@
 {
  "items": [
   {
+   "title": "Megagon Labs: The Value Semantics Layer, machine-understandable databases for agentic AI (arXiv 2611.23629)",
+   "url": "https://arxiv.org/abs/2611.23629",
+   "domain": "arxiv.org",
+   "category": "papers",
+   "type": "Paper",
+   "status": "backlog",
+   "topics": [
+    "AI/LLMs",
+    "Databases"
+   ],
+   "added": "2026-11-19T07:09:41Z"
+  },
+  {
+   "title": "Kaarel Moppel: A public perf reminder, large Postgres instances love huge pages",
+   "url": "https://kmoppel.github.io/2026-11-18-reminder-large-instances-love-huge-pages/",
+   "domain": "kmoppel.github.io",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "AI/LLMs"
+   ],
+   "added": "2026-11-19T07:09:41Z"
+  },
+  {
+   "title": "Colton Shepard (ClickHouse): More load is faster, tuning Postgres read replicas",
+   "url": "https://clickhouse.com/blog/tuning-postgres-read-replicas",
+   "domain": "clickhouse.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "ClickHouse"
+   ],
+   "added": "2026-11-19T07:09:41Z"
+  },
+  {
+   "title": "Andrew Dunstan (EDB): New security infrastructure for PostgreSQL (pgsql-security quilt + SecurityFarm)",
+   "url": "https://adpgtech.blogspot.com/2026/11/new-security-infrastructure-for.html",
+   "domain": "adpgtech.blogspot.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres"
+   ],
+   "added": "2026-11-19T07:09:41Z"
+  },
+  {
    "title": "Dimitri Fontaine: Distributed primary keys (multi-region logical replication, measured)",
    "url": "https://tapoueh.org/blog/2026/11/distributed-primary-keys/",
    "domain": "tapoueh.org",
