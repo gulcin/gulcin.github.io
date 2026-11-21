@@ -1,6 +1,56 @@
 {
  "items": [
   {
+   "title": "Radim Marek (boringSQL): Your biggest tenant runs someone else's plan",
+   "url": "https://boringsql.com/posts/planner-cost-and-buffers/",
+   "domain": "boringsql.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres"
+   ],
+   "added": "2026-11-20T07:12:24Z"
+  },
+  {
+   "title": "David Wheeler (ClickHouse): pg_clickhouse 0.11.1, now with pgvector, UPDATE, DELETE pushdown",
+   "url": "https://clickhouse.com/blog/pg-clickhouse-0-11-1",
+   "domain": "clickhouse.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "ClickHouse"
+   ],
+   "added": "2026-11-20T07:12:24Z"
+  },
+  {
+   "title": "Álvaro Herrera (EDB): Squeezing tables with Postgres 19 (REPACK CONCURRENTLY)",
+   "url": "https://enterprisedb.com/blog/squeezing-tables-postgres-19",
+   "domain": "enterprisedb.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres"
+   ],
+   "added": "2026-11-20T07:12:24Z"
+  },
+  {
+   "title": "ArrivalBench: Agent-generated data pipelines are correct once and wrong under time (arXiv 2610.02363)",
+   "url": "https://arxiv.org/abs/2610.02363",
+   "domain": "arxiv.org",
+   "category": "papers",
+   "type": "Paper",
+   "status": "backlog",
+   "topics": [
+    "AI/LLMs",
+    "Databases"
+   ],
+   "added": "2026-11-20T07:12:24Z"
+  },
+  {
    "title": "Megagon Labs: The Value Semantics Layer, machine-understandable databases for agentic AI (arXiv 2611.23629)",
    "url": "https://arxiv.org/abs/2611.23629",
    "domain": "arxiv.org",
