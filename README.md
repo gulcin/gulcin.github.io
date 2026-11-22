@@ -62,5 +62,5 @@ Dates are `YYYY-MM-DD` (may be omitted; undated items sort last). Order in the f
 ## Data rules
 - Notion Type → tab: Blog/Article/Post/Newsletter → Articles, Paper → Papers, Podcast/Talk/Video → Podcasts / Talks. Rows without a URL are skipped.
 - Read vs backlog: Status `Read` = read; `To read`/`Picked`/`Reading` = backlog; `Skip` excluded.
-- Books: Goodreads `read` shelf (dated by read_at) + `currently-reading`. Skipped if `GOODREADS_USER_ID` is unset.
+- Books: Goodreads `read` shelf (dated by read_at) + `currently-reading`. A written review, and its star rating, is shown on the Books page. Stars with no text are not. The shelf RSS is tried first (`user_review`). Goodreads retired those feeds in October 2026, so when the feed does not answer, reviews are read from the public shelf widget instead. Skipped if `GOODREADS_USER_ID` is unset.
 - Private fields (My notes, For, Why it matters, Added by) are never exported.
