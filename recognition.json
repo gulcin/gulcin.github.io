@@ -280,6 +280,13 @@
   "kind": "organizing"
  },
  {
+  "date": "2026-11-19",
+  "source": "postgres-contrib.org",
+  "title": "Contributions for week 45: Co-organized PostgreSQL Istanbul Meetup Nov 12 2026 with Devrim Gündüz and Bilge Korkmaz Erdim",
+  "url": "https://postgres-contrib.org/post/104/",
+  "kind": "organizing"
+ },
+ {
   "date": "2024",
   "source": "postgresql.org",
   "title": "Listed on PostgreSQL Community Contributors page",
