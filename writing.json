@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "title": "PostgreSQL 19 on ClickHouse Managed Postgres, from day one",
+      "url": "https://clickhouse.com/blog/postgresql-19-on-clickhouse-managed-postgres-from-day-one",
+      "publisher": "ClickHouse",
+      "date": "2026-11-24",
+      "coauthors": [
+        "Andrey Chudnovskiy",
+        "David Wheeler"
+      ],
+      "tags": [
+        "Postgres"
+      ]
+    },
+    {
       "title": "Does your application need local data or faster Postgres?",
       "url": "https://clickhouse.com/blog/does-your-application-need-local-data-or-faster-postgres",
       "publisher": "ClickHouse",
