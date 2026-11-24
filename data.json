@@ -1,6 +1,44 @@
 {
  "items": [
   {
+   "title": "Nikolay Samokhvalov (PostgresAI): PGAIBench and AAA, can AI safely change production Postgres?",
+   "url": "https://postgres.ai/blog/20261123-pgaibench",
+   "domain": "postgres.ai",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "AI/LLMs"
+   ],
+   "added": "2026-11-23T07:03:47Z"
+  },
+  {
+   "title": "Vibhor Kumar: Relevance is not permission, filter-first vector search in PostgreSQL (RLS + pgvector)",
+   "url": "https://vibhorkumar.wordpress.com/2026/11/21/relevance-is-not-permission-filter-first-vector-search-in-postgresql/",
+   "domain": "vibhorkumar.wordpress.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "AI/LLMs"
+   ],
+   "added": "2026-11-23T07:03:47Z"
+  },
+  {
+   "title": "Zsolt Parragi (Percona): What's left in Postgres 19",
+   "url": "https://percona.community/blog/2026/11/20/whats-left-in-postgres-19/",
+   "domain": "percona.community",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres"
+   ],
+   "added": "2026-11-23T07:03:47Z"
+  },
+  {
    "title": "Radim Marek (boringSQL): Your biggest tenant runs someone else's plan",
    "url": "https://boringsql.com/posts/planner-cost-and-buffers/",
    "domain": "boringsql.com",
