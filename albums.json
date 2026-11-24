@@ -2,6 +2,41 @@
   "note": "Add a photo: drop a JPEG in that album's folder and append one object to its photos array. thumb is optional. {talk} in a caption links the session title. Dates like Oct 20, 2026. No room names. Details in the README.",
   "albums": [
     {
+      "id": "pgconfpl-2026",
+      "title": "PGConf.PL 2026 · Gdańsk",
+      "dates": "Nov 24, 2026",
+      "sort": "2026-11-24",
+      "url": "https://www.postgresql.eu/events/pgconfpl2026/schedule/session/8362-postgresql-in-the-age-of-agents/",
+      "sessions": [
+        {
+          "id": "postgresql-agents",
+          "date": "Nov 24, 2026",
+          "title": "PostgreSQL in the Age of Agents",
+          "url": "https://www.postgresql.eu/events/pgconfpl2026/schedule/session/8362-postgresql-in-the-age-of-agents/"
+        }
+      ],
+      "photos": [
+        {
+          "file": "albums/pgconfpl-2026/title-slide.jpg",
+          "thumb": "albums/pgconfpl-2026/title-slide-thumb.jpg",
+          "width": 1280,
+          "height": 960,
+          "session": "postgresql-agents",
+          "alt": "Gülçin speaking at PGConf.PL 2026 in Gdańsk, in front of her 'PostgreSQL in the Age of Agents' title slide, holding a microphone beside the podium, with a window and a drinks table in the room, Nov 24, 2026",
+          "caption": "Speaking at ‘{talk}’ in Gdańsk, Nov 24, 2026"
+        },
+        {
+          "file": "albums/pgconfpl-2026/title-slide-closer.jpg",
+          "thumb": "albums/pgconfpl-2026/title-slide-closer-thumb.jpg",
+          "width": 960,
+          "height": 1280,
+          "session": "postgresql-agents",
+          "alt": "Gülçin speaking at PGConf.PL 2026 in Gdańsk, in front of her 'PostgreSQL in the Age of Agents' title slide, a closer view as she holds a microphone in a patterned sweater and dark jeans, Nov 24, 2026",
+          "caption": "A closer view in front of the ‘{talk}’ title slide, Nov 24, 2026"
+        }
+      ]
+    },
+    {
       "id": "codedive-2026",
       "title": "code::dive 2026 · Wrocław",
       "dates": "Nov 19, 2026",
