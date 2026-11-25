@@ -1,6 +1,57 @@
 {
  "items": [
   {
+   "title": "ClickHouse expands AWS strategic collaboration ($1.5B+ five-year SCA; agent memory in Managed Postgres)",
+   "url": "https://clickhouse.com/blog/clickhouse-expands-aws-strategic-collaboration-scale-unified-enterprise-ai-data-stack",
+   "domain": "clickhouse.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "ClickHouse",
+    "Postgres",
+    "Industry"
+   ],
+   "added": "2026-11-24T07:04:49Z"
+  },
+  {
+   "title": "Mats Kindahl: Building a Table Access Method, Part 9, UNLOGGED tables and surviving a restart",
+   "url": "https://dbmsdrops.kindahl.net/2026/11/22/building-a-table-access-method-part-9/",
+   "domain": "dbmsdrops.kindahl.net",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres"
+   ],
+   "added": "2026-11-24T07:04:49Z"
+  },
+  {
+   "title": "Mayur B.: PostgreSQL 19, when the planner needs adult supervision (pg_plan_advice + pg_stash_advice on a transactional outbox)",
+   "url": "https://drunkdba.medium.com/postgresql-19-when-the-planner-needs-adult-supervision-b4bafb4b4418",
+   "domain": "drunkdba.medium.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres"
+   ],
+   "added": "2026-11-24T07:04:49Z"
+  },
+  {
+   "title": "STARR: HNSW index migration under embedding model change (arXiv 2611.25416)",
+   "url": "https://arxiv.org/abs/2611.25416",
+   "domain": "arxiv.org",
+   "category": "papers",
+   "type": "Paper",
+   "status": "backlog",
+   "topics": [
+    "Databases",
+    "AI/LLMs"
+   ],
+   "added": "2026-11-24T07:04:49Z"
+  },
+  {
    "title": "Nikolay Samokhvalov (PostgresAI): PGAIBench and AAA, can AI safely change production Postgres?",
    "url": "https://postgres.ai/blog/20261123-pgaibench",
    "domain": "postgres.ai",
@@ -39,14 +90,15 @@
    "added": "2026-11-23T07:03:47Z"
   },
   {
-   "title": "Radim Marek (boringSQL): Your biggest tenant runs someone else's plan",
-   "url": "https://boringsql.com/posts/planner-cost-and-buffers/",
-   "domain": "boringsql.com",
-   "category": "articles",
-   "type": "Blog",
+   "title": "ArrivalBench: Agent-generated data pipelines are correct once and wrong under time (arXiv 2610.02363)",
+   "url": "https://arxiv.org/abs/2610.02363",
+   "domain": "arxiv.org",
+   "category": "papers",
+   "type": "Paper",
    "status": "backlog",
    "topics": [
-    "Postgres"
+    "AI/LLMs",
+    "Databases"
    ],
    "added": "2026-11-20T07:12:24Z"
   },
@@ -64,6 +116,18 @@
    "added": "2026-11-20T07:12:24Z"
   },
   {
+   "title": "Radim Marek (boringSQL): Your biggest tenant runs someone else's plan",
+   "url": "https://boringsql.com/posts/planner-cost-and-buffers/",
+   "domain": "boringsql.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres"
+   ],
+   "added": "2026-11-20T07:12:24Z"
+  },
+  {
    "title": "Álvaro Herrera (EDB): Squeezing tables with Postgres 19 (REPACK CONCURRENTLY)",
    "url": "https://enterprisedb.com/blog/squeezing-tables-postgres-19",
    "domain": "enterprisedb.com",
@@ -76,41 +140,14 @@
    "added": "2026-11-20T07:12:24Z"
   },
   {
-   "title": "ArrivalBench: Agent-generated data pipelines are correct once and wrong under time (arXiv 2610.02363)",
-   "url": "https://arxiv.org/abs/2610.02363",
-   "domain": "arxiv.org",
-   "category": "papers",
-   "type": "Paper",
-   "status": "backlog",
-   "topics": [
-    "AI/LLMs",
-    "Databases"
-   ],
-   "added": "2026-11-20T07:12:24Z"
-  },
-  {
-   "title": "Megagon Labs: The Value Semantics Layer, machine-understandable databases for agentic AI (arXiv 2611.23629)",
-   "url": "https://arxiv.org/abs/2611.23629",
-   "domain": "arxiv.org",
-   "category": "papers",
-   "type": "Paper",
-   "status": "backlog",
-   "topics": [
-    "AI/LLMs",
-    "Databases"
-   ],
-   "added": "2026-11-19T07:09:41Z"
-  },
-  {
-   "title": "Kaarel Moppel: A public perf reminder, large Postgres instances love huge pages",
-   "url": "https://kmoppel.github.io/2026-11-18-reminder-large-instances-love-huge-pages/",
-   "domain": "kmoppel.github.io",
+   "title": "Andrew Dunstan (EDB): New security infrastructure for PostgreSQL (pgsql-security quilt + SecurityFarm)",
+   "url": "https://adpgtech.blogspot.com/2026/11/new-security-infrastructure-for.html",
+   "domain": "adpgtech.blogspot.com",
    "category": "articles",
    "type": "Blog",
    "status": "backlog",
    "topics": [
-    "Postgres",
-    "AI/LLMs"
+    "Postgres"
    ],
    "added": "2026-11-19T07:09:41Z"
   },
@@ -128,33 +165,21 @@
    "added": "2026-11-19T07:09:41Z"
   },
   {
-   "title": "Andrew Dunstan (EDB): New security infrastructure for PostgreSQL (pgsql-security quilt + SecurityFarm)",
-   "url": "https://adpgtech.blogspot.com/2026/11/new-security-infrastructure-for.html",
-   "domain": "adpgtech.blogspot.com",
-   "category": "articles",
-   "type": "Blog",
-   "status": "backlog",
-   "topics": [
-    "Postgres"
-   ],
-   "added": "2026-11-19T07:09:41Z"
-  },
-  {
-   "title": "Dimitri Fontaine: Distributed primary keys (multi-region logical replication, measured)",
-   "url": "https://tapoueh.org/blog/2026/11/distributed-primary-keys/",
-   "domain": "tapoueh.org",
+   "title": "Kaarel Moppel: A public perf reminder, large Postgres instances love huge pages",
+   "url": "https://kmoppel.github.io/2026-11-18-reminder-large-instances-love-huge-pages/",
+   "domain": "kmoppel.github.io",
    "category": "articles",
    "type": "Blog",
    "status": "backlog",
    "topics": [
     "Postgres",
-    "Databases"
+    "AI/LLMs"
    ],
-   "added": "2026-11-18T07:07:30Z"
+   "added": "2026-11-19T07:09:41Z"
   },
   {
-   "title": "Readie: Low-latency code sandboxes for AI agents (arXiv 2611.22171)",
-   "url": "https://arxiv.org/abs/2611.22171",
+   "title": "Megagon Labs: The Value Semantics Layer, machine-understandable databases for agentic AI (arXiv 2611.23629)",
+   "url": "https://arxiv.org/abs/2611.23629",
    "domain": "arxiv.org",
    "category": "papers",
    "type": "Paper",
@@ -163,19 +188,7 @@
     "AI/LLMs",
     "Databases"
    ],
-   "added": "2026-11-18T07:07:30Z"
-  },
-  {
-   "title": "Nikolay Samokhvalov (PostgresAI): The hidden costs of CREATE TEMP TABLE, catalog bloat and LWLock:SInvalWrite",
-   "url": "https://postgres.ai/blog/20261118-hidden-costs-of-create-temp-table",
-   "domain": "postgres.ai",
-   "category": "articles",
-   "type": "Blog",
-   "status": "backlog",
-   "topics": [
-    "Postgres"
-   ],
-   "added": "2026-11-18T07:07:30Z"
+   "added": "2026-11-19T07:09:41Z"
   },
   {
    "title": "ClickHouse: JSONBench is back, and ClickHouse still leads (27 engines incl. PostgreSQL, DuckDB, MongoDB)",
@@ -193,6 +206,19 @@
    "added": "2026-11-18T07:07:30Z"
   },
   {
+   "title": "Dimitri Fontaine: Distributed primary keys (multi-region logical replication, measured)",
+   "url": "https://tapoueh.org/blog/2026/11/distributed-primary-keys/",
+   "domain": "tapoueh.org",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Databases"
+   ],
+   "added": "2026-11-18T07:07:30Z"
+  },
+  {
    "title": "Errpedia: Is your exact k-NN vector search really exact? (arXiv 2611.22474)",
    "url": "https://arxiv.org/abs/2611.22474",
    "domain": "arxiv.org",
@@ -204,6 +230,31 @@
     "Postgres",
     "ClickHouse",
     "DuckDB"
+   ],
+   "added": "2026-11-18T07:07:30Z"
+  },
+  {
+   "title": "Nikolay Samokhvalov (PostgresAI): The hidden costs of CREATE TEMP TABLE, catalog bloat and LWLock:SInvalWrite",
+   "url": "https://postgres.ai/blog/20261118-hidden-costs-of-create-temp-table",
+   "domain": "postgres.ai",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres"
+   ],
+   "added": "2026-11-18T07:07:30Z"
+  },
+  {
+   "title": "Readie: Low-latency code sandboxes for AI agents (arXiv 2611.22171)",
+   "url": "https://arxiv.org/abs/2611.22171",
+   "domain": "arxiv.org",
+   "category": "papers",
+   "type": "Paper",
+   "status": "backlog",
+   "topics": [
+    "AI/LLMs",
+    "Databases"
    ],
    "added": "2026-11-18T07:07:30Z"
   },
