@@ -1,6 +1,59 @@
 {
  "items": [
   {
+   "title": "Katelyn Lesse (Anthropic): The new set of problems for engineers to solve (X article)",
+   "url": "https://x.com/katelyn_lesse/status/2114542280535318557",
+   "domain": "x.com",
+   "category": "articles",
+   "type": "Post",
+   "status": "backlog",
+   "topics": [
+    "AI/LLMs",
+    "Industry"
+   ],
+   "added": "2026-11-27T05:17:09Z"
+  },
+  {
+   "title": "When an AI agent makes a mistake in a database, what decides the damage? (arXiv 2611.30483)",
+   "url": "https://arxiv.org/abs/2611.30483",
+   "domain": "arxiv.org",
+   "category": "papers",
+   "type": "Paper",
+   "status": "backlog",
+   "topics": [
+    "AI/LLMs",
+    "Postgres",
+    "ClickHouse",
+    "Databases"
+   ],
+   "added": "2026-11-26T07:06:18Z"
+  },
+  {
+   "title": "Umair Shahid (Stormatics): Where 39% of the WAL came from (checkpoints + full-page writes)",
+   "url": "https://stormatics.tech/blogs/checkpoints-full-page-writes-wal",
+   "domain": "stormatics.tech",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres"
+   ],
+   "added": "2026-11-26T07:06:18Z"
+  },
+  {
+   "title": "Colton Shepard (ClickHouse): Hints and hazards, pg_plan_advice in PG19",
+   "url": "https://clickhouse.com/blog/pg-plan-advice-postgresql-19",
+   "domain": "clickhouse.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "ClickHouse"
+   ],
+   "added": "2026-11-26T07:06:18Z"
+  },
+  {
    "title": "Uber Engineering: How Uber Evals 1 Million Agent Skill Invocations a Month (X article)",
    "url": "https://x.com/UberEng/status/2125008806249930999",
    "domain": "x.com",
