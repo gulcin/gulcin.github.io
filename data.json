@@ -1,6 +1,58 @@
 {
  "items": [
   {
+   "title": "Agent Recovery Gone Wrong: Measuring harm beyond duplicate calls (arXiv 2611.31554)",
+   "url": "https://arxiv.org/abs/2611.31554",
+   "domain": "arxiv.org",
+   "category": "papers",
+   "type": "Paper",
+   "status": "backlog",
+   "topics": [
+    "AI/LLMs",
+    "Databases"
+   ],
+   "added": "2026-11-27T07:05:55Z"
+  },
+  {
+   "title": "ClickHouse (guest post, Qian Li of DBOS): Durable and auditable workflows with DBOS and ClickHouse Managed Postgres",
+   "url": "https://clickhouse.com/blog/dbos-clickhouse-managed-postgres-durable-workflows",
+   "domain": "clickhouse.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "ClickHouse",
+    "AI/LLMs"
+   ],
+   "added": "2026-11-27T07:05:55Z"
+  },
+  {
+   "title": "Neon: Rethinking read replicas for the lakebase architecture",
+   "url": "https://neon.com/blog/rethinking-read-replicas-for-the-lakebase-architecture",
+   "domain": "neon.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres",
+    "Industry"
+   ],
+   "added": "2026-11-27T07:05:55Z"
+  },
+  {
+   "title": "Radim Marek (boringSQL): ANALYZE on a mostly-NULL column",
+   "url": "https://boringsql.com/posts/analyze-mostly-null-column/",
+   "domain": "boringsql.com",
+   "category": "articles",
+   "type": "Blog",
+   "status": "backlog",
+   "topics": [
+    "Postgres"
+   ],
+   "added": "2026-11-27T07:05:55Z"
+  },
+  {
    "title": "Katelyn Lesse (Anthropic): The new set of problems for engineers to solve (X article)",
    "url": "https://x.com/katelyn_lesse/status/2114542280535318557",
    "domain": "x.com",
