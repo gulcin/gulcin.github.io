@@ -59,7 +59,8 @@
    "url": "https://www.postgresql.eu/events/pgconfpl2026/schedule/session/8362-postgresql-in-the-age-of-agents/",
    "year": "2026",
    "time": "10:25–11:10",
-   "tz": "Europe/Warsaw"
+   "tz": "Europe/Warsaw",
+   "slides": "https://www.postgresql.eu/events/pgconfpl2026/sessions/session/8362/slides/1016/PGConf.PL%20PostgreSQL%20in%20the%20Age%20of%20Agents.pdf"
   },
   {
    "date": "2026-11-19",
