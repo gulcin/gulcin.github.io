@@ -1,6 +1,21 @@
 {
  "books": [
   {
+   "title": "Yürümenin Felsefesi",
+   "url": "https://www.goodreads.com/review/show/8868771220?utm_medium=api&utm_source=rss",
+   "domain": "Frédéric Gros",
+   "category": "books",
+   "type": "Book",
+   "status": "read",
+   "topics": [],
+   "added": "2026-11-22T22:10:18Z",
+   "read_at": "2026-11-22T22:10:18Z",
+   "read_at_missing": true,
+   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1486802848l/34224850.jpg",
+   "review": "I loved this book! It also covers Reveries of the Solitary Walker, which I think had a big influence on me in my early youth, so that was a lovely surprise. I'd also been planning to walk the Camino de Santiago this year, and the book re...",
+   "rating": 5
+  },
+  {
    "title": "The Story of a New Name (Neapolitan Novels, #2)",
    "url": "https://www.goodreads.com/review/show/8970482796?utm_medium=api&utm_source=rss",
    "domain": "Elena Ferrante",
@@ -11,7 +26,9 @@
    "added": "2026-10-07T00:00:00Z",
    "read_at": "2026-10-07T00:00:00Z",
    "read_at_missing": false,
-   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1641699224l/17465515.jpg"
+   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1641699224l/17465515.jpg",
+   "review": "It is unbelievable how a single author can decode everything that happens between friends through socio-economic lenses, the reality of privilege or the lack thereof and the transformative role of education for women. While reading, it f...",
+   "rating": 5
   },
   {
    "title": "My Brilliant Friend (Neapolitan Novels, #1)",
@@ -37,7 +54,9 @@
    "added": "2026-09-11T00:00:00Z",
    "read_at": "2026-09-11T00:00:00Z",
    "read_at_missing": false,
-   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1511302904l/890._SX318_.jpg"
+   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1511302904l/890._SX318_.jpg",
+   "review": "I am re-reading classics these days again thankful I got reading “Of Mice and Men” too. So raw, so human and I still feel sad about their farm dream.",
+   "rating": 5
   },
   {
    "title": "Ermiş",
@@ -50,7 +69,9 @@
    "added": "2026-09-02T00:00:00Z",
    "read_at": "2026-09-02T00:00:00Z",
    "read_at_missing": false,
-   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1528546551l/40498978.jpg"
+   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1528546551l/40498978.jpg",
+   "review": "Bilgelik içeren çıkarımlarla dolu bir kitap ama bu anlatı tarzı beni içine çekemedi. Belki daha genç yaşlarda okusam daha fazla etkilenirdim.",
+   "rating": 4
   },
   {
    "title": "The Blanket Cats",
@@ -63,7 +84,9 @@
    "added": "2026-08-29T00:00:00Z",
    "read_at": "2026-08-29T00:00:00Z",
    "read_at_missing": false,
-   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1724137956l/213870117._SX318_.jpg"
+   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1724137956l/213870117._SX318_.jpg",
+   "review": "Apparently there is a genre about cat books in Japanese literature. My husband bought it for me as a gift as he knows how much I like cats, so the book is special as it has a kind gesture associated with it for me, but apart from a few s...",
+   "rating": 4
   },
   {
    "title": "Sarıyaz",
@@ -76,7 +99,9 @@
    "added": "2026-08-29T00:00:00Z",
    "read_at": "2026-08-29T00:00:00Z",
    "read_at_missing": false,
-   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1553926295l/44659403._SY475_.jpg"
+   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1553926295l/44659403._SY475_.jpg",
+   "review": "Öyküleri gerçekten beğendim. Anlatım tarzında benim yaş grubumun (otuz sonu kırk başı) kendiyle özdeşleştirebileceği çok öge olduğunu düşünüyorum. Yazarın ilk olarak Tatil Kitabı eserini okumuştum, çok etkilendiğim bir karakter örüntüsü ...",
+   "rating": 5
   },
   {
    "title": "Aramızdaki Şey",
@@ -89,7 +114,9 @@
    "added": "2026-08-25T00:00:00Z",
    "read_at": "2026-08-25T00:00:00Z",
    "read_at_missing": false,
-   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1496347470l/6698615._SY475_.jpg"
+   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1496347470l/6698615._SY475_.jpg",
+   "review": "Sadece tahin-pekmez günleri betimlemesi için bile okumaya değer. Şu aralar güzel Türkçe ile yazılmış eserleri öyle çok arıyorum ki, bu güzel öyküleri okumak bana epey iyi geldi.",
+   "rating": 5
   },
   {
    "title": "Tezer Özlü'den Leylâ Erbil'e Mektuplar",
@@ -102,7 +129,9 @@
    "added": "2026-08-23T00:00:00Z",
    "read_at": "2026-08-23T00:00:00Z",
    "read_at_missing": false,
-   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1374846299l/2368907.jpg"
+   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1374846299l/2368907.jpg",
+   "review": "Yapıtları ile tanıdığın ve çok yüksek yerlere yerleştirdiğin insanların, insani yönlerini mektup formatında okumak biraz zorlayıcı bir deneyim. Leyla Erbil’i bu denli sevmesine rağmen, hem ondan hem de diğer sevdiklerinden uzunca ayrı ka...",
+   "rating": 5
   },
   {
    "title": "Aile Mutluluğu",
@@ -115,7 +144,9 @@
    "added": "2026-08-18T00:00:00Z",
    "read_at": "2026-08-18T00:00:00Z",
    "read_at_missing": false,
-   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1357746661l/17229420.jpg"
+   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1357746661l/17229420.jpg",
+   "review": "Okumasam da sanırım çok bir şey değişmezdi. Sanırım hayatımın bu döneminde genç bir kadının hisleri ile çok bağdaşamadım. Storytel üzerinden dinledim çünkü seslendirmesini çok sevdiğim Fatih Sönmez Bey yapmıştı. O yüzden yağmurlu bir gün...",
+   "rating": 4
   },
   {
    "title": "War and Peace",
@@ -141,7 +172,9 @@
    "added": "2026-08-17T10:00:21Z",
    "read_at": "2026-08-17T10:00:21Z",
    "read_at_missing": true,
-   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1438158008l/2006420._SY475_.jpg"
+   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1438158008l/2006420._SY475_.jpg",
+   "review": "Bir zamanlar ülkemizde de gerçek aydınların olduğunu bana hatırlatan bir kitap oldu. Devasa iştahı ve yine benim gibi ananasa bayılması, film ve tiyatro tutkusu ve çocuklara olan sevgisiyle kendime çok yakın hissettim kitapları boyunca. ...",
+   "rating": 5
   },
   {
    "title": "Sırça Köşk",
@@ -284,7 +317,9 @@
    "added": "2026-05-09T00:00:00Z",
    "read_at": "2026-05-09T00:00:00Z",
    "read_at_missing": false,
-   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1734631773l/58662236._SX318_.jpg"
+   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1734631773l/58662236._SX318_.jpg",
+   "review": "It is staggering that these 'institutions' operated for two centuries. Keegan’s prose is so evocative that I almost wished the story were set in 1785 rather than 1985; it’s haunting to realize the last laundry didn't close until the late...",
+   "rating": 5
   },
   {
    "title": "Tatil Kitabı",
@@ -297,7 +332,9 @@
    "added": "2026-03-31T00:00:00Z",
    "read_at": "2026-03-31T00:00:00Z",
    "read_at_missing": false,
-   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1732192515l/221786992._SX318_.jpg"
+   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1732192515l/221786992._SX318_.jpg",
+   "review": "Yazarın okuduğum ilk kitabı, o yüzden pek bir beklenti ile başlamadım. Duygu yüklü bir kitap denebilir, hafızamı yoklayan ve unuttuğuma şaştığım öyle çok şeyi hatırlattı ki, bir nevi nostalji yolculuğuna çıkarttı sayılır. Akıcı bir dilde...",
+   "rating": 5
   },
   {
    "title": "The City and Its Uncertain Walls",
@@ -310,7 +347,9 @@
    "added": "2026-03-20T00:00:00Z",
    "read_at": "2026-03-20T00:00:00Z",
    "read_at_missing": false,
-   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1709742028l/209192695._SX318_.jpg"
+   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1709742028l/209192695._SX318_.jpg",
+   "review": "I’ve always been captivated by Murakami - Kafka on the Shore is still a favorite - but I just couldn't get into this world. It felt forced and I struggled to connect with the protagonist. It took me forever to finish because nothing felt...",
+   "rating": 3
   },
   {
    "title": "Old Babes in the Wood: Stories",
@@ -323,7 +362,9 @@
    "added": "2026-02-07T00:00:00Z",
    "read_at": "2026-02-07T00:00:00Z",
    "read_at_missing": false,
-   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1659417079l/61489616.jpg"
+   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1659417079l/61489616.jpg",
+   "review": "The stories centering on Tig and Nell were deeply moving, capturing the quiet heartbreak of a 'long run' coming to its end. Another standout for me was 'A Dusty Lunch', the character of J.O.B. left a profound impact, adding a layer of hi...",
+   "rating": 5
   },
   {
    "title": "Numbers: 10 Things You Should Know",
@@ -414,7 +455,9 @@
    "added": "2025-08-03T00:00:00Z",
    "read_at": "2025-08-03T00:00:00Z",
    "read_at_missing": false,
-   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1701757743l/203237064.jpg"
+   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1701757743l/203237064.jpg",
+   "review": "Gencecik insanların öldüğü/öldürüldüğü tarihimizden bir kurgu, bu yanıyla çok üzücü. Şeriat yanlısı müslüman öğrencilerin düzenlediği bir eylemi ele alıyor bu haliyle benim bildiğim hikayelerin ve görüşlerin çok dışında kalsa da genel ol...",
+   "rating": 3
   },
   {
    "title": "James Baldwin's Turkish Decade: Erotics of Exile",
@@ -466,7 +509,9 @@
    "added": "2025-05-31T00:00:00Z",
    "read_at": "2025-05-31T00:00:00Z",
    "read_at_missing": false,
-   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410138598l/32886.jpg"
+   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1410138598l/32886.jpg",
+   "review": "She is an idol, and it fascinated me how ahead of her time she was, what a beautiful mind. Reading this book now, after the age of 35, feels like a lucky incident. I understand the notions of self-love and compassion so much better now t...",
+   "rating": 5
   },
   {
    "title": "Ignorance",
@@ -479,7 +524,9 @@
    "added": "2025-05-18T00:00:00Z",
    "read_at": "2025-05-18T00:00:00Z",
    "read_at_missing": false,
-   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1726674468l/78728._SY475_.jpg"
+   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1726674468l/78728._SY475_.jpg",
+   "review": "I’ve read this book on my flight from Prague to Lyon and back to Prague, now I call my home. I knew, being an “emigrée” myself, I would find things that resonated with me, but it caught me by surprise as I did not really get connected wi...",
+   "rating": 5
   },
   {
    "title": "Kötü Kızlar",
@@ -505,7 +552,9 @@
    "added": "2025-02-23T00:00:00Z",
    "read_at": "2025-02-23T00:00:00Z",
    "read_at_missing": false,
-   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1650240624l/58725016.jpg"
+   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1650240624l/58725016.jpg",
+   "review": "This is a story that revolves around three women, Clytemnestra, Elektra and Cassandra. Even though the story is named after Elektra, it was the Clytemnestra’s point of view that affected me more. Perhaps after becoming a mom, I could ass...",
+   "rating": 4
   },
   {
    "title": "Aylak Köpek",
@@ -544,7 +593,9 @@
    "added": "2024-10-12T00:00:00Z",
    "read_at": "2024-10-12T00:00:00Z",
    "read_at_missing": false,
-   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344618847l/15799151.jpg"
+   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344618847l/15799151.jpg",
+   "review": "I mainly loved how individual every genius who was mentioned in this book, they achieved success with all sorts of different work habits and some commonalities in between. A good read for the times you might feel an artistic burnout for ...",
+   "rating": 5
   },
   {
    "title": "The Seven Moons of Maali Almeida",
@@ -557,7 +608,9 @@
    "added": "2024-10-12T00:00:00Z",
    "read_at": "2024-10-12T00:00:00Z",
    "read_at_missing": false,
-   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1658847734l/57224204._SY475_.jpg"
+   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1658847734l/57224204._SY475_.jpg",
+   "review": "This easily became one of the best books I’ve ever read. The way one can connect Maali Almeida with all of his intentions, ambitions, and impulsive acts. And you realize how true to himself he always is and question, are you ever? Were y...",
+   "rating": 5
   },
   {
    "title": "Kolera Günlerinde Aşk",
@@ -635,7 +688,9 @@
    "added": "2022-12-29T00:00:00Z",
    "read_at": "2022-12-29T00:00:00Z",
    "read_at_missing": false,
-   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1603206535l/54120408._SY475_.jpg"
+   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1603206535l/54120408._SY475_.jpg",
+   "review": "You keep wondering throughout the book, what is love? The one you have for your surroundings, to your friends or to your child? What are our memories made of? How do they get blurred by our fears and with our first experiences? How can w...",
+   "rating": 5
   },
   {
    "title": "Okulsuz Büyümek",
@@ -648,7 +703,9 @@
    "added": "2021-07-24T00:00:00Z",
    "read_at": "2021-07-24T00:00:00Z",
    "read_at_missing": false,
-   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1456495035l/29344430._SX318_.jpg"
+   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1456495035l/29344430._SX318_.jpg",
+   "review": "Kitap bir babanın gözünden çocuklarının toprakla kurdukları bağdan ve emeğin öneminden bahsediyor. Okulsuz büyümek aslında bunun olağan bir sonucu gibi bir yandan da. Eğer okulsuz eğitim nasıldır veya örgün sistemle nasıl karşılaştırılır...",
+   "rating": 3
   },
   {
    "title": "The Dreamers",
@@ -661,7 +718,9 @@
    "added": "2019-03-18T00:00:00Z",
    "read_at": "2019-03-18T00:00:00Z",
    "read_at_missing": false,
-   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1533916399l/34409176._SY475_.jpg"
+   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1533916399l/34409176._SY475_.jpg",
+   "review": "The whole book was about people sleeping with a virus and then waking up after all is over. I felt I did not learn or feel anything different with this book, perhaps not my style of read at all.",
+   "rating": 2
   },
   {
    "title": "Circe",
@@ -674,7 +733,9 @@
    "added": "2019-03-05T00:00:00Z",
    "read_at": "2019-03-05T00:00:00Z",
    "read_at_missing": false,
-   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1565909496l/35959740._SY475_.jpg"
+   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1565909496l/35959740._SY475_.jpg",
+   "review": "Circe was one of the best books I’ve ever read! It was written beautifully and created an imaginary world with a strong daring woman in the center. The modern interpretation of the known mythological stories and their smart connections d...",
+   "rating": 5
   },
   {
    "title": "Küçük Kara Balık",
@@ -791,7 +852,9 @@
    "added": "2018-11-20T00:00:00Z",
    "read_at": "2018-11-20T00:00:00Z",
    "read_at_missing": false,
-   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441826687l/25733983.jpg"
+   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441826687l/25733983.jpg",
+   "review": "This was one of best books I’ve ever read on companionship and how the like-minds can develop unique relationships. I loved how the author combined her personal stories with scientific ones and never made the book boring to read. I could...",
+   "rating": 5
   },
   {
    "title": "Until We Are Free: My Fight for Human Rights in Iran",
@@ -804,7 +867,9 @@
    "added": "2018-11-10T00:00:00Z",
    "read_at": "2018-11-10T00:00:00Z",
    "read_at_missing": false,
-   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1452625008l/25776124.jpg"
+   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1452625008l/25776124.jpg",
+   "review": "One of the best books I’ve read this year. Witnessing how totalitarian regimes affect its citizen most, being Turkish I related to it a lot while reading the book. Even though the country dynamics are very different in my country and in ...",
+   "rating": 5
   },
   {
    "title": "Flights",
@@ -817,7 +882,9 @@
    "added": "2018-10-10T00:00:00Z",
    "read_at": "2018-10-10T00:00:00Z",
    "read_at_missing": false,
-   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1498711365l/35535012._SY475_.jpg"
+   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1498711365l/35535012._SY475_.jpg",
+   "review": "This was for sure an interesting book with strange stories all over filled with unique characters. However it was hard to read for some reason and it never had the flow effect on me, took me some time to finish it. I liked the short note...",
+   "rating": 3
   },
   {
    "title": "Memories of My Melancholy Whores",
@@ -960,7 +1027,9 @@
    "added": "2018-05-23T00:00:00Z",
    "read_at": "2018-05-23T00:00:00Z",
    "read_at_missing": false,
-   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1491493625l/33590210._SY475_.jpg"
+   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1491493625l/33590210._SY475_.jpg",
+   "review": "This is not a book that I will remember deeply but surely it gives a lot perspective about different lifestyle of two different backgrounds and its effect on lifetime choices. Racial issues and unsolved problems of American justice syste...",
+   "rating": 3
   },
   {
    "title": "Hotel Silence",
@@ -973,7 +1042,9 @@
    "added": "2018-06-10T00:00:00Z",
    "read_at": "2018-06-10T00:00:00Z",
    "read_at_missing": false,
-   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1517522149l/38324273._SY475_.jpg"
+   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1517522149l/38324273._SY475_.jpg",
+   "review": "“All suffering is unique and different, and therefore it can’t be compared. Happiness, on the other hand, is similar.”\n\nThis is a silent perspective of an observative person, Jonas. He is a handy man and fixes all the fixables except hi...",
+   "rating": 4
   },
   {
    "title": "Cimri",
@@ -1558,7 +1629,9 @@
    "added": "2018-02-01T02:53:31Z",
    "read_at": "2018-02-01T02:53:31Z",
    "read_at_missing": true,
-   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1455615543l/10370912.jpg"
+   "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1455615543l/10370912.jpg",
+   "review": "Cocuklugumda okudugum ama hala beni derinden etkileyen bir kitaptir. Kendimi o kadar ozdeslestirmistim ki uzun uzun yuruyuslere cikip dusunmek benim icin hep cozum yolu olmustur sorunlarima. Bu kitabin benle boyle bir etki bir davranis b...",
+   "rating": 5
   },
   {
    "title": "Kör Baykuş",
